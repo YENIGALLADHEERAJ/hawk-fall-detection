@@ -1,0 +1,263 @@
+{
+  "scope": "temporal-only replay of measured real detections and motion; no new detector inference or FPS claim",
+  "source_results": "evaluation/pose-full/dev/results.json",
+  "source_run_id": "20261119T145201576219",
+  "configuration": {
+    "rotation_all_views": false,
+    "improved_tracking": true,
+    "identity_tracking": false,
+    "optimal_assignment": false,
+    "appearance_weight": 1.0,
+    "improved_temporal": true,
+    "continuation_threshold": null,
+    "track_hold_seconds": 1.5,
+    "prediction_horizon_seconds": 0.25,
+    "minimum_drop_heights": 0.18,
+    "minimum_average_descent": 0.15,
+    "maximum_ground_height_ratio": 0.75,
+    "compact_collapse_height_ratio": null,
+    "pose_evidence": true,
+    "pose_model": "data/models/pose/rtmpose-m/20230831/rtmpose_onnx/rtmpose-m_simcc-body7_pt-body7_420e-256x192-e48f03d0_20230504/end2end.onnx",
+    "pose_hip_drop": 0.2,
+    "pose_drop_rate": 0.2,
+    "pose_hip_standing_min": 0.25,
+    "pose_hip_low_max": 0.18,
+    "pose_veto_hip_height": null,
+    "detector_size": 640,
+    "rotation_fallback": true,
+    "sample_fps": 5.0,
+    "max_seconds": 60,
+    "max_width": 640,
+    "detector_threshold": 0.3,
+    "horizontal_ratio": 1.15,
+    "upright_ratio": 0.8,
+    "descent_heights_s": 0.25,
+    "transition_seconds": 1.5,
+    "stationary_heights_s": 0.12,
+    "stationary_flow_px_s": 6,
+    "immobile_seconds": 1.5,
+    "review_seconds": 2.5,
+    "max_gap_seconds": 0.5,
+    "history_seconds": 5,
+    "max_evidence_packets": 10,
+    "threads": 8,
+    "detector_backend": "directml",
+    "detector_device": 1
+  },
+  "true_positive_clips": 10,
+  "positive_clips": 11,
+  "false_positive_clips": 5,
+  "negative_clips": 13,
+  "clips": [
+    {
+      "id": "clip_00",
+      "event_present": true,
+      "candidate_times": [
+        0.8,
+        1.2
+      ],
+      "dismissal_times": [
+        1.0
+      ],
+      "diagnostics_sha256": "204feb5c9cab6f3eae4bce96d5b74e0c38763e5965d782f75633d42437e42d9f"
+    },
+    {
+      "id": "clip_01",
+      "event_present": null,
+      "candidate_times": [],
+      "dismissal_times": [],
+      "diagnostics_sha256": "3f51603c3cb5b9bda67b38566f9d0b2efe678f0394236edbda0df1d4ccc7ddda"
+    },
+    {
+      "id": "clip_02",
+      "event_present": true,
+      "candidate_times": [
+        1.2
+      ],
+      "dismissal_times": [],
+      "diagnostics_sha256": "6a440647433303a8e72e0adf117d498a64ff6d13255c8dac53b58799dbb26ec6"
+    },
+    {
+      "id": "clip_03",
+      "event_present": true,
+      "candidate_times": [
+        1.2
+      ],
+      "dismissal_times": [],
+      "diagnostics_sha256": "be55506b185ad4697c94101149fa62c82174b4495aebbc63b4ed4b219d47027e"
+    },
+    {
+      "id": "clip_04",
+      "event_present": true,
+      "candidate_times": [
+        1.0
+      ],
+      "dismissal_times": [],
+      "diagnostics_sha256": "cabd71d0ff01f837a5c57f3fdb6d339a0c6248e78d9183bb27109c234991f0b9"
+    },
+    {
+      "id": "clip_05",
+      "event_present": true,
+      "candidate_times": [],
+      "dismissal_times": [],
+      "diagnostics_sha256": "03278822efac5fa92fd862430d1e988877b18c15d7712138fbe91112561e18a5"
+    },
+    {
+      "id": "clip_06",
+      "event_present": false,
+      "candidate_times": [
+        1.8
+      ],
+      "dismissal_times": [],
+      "diagnostics_sha256": "bcd12f974cca408b60d8ff6ed8dd2c1d60a24da06fda59a68d09c1710edb5cf2"
+    },
+    {
+      "id": "clip_07",
+      "event_present": false,
+      "candidate_times": [],
+      "dismissal_times": [],
+      "diagnostics_sha256": "58e585b6742366b1e48e87e6941564ca619479f50b226d04e3115ccb56592d55"
+    },
+    {
+      "id": "clip_08",
+      "event_present": false,
+      "candidate_times": [],
+      "dismissal_times": [],
+      "diagnostics_sha256": "df226c6334189d631760d60f7765b243cfcbf38bbcca8d469ebc7f5d0ff1688d"
+    },
+    {
+      "id": "clip_09",
+      "event_present": false,
+      "candidate_times": [
+        0.6
+      ],
+      "dismissal_times": [
+        1.6
+      ],
+      "diagnostics_sha256": "1973d6907d6f158e3f37f3cf42bd480e28501f72e6e525533a84491dc5e112b1"
+    },
+    {
+      "id": "clip_10",
+      "event_present": false,
+      "candidate_times": [],
+      "dismissal_times": [],
+      "diagnostics_sha256": "f37fa432eca5d23a3d975348b73c186e80a06a9606641f370f5fa9cff2fd01bb"
+    },
+    {
+      "id": "clip_11",
+      "event_present": false,
+      "candidate_times": [],
+      "dismissal_times": [],
+      "diagnostics_sha256": "c4b27abe8fc46e7db6c54961982cc748646a42402ee3cd4f430780ba46f69caa"
+    },
+    {
+      "id": "gmdcsa_Fall_01",
+      "event_present": true,
+      "candidate_times": [
+        4.058443349753695
+      ],
+      "dismissal_times": [],
+      "diagnostics_sha256": "a4e0673555b0a844d1e0ccf948ae0ea5bef85e0dbb174cbf478e6f5197689b10"
+    },
+    {
+      "id": "gmdcsa_Fall_02",
+      "event_present": true,
+      "candidate_times": [
+        2.2242698412698414
+      ],
+      "dismissal_times": [],
+      "diagnostics_sha256": "4100ab752f81ace273ba8bae17b3ed939b4587730aab3c329e0331dec6fa9cba"
+    },
+    {
+      "id": "gmdcsa_Fall_03",
+      "event_present": true,
+      "candidate_times": [
+        3.0281079545454546
+      ],
+      "dismissal_times": [],
+      "diagnostics_sha256": "335f871399fcd445928ca6954f5b38769ffba323963157f6028990d461564933"
+    },
+    {
+      "id": "gmdcsa_Fall_07",
+      "event_present": true,
+      "candidate_times": [
+        1.8188823529411764
+      ],
+      "dismissal_times": [],
+      "diagnostics_sha256": "6c32f003510b793319e4304e59535a693090d5d1349fd84051f147275079c27e"
+    },
+    {
+      "id": "gmdcsa_Fall_11",
+      "event_present": true,
+      "candidate_times": [
+        1.6169900552486187
+      ],
+      "dismissal_times": [],
+      "diagnostics_sha256": "14b1822537795884e29036d5ecc26f726faf92aa9ad8c1f3afd62ae1e0028bca"
+    },
+    {
+      "id": "gmdcsa_Fall_12",
+      "event_present": true,
+      "candidate_times": [
+        2.665026
+      ],
+      "dismissal_times": [],
+      "diagnostics_sha256": "9ed81f0d3ba154d8c56341949c375ced7ed8d2f1b5891ad6c308796346faf6bf"
+    },
+    {
+      "id": "gmdcsa_ADL_01",
+      "event_present": false,
+      "candidate_times": [
+        1.823554285714286
+      ],
+      "dismissal_times": [],
+      "diagnostics_sha256": "226b7413443247be16719d13b13210d6088d9e06417b4ee8500f31017eb6a3f9"
+    },
+    {
+      "id": "gmdcsa_ADL_02",
+      "event_present": false,
+      "candidate_times": [
+        1.4189919191919191
+      ],
+      "dismissal_times": [],
+      "diagnostics_sha256": "48d7ce573ffc213d80eae1eaac21d142df35a3bbd9d4b2a2c1d7ebd95bf376df"
+    },
+    {
+      "id": "gmdcsa_ADL_03",
+      "event_present": false,
+      "candidate_times": [
+        1.0084572864321608
+      ],
+      "dismissal_times": [],
+      "diagnostics_sha256": "4de28499e9b049a8f62f8d6e305bac6118ad83d0faeee7558d813aa4ba9622e4"
+    },
+    {
+      "id": "gmdcsa_ADL_04",
+      "event_present": false,
+      "candidate_times": [],
+      "dismissal_times": [],
+      "diagnostics_sha256": "c3505d7feb0c80d5f18b4015bb51beb9235b32f3f59820386f08649513084717"
+    },
+    {
+      "id": "gmdcsa_ADL_08",
+      "event_present": false,
+      "candidate_times": [],
+      "dismissal_times": [],
+      "diagnostics_sha256": "37ab1a51da3e894dde0e91875d0782cfa6bc1e1f6f204d5f7666b38bf77c2990"
+    },
+    {
+      "id": "gmdcsa_ADL_11",
+      "event_present": false,
+      "candidate_times": [],
+      "dismissal_times": [],
+      "diagnostics_sha256": "b2b4634ca3d1447b4b372d7da1b105ab897ff67825fcba94fbf77a3af8a68cfb"
+    },
+    {
+      "id": "gmdcsa_ADL_13",
+      "event_present": false,
+      "candidate_times": [],
+      "dismissal_times": [],
+      "diagnostics_sha256": "a1a1d7f4be8ba2be99de35b877d0a608b1e023c123d398fe49880b6ec8b23a31"
+    }
+  ]
+}

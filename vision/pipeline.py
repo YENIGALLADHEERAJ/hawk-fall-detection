@@ -18,6 +18,7 @@ from vision.source import VideoSource
 from vision.policy import disposition
 from vision.diagnostics import sample_record
 from vision.temporal_v2 import SequenceEstimator
+from vision.pose import PoseEstimator
 
 
 def run_video(source, output, config=None, model='data/models/yolox.onnx', viewer=False):
@@ -35,13 +36,17 @@ def run_video(source, output, config=None, model='data/models/yolox.onnx', viewe
                           appearance_weight=config.appearance_weight if config.identity_tracking else 0.,
                           optimal=config.optimal_assignment and config.improved_tracking)
     temporal=SequenceEstimator(config) if config.improved_temporal else TemporalEstimator(config)
+    pose_estimator=None
+    if config.pose_evidence:
+        if not config.improved_temporal: raise ValueError('pose evidence needs the improved temporal estimator')
+        pose_estimator=PoseEstimator(config.pose_model,config.detector_backend,config.detector_device)
     tools=EvidenceTools()
     cap=VideoSource(source)
     source_fps=cap.fps
     ring=deque(maxlen=int(config.sample_fps*config.history_seconds)+1)
     previous=None; last_t=None; next_t=0.; frame_index=0; writer=None
     timings=[]; detections_count=0; candidate_times=[]; review_times=[]; baseline_times=[]
-    stage_times={k:[] for k in ('preprocessing','detector','tracking','motion','temporal_and_logging','evidence','visualization')}
+    stage_times={k:[] for k in ('preprocessing','detector','tracking','motion','pose','temporal_and_logging','evidence','visualization')}
     baseline_active=set(); packets={}; completed=[]; events=[]; all_ids=set(); last_actions={}; packet_actions={}; last_tool={}
     start=time.perf_counter(); cpu=time.process_time(); exit_reason='eof'; last_processed=0
     with (output/'observations.jsonl').open('w',encoding='utf-8') as log, (output/'diagnostics.jsonl').open('w',encoding='utf-8') as diagnostic_log:
@@ -95,7 +100,13 @@ def run_video(source, output, config=None, model='data/models/yolox.onnx', viewe
                             temporal.memory[tr.track_id].stationary_since=None
                     if tr.detection.confidence<config.detector_threshold:
                         motion.reliable=False;motion.quality_reason='low_detection_confidence'
-                    obs=temporal.update(tr,motion,'CAM-01')
+                    pose=None
+                    if pose_estimator is not None:
+                        pose_start=time.perf_counter()
+                        pose=pose_estimator.estimate(frame,tr.detection.bbox)
+                        stages['pose']+=time.perf_counter()-pose_start
+                    obs=temporal.update(tr,motion,'CAM-01',pose) if pose_estimator is not None else temporal.update(tr,motion,'CAM-01')
+                    if pose is not None: obs.pose=pose
                     tools.add(obs); observations.append(obs)
                     log.write(obs.model_dump_json()+'\n')
                     if obs.posture.horizontal:

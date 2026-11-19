@@ -57,6 +57,14 @@ class Posture(Schema):
     method: Literal['bbox_geometry_proxy'] = 'bbox_geometry_proxy'
 
 
+class PoseEvidence(Schema):
+    """Explicit, minimal keypoint-derived evidence; None means not measured, never guessed."""
+    hip_ankle_px: Finite | None = None      # mean ankle y minus mean hip y, in processed-frame pixels
+    torso_angle_deg: Finite | None = None   # shoulder-mid to hip-mid against vertical (0 upright, 90 horizontal)
+    keypoints: Annotated[int, Field(ge=0, le=17)] = 0   # keypoints above the confidence floor
+    method: Literal['rtmpose_m_body7_coco17'] = 'rtmpose_m_body7_coco17'
+
+
 class Observation(Schema):
     timestamp: Nonnegative
     frame_index: Annotated[int, Field(ge=0)]
@@ -72,6 +80,7 @@ class Observation(Schema):
     ground_observed: bool = False
     decision_reason: str = 'legacy temporal state rule'
     transition_signals: dict[str, Finite | None] = Field(default_factory=dict)
+    pose: PoseEvidence | None = None
     evidence_score: Score
     score_semantics: str = 'heuristic evidence strength, not calibrated probability'
     action: Literal['observe', 'request_temporal_evidence', 'request_additional_evidence', 'human_review', 'dismiss']
@@ -143,6 +152,17 @@ class Config(Schema):
     # box is horizontal, has lost height down to this ratio of the upright height, and its center
     # did not rise. Replaces the center-drop and speed gates only for that case.
     compact_collapse_height_ratio: Annotated[float, Field(gt=0, lt=1)] | None = None
+    # Experimental pose evidence (RTMPose-m keypoints), all off by default. pose_evidence computes and
+    # logs keypoint features; the two rules below only act when set. Hip height is (ankle y - hip y)
+    # divided by the largest box height seen for the track, about 0.33 to 0.41 standing in the probed clips.
+    pose_evidence: bool = False
+    pose_model: str = ('data/models/pose/rtmpose-m/20230831/rtmpose_onnx/'
+                       'rtmpose-m_simcc-body7_pt-body7_420e-256x192-e48f03d0_20230504/end2end.onnx')
+    pose_hip_drop: Annotated[float, Field(gt=0, le=1)] | None = None        # accept a fall when hip height drops by this much
+    pose_drop_rate: Annotated[float, Field(gt=0, le=5)] = .2               # ... at least this many heights per second
+    pose_hip_standing_min: Annotated[float, Field(gt=0, le=1)] = .25       # ... from a reference at least this high
+    pose_hip_low_max: Annotated[float, Field(gt=0, le=1)] = .18            # ... to a hip height at most this
+    pose_veto_hip_height: Annotated[float, Field(gt=0, le=1)] | None = None  # veto a box-based fall while hips are this high
     detector_size: Literal[320, 416, 640] = 640
     rotation_fallback: bool = True
     sample_fps: Annotated[float, Field(ge=1, le=30)] = 5

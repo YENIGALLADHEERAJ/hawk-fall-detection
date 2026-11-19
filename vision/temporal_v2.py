@@ -11,6 +11,8 @@ class SequenceMemory:
     candidate: bool = False
     stationary_since: float | None = None
     state: State = State.NORMAL
+    ref_h: float = 0.
+    hips: list = field(default_factory=list)   # (timestamp, hip height in reference heights)
 
 
 class SequenceEstimator:
@@ -21,7 +23,7 @@ class SequenceEstimator:
     def prune(self, active_ids):
         self.memory = {k:v for k,v in self.memory.items() if k in active_ids}
 
-    def update(self, track, motion, camera_id):
+    def update(self, track, motion, camera_id, pose=None):
         c,d=self.config,track.detection
         t,b=d.timestamp,d.bbox
         m=self.memory.setdefault(track.track_id,SequenceMemory())
@@ -37,6 +39,11 @@ class SequenceEstimator:
         anchors=[v for v in m.history if posture(v.bbox,c).upright]
         anchor=max(anchors,key=lambda v:v.bbox.h) if anchors else None
         signals={'observed_gap_seconds':gap}
+        m.ref_h=max(m.ref_h,b.h)
+        hip=None
+        if pose is not None and pose.hip_ankle_px is not None and m.ref_h>0:
+            hip=pose.hip_ankle_px/m.ref_h
+        m.hips=[v for v in m.hips if 0<t-v[0]<=c.transition_seconds]
         transition=False;low=False
         reason='no_recent_upright_reference'
         if anchor:
@@ -59,6 +66,19 @@ class SequenceEstimator:
                     'insufficient_net_downward_displacement' if drop<c.minimum_drop_heights else
                     'descent_too_slow' if speed<c.minimum_average_descent else 'no_low_posture_transition')
             if not m.candidate and drop>=c.minimum_drop_heights and not low: m.state=State.DESCENT
+        if hip is not None:
+            signals['hip_height']=hip
+            if c.pose_veto_hip_height is not None and transition and hip>=c.pose_veto_hip_height:
+                transition=False;low=False;signals['pose_veto']=1.
+                reason='pose_hips_still_high'
+            if c.pose_hip_drop is not None and not transition and m.hips:
+                ref=max(m.hips,key=lambda v:v[1]);drop=ref[1]-hip;rate=drop/(t-ref[0])
+                signals.update(hip_drop=drop,hip_drop_rate=rate)
+                if (ref[1]>=c.pose_hip_standing_min and hip<=c.pose_hip_low_max
+                        and drop>=c.pose_hip_drop and rate>=c.pose_drop_rate):
+                    transition=True;low=True;signals['pose_hip_drop']=1.
+                    reason='net_descent_and_posture_transition'
+        if hip is not None: m.hips.append((t,hip))
         new_event=transition and not m.candidate
         if new_event:
             m.candidate=True;m.stationary_since=None;m.state=State.GROUND

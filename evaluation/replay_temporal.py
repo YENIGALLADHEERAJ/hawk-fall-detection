@@ -3,7 +3,7 @@ import argparse
 import hashlib
 import json
 from pathlib import Path
-from vision.schemas import Config,Detection,Motion
+from vision.schemas import Config,Detection,Motion,PoseEvidence
 from vision.tracking import Track
 from vision.temporal_v2 import SequenceEstimator
 
@@ -28,7 +28,8 @@ def main():
             for tr in sample['tracks']:
                 prior=tr['observation']
                 o=estimator.update(Track(tr['track_id'],Detection.model_validate(prior['detection'])),
-                                   Motion.model_validate(prior['motion']),prior['camera_id'])
+                                   Motion.model_validate(prior['motion']),prior['camera_id'],
+                                   PoseEvidence.model_validate(prior['pose']) if prior.get('pose') else None)
                 if o.fall_event_detected:events.append(o.timestamp)
                 if o.action=='dismiss':dismissals.append(o.timestamp)
         rows.append({'id':clip['id'],'event_present':clip['event_present'],'candidate_times':events,

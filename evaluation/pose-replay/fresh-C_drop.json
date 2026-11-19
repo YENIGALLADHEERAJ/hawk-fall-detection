@@ -1,0 +1,188 @@
+{
+  "scope": "temporal-only replay of measured real detections and motion; no new detector inference or FPS claim",
+  "source_results": "evaluation/pose-full/fresh/results.json",
+  "source_run_id": "20261119T145244090603",
+  "configuration": {
+    "rotation_all_views": false,
+    "improved_tracking": true,
+    "identity_tracking": false,
+    "optimal_assignment": false,
+    "appearance_weight": 1.0,
+    "improved_temporal": true,
+    "continuation_threshold": null,
+    "track_hold_seconds": 1.5,
+    "prediction_horizon_seconds": 0.25,
+    "minimum_drop_heights": 0.18,
+    "minimum_average_descent": 0.15,
+    "maximum_ground_height_ratio": 0.75,
+    "compact_collapse_height_ratio": null,
+    "pose_evidence": true,
+    "pose_model": "data/models/pose/rtmpose-m/20230831/rtmpose_onnx/rtmpose-m_simcc-body7_pt-body7_420e-256x192-e48f03d0_20230504/end2end.onnx",
+    "pose_hip_drop": 0.2,
+    "pose_drop_rate": 0.2,
+    "pose_hip_standing_min": 0.25,
+    "pose_hip_low_max": 0.18,
+    "pose_veto_hip_height": null,
+    "detector_size": 640,
+    "rotation_fallback": true,
+    "sample_fps": 5.0,
+    "max_seconds": 60,
+    "max_width": 640,
+    "detector_threshold": 0.3,
+    "horizontal_ratio": 1.15,
+    "upright_ratio": 0.8,
+    "descent_heights_s": 0.25,
+    "transition_seconds": 1.5,
+    "stationary_heights_s": 0.12,
+    "stationary_flow_px_s": 6,
+    "immobile_seconds": 1.5,
+    "review_seconds": 2.5,
+    "max_gap_seconds": 0.5,
+    "history_seconds": 5,
+    "max_evidence_packets": 10,
+    "threads": 8,
+    "detector_backend": "directml",
+    "detector_device": 1
+  },
+  "true_positive_clips": 7,
+  "positive_clips": 8,
+  "false_positive_clips": 2,
+  "negative_clips": 7,
+  "clips": [
+    {
+      "id": "fresh_gmd4_Fall_03",
+      "event_present": true,
+      "candidate_times": [
+        3.01749
+      ],
+      "dismissal_times": [],
+      "diagnostics_sha256": "707ad51a25318809f85873e43f253bd8a40f42d6a64e3c6b011f8fbbc3719e66"
+    },
+    {
+      "id": "fresh_gmd4_Fall_07",
+      "event_present": true,
+      "candidate_times": [
+        2.615918085106383
+      ],
+      "dismissal_times": [],
+      "diagnostics_sha256": "cf74acdcc8a29b743da0f11322945cb2caa4e57e36d9d80a6ce4d1c5f0449a0d"
+    },
+    {
+      "id": "fresh_gmd4_Fall_08",
+      "event_present": true,
+      "candidate_times": [],
+      "dismissal_times": [],
+      "diagnostics_sha256": "cfaeb4c174ccdf826a254501343939fa06037301b257c13e52e3751b6961db83"
+    },
+    {
+      "id": "fresh_gmd4_Fall_11",
+      "event_present": true,
+      "candidate_times": [
+        1.6099294117647058
+      ],
+      "dismissal_times": [],
+      "diagnostics_sha256": "bc2e4aa53ea5237c15867428809ce3e4b49d0ad9fac376f1973c7f35c7fff80e"
+    },
+    {
+      "id": "fresh_gmd4_ADL_14",
+      "event_present": false,
+      "candidate_times": [],
+      "dismissal_times": [],
+      "diagnostics_sha256": "725b81f1ac1feb482cb1ad8752a0525cf652d34a644b94859792bc838b265a14"
+    },
+    {
+      "id": "fresh_gmd4_ADL_17",
+      "event_present": false,
+      "candidate_times": [],
+      "dismissal_times": [],
+      "diagnostics_sha256": "8f02439d4cd0256d104ca8f75ad1e9ac8e76b5d64964f1f0de8a3accd93d05c3"
+    },
+    {
+      "id": "fresh_assist_02_fall_backward",
+      "event_present": true,
+      "candidate_times": [
+        2.6,
+        2.6
+      ],
+      "dismissal_times": [
+        17.8
+      ],
+      "diagnostics_sha256": "a0c717f6d925ab462b9fb3d0e5b1985e047545ff7053002a2c18855c69644aa5"
+    },
+    {
+      "id": "fresh_assist_04_forward_fall_jogging",
+      "event_present": true,
+      "candidate_times": [
+        3.0,
+        3.2
+      ],
+      "dismissal_times": [],
+      "diagnostics_sha256": "76e2d447dff4a77c91bd088784c5bddc4cfdba0e38c57ced675c63bf41533571"
+    },
+    {
+      "id": "fresh_assist_05_vertical_fall_faint",
+      "event_present": true,
+      "candidate_times": [
+        3.2,
+        3.4
+      ],
+      "dismissal_times": [],
+      "diagnostics_sha256": "872af796f09174a42bb9bef93e13bd68d9785ba878a54d42268fd77c52cd17fe"
+    },
+    {
+      "id": "fresh_assist_07_fall_to_knees_forward",
+      "event_present": true,
+      "candidate_times": [
+        1.8
+      ],
+      "dismissal_times": [],
+      "diagnostics_sha256": "334774084cbd889bdb6ad7f36d135d463544e19cccc624384170bbbc7e562e1f"
+    },
+    {
+      "id": "fresh_assist_01_walking_slowly",
+      "event_present": false,
+      "candidate_times": [],
+      "dismissal_times": [],
+      "diagnostics_sha256": "9cef9bdac7c3a728e5585639662060ded9d6fa3cc30f43bea01356785f1c03e4"
+    },
+    {
+      "id": "fresh_assist_12_sitting_laying_down_quickly",
+      "event_present": false,
+      "candidate_times": [
+        2.8,
+        2.8
+      ],
+      "dismissal_times": [
+        7.8
+      ],
+      "diagnostics_sha256": "fdbdd26dbfda37398cba3263d087bec260c994c3575b3f7577ddd772e3340b26"
+    },
+    {
+      "id": "fresh_assist_13_bending_at_knees",
+      "event_present": false,
+      "candidate_times": [],
+      "dismissal_times": [],
+      "diagnostics_sha256": "d82ffcaafa10671e1cdda8753b37618299279c13be7745c674701c4e796b3d48"
+    },
+    {
+      "id": "fresh_assist_14_bending_wo_knees",
+      "event_present": false,
+      "candidate_times": [],
+      "dismissal_times": [],
+      "diagnostics_sha256": "75442ed6c2514bb81556a4027164d00e77f5f039b64d442157432288bb48f858"
+    },
+    {
+      "id": "fresh_mot17_09",
+      "event_present": false,
+      "candidate_times": [
+        9.0,
+        9.6
+      ],
+      "dismissal_times": [
+        9.8,
+        10.0
+      ],
+      "diagnostics_sha256": "c7b63789ad7c37ce21f39bd9fd34da1e895a2de98f143d40028f1a3645fbf1dc"
+    }
+  ]
+}

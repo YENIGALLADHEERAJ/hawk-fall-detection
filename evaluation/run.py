@@ -23,12 +23,15 @@ def main():
     parser.add_argument('--identity-tracking',action='store_true',help='Experimental colour-histogram appearance cue in association')
     parser.add_argument('--optimal-assignment',action='store_true',help='Experimental global assignment (regressed on unseen footage)')
     parser.add_argument('--compact-collapse-ratio',type=float,default=None,help='Experimental: accept horizontal collapse-in-place down to this height ratio (e.g. 0.6)')
+    parser.add_argument('--pose-evidence',action='store_true',help='Experimental: compute RTMPose keypoint evidence (logged; rules below are separate)')
+    parser.add_argument('--pose-hip-drop',type=float,default=None,help='Experimental: accept a fall when hip height drops by this much (e.g. 0.2)')
+    parser.add_argument('--pose-veto-hip-height',type=float,default=None,help='Experimental: veto a box-based fall while hip height is at least this (e.g. 0.28)')
     args=parser.parse_args()
     clips=json.loads(Path(args.manifest).read_text(encoding='utf-8'))
     config=Config(sample_fps=args.fps,detector_size=args.size,continuation_threshold=args.continuation_threshold,rotation_all_views=args.all_views,
                   improved_tracking=args.variant in ('tracking','combined'),
                   improved_temporal=args.variant in ('temporal','combined'),
-                  identity_tracking=args.identity_tracking,optimal_assignment=args.optimal_assignment,compact_collapse_height_ratio=args.compact_collapse_ratio,detector_backend=args.backend,detector_device=args.device_id,threads=args.threads)
+                  identity_tracking=args.identity_tracking,optimal_assignment=args.optimal_assignment,compact_collapse_height_ratio=args.compact_collapse_ratio,pose_evidence=args.pose_evidence or args.pose_hip_drop is not None or args.pose_veto_hip_height is not None,pose_hip_drop=args.pose_hip_drop,pose_veto_hip_height=args.pose_veto_hip_height,detector_backend=args.backend,detector_device=args.device_id,threads=args.threads)
     run_id=datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%S%f')
     rows=[]
     for clip in clips:

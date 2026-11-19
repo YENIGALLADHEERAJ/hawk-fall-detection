@@ -1,0 +1,92 @@
+{
+  "scope": "temporal-only replay of measured real detections and motion; no new detector inference or FPS claim",
+  "source_results": "evaluation/pose-full/holdout/results.json",
+  "source_run_id": "20261119T145233570018",
+  "configuration": {
+    "rotation_all_views": false,
+    "improved_tracking": true,
+    "identity_tracking": false,
+    "optimal_assignment": false,
+    "appearance_weight": 1.0,
+    "improved_temporal": true,
+    "continuation_threshold": null,
+    "track_hold_seconds": 1.5,
+    "prediction_horizon_seconds": 0.25,
+    "minimum_drop_heights": 0.18,
+    "minimum_average_descent": 0.15,
+    "maximum_ground_height_ratio": 0.75,
+    "compact_collapse_height_ratio": 0.6,
+    "pose_evidence": true,
+    "pose_model": "data/models/pose/rtmpose-m/20230831/rtmpose_onnx/rtmpose-m_simcc-body7_pt-body7_420e-256x192-e48f03d0_20230504/end2end.onnx",
+    "pose_hip_drop": null,
+    "pose_drop_rate": 0.2,
+    "pose_hip_standing_min": 0.25,
+    "pose_hip_low_max": 0.18,
+    "pose_veto_hip_height": 0.28,
+    "detector_size": 640,
+    "rotation_fallback": true,
+    "sample_fps": 5.0,
+    "max_seconds": 60,
+    "max_width": 640,
+    "detector_threshold": 0.3,
+    "horizontal_ratio": 1.15,
+    "upright_ratio": 0.8,
+    "descent_heights_s": 0.25,
+    "transition_seconds": 1.5,
+    "stationary_heights_s": 0.12,
+    "stationary_flow_px_s": 6,
+    "immobile_seconds": 1.5,
+    "review_seconds": 2.5,
+    "max_gap_seconds": 0.5,
+    "history_seconds": 5,
+    "max_evidence_packets": 10,
+    "threads": 8,
+    "detector_backend": "directml",
+    "detector_device": 1
+  },
+  "true_positive_clips": 2,
+  "positive_clips": 2,
+  "false_positive_clips": 0,
+  "negative_clips": 3,
+  "clips": [
+    {
+      "id": "holdout_s2_Fall_13",
+      "event_present": true,
+      "candidate_times": [
+        3.8125714285714287
+      ],
+      "dismissal_times": [],
+      "diagnostics_sha256": "6ad2d9d4e2100323c8389804013e5253c42d4dceebbaa46b58caa9f19de954bc"
+    },
+    {
+      "id": "holdout_s2_ADL_14",
+      "event_present": false,
+      "candidate_times": [],
+      "dismissal_times": [],
+      "diagnostics_sha256": "4e5ee742eee3e03247e0287f2afe7b4333eb1b9bfe406bc1f5aecc143308ebcb"
+    },
+    {
+      "id": "holdout_s3_Fall_16",
+      "event_present": true,
+      "candidate_times": [
+        3.006741758241758
+      ],
+      "dismissal_times": [],
+      "diagnostics_sha256": "7c0baa9c808ab27fa2a24319d09e9242e094a06a00d452bd51a52fe50729de28"
+    },
+    {
+      "id": "holdout_s3_ADL_13",
+      "event_present": false,
+      "candidate_times": [],
+      "dismissal_times": [],
+      "diagnostics_sha256": "c51c39e791d86c7b17b4b141a2586597c55c866f1ca2257f5703d067400acb21"
+    },
+    {
+      "id": "holdout_s3_ADL_09",
+      "event_present": false,
+      "candidate_times": [],
+      "dismissal_times": [],
+      "diagnostics_sha256": "fd4cd20a97f4eea3cdee98db8c224c67bd4b39ec255aa42f4537c1e7a672a64e"
+    }
+  ]
+}

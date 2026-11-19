@@ -1,0 +1,134 @@
+{
+  "scope": "temporal-only replay of measured real detections and motion; no new detector inference or FPS claim",
+  "source_results": "evaluation/pose-full/lying/results.json",
+  "source_run_id": "20261119T145426488285",
+  "configuration": {
+    "rotation_all_views": false,
+    "improved_tracking": true,
+    "identity_tracking": false,
+    "optimal_assignment": false,
+    "appearance_weight": 1.0,
+    "improved_temporal": true,
+    "continuation_threshold": null,
+    "track_hold_seconds": 1.5,
+    "prediction_horizon_seconds": 0.25,
+    "minimum_drop_heights": 0.18,
+    "minimum_average_descent": 0.15,
+    "maximum_ground_height_ratio": 0.75,
+    "compact_collapse_height_ratio": 0.6,
+    "pose_evidence": true,
+    "pose_model": "data/models/pose/rtmpose-m/20230831/rtmpose_onnx/rtmpose-m_simcc-body7_pt-body7_420e-256x192-e48f03d0_20230504/end2end.onnx",
+    "pose_hip_drop": null,
+    "pose_drop_rate": 0.2,
+    "pose_hip_standing_min": 0.25,
+    "pose_hip_low_max": 0.18,
+    "pose_veto_hip_height": null,
+    "detector_size": 640,
+    "rotation_fallback": true,
+    "sample_fps": 5.0,
+    "max_seconds": 60,
+    "max_width": 640,
+    "detector_threshold": 0.3,
+    "horizontal_ratio": 1.15,
+    "upright_ratio": 0.8,
+    "descent_heights_s": 0.25,
+    "transition_seconds": 1.5,
+    "stationary_heights_s": 0.12,
+    "stationary_flow_px_s": 6,
+    "immobile_seconds": 1.5,
+    "review_seconds": 2.5,
+    "max_gap_seconds": 0.5,
+    "history_seconds": 5,
+    "max_evidence_packets": 10,
+    "threads": 8,
+    "detector_backend": "directml",
+    "detector_device": 1
+  },
+  "true_positive_clips": 0,
+  "positive_clips": 0,
+  "false_positive_clips": 1,
+  "negative_clips": 11,
+  "clips": [
+    {
+      "id": "gmdcsa_lying_s2_ADL_03",
+      "event_present": false,
+      "candidate_times": [],
+      "dismissal_times": [],
+      "diagnostics_sha256": "66c278365ffc513c25403114851b52227d12d32f05e81227c23e5e54ad430015"
+    },
+    {
+      "id": "gmdcsa_lying_s2_ADL_12",
+      "event_present": false,
+      "candidate_times": [],
+      "dismissal_times": [],
+      "diagnostics_sha256": "7acce20d073ade5284fa5ac49a55c7db643b401e6763c7d36ed65c309e83756b"
+    },
+    {
+      "id": "gmdcsa_lying_s2_ADL_16",
+      "event_present": false,
+      "candidate_times": [],
+      "dismissal_times": [],
+      "diagnostics_sha256": "ebf51b8a366e7731850d69aeaaf86489db4dda1fd8dc04514bb41ed9b0dc9b0c"
+    },
+    {
+      "id": "gmdcsa_lying_s2_ADL_08",
+      "event_present": false,
+      "candidate_times": [
+        7.435694117647059
+      ],
+      "dismissal_times": [
+        9.64630588235294
+      ],
+      "diagnostics_sha256": "8c000dff49013787176a409c0e337f80c4c7af5bda390b0d5690a266720eb4a7"
+    },
+    {
+      "id": "gmdcsa_lying_s3_ADL_08",
+      "event_present": false,
+      "candidate_times": [],
+      "dismissal_times": [],
+      "diagnostics_sha256": "6b0564ce7b52c283429e35da95d41b73baeffa5f431a110859293638e1c2844a"
+    },
+    {
+      "id": "gmdcsa_lying_s3_ADL_06",
+      "event_present": false,
+      "candidate_times": [],
+      "dismissal_times": [],
+      "diagnostics_sha256": "a046b62220f3176cf80356b6f43e59dc1d6a423aebe53ebcfc002bc0d8b70b18"
+    },
+    {
+      "id": "gmdcsa_lying_s4_ADL_08",
+      "event_present": false,
+      "candidate_times": [],
+      "dismissal_times": [],
+      "diagnostics_sha256": "7b9f3fe2f59fcac1d6d5e4a594c7b5ed300c899332d796160577614d95e978b6"
+    },
+    {
+      "id": "gmdcsa_lying_s4_ADL_10",
+      "event_present": false,
+      "candidate_times": [],
+      "dismissal_times": [],
+      "diagnostics_sha256": "62c4168901c09fbb33b992a7ed3dc7a33cd744dde8ff8b5aa7348cd0230af825"
+    },
+    {
+      "id": "gmdcsa_lying_s4_ADL_15",
+      "event_present": false,
+      "candidate_times": [],
+      "dismissal_times": [],
+      "diagnostics_sha256": "51ace60f04259cd23303108cbbbc950f4271e83bac027b85c0bbe1fdc5c8dfd0"
+    },
+    {
+      "id": "gmdcsa_lying_s4_ADL_16",
+      "event_present": false,
+      "candidate_times": [],
+      "dismissal_times": [],
+      "diagnostics_sha256": "889f457f5351e0bcf56e59dc27d2a5c9f68752212fa429f1064b9b9cd11a5e3a"
+    },
+    {
+      "id": "gmdcsa_lying_s3_ADL_03",
+      "event_present": false,
+      "candidate_times": [],
+      "dismissal_times": [],
+      "diagnostics_sha256": "d54337f2982eb49edea6abe2f3ca9277e6216348893e709d81be587cea6a7963"
+    }
+  ]
+}

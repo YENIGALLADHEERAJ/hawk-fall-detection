@@ -1,0 +1,1146 @@
+[
+ {
+  "clip": "mpfdd_S2_P2_F1_FALL_5",
+  "track": 1,
+  "event_present": true,
+  "series": [
+   {
+    "t": 0.0,
+    "w_h": 0.4,
+    "h_ratio": 1.0,
+    "hip_height": 0.34,
+    "torso_angle": 1.0,
+    "n_kp": 16,
+    "candidate": false
+   },
+   {
+    "t": 0.2,
+    "w_h": 0.4,
+    "h_ratio": 1.0,
+    "hip_height": 0.34,
+    "torso_angle": 1.0,
+    "n_kp": 16,
+    "candidate": false
+   },
+   {
+    "t": 0.4,
+    "w_h": 0.4,
+    "h_ratio": 1.0,
+    "hip_height": 0.34,
+    "torso_angle": 1.0,
+    "n_kp": 16,
+    "candidate": false
+   },
+   {
+    "t": 0.6,
+    "w_h": 0.41,
+    "h_ratio": 0.95,
+    "hip_height": 0.32,
+    "torso_angle": 1.0,
+    "n_kp": 17,
+    "candidate": false
+   },
+   {
+    "t": 0.8,
+    "w_h": 0.35,
+    "h_ratio": 0.96,
+    "hip_height": 0.33,
+    "torso_angle": 0.0,
+    "n_kp": 17,
+    "candidate": false
+   },
+   {
+    "t": 1.0,
+    "w_h": 0.39,
+    "h_ratio": 0.95,
+    "hip_height": 0.32,
+    "torso_angle": 2.0,
+    "n_kp": 17,
+    "candidate": false
+   },
+   {
+    "t": 1.2,
+    "w_h": 0.43,
+    "h_ratio": 0.95,
+    "hip_height": 0.33,
+    "torso_angle": 3.0,
+    "n_kp": 17,
+    "candidate": false
+   },
+   {
+    "t": 1.4,
+    "w_h": 0.39,
+    "h_ratio": 0.94,
+    "hip_height": 0.34,
+    "torso_angle": 4.0,
+    "n_kp": 17,
+    "candidate": false
+   },
+   {
+    "t": 1.6,
+    "w_h": 0.28,
+    "h_ratio": 0.92,
+    "hip_height": 0.34,
+    "torso_angle": 2.0,
+    "n_kp": 17,
+    "candidate": false
+   },
+   {
+    "t": 1.8,
+    "w_h": 0.37,
+    "h_ratio": 0.95,
+    "hip_height": 0.36,
+    "torso_angle": 2.0,
+    "n_kp": 17,
+    "candidate": false
+   },
+   {
+    "t": 2.0,
+    "w_h": 0.39,
+    "h_ratio": 0.95,
+    "hip_height": 0.35,
+    "torso_angle": 4.0,
+    "n_kp": 17,
+    "candidate": false
+   },
+   {
+    "t": 2.2,
+    "w_h": 0.46,
+    "h_ratio": 0.94,
+    "hip_height": 0.33,
+    "torso_angle": 3.0,
+    "n_kp": 17,
+    "candidate": false
+   },
+   {
+    "t": 2.4,
+    "w_h": 0.59,
+    "h_ratio": 0.9,
+    "hip_height": 0.31,
+    "torso_angle": 7.0,
+    "n_kp": 17,
+    "candidate": false
+   },
+   {
+    "t": 2.6,
+    "w_h": 0.68,
+    "h_ratio": 0.88,
+    "hip_height": 0.34,
+    "torso_angle": 26.0,
+    "n_kp": 16,
+    "candidate": false
+   },
+   {
+    "t": 2.8,
+    "w_h": 0.78,
+    "h_ratio": 0.8,
+    "hip_height": 0.35,
+    "torso_angle": 49.0,
+    "n_kp": 17,
+    "candidate": false
+   },
+   {
+    "t": 3.0,
+    "w_h": 0.87,
+    "h_ratio": 0.77,
+    "hip_height": 0.35,
+    "torso_angle": 46.0,
+    "n_kp": 17,
+    "candidate": false
+   },
+   {
+    "t": 3.2,
+    "w_h": 0.88,
+    "h_ratio": 0.75,
+    "hip_height": 0.32,
+    "torso_angle": 39.0,
+    "n_kp": 17,
+    "candidate": false
+   },
+   {
+    "t": 3.4,
+    "w_h": 0.69,
+    "h_ratio": 0.72,
+    "hip_height": 0.27,
+    "torso_angle": 28.0,
+    "n_kp": 17,
+    "candidate": false
+   },
+   {
+    "t": 3.6,
+    "w_h": 0.6,
+    "h_ratio": 0.66,
+    "hip_height": 0.18,
+    "torso_angle": 17.0,
+    "n_kp": 15,
+    "candidate": false
+   },
+   {
+    "t": 3.8,
+    "w_h": 0.59,
+    "h_ratio": 0.58,
+    "hip_height": 0.08,
+    "torso_angle": 7.0,
+    "n_kp": 14,
+    "candidate": false
+   },
+   {
+    "t": 4.0,
+    "w_h": 0.96,
+    "h_ratio": 0.54,
+    "hip_height": 0.07,
+    "torso_angle": 2.0,
+    "n_kp": 16,
+    "candidate": false
+   },
+   {
+    "t": 4.2,
+    "w_h": 0.77,
+    "h_ratio": 0.54,
+    "hip_height": 0.07,
+    "torso_angle": 4.0,
+    "n_kp": 15,
+    "candidate": false
+   },
+   {
+    "t": 4.4,
+    "w_h": 0.74,
+    "h_ratio": 0.54,
+    "hip_height": 0.06,
+    "torso_angle": 3.0,
+    "n_kp": 14,
+    "candidate": false
+   },
+   {
+    "t": 4.6,
+    "w_h": 0.88,
+    "h_ratio": 0.53,
+    "hip_height": 0.07,
+    "torso_angle": 1.0,
+    "n_kp": 15,
+    "candidate": false
+   },
+   {
+    "t": 4.8,
+    "w_h": 0.83,
+    "h_ratio": 0.55,
+    "hip_height": 0.09,
+    "torso_angle": 5.0,
+    "n_kp": 16,
+    "candidate": false
+   },
+   {
+    "t": 5.0,
+    "w_h": 0.58,
+    "h_ratio": 0.56,
+    "hip_height": 0.11,
+    "torso_angle": 16.0,
+    "n_kp": 13,
+    "candidate": false
+   },
+   {
+    "t": 5.2,
+    "w_h": 0.64,
+    "h_ratio": 0.59,
+    "hip_height": 0.14,
+    "torso_angle": 18.0,
+    "n_kp": 15,
+    "candidate": false
+   },
+   {
+    "t": 5.4,
+    "w_h": 0.7,
+    "h_ratio": 0.56,
+    "hip_height": 0.11,
+    "torso_angle": 16.0,
+    "n_kp": 16,
+    "candidate": false
+   },
+   {
+    "t": 5.6,
+    "w_h": 1.05,
+    "h_ratio": 0.58,
+    "hip_height": 0.13,
+    "torso_angle": 6.0,
+    "n_kp": 17,
+    "candidate": false
+   },
+   {
+    "t": 5.8,
+    "w_h": 0.93,
+    "h_ratio": 0.6,
+    "hip_height": 0.19,
+    "torso_angle": 6.0,
+    "n_kp": 17,
+    "candidate": false
+   },
+   {
+    "t": 6.0,
+    "w_h": 0.77,
+    "h_ratio": 0.67,
+    "hip_height": 0.22,
+    "torso_angle": 8.0,
+    "n_kp": 17,
+    "candidate": false
+   },
+   {
+    "t": 6.2,
+    "w_h": 0.65,
+    "h_ratio": 0.68,
+    "hip_height": 0.21,
+    "torso_angle": 4.0,
+    "n_kp": 17,
+    "candidate": false
+   },
+   {
+    "t": 6.4,
+    "w_h": 0.65,
+    "h_ratio": 0.64,
+    "hip_height": 0.22,
+    "torso_angle": 4.0,
+    "n_kp": 17,
+    "candidate": false
+   },
+   {
+    "t": 6.6,
+    "w_h": 0.68,
+    "h_ratio": 0.66,
+    "hip_height": 0.2,
+    "torso_angle": 9.0,
+    "n_kp": 17,
+    "candidate": false
+   },
+   {
+    "t": 6.8,
+    "w_h": 0.74,
+    "h_ratio": 0.6,
+    "hip_height": 0.19,
+    "torso_angle": 15.0,
+    "n_kp": 17,
+    "candidate": false
+   }
+  ]
+ },
+ {
+  "clip": "mpfdd_S3_P4_F1_FALL_3",
+  "track": 5,
+  "event_present": true,
+  "series": [
+   {
+    "t": 11.2,
+    "w_h": 1.17,
+    "h_ratio": 1.0,
+    "hip_height": 0.06,
+    "torso_angle": 18.0,
+    "n_kp": 16,
+    "candidate": false
+   },
+   {
+    "t": 11.4,
+    "w_h": 1.12,
+    "h_ratio": 1.0,
+    "hip_height": 0.09,
+    "torso_angle": 20.0,
+    "n_kp": 17,
+    "candidate": false
+   },
+   {
+    "t": 11.8,
+    "w_h": 0.94,
+    "h_ratio": 1.0,
+    "hip_height": 0.08,
+    "torso_angle": 20.0,
+    "n_kp": 16,
+    "candidate": false
+   },
+   {
+    "t": 12.2,
+    "w_h": 0.91,
+    "h_ratio": 1.0,
+    "hip_height": 0.07,
+    "torso_angle": 19.0,
+    "n_kp": 16,
+    "candidate": false
+   },
+   {
+    "t": 12.4,
+    "w_h": 0.93,
+    "h_ratio": 1.0,
+    "hip_height": 0.08,
+    "torso_angle": 18.0,
+    "n_kp": 16,
+    "candidate": false
+   },
+   {
+    "t": 12.6,
+    "w_h": 0.91,
+    "h_ratio": 1.0,
+    "hip_height": 0.09,
+    "torso_angle": 18.0,
+    "n_kp": 16,
+    "candidate": false
+   },
+   {
+    "t": 12.8,
+    "w_h": 0.92,
+    "h_ratio": 1.0,
+    "hip_height": 0.08,
+    "torso_angle": 18.0,
+    "n_kp": 16,
+    "candidate": false
+   },
+   {
+    "t": 13.0,
+    "w_h": 0.9,
+    "h_ratio": 1.0,
+    "hip_height": 0.08,
+    "torso_angle": 19.0,
+    "n_kp": 16,
+    "candidate": false
+   }
+  ]
+ },
+ {
+  "clip": "mpfdd_S1_P2_F1_FALL_3",
+  "track": 1,
+  "event_present": true,
+  "series": [
+   {
+    "t": 0.0,
+    "w_h": 0.39,
+    "h_ratio": 1.0,
+    "hip_height": 0.36,
+    "torso_angle": 9.0,
+    "n_kp": 17,
+    "candidate": false
+   },
+   {
+    "t": 0.2,
+    "w_h": 0.39,
+    "h_ratio": 1.0,
+    "hip_height": 0.36,
+    "torso_angle": 10.0,
+    "n_kp": 17,
+    "candidate": false
+   },
+   {
+    "t": 0.4,
+    "w_h": 0.39,
+    "h_ratio": 1.0,
+    "hip_height": 0.36,
+    "torso_angle": 9.0,
+    "n_kp": 17,
+    "candidate": false
+   },
+   {
+    "t": 0.6,
+    "w_h": 0.39,
+    "h_ratio": 1.0,
+    "hip_height": 0.36,
+    "torso_angle": 9.0,
+    "n_kp": 17,
+    "candidate": false
+   },
+   {
+    "t": 0.8,
+    "w_h": 0.38,
+    "h_ratio": 1.0,
+    "hip_height": 0.36,
+    "torso_angle": 9.0,
+    "n_kp": 17,
+    "candidate": false
+   },
+   {
+    "t": 1.0,
+    "w_h": 0.33,
+    "h_ratio": 1.0,
+    "hip_height": 0.37,
+    "torso_angle": 12.0,
+    "n_kp": 17,
+    "candidate": false
+   },
+   {
+    "t": 1.2,
+    "w_h": 0.29,
+    "h_ratio": 1.0,
+    "hip_height": 0.37,
+    "torso_angle": 14.0,
+    "n_kp": 17,
+    "candidate": false
+   },
+   {
+    "t": 1.4,
+    "w_h": 0.32,
+    "h_ratio": 0.95,
+    "hip_height": 0.35,
+    "torso_angle": 13.0,
+    "n_kp": 17,
+    "candidate": false
+   },
+   {
+    "t": 1.6,
+    "w_h": 0.49,
+    "h_ratio": 0.92,
+    "hip_height": 0.35,
+    "torso_angle": 9.0,
+    "n_kp": 17,
+    "candidate": false
+   },
+   {
+    "t": 1.8,
+    "w_h": 0.55,
+    "h_ratio": 0.91,
+    "hip_height": 0.34,
+    "torso_angle": 5.0,
+    "n_kp": 17,
+    "candidate": false
+   },
+   {
+    "t": 2.0,
+    "w_h": 0.53,
+    "h_ratio": 0.9,
+    "hip_height": 0.34,
+    "torso_angle": 3.0,
+    "n_kp": 17,
+    "candidate": false
+   },
+   {
+    "t": 2.2,
+    "w_h": 0.44,
+    "h_ratio": 0.89,
+    "hip_height": 0.32,
+    "torso_angle": 4.0,
+    "n_kp": 16,
+    "candidate": false
+   },
+   {
+    "t": 2.4,
+    "w_h": 0.4,
+    "h_ratio": 0.9,
+    "hip_height": 0.33,
+    "torso_angle": 3.0,
+    "n_kp": 17,
+    "candidate": false
+   },
+   {
+    "t": 2.6,
+    "w_h": 0.41,
+    "h_ratio": 0.89,
+    "hip_height": 0.33,
+    "torso_angle": 0.0,
+    "n_kp": 17,
+    "candidate": false
+   },
+   {
+    "t": 2.8,
+    "w_h": 0.41,
+    "h_ratio": 0.88,
+    "hip_height": 0.33,
+    "torso_angle": 1.0,
+    "n_kp": 17,
+    "candidate": false
+   },
+   {
+    "t": 3.0,
+    "w_h": 0.33,
+    "h_ratio": 0.88,
+    "hip_height": 0.31,
+    "torso_angle": 1.0,
+    "n_kp": 17,
+    "candidate": false
+   },
+   {
+    "t": 3.2,
+    "w_h": 0.3,
+    "h_ratio": 0.81,
+    "hip_height": 0.32,
+    "torso_angle": 3.0,
+    "n_kp": 16,
+    "candidate": false
+   },
+   {
+    "t": 3.4,
+    "w_h": 0.52,
+    "h_ratio": 0.79,
+    "hip_height": 0.31,
+    "torso_angle": 7.0,
+    "n_kp": 17,
+    "candidate": false
+   },
+   {
+    "t": 3.6,
+    "w_h": 0.76,
+    "h_ratio": 0.72,
+    "hip_height": 0.27,
+    "torso_angle": 22.0,
+    "n_kp": 17,
+    "candidate": false
+   },
+   {
+    "t": 3.8,
+    "w_h": 0.89,
+    "h_ratio": 0.51,
+    "hip_height": 0.21,
+    "torso_angle": 51.0,
+    "n_kp": 17,
+    "candidate": false
+   },
+   {
+    "t": 4.0,
+    "w_h": 0.99,
+    "h_ratio": 0.41,
+    "hip_height": 0.2,
+    "torso_angle": 65.0,
+    "n_kp": 16,
+    "candidate": false
+   },
+   {
+    "t": 4.4,
+    "w_h": 0.88,
+    "h_ratio": 0.38,
+    "hip_height": 0.17,
+    "torso_angle": 62.0,
+    "n_kp": 14,
+    "candidate": false
+   },
+   {
+    "t": 4.6,
+    "w_h": 0.91,
+    "h_ratio": 0.38,
+    "hip_height": 0.17,
+    "torso_angle": 61.0,
+    "n_kp": 14,
+    "candidate": false
+   },
+   {
+    "t": 4.8,
+    "w_h": 0.92,
+    "h_ratio": 0.39,
+    "hip_height": 0.17,
+    "torso_angle": 60.0,
+    "n_kp": 16,
+    "candidate": false
+   },
+   {
+    "t": 5.0,
+    "w_h": 0.95,
+    "h_ratio": 0.38,
+    "hip_height": 0.16,
+    "torso_angle": 58.0,
+    "n_kp": 15,
+    "candidate": false
+   },
+   {
+    "t": 5.2,
+    "w_h": 0.99,
+    "h_ratio": 0.38,
+    "hip_height": 0.14,
+    "torso_angle": 57.0,
+    "n_kp": 16,
+    "candidate": false
+   },
+   {
+    "t": 5.4,
+    "w_h": 1.03,
+    "h_ratio": 0.38,
+    "hip_height": 0.14,
+    "torso_angle": 58.0,
+    "n_kp": 16,
+    "candidate": false
+   },
+   {
+    "t": 5.6,
+    "w_h": 1.03,
+    "h_ratio": 0.37,
+    "hip_height": 0.14,
+    "torso_angle": 58.0,
+    "n_kp": 16,
+    "candidate": false
+   },
+   {
+    "t": 5.8,
+    "w_h": 1.01,
+    "h_ratio": 0.37,
+    "hip_height": 0.15,
+    "torso_angle": 59.0,
+    "n_kp": 16,
+    "candidate": false
+   },
+   {
+    "t": 6.0,
+    "w_h": 1.01,
+    "h_ratio": 0.37,
+    "hip_height": 0.16,
+    "torso_angle": 62.0,
+    "n_kp": 14,
+    "candidate": false
+   },
+   {
+    "t": 6.2,
+    "w_h": 0.99,
+    "h_ratio": 0.37,
+    "hip_height": 0.17,
+    "torso_angle": 63.0,
+    "n_kp": 12,
+    "candidate": false
+   },
+   {
+    "t": 6.4,
+    "w_h": 0.99,
+    "h_ratio": 0.37,
+    "hip_height": 0.17,
+    "torso_angle": 62.0,
+    "n_kp": 12,
+    "candidate": false
+   },
+   {
+    "t": 6.6,
+    "w_h": 1.0,
+    "h_ratio": 0.37,
+    "hip_height": 0.17,
+    "torso_angle": 59.0,
+    "n_kp": 12,
+    "candidate": false
+   },
+   {
+    "t": 6.8,
+    "w_h": 1.04,
+    "h_ratio": 0.36,
+    "hip_height": 0.16,
+    "torso_angle": 56.0,
+    "n_kp": 12,
+    "candidate": false
+   },
+   {
+    "t": 7.0,
+    "w_h": 1.11,
+    "h_ratio": 0.35,
+    "hip_height": 0.15,
+    "torso_angle": 53.0,
+    "n_kp": 12,
+    "candidate": false
+   },
+   {
+    "t": 7.2,
+    "w_h": 1.14,
+    "h_ratio": 0.35,
+    "hip_height": 0.14,
+    "torso_angle": 51.0,
+    "n_kp": 12,
+    "candidate": false
+   },
+   {
+    "t": 7.4,
+    "w_h": 1.12,
+    "h_ratio": 0.35,
+    "hip_height": 0.14,
+    "torso_angle": 52.0,
+    "n_kp": 12,
+    "candidate": false
+   },
+   {
+    "t": 7.6,
+    "w_h": 1.07,
+    "h_ratio": 0.34,
+    "hip_height": 0.15,
+    "torso_angle": 63.0,
+    "n_kp": 12,
+    "candidate": false
+   },
+   {
+    "t": 7.8,
+    "w_h": 1.12,
+    "h_ratio": 0.32,
+    "hip_height": 0.15,
+    "torso_angle": 71.0,
+    "n_kp": 12,
+    "candidate": false
+   },
+   {
+    "t": 8.8,
+    "w_h": 1.35,
+    "h_ratio": 0.28,
+    "hip_height": 0.12,
+    "torso_angle": 82.0,
+    "n_kp": 13,
+    "candidate": false
+   },
+   {
+    "t": 9.0,
+    "w_h": 1.43,
+    "h_ratio": 0.26,
+    "hip_height": 0.11,
+    "torso_angle": 82.0,
+    "n_kp": 13,
+    "candidate": false
+   },
+   {
+    "t": 9.2,
+    "w_h": 1.48,
+    "h_ratio": 0.25,
+    "hip_height": 0.1,
+    "torso_angle": 81.0,
+    "n_kp": 14,
+    "candidate": false
+   },
+   {
+    "t": 9.6,
+    "w_h": 1.49,
+    "h_ratio": 0.26,
+    "hip_height": 0.11,
+    "torso_angle": 80.0,
+    "n_kp": 15,
+    "candidate": false
+   },
+   {
+    "t": 9.8,
+    "w_h": 1.4,
+    "h_ratio": 0.29,
+    "hip_height": 0.11,
+    "torso_angle": 73.0,
+    "n_kp": 15,
+    "candidate": false
+   },
+   {
+    "t": 10.0,
+    "w_h": 1.27,
+    "h_ratio": 0.31,
+    "hip_height": 0.11,
+    "torso_angle": 65.0,
+    "n_kp": 15,
+    "candidate": false
+   }
+  ]
+ },
+ {
+  "clip": "mpfdd_S2_P2_F1_FALL_3",
+  "track": 2,
+  "event_present": true,
+  "series": [
+   {
+    "t": 0.0,
+    "w_h": 0.4,
+    "h_ratio": 1.0,
+    "hip_height": 0.38,
+    "torso_angle": 3.0,
+    "n_kp": 17,
+    "candidate": false
+   },
+   {
+    "t": 0.2,
+    "w_h": 0.4,
+    "h_ratio": 1.0,
+    "hip_height": 0.38,
+    "torso_angle": 3.0,
+    "n_kp": 17,
+    "candidate": false
+   },
+   {
+    "t": 0.4,
+    "w_h": 0.4,
+    "h_ratio": 1.0,
+    "hip_height": 0.37,
+    "torso_angle": 3.0,
+    "n_kp": 17,
+    "candidate": false
+   },
+   {
+    "t": 0.6,
+    "w_h": 0.41,
+    "h_ratio": 0.98,
+    "hip_height": 0.37,
+    "torso_angle": 6.0,
+    "n_kp": 17,
+    "candidate": false
+   },
+   {
+    "t": 0.8,
+    "w_h": 0.41,
+    "h_ratio": 0.91,
+    "hip_height": 0.38,
+    "torso_angle": 7.0,
+    "n_kp": 17,
+    "candidate": false
+   },
+   {
+    "t": 1.0,
+    "w_h": 0.42,
+    "h_ratio": 0.85,
+    "hip_height": 0.35,
+    "torso_angle": 13.0,
+    "n_kp": 17,
+    "candidate": false
+   },
+   {
+    "t": 1.2,
+    "w_h": 0.9,
+    "h_ratio": 0.73,
+    "hip_height": 0.28,
+    "torso_angle": 22.0,
+    "n_kp": 17,
+    "candidate": false
+   },
+   {
+    "t": 1.4,
+    "w_h": 1.44,
+    "h_ratio": 0.54,
+    "hip_height": 0.19,
+    "torso_angle": 35.0,
+    "n_kp": 17,
+    "candidate": false
+   },
+   {
+    "t": 1.6,
+    "w_h": 1.87,
+    "h_ratio": 0.4,
+    "hip_height": 0.11,
+    "torso_angle": 49.0,
+    "n_kp": 17,
+    "candidate": false
+   },
+   {
+    "t": 1.8,
+    "w_h": 1.74,
+    "h_ratio": 0.35,
+    "hip_height": 0.07,
+    "torso_angle": 46.0,
+    "n_kp": 17,
+    "candidate": false
+   },
+   {
+    "t": 2.0,
+    "w_h": 1.56,
+    "h_ratio": 0.32,
+    "hip_height": 0.04,
+    "torso_angle": 45.0,
+    "n_kp": 14,
+    "candidate": false
+   },
+   {
+    "t": 3.0,
+    "w_h": 1.17,
+    "h_ratio": 0.32,
+    "hip_height": 0.05,
+    "torso_angle": 35.0,
+    "n_kp": 13,
+    "candidate": false
+   },
+   {
+    "t": 3.2,
+    "w_h": 1.37,
+    "h_ratio": 0.33,
+    "hip_height": 0.07,
+    "torso_angle": 33.0,
+    "n_kp": 12,
+    "candidate": false
+   },
+   {
+    "t": 3.4,
+    "w_h": 1.5,
+    "h_ratio": 0.33,
+    "hip_height": null,
+    "torso_angle": 29.0,
+    "n_kp": 12,
+    "candidate": false
+   },
+   {
+    "t": 3.6,
+    "w_h": 1.49,
+    "h_ratio": 0.34,
+    "hip_height": 0.03,
+    "torso_angle": 23.0,
+    "n_kp": 13,
+    "candidate": false
+   },
+   {
+    "t": 3.8,
+    "w_h": 1.69,
+    "h_ratio": 0.4,
+    "hip_height": 0.03,
+    "torso_angle": 19.0,
+    "n_kp": 16,
+    "candidate": false
+   },
+   {
+    "t": 4.0,
+    "w_h": 1.62,
+    "h_ratio": 0.42,
+    "hip_height": 0.01,
+    "torso_angle": 15.0,
+    "n_kp": 17,
+    "candidate": false
+   },
+   {
+    "t": 4.2,
+    "w_h": 1.53,
+    "h_ratio": 0.43,
+    "hip_height": 0.01,
+    "torso_angle": 11.0,
+    "n_kp": 17,
+    "candidate": false
+   },
+   {
+    "t": 4.4,
+    "w_h": 1.72,
+    "h_ratio": 0.38,
+    "hip_height": 0.01,
+    "torso_angle": 13.0,
+    "n_kp": 16,
+    "candidate": false
+   },
+   {
+    "t": 4.6,
+    "w_h": 1.81,
+    "h_ratio": 0.37,
+    "hip_height": 0.01,
+    "torso_angle": 15.0,
+    "n_kp": 17,
+    "candidate": false
+   },
+   {
+    "t": 4.8,
+    "w_h": 1.54,
+    "h_ratio": 0.4,
+    "hip_height": 0.0,
+    "torso_angle": 11.0,
+    "n_kp": 17,
+    "candidate": false
+   },
+   {
+    "t": 5.0,
+    "w_h": 1.07,
+    "h_ratio": 0.45,
+    "hip_height": 0.0,
+    "torso_angle": 2.0,
+    "n_kp": 15,
+    "candidate": false
+   },
+   {
+    "t": 5.2,
+    "w_h": 1.11,
+    "h_ratio": 0.43,
+    "hip_height": 0.02,
+    "torso_angle": 4.0,
+    "n_kp": 16,
+    "candidate": false
+   },
+   {
+    "t": 5.4,
+    "w_h": 1.11,
+    "h_ratio": 0.43,
+    "hip_height": 0.05,
+    "torso_angle": 16.0,
+    "n_kp": 16,
+    "candidate": false
+   },
+   {
+    "t": 5.6,
+    "w_h": 1.15,
+    "h_ratio": 0.45,
+    "hip_height": 0.11,
+    "torso_angle": 19.0,
+    "n_kp": 16,
+    "candidate": false
+   },
+   {
+    "t": 5.8,
+    "w_h": 1.01,
+    "h_ratio": 0.46,
+    "hip_height": 0.15,
+    "torso_angle": 1.0,
+    "n_kp": 16,
+    "candidate": false
+   },
+   {
+    "t": 6.0,
+    "w_h": 1.03,
+    "h_ratio": 0.44,
+    "hip_height": 0.11,
+    "torso_angle": 10.0,
+    "n_kp": 14,
+    "candidate": false
+   },
+   {
+    "t": 6.2,
+    "w_h": 1.26,
+    "h_ratio": 0.43,
+    "hip_height": 0.09,
+    "torso_angle": 16.0,
+    "n_kp": 16,
+    "candidate": false
+   },
+   {
+    "t": 6.4,
+    "w_h": 1.25,
+    "h_ratio": 0.46,
+    "hip_height": 0.16,
+    "torso_angle": 34.0,
+    "n_kp": 17,
+    "candidate": false
+   },
+   {
+    "t": 6.6,
+    "w_h": 0.7,
+    "h_ratio": 0.59,
+    "hip_height": 0.25,
+    "torso_angle": 33.0,
+    "n_kp": 17,
+    "candidate": false
+   },
+   {
+    "t": 6.8,
+    "w_h": 0.6,
+    "h_ratio": 0.73,
+    "hip_height": 0.35,
+    "torso_angle": 40.0,
+    "n_kp": 17,
+    "candidate": false
+   },
+   {
+    "t": 7.0,
+    "w_h": 0.59,
+    "h_ratio": 0.81,
+    "hip_height": 0.36,
+    "torso_angle": 19.0,
+    "n_kp": 17,
+    "candidate": false
+   },
+   {
+    "t": 7.2,
+    "w_h": 0.38,
+    "h_ratio": 0.95,
+    "hip_height": 0.4,
+    "torso_angle": 6.0,
+    "n_kp": 17,
+    "candidate": false
+   },
+   {
+    "t": 7.4,
+    "w_h": 0.4,
+    "h_ratio": 0.97,
+    "hip_height": 0.37,
+    "torso_angle": 6.0,
+    "n_kp": 17,
+    "candidate": false
+   },
+   {
+    "t": 7.6,
+    "w_h": 0.46,
+    "h_ratio": 1.0,
+    "hip_height": 0.38,
+    "torso_angle": 11.0,
+    "n_kp": 17,
+    "candidate": false
+   },
+   {
+    "t": 7.8,
+    "w_h": 0.49,
+    "h_ratio": 1.0,
+    "hip_height": 0.39,
+    "torso_angle": 11.0,
+    "n_kp": 17,
+    "candidate": false
+   }
+  ]
+ }
+]
