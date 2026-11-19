@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+node_modules/
+.env
+!.env.example
+data/
+*.onnx
+*.mp4
+*.avi
+dist/
+.venv-broken-old/

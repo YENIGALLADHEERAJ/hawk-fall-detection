@@ -1,0 +1,379 @@
+{
+  "scope": "small subject-held-out set; no threshold retuning; not medical validation",
+  "run_id": "20261026T171504159675",
+  "configuration": {
+    "detector_size": 640,
+    "rotation_fallback": true,
+    "sample_fps": 5.0,
+    "max_seconds": 60,
+    "max_width": 640,
+    "detector_threshold": 0.3,
+    "horizontal_ratio": 1.15,
+    "upright_ratio": 0.8,
+    "descent_heights_s": 0.25,
+    "transition_seconds": 1.5,
+    "stationary_heights_s": 0.12,
+    "stationary_flow_px_s": 6,
+    "immobile_seconds": 1.5,
+    "review_seconds": 2.5,
+    "max_gap_seconds": 0.5,
+    "history_seconds": 5,
+    "max_evidence_packets": 10,
+    "threads": 2
+  },
+  "comparison": {
+    "immediate": {
+      "positive_clips": 2,
+      "negative_clips": 3,
+      "true_positive_clips": 2,
+      "false_positive_clips": 2,
+      "event_recall": 1.0,
+      "precision": 0.5,
+      "false_positive_clip_rate": 0.6666666666666666,
+      "false_alert_events": 3,
+      "negative_observation_hours": 0.007520776414973185,
+      "false_alerts_per_negative_hour": 398.8949856330354
+    },
+    "temporal": {
+      "positive_clips": 2,
+      "negative_clips": 3,
+      "true_positive_clips": 0,
+      "false_positive_clips": 1,
+      "event_recall": 0.0,
+      "precision": 0.0,
+      "false_positive_clip_rate": 0.3333333333333333,
+      "false_alert_events": 1,
+      "negative_observation_hours": 0.007520776414973185,
+      "false_alerts_per_negative_hour": 132.9649952110118
+    }
+  },
+  "clips": [
+    {
+      "clip": {
+        "id": "holdout_s2_Fall_13",
+        "path": "data/clips/holdout_s2_Fall_13.mp4",
+        "source": "https://raw.githubusercontent.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/v2.1/Subject%202/Fall/13.mp4",
+        "sha256": "1d98ea500dd2d74e281d4e60f23d882d122dad868d7a8db5113b24c01c99ef7e",
+        "event_present": true,
+        "incident_onset": 2.5,
+        "split": "subject_held_out_no_retuning",
+        "scenario": "night fall"
+      },
+      "metrics": {
+        "source": "data/clips/holdout_s2_Fall_13.mp4",
+        "source_kind": "file",
+        "source_sha256": "1d98ea500dd2d74e281d4e60f23d882d122dad868d7a8db5113b24c01c99ef7e",
+        "source_reconnect_attempts": 0,
+        "config": {
+          "detector_size": 640,
+          "rotation_fallback": true,
+          "sample_fps": 5.0,
+          "max_seconds": 60,
+          "max_width": 640,
+          "detector_threshold": 0.3,
+          "horizontal_ratio": 1.15,
+          "upright_ratio": 0.8,
+          "descent_heights_s": 0.25,
+          "transition_seconds": 1.5,
+          "stationary_heights_s": 0.12,
+          "stationary_flow_px_s": 6,
+          "immobile_seconds": 1.5,
+          "review_seconds": 2.5,
+          "max_gap_seconds": 0.5,
+          "history_seconds": 5,
+          "max_evidence_packets": 10,
+          "threads": 2
+        },
+        "opencv": "5.0.0",
+        "source_fps": 14.950539568345324,
+        "sampled_frames": 45,
+        "observed_seconds": 8.829112781954887,
+        "detections": 39,
+        "distinct_track_ids": 8,
+        "candidate_times": [],
+        "human_review_times": [],
+        "baseline_alert_times": [
+          0.0,
+          3.8125714285714287,
+          4.4145563909774435,
+          7.6251428571428574
+        ],
+        "exit_reason": "eof",
+        "wall_seconds": 58.06206910009496,
+        "processing_fps": 0.7750326624155115,
+        "cpu_one_core_percent": 183.7742379040114,
+        "p50_ms": 1574.0357000613585,
+        "p95_ms": 1896.2583800079299,
+        "tool_calls": 0,
+        "memory": {
+          "working_set_mib": 173.09375,
+          "process_peak_working_set_mib": 211.359375
+        }
+      },
+      "candidate_detected": false,
+      "baseline_detected": true,
+      "latency_seconds": null
+    },
+    {
+      "clip": {
+        "id": "holdout_s2_ADL_14",
+        "path": "data/clips/holdout_s2_ADL_14.mp4",
+        "source": "https://raw.githubusercontent.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/v2.1/Subject%202/ADL/14.mp4",
+        "sha256": "5cf456ef4e1efb3aa3e0e7a8aa3e58a5d58a87f4fc73f6b832276839af65e358",
+        "event_present": false,
+        "incident_onset": null,
+        "split": "subject_held_out_no_retuning",
+        "scenario": "night walking and sitting"
+      },
+      "metrics": {
+        "source": "data/clips/holdout_s2_ADL_14.mp4",
+        "source_kind": "file",
+        "source_sha256": "5cf456ef4e1efb3aa3e0e7a8aa3e58a5d58a87f4fc73f6b832276839af65e358",
+        "source_reconnect_attempts": 0,
+        "config": {
+          "detector_size": 640,
+          "rotation_fallback": true,
+          "sample_fps": 5.0,
+          "max_seconds": 60,
+          "max_width": 640,
+          "detector_threshold": 0.3,
+          "horizontal_ratio": 1.15,
+          "upright_ratio": 0.8,
+          "descent_heights_s": 0.25,
+          "transition_seconds": 1.5,
+          "stationary_heights_s": 0.12,
+          "stationary_flow_px_s": 6,
+          "immobile_seconds": 1.5,
+          "review_seconds": 2.5,
+          "max_gap_seconds": 0.5,
+          "history_seconds": 5,
+          "max_evidence_packets": 10,
+          "threads": 2
+        },
+        "opencv": "5.0.0",
+        "source_fps": 15.012344488088097,
+        "sampled_frames": 42,
+        "observed_seconds": 10.92434297188755,
+        "detections": 36,
+        "distinct_track_ids": 3,
+        "candidate_times": [],
+        "human_review_times": [],
+        "baseline_alert_times": [],
+        "exit_reason": "eof",
+        "wall_seconds": 43.24277970008552,
+        "processing_fps": 0.9712604113633551,
+        "cpu_one_core_percent": 186.84477630803232,
+        "p50_ms": 825.0003000139259,
+        "p95_ms": 2019.3604950094596,
+        "tool_calls": 0,
+        "memory": {
+          "working_set_mib": 163.18359375,
+          "process_peak_working_set_mib": 222.875
+        }
+      },
+      "candidate_detected": false,
+      "baseline_detected": false,
+      "latency_seconds": null
+    },
+    {
+      "clip": {
+        "id": "holdout_s3_Fall_16",
+        "path": "data/clips/holdout_s3_Fall_16.mp4",
+        "source": "https://raw.githubusercontent.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/v2.1/Subject%203/Fall/16.mp4",
+        "sha256": "28c03494de00d7aefc6baa5b976da66ef51962e6157f84e16caffc03279972fa",
+        "event_present": true,
+        "incident_onset": 1.8,
+        "split": "subject_held_out_no_retuning",
+        "scenario": "night walking fall"
+      },
+      "metrics": {
+        "source": "data/clips/holdout_s3_Fall_16.mp4",
+        "source_kind": "file",
+        "source_sha256": "28c03494de00d7aefc6baa5b976da66ef51962e6157f84e16caffc03279972fa",
+        "source_reconnect_attempts": 0,
+        "config": {
+          "detector_size": 640,
+          "rotation_fallback": true,
+          "sample_fps": 5.0,
+          "max_seconds": 60,
+          "max_width": 640,
+          "detector_threshold": 0.3,
+          "horizontal_ratio": 1.15,
+          "upright_ratio": 0.8,
+          "descent_heights_s": 0.25,
+          "transition_seconds": 1.5,
+          "stationary_heights_s": 0.12,
+          "stationary_flow_px_s": 6,
+          "immobile_seconds": 1.5,
+          "review_seconds": 2.5,
+          "max_gap_seconds": 0.5,
+          "history_seconds": 5,
+          "max_evidence_packets": 10,
+          "threads": 2
+        },
+        "opencv": "5.0.0",
+        "source_fps": 14.96636679111228,
+        "sampled_frames": 31,
+        "observed_seconds": 6.013483516483516,
+        "detections": 17,
+        "distinct_track_ids": 5,
+        "candidate_times": [],
+        "human_review_times": [],
+        "baseline_alert_times": [
+          3.006741758241758,
+          4.409887912087912,
+          5.813034065934066
+        ],
+        "exit_reason": "eof",
+        "wall_seconds": 49.03673249995336,
+        "processing_fps": 0.6321791526388811,
+        "cpu_one_core_percent": 187.42327499102313,
+        "p50_ms": 1931.678400025703,
+        "p95_ms": 2368.2219999609515,
+        "tool_calls": 0,
+        "memory": {
+          "working_set_mib": 167.7421875,
+          "process_peak_working_set_mib": 226.14453125
+        }
+      },
+      "candidate_detected": false,
+      "baseline_detected": true,
+      "latency_seconds": null
+    },
+    {
+      "clip": {
+        "id": "holdout_s3_ADL_13",
+        "path": "data/clips/holdout_s3_ADL_13.mp4",
+        "source": "https://raw.githubusercontent.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/v2.1/Subject%203/ADL/13.mp4",
+        "sha256": "cc8847e582cc3644e745628bf14c66ca11efb235c5a3aef9d5a11355b4cdca9b",
+        "event_present": false,
+        "incident_onset": null,
+        "split": "subject_held_out_no_retuning",
+        "scenario": "night seated on floor"
+      },
+      "metrics": {
+        "source": "data/clips/holdout_s3_ADL_13.mp4",
+        "source_kind": "file",
+        "source_sha256": "cc8847e582cc3644e745628bf14c66ca11efb235c5a3aef9d5a11355b4cdca9b",
+        "source_reconnect_attempts": 0,
+        "config": {
+          "detector_size": 640,
+          "rotation_fallback": true,
+          "sample_fps": 5.0,
+          "max_seconds": 60,
+          "max_width": 640,
+          "detector_threshold": 0.3,
+          "horizontal_ratio": 1.15,
+          "upright_ratio": 0.8,
+          "descent_heights_s": 0.25,
+          "transition_seconds": 1.5,
+          "stationary_heights_s": 0.12,
+          "stationary_flow_px_s": 6,
+          "immobile_seconds": 1.5,
+          "review_seconds": 2.5,
+          "max_gap_seconds": 0.5,
+          "history_seconds": 5,
+          "max_evidence_packets": 10,
+          "threads": 2
+        },
+        "opencv": "5.0.0",
+        "source_fps": 15.043684545507146,
+        "sampled_frames": 33,
+        "observed_seconds": 8.508553846153847,
+        "detections": 30,
+        "distinct_track_ids": 1,
+        "candidate_times": [],
+        "human_review_times": [],
+        "baseline_alert_times": [
+          0.7976769230769231
+        ],
+        "exit_reason": "eof",
+        "wall_seconds": 27.138212400022894,
+        "processing_fps": 1.215997557745261,
+        "cpu_one_core_percent": 190.7481017429001,
+        "p50_ms": 684.5673000207171,
+        "p95_ms": 1884.2895799316466,
+        "tool_calls": 0,
+        "memory": {
+          "working_set_mib": 148.11328125,
+          "process_peak_working_set_mib": 226.14453125
+        }
+      },
+      "candidate_detected": false,
+      "baseline_detected": true,
+      "latency_seconds": null
+    },
+    {
+      "clip": {
+        "id": "holdout_s3_ADL_09",
+        "path": "data/clips/holdout_s3_ADL_09.mp4",
+        "source": "https://raw.githubusercontent.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/v2.1/Subject%203/ADL/09.mp4",
+        "sha256": "5100230c1f7d22a400ca810b9eef7162853cb556484648bf5c9fbf1844df618d",
+        "event_present": false,
+        "incident_onset": null,
+        "split": "subject_held_out_no_retuning",
+        "scenario": "lying to standing; no preceding fall"
+      },
+      "metrics": {
+        "source": "data/clips/holdout_s3_ADL_09.mp4",
+        "source_kind": "file",
+        "source_sha256": "5100230c1f7d22a400ca810b9eef7162853cb556484648bf5c9fbf1844df618d",
+        "source_reconnect_attempts": 0,
+        "config": {
+          "detector_size": 640,
+          "rotation_fallback": true,
+          "sample_fps": 5.0,
+          "max_seconds": 60,
+          "max_width": 640,
+          "detector_threshold": 0.3,
+          "horizontal_ratio": 1.15,
+          "upright_ratio": 0.8,
+          "descent_heights_s": 0.25,
+          "transition_seconds": 1.5,
+          "stationary_heights_s": 0.12,
+          "stationary_flow_px_s": 6,
+          "immobile_seconds": 1.5,
+          "review_seconds": 2.5,
+          "max_gap_seconds": 0.5,
+          "history_seconds": 5,
+          "max_evidence_packets": 10,
+          "threads": 2
+        },
+        "opencv": "5.0.0",
+        "source_fps": 29.835518842244696,
+        "sampled_frames": 39,
+        "observed_seconds": 7.641898275862069,
+        "detections": 39,
+        "distinct_track_ids": 1,
+        "candidate_times": [
+          6.435282758620689
+        ],
+        "human_review_times": [],
+        "baseline_alert_times": [
+          0.0,
+          6.435282758620689
+        ],
+        "exit_reason": "eof",
+        "wall_seconds": 47.34433920006268,
+        "processing_fps": 0.8237521245190041,
+        "cpu_one_core_percent": 187.7534389578772,
+        "p50_ms": 824.2075999733061,
+        "p95_ms": 2558.744170004502,
+        "tool_calls": 4,
+        "memory": {
+          "working_set_mib": 151.875,
+          "process_peak_working_set_mib": 226.14453125
+        }
+      },
+      "candidate_detected": true,
+      "baseline_detected": true,
+      "latency_seconds": null
+    }
+  ],
+  "tracking_idf1": null,
+  "tracking_note": "distinct IDs are a fragmentation proxy; no identity annotations",
+  "missing_scenarios": [
+    "natural multi-person",
+    "fall followed by immediate recovery"
+  ]
+}

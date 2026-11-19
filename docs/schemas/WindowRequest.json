@@ -1,0 +1,27 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "track_id": {
+      "exclusiveMinimum": 0,
+      "title": "Track Id",
+      "type": "integer"
+    },
+    "start": {
+      "minimum": 0,
+      "title": "Start",
+      "type": "number"
+    },
+    "end": {
+      "minimum": 0,
+      "title": "End",
+      "type": "number"
+    }
+  },
+  "required": [
+    "track_id",
+    "start",
+    "end"
+  ],
+  "title": "WindowRequest",
+  "type": "object"
+}

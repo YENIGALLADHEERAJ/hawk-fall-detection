@@ -1,0 +1,298 @@
+{
+  "$defs": {
+    "Box": {
+      "additionalProperties": false,
+      "properties": {
+        "x": {
+          "minimum": 0,
+          "title": "X",
+          "type": "number"
+        },
+        "y": {
+          "minimum": 0,
+          "title": "Y",
+          "type": "number"
+        },
+        "w": {
+          "exclusiveMinimum": 0,
+          "title": "W",
+          "type": "number"
+        },
+        "h": {
+          "exclusiveMinimum": 0,
+          "title": "H",
+          "type": "number"
+        }
+      },
+      "required": [
+        "x",
+        "y",
+        "w",
+        "h"
+      ],
+      "title": "Box",
+      "type": "object"
+    },
+    "Detection": {
+      "additionalProperties": false,
+      "properties": {
+        "bbox": {
+          "$ref": "#/$defs/Box"
+        },
+        "confidence": {
+          "maximum": 1,
+          "minimum": 0,
+          "title": "Confidence",
+          "type": "number"
+        },
+        "class_name": {
+          "const": "person",
+          "default": "person",
+          "title": "Class Name",
+          "type": "string"
+        },
+        "inference_view": {
+          "default": "original",
+          "enum": [
+            "original",
+            "clockwise",
+            "counterclockwise"
+          ],
+          "title": "Inference View",
+          "type": "string"
+        },
+        "timestamp": {
+          "minimum": 0,
+          "title": "Timestamp",
+          "type": "number"
+        },
+        "frame_index": {
+          "minimum": 0,
+          "title": "Frame Index",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "bbox",
+        "confidence",
+        "timestamp",
+        "frame_index"
+      ],
+      "title": "Detection",
+      "type": "object"
+    },
+    "Motion": {
+      "additionalProperties": false,
+      "properties": {
+        "vx_px_s": {
+          "default": 0,
+          "title": "Vx Px S",
+          "type": "number"
+        },
+        "vy_px_s": {
+          "default": 0,
+          "title": "Vy Px S",
+          "type": "number"
+        },
+        "speed_heights_s": {
+          "default": 0,
+          "minimum": 0,
+          "title": "Speed Heights S",
+          "type": "number"
+        },
+        "flow_px_s": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Flow Px S"
+        },
+        "difference": {
+          "anyOf": [
+            {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Difference"
+        },
+        "reliable": {
+          "default": false,
+          "title": "Reliable",
+          "type": "boolean"
+        },
+        "quality_reason": {
+          "default": "insufficient_history",
+          "title": "Quality Reason",
+          "type": "string"
+        }
+      },
+      "title": "Motion",
+      "type": "object"
+    },
+    "Posture": {
+      "additionalProperties": false,
+      "properties": {
+        "aspect_ratio": {
+          "minimum": 0,
+          "title": "Aspect Ratio",
+          "type": "number"
+        },
+        "horizontal": {
+          "title": "Horizontal",
+          "type": "boolean"
+        },
+        "upright": {
+          "title": "Upright",
+          "type": "boolean"
+        },
+        "method": {
+          "const": "bbox_geometry_proxy",
+          "default": "bbox_geometry_proxy",
+          "title": "Method",
+          "type": "string"
+        }
+      },
+      "required": [
+        "aspect_ratio",
+        "horizontal",
+        "upright"
+      ],
+      "title": "Posture",
+      "type": "object"
+    },
+    "State": {
+      "enum": [
+        "NORMAL",
+        "RAPID_DESCENT",
+        "GROUND_STATE",
+        "IMMOBILE",
+        "RECOVERY",
+        "UNKNOWN"
+      ],
+      "title": "State",
+      "type": "string"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "timestamp": {
+      "minimum": 0,
+      "title": "Timestamp",
+      "type": "number"
+    },
+    "frame_index": {
+      "minimum": 0,
+      "title": "Frame Index",
+      "type": "integer"
+    },
+    "camera_id": {
+      "title": "Camera Id",
+      "type": "string"
+    },
+    "track_id": {
+      "exclusiveMinimum": 0,
+      "title": "Track Id",
+      "type": "integer"
+    },
+    "detection": {
+      "$ref": "#/$defs/Detection"
+    },
+    "motion": {
+      "$ref": "#/$defs/Motion"
+    },
+    "posture": {
+      "$ref": "#/$defs/Posture"
+    },
+    "state": {
+      "$ref": "#/$defs/State"
+    },
+    "stationary_duration": {
+      "minimum": 0,
+      "title": "Stationary Duration",
+      "type": "number"
+    },
+    "fall_candidate": {
+      "title": "Fall Candidate",
+      "type": "boolean"
+    },
+    "fall_event_detected": {
+      "default": false,
+      "title": "Fall Event Detected",
+      "type": "boolean"
+    },
+    "ground_observed": {
+      "default": false,
+      "title": "Ground Observed",
+      "type": "boolean"
+    },
+    "decision_reason": {
+      "default": "legacy temporal state rule",
+      "title": "Decision Reason",
+      "type": "string"
+    },
+    "transition_signals": {
+      "additionalProperties": {
+        "anyOf": [
+          {
+            "type": "number"
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "title": "Transition Signals",
+      "type": "object"
+    },
+    "evidence_score": {
+      "maximum": 1,
+      "minimum": 0,
+      "title": "Evidence Score",
+      "type": "number"
+    },
+    "score_semantics": {
+      "default": "heuristic evidence strength, not calibrated probability",
+      "title": "Score Semantics",
+      "type": "string"
+    },
+    "action": {
+      "enum": [
+        "observe",
+        "request_temporal_evidence",
+        "request_additional_evidence",
+        "human_review",
+        "dismiss"
+      ],
+      "title": "Action",
+      "type": "string"
+    }
+  },
+  "required": [
+    "timestamp",
+    "frame_index",
+    "camera_id",
+    "track_id",
+    "detection",
+    "motion",
+    "posture",
+    "state",
+    "stationary_duration",
+    "fall_candidate",
+    "evidence_score",
+    "action"
+  ],
+  "title": "Observation",
+  "type": "object"
+}

@@ -1,0 +1,168 @@
+{
+  "scope": "temporal-only replay of measured real detections and motion; no new detector inference or FPS claim",
+  "source_results": "evaluation/rtx5060/gpu-directml/fresh/results.json",
+  "source_run_id": "20261115T104112216878",
+  "configuration": {
+    "rotation_all_views": false,
+    "improved_tracking": true,
+    "improved_temporal": true,
+    "continuation_threshold": null,
+    "track_hold_seconds": 1.5,
+    "prediction_horizon_seconds": 0.25,
+    "minimum_drop_heights": 0.18,
+    "minimum_average_descent": 0.15,
+    "maximum_ground_height_ratio": 0.75,
+    "detector_size": 640,
+    "rotation_fallback": true,
+    "sample_fps": 5.0,
+    "max_seconds": 60,
+    "max_width": 640,
+    "detector_threshold": 0.3,
+    "horizontal_ratio": 1.15,
+    "upright_ratio": 0.8,
+    "descent_heights_s": 0.25,
+    "transition_seconds": 1.5,
+    "stationary_heights_s": 0.12,
+    "stationary_flow_px_s": 6,
+    "immobile_seconds": 1.5,
+    "review_seconds": 2.5,
+    "max_gap_seconds": 0.5,
+    "history_seconds": 5,
+    "max_evidence_packets": 10,
+    "threads": 8,
+    "detector_backend": "directml",
+    "detector_device": 1
+  },
+  "true_positive_clips": 7,
+  "positive_clips": 8,
+  "false_positive_clips": 1,
+  "negative_clips": 7,
+  "clips": [
+    {
+      "id": "fresh_gmd4_Fall_03",
+      "event_present": true,
+      "candidate_times": [
+        3.01749
+      ],
+      "dismissal_times": [],
+      "diagnostics_sha256": "78c598b8809236eaad6d1aaf604153fa72da235573419462e25243e9cfa2db24"
+    },
+    {
+      "id": "fresh_gmd4_Fall_07",
+      "event_present": true,
+      "candidate_times": [
+        2.615918085106383
+      ],
+      "dismissal_times": [],
+      "diagnostics_sha256": "d5a4e8a8940d6413345c88e1d563216db03dec4e1a5629ab0756b2b4a040d927"
+    },
+    {
+      "id": "fresh_gmd4_Fall_08",
+      "event_present": true,
+      "candidate_times": [],
+      "dismissal_times": [],
+      "diagnostics_sha256": "5ab62fb3e2c248f297e5484ee1f7ee1341d8c2725e9f9c2d5c7c35fcd3e62d5c"
+    },
+    {
+      "id": "fresh_gmd4_Fall_11",
+      "event_present": true,
+      "candidate_times": [
+        1.6099294117647058
+      ],
+      "dismissal_times": [],
+      "diagnostics_sha256": "a6a2f760034346709955907f8e3feaf2b570c4c387203fcc0ecbc09e93c49d7b"
+    },
+    {
+      "id": "fresh_gmd4_ADL_14",
+      "event_present": false,
+      "candidate_times": [],
+      "dismissal_times": [],
+      "diagnostics_sha256": "f0f7e85b5d460811ff821af2c8e59d0fcda2012c5f67e9bce6c43d760b7d6650"
+    },
+    {
+      "id": "fresh_gmd4_ADL_17",
+      "event_present": false,
+      "candidate_times": [],
+      "dismissal_times": [],
+      "diagnostics_sha256": "8395b711984f5153c070214f1b4bbe81fb7ce8a89dd5798919f3f573442f8be2"
+    },
+    {
+      "id": "fresh_assist_02_fall_backward",
+      "event_present": true,
+      "candidate_times": [
+        3.2
+      ],
+      "dismissal_times": [
+        17.8
+      ],
+      "diagnostics_sha256": "c34a86306dbc937617d0ccddefc0ace0125a9c7537f6ab475a2c0d436f69b085"
+    },
+    {
+      "id": "fresh_assist_04_forward_fall_jogging",
+      "event_present": true,
+      "candidate_times": [
+        3.0
+      ],
+      "dismissal_times": [],
+      "diagnostics_sha256": "f0375f53d54e531bb67164c519dbdc6da3542d84561d196e2a18e2aadd8c992b"
+    },
+    {
+      "id": "fresh_assist_05_vertical_fall_faint",
+      "event_present": true,
+      "candidate_times": [
+        3.4
+      ],
+      "dismissal_times": [],
+      "diagnostics_sha256": "21c27c1e56153979b5f5261147cacc285318d73f9a1a4f9b70dc9d0f2fa4a13a"
+    },
+    {
+      "id": "fresh_assist_07_fall_to_knees_forward",
+      "event_present": true,
+      "candidate_times": [
+        2.0
+      ],
+      "dismissal_times": [],
+      "diagnostics_sha256": "b211c170a9464d8bdd95fccfa906cd3a444e7982f20428bd1939d931f1dcdda9"
+    },
+    {
+      "id": "fresh_assist_01_walking_slowly",
+      "event_present": false,
+      "candidate_times": [],
+      "dismissal_times": [],
+      "diagnostics_sha256": "db19e7c99918b5204e36b93caa19ce3f202567bab89afe5acf471dd3af648002"
+    },
+    {
+      "id": "fresh_assist_12_sitting_laying_down_quickly",
+      "event_present": false,
+      "candidate_times": [
+        2.8,
+        2.8
+      ],
+      "dismissal_times": [
+        7.8
+      ],
+      "diagnostics_sha256": "461cdb64bf415beea9a2321cf61ef5136150d1ba5a7c2fbe78ba543c0233af19"
+    },
+    {
+      "id": "fresh_assist_13_bending_at_knees",
+      "event_present": false,
+      "candidate_times": [],
+      "dismissal_times": [],
+      "diagnostics_sha256": "695c901a7da950d6cc8089cd58d5d64d94213f7984934791ae55cdecd0e2ae9a"
+    },
+    {
+      "id": "fresh_assist_14_bending_wo_knees",
+      "event_present": false,
+      "candidate_times": [],
+      "dismissal_times": [],
+      "diagnostics_sha256": "faceaa490c8b6a2f2761828cab688b51138e6d16b70e9163ceab16f572ddeed3"
+    },
+    {
+      "id": "fresh_mot17_09",
+      "event_present": false,
+      "candidate_times": [],
+      "dismissal_times": [],
+      "diagnostics_sha256": "59e578b700db869b92fc62c36be2c460a0519183765d01fa4fd68040843c4386"
+    }
+  ]
+}

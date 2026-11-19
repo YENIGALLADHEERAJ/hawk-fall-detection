@@ -1,0 +1,25 @@
+{
+  "run_id": "20261028T144937925673",
+  "note": "Hashes captured at report generation, not a pre-inference source snapshot. Default decisions unchanged; optional experiments added after baseline process imported its modules. Baseline metrics preserve actual configuration. Final reserve hash covers metadata only.",
+  "sha256": {
+    "data\\models\\yolox.onnx": "c5c2d13e59ae883e6af3b45daea64af4833a4951c92d116ec270d9ddbe998063",
+    "vision\\diagnostics.py": "107b8b27d7702a68c842f0ec23170d828dbd0d02182d5e199f6802ec38c947f3",
+    "vision\\evidence.py": "9a5b5aca36aa612166764393156b147b112fa8af2590eebdd715d72dacddb8a9",
+    "vision\\pipeline.py": "861f62937f149c13cc583dfac72246468839c2f4d50a0ac9a764a962e9e1f262",
+    "vision\\policy.py": "b0c0faefc119df29d2fcc4878fe936d7ef46c3a66359d7e9a7d2926ef2683ee5",
+    "vision\\run.py": "e18299762ba2639f5c77524e678112b2de42aca341acd4897dff5abc9ae39e53",
+    "vision\\schemas.py": "58227ca0f8c410e8119bbe977bf3ddcd8978d51e4aba6ac2560d4d947d97ee06",
+    "vision\\source.py": "3bf3505aa163c54745afe9e99b1a0aa524abea428baced821613c6fb0c7a1fea",
+    "vision\\telemetry.py": "cbbd83b6dfb7095a3851b59dd18ee90454136b2472c5670f117467a997272d93",
+    "vision\\temporal.py": "1bd4ec973a62ac41d4686187941f3fe9794c64acd76cb244bd07d5ab762263d3",
+    "vision\\temporal_v2.py": "205cd0c2e8c0dadc0f8cd75dc9d3f8b088e4f6bdac32dddf171ca6777798c102",
+    "vision\\tools.py": "c35ea717c9402ff23326775f94421eed0b3de97d8796bec211b9e699979f287f",
+    "vision\\__init__.py": "3da709a7e85e7d902f5cb444fa27d4cbdebb2be80ae5e70849b98c4ff3fe4d93",
+    "vision\\detection\\__init__.py": "7d157c689d8899244c00ff2ba4c3e5d0dd2ffd0ce857f62eba40ba1afb457a70",
+    "vision\\motion\\__init__.py": "e66bd8e25d498cbdc7ee5a52aa183475727b1b2dd598cdfed9566044e762d3f5",
+    "vision\\tracking\\__init__.py": "93d8f37f71e5ee16ecc570a1c802cd381f7217cacd53c9af0152d85bcc1addad",
+    "datasets\\phase1c\\annotations.json": "4b5afcf9281031c07062902e14c38b6c76a31c28e5c05a5c9cd5ffe9caea5d11",
+    "datasets\\phase1c\\validation.json": "686647bf290ac483da86ab552594be7613a84084c237f7d0744edf171b3affb1",
+    "datasets\\phase1c\\final-reserve.json": "686c246bee57bcb4901a437bec0f5792066f17199c017dfbd554e823eba433d2"
+  }
+}

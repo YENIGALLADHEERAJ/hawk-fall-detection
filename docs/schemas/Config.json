@@ -1,0 +1,191 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "rotation_all_views": {
+      "default": false,
+      "title": "Rotation All Views",
+      "type": "boolean"
+    },
+    "improved_tracking": {
+      "default": true,
+      "title": "Improved Tracking",
+      "type": "boolean"
+    },
+    "improved_temporal": {
+      "default": true,
+      "title": "Improved Temporal",
+      "type": "boolean"
+    },
+    "continuation_threshold": {
+      "anyOf": [
+        {
+          "maximum": 1,
+          "minimum": 0,
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Continuation Threshold"
+    },
+    "track_hold_seconds": {
+      "default": 1.5,
+      "exclusiveMinimum": 0,
+      "maximum": 2,
+      "title": "Track Hold Seconds",
+      "type": "number"
+    },
+    "prediction_horizon_seconds": {
+      "default": 0.25,
+      "exclusiveMinimum": 0,
+      "maximum": 0.5,
+      "title": "Prediction Horizon Seconds",
+      "type": "number"
+    },
+    "minimum_drop_heights": {
+      "default": 0.18,
+      "exclusiveMinimum": 0,
+      "maximum": 1,
+      "title": "Minimum Drop Heights",
+      "type": "number"
+    },
+    "minimum_average_descent": {
+      "default": 0.15,
+      "exclusiveMinimum": 0,
+      "maximum": 2,
+      "title": "Minimum Average Descent",
+      "type": "number"
+    },
+    "maximum_ground_height_ratio": {
+      "default": 0.75,
+      "exclusiveMaximum": 1,
+      "exclusiveMinimum": 0,
+      "title": "Maximum Ground Height Ratio",
+      "type": "number"
+    },
+    "detector_size": {
+      "default": 640,
+      "enum": [
+        320,
+        416,
+        640
+      ],
+      "title": "Detector Size",
+      "type": "integer"
+    },
+    "rotation_fallback": {
+      "default": true,
+      "title": "Rotation Fallback",
+      "type": "boolean"
+    },
+    "sample_fps": {
+      "default": 5,
+      "maximum": 30,
+      "minimum": 1,
+      "title": "Sample Fps",
+      "type": "number"
+    },
+    "max_seconds": {
+      "default": 60,
+      "exclusiveMinimum": 0,
+      "maximum": 600,
+      "title": "Max Seconds",
+      "type": "number"
+    },
+    "max_width": {
+      "default": 640,
+      "maximum": 1280,
+      "minimum": 160,
+      "title": "Max Width",
+      "type": "integer"
+    },
+    "detector_threshold": {
+      "default": 0.3,
+      "maximum": 1,
+      "minimum": 0,
+      "title": "Detector Threshold",
+      "type": "number"
+    },
+    "horizontal_ratio": {
+      "default": 1.15,
+      "exclusiveMinimum": 1,
+      "title": "Horizontal Ratio",
+      "type": "number"
+    },
+    "upright_ratio": {
+      "default": 0.8,
+      "exclusiveMaximum": 1,
+      "exclusiveMinimum": 0,
+      "title": "Upright Ratio",
+      "type": "number"
+    },
+    "descent_heights_s": {
+      "default": 0.25,
+      "exclusiveMinimum": 0,
+      "title": "Descent Heights S",
+      "type": "number"
+    },
+    "transition_seconds": {
+      "default": 1.5,
+      "exclusiveMinimum": 0,
+      "title": "Transition Seconds",
+      "type": "number"
+    },
+    "stationary_heights_s": {
+      "default": 0.12,
+      "exclusiveMinimum": 0,
+      "title": "Stationary Heights S",
+      "type": "number"
+    },
+    "stationary_flow_px_s": {
+      "default": 6,
+      "exclusiveMinimum": 0,
+      "title": "Stationary Flow Px S",
+      "type": "number"
+    },
+    "immobile_seconds": {
+      "default": 1.5,
+      "exclusiveMinimum": 0,
+      "title": "Immobile Seconds",
+      "type": "number"
+    },
+    "review_seconds": {
+      "default": 2.5,
+      "exclusiveMinimum": 0,
+      "title": "Review Seconds",
+      "type": "number"
+    },
+    "max_gap_seconds": {
+      "default": 0.5,
+      "exclusiveMinimum": 0,
+      "maximum": 2,
+      "title": "Max Gap Seconds",
+      "type": "number"
+    },
+    "history_seconds": {
+      "default": 5,
+      "exclusiveMinimum": 0,
+      "maximum": 10,
+      "title": "History Seconds",
+      "type": "number"
+    },
+    "max_evidence_packets": {
+      "default": 10,
+      "maximum": 100,
+      "minimum": 1,
+      "title": "Max Evidence Packets",
+      "type": "integer"
+    },
+    "threads": {
+      "default": 2,
+      "maximum": 8,
+      "minimum": 1,
+      "title": "Threads",
+      "type": "integer"
+    }
+  },
+  "title": "Config",
+  "type": "object"
+}

@@ -1,0 +1,39 @@
+﻿benchmark 640 5
+benchmark 640 10
+benchmark 640 15
+benchmark 640 30
+benchmark 320 5
+benchmark 320 10
+benchmark 320 15
+benchmark 320 30
+benchmark 640 5
+benchmark 320 5
+benchmark 320 10
+benchmark 320 15
+benchmark 320 30
+benchmark 640 5
+clip_00 candidate True review False
+clip_01 candidate False review False
+clip_02 candidate True review False
+clip_03 candidate True review False
+clip_04 candidate True review False
+clip_05 candidate False review False
+clip_06 candidate False review False
+clip_07 candidate False review False
+clip_08 candidate False review False
+clip_09 candidate False review False
+clip_10 candidate False review False
+clip_11 candidate False review False
+gmdcsa_Fall_01 candidate True review False
+gmdcsa_Fall_02 candidate True review False
+gmdcsa_Fall_03 candidate True review False
+gmdcsa_Fall_07 candidate True review False
+gmdcsa_Fall_11 candidate True review False
+gmdcsa_Fall_12 candidate True review False
+gmdcsa_ADL_01 candidate False review False
+gmdcsa_ADL_02 candidate False review False
+gmdcsa_ADL_03 candidate False review False
+gmdcsa_ADL_04 candidate False review False
+gmdcsa_ADL_08 candidate False review False
+gmdcsa_ADL_11 candidate False review False
+gmdcsa_ADL_13 candidate False review False

@@ -1,0 +1,2082 @@
+[
+  {
+    "frame": 26,
+    "timestamp": 5.2,
+    "track_id": 18,
+    "detection_id": 4,
+    "bbox": {
+      "x": 489.477819442749,
+      "y": 125.19400978088379,
+      "w": 39.59760665893555,
+      "h": 102.38218688964844
+    },
+    "previous_association": {
+      "time": 5.0,
+      "bbox": {
+        "x": 492.2355766296387,
+        "y": 116.2235221862793,
+        "w": 23.576047897338867,
+        "h": 112.58560180664062
+      },
+      "track_id": 18
+    },
+    "track_state": "NORMAL",
+    "fall_history": false,
+    "recovery_history": false,
+    "incident_state": "none (MOT has no incident packets)",
+    "association_score": 0.1893341000266811,
+    "association_reason": "reconstructed legacy gated geometry; no validated continuation token",
+    "reference_identity": 23,
+    "gap": 0.20000000000000018,
+    "overlap": 0.5620410796394268,
+    "predicted_distance": 0.05794642391850915,
+    "failure": "reference_identity_track_id_change",
+    "old_track_id": 1
+  },
+  {
+    "frame": 27,
+    "timestamp": 5.4,
+    "track_id": 17,
+    "detection_id": 5,
+    "bbox": {
+      "x": 70.29147148132324,
+      "y": 129.43074917793274,
+      "w": 69.93362426757812,
+      "h": 163.6905975341797
+    },
+    "previous_association": {
+      "time": 5.2,
+      "bbox": {
+        "x": 63.17139434814453,
+        "y": 99.86408138275146,
+        "w": 93.1113510131836,
+        "h": 197.14083862304688
+      },
+      "track_id": 17
+    },
+    "track_state": "NORMAL",
+    "fall_history": false,
+    "recovery_history": false,
+    "incident_state": "none (MOT has no incident packets)",
+    "association_score": 0.2836422005739271,
+    "association_reason": "reconstructed legacy gated geometry; no validated continuation token",
+    "reference_identity": 10,
+    "gap": 0.20000000000000018,
+    "overlap": 0.6236350878217589,
+    "predicted_distance": 0.17073272692045477,
+    "failure": "same_track_id_different_reference_owner",
+    "old_reference_identity": 8
+  },
+  {
+    "frame": 27,
+    "timestamp": 5.4,
+    "track_id": 17,
+    "detection_id": 5,
+    "bbox": {
+      "x": 70.29147148132324,
+      "y": 129.43074917793274,
+      "w": 69.93362426757812,
+      "h": 163.6905975341797
+    },
+    "previous_association": {
+      "time": 5.2,
+      "bbox": {
+        "x": 63.17139434814453,
+        "y": 99.86408138275146,
+        "w": 93.1113510131836,
+        "h": 197.14083862304688
+      },
+      "track_id": 17
+    },
+    "track_state": "NORMAL",
+    "fall_history": false,
+    "recovery_history": false,
+    "incident_state": "none (MOT has no incident packets)",
+    "association_score": 0.2836422005739271,
+    "association_reason": "reconstructed legacy gated geometry; no validated continuation token",
+    "reference_identity": 10,
+    "gap": 0.20000000000000018,
+    "overlap": 0.6236350878217589,
+    "predicted_distance": 0.17073272692045477,
+    "failure": "reference_identity_track_id_change",
+    "old_track_id": 3
+  },
+  {
+    "frame": 27,
+    "timestamp": 5.4,
+    "track_id": 11,
+    "detection_id": 3,
+    "bbox": {
+      "x": 120.34476375579834,
+      "y": 106.66358852386475,
+      "w": 80.61817932128906,
+      "h": 186.2188262939453
+    },
+    "previous_association": {
+      "time": 5.0,
+      "bbox": {
+        "x": 100.13656616210938,
+        "y": 138.5823621749878,
+        "w": 43.55890655517578,
+        "h": 109.97251892089844
+      },
+      "track_id": 11
+    },
+    "track_state": "NORMAL",
+    "fall_history": false,
+    "recovery_history": false,
+    "incident_state": "none (MOT has no incident packets)",
+    "association_score": 0.48945019632619846,
+    "association_reason": "reconstructed legacy gated geometry; no validated continuation token",
+    "reference_identity": 8,
+    "gap": 0.40000000000000036,
+    "overlap": 0.14899569965563939,
+    "predicted_distance": 0.23414890622289028,
+    "failure": "same_track_id_different_reference_owner",
+    "old_reference_identity": 7
+  },
+  {
+    "frame": 27,
+    "timestamp": 5.4,
+    "track_id": 11,
+    "detection_id": 3,
+    "bbox": {
+      "x": 120.34476375579834,
+      "y": 106.66358852386475,
+      "w": 80.61817932128906,
+      "h": 186.2188262939453
+    },
+    "previous_association": {
+      "time": 5.0,
+      "bbox": {
+        "x": 100.13656616210938,
+        "y": 138.5823621749878,
+        "w": 43.55890655517578,
+        "h": 109.97251892089844
+      },
+      "track_id": 11
+    },
+    "track_state": "NORMAL",
+    "fall_history": false,
+    "recovery_history": false,
+    "incident_state": "none (MOT has no incident packets)",
+    "association_score": 0.48945019632619846,
+    "association_reason": "reconstructed legacy gated geometry; no validated continuation token",
+    "reference_identity": 8,
+    "gap": 0.40000000000000036,
+    "overlap": 0.14899569965563939,
+    "predicted_distance": 0.23414890622289028,
+    "failure": "reference_identity_track_id_change",
+    "old_track_id": 17
+  },
+  {
+    "frame": 28,
+    "timestamp": 5.6,
+    "track_id": 17,
+    "detection_id": 4,
+    "bbox": {
+      "x": 119.04148006439209,
+      "y": 138.42894840240479,
+      "w": 49.2894287109375,
+      "h": 148.99005126953125
+    },
+    "previous_association": {
+      "time": 5.4,
+      "bbox": {
+        "x": 70.29147148132324,
+        "y": 129.43074917793274,
+        "w": 69.93362426757812,
+        "h": 163.6905975341797
+      },
+      "track_id": 17
+    },
+    "track_state": "NORMAL",
+    "fall_history": false,
+    "recovery_history": false,
+    "incident_state": "none (MOT has no incident packets)",
+    "association_score": 0.5102753128558173,
+    "association_reason": "reconstructed legacy gated geometry; no validated continuation token",
+    "reference_identity": 7,
+    "gap": 0.1999999999999993,
+    "overlap": 0.2018647522757526,
+    "predicted_distance": 0.27083473853854306,
+    "failure": "same_track_id_different_reference_owner",
+    "old_reference_identity": 10
+  },
+  {
+    "frame": 28,
+    "timestamp": 5.6,
+    "track_id": 17,
+    "detection_id": 4,
+    "bbox": {
+      "x": 119.04148006439209,
+      "y": 138.42894840240479,
+      "w": 49.2894287109375,
+      "h": 148.99005126953125
+    },
+    "previous_association": {
+      "time": 5.4,
+      "bbox": {
+        "x": 70.29147148132324,
+        "y": 129.43074917793274,
+        "w": 69.93362426757812,
+        "h": 163.6905975341797
+      },
+      "track_id": 17
+    },
+    "track_state": "NORMAL",
+    "fall_history": false,
+    "recovery_history": false,
+    "incident_state": "none (MOT has no incident packets)",
+    "association_score": 0.5102753128558173,
+    "association_reason": "reconstructed legacy gated geometry; no validated continuation token",
+    "reference_identity": 7,
+    "gap": 0.1999999999999993,
+    "overlap": 0.2018647522757526,
+    "predicted_distance": 0.27083473853854306,
+    "failure": "reference_identity_track_id_change",
+    "old_track_id": 11
+  },
+  {
+    "frame": 28,
+    "timestamp": 5.6,
+    "track_id": 19,
+    "detection_id": 5,
+    "bbox": {
+      "x": 462.8267631530762,
+      "y": 154.64239025115967,
+      "w": 26.599382400512695,
+      "h": 69.77600860595703
+    },
+    "previous_association": null,
+    "track_state": "NORMAL",
+    "fall_history": false,
+    "recovery_history": false,
+    "incident_state": "none (MOT has no incident packets)",
+    "association_score": null,
+    "association_reason": "new_track",
+    "reference_identity": 22,
+    "failure": "reference_identity_track_id_change",
+    "old_track_id": 5
+  },
+  {
+    "frame": 29,
+    "timestamp": 5.8,
+    "track_id": 19,
+    "detection_id": 5,
+    "bbox": {
+      "x": 461.78751373291016,
+      "y": 144.3045530319214,
+      "w": 27.517478942871094,
+      "h": 81.07101440429688
+    },
+    "previous_association": {
+      "time": 5.6,
+      "bbox": {
+        "x": 462.8267631530762,
+        "y": 154.64239025115967,
+        "w": 26.599382400512695,
+        "h": 69.77600860595703
+      },
+      "track_id": 19
+    },
+    "track_state": "NORMAL",
+    "fall_history": false,
+    "recovery_history": false,
+    "incident_state": "none (MOT has no incident packets)",
+    "association_score": 0.11078176908345927,
+    "association_reason": "reconstructed legacy gated geometry; no validated continuation token",
+    "reference_identity": 18,
+    "gap": 0.20000000000000018,
+    "overlap": 0.8250461241323896,
+    "predicted_distance": 0.058295606323176166,
+    "failure": "same_track_id_different_reference_owner",
+    "old_reference_identity": 22
+  },
+  {
+    "frame": 29,
+    "timestamp": 5.8,
+    "track_id": 11,
+    "detection_id": 4,
+    "bbox": {
+      "x": 144.01379299163818,
+      "y": 124.89706611633301,
+      "w": 57.67219543457031,
+      "h": 156.74208068847656
+    },
+    "previous_association": {
+      "time": 5.6,
+      "bbox": {
+        "x": 143.2650580406189,
+        "y": 106.73896884918213,
+        "w": 79.56660461425781,
+        "h": 180.0973663330078
+      },
+      "track_id": 11
+    },
+    "track_state": "NORMAL",
+    "fall_history": false,
+    "recovery_history": false,
+    "incident_state": "none (MOT has no incident packets)",
+    "association_score": 0.2992022956791065,
+    "association_reason": "reconstructed legacy gated geometry; no validated continuation token",
+    "reference_identity": 1,
+    "gap": 0.20000000000000018,
+    "overlap": 0.6308322741404678,
+    "predicted_distance": 0.18845197792124682,
+    "failure": "same_track_id_different_reference_owner",
+    "old_reference_identity": 8
+  },
+  {
+    "frame": 29,
+    "timestamp": 5.8,
+    "track_id": 11,
+    "detection_id": 4,
+    "bbox": {
+      "x": 144.01379299163818,
+      "y": 124.89706611633301,
+      "w": 57.67219543457031,
+      "h": 156.74208068847656
+    },
+    "previous_association": {
+      "time": 5.6,
+      "bbox": {
+        "x": 143.2650580406189,
+        "y": 106.73896884918213,
+        "w": 79.56660461425781,
+        "h": 180.0973663330078
+      },
+      "track_id": 11
+    },
+    "track_state": "NORMAL",
+    "fall_history": false,
+    "recovery_history": false,
+    "incident_state": "none (MOT has no incident packets)",
+    "association_score": 0.2992022956791065,
+    "association_reason": "reconstructed legacy gated geometry; no validated continuation token",
+    "reference_identity": 1,
+    "gap": 0.20000000000000018,
+    "overlap": 0.6308322741404678,
+    "predicted_distance": 0.18845197792124682,
+    "failure": "reference_identity_track_id_change",
+    "old_track_id": 4
+  },
+  {
+    "frame": 29,
+    "timestamp": 5.8,
+    "track_id": 20,
+    "detection_id": 6,
+    "bbox": {
+      "x": 445.6204876899719,
+      "y": 183.15505504608154,
+      "w": 19.063112258911133,
+      "h": 44.36845016479492
+    },
+    "previous_association": null,
+    "track_state": "NORMAL",
+    "fall_history": false,
+    "recovery_history": false,
+    "incident_state": "none (MOT has no incident packets)",
+    "association_score": null,
+    "association_reason": "new_track",
+    "reference_identity": 21,
+    "failure": "reference_identity_track_id_change",
+    "old_track_id": 6
+  },
+  {
+    "frame": 31,
+    "timestamp": 6.2,
+    "track_id": 19,
+    "detection_id": 7,
+    "bbox": {
+      "x": 469.89288330078125,
+      "y": 153.62199211120605,
+      "w": 23.84222412109375,
+      "h": 72.80211639404297
+    },
+    "previous_association": {
+      "time": 6.0,
+      "bbox": {
+        "x": 469.46508026123047,
+        "y": 142.01753425598145,
+        "w": 24.37725830078125,
+        "h": 84.40872192382812
+      },
+      "track_id": 19
+    },
+    "track_state": "NORMAL",
+    "fall_history": false,
+    "recovery_history": false,
+    "incident_state": "none (MOT has no incident packets)",
+    "association_score": 0.15060223340635093,
+    "association_reason": "reconstructed legacy gated geometry; no validated continuation token",
+    "reference_identity": 22,
+    "gap": 0.20000000000000018,
+    "overlap": 0.843565067751783,
+    "predicted_distance": 0.10367175373188581,
+    "failure": "same_track_id_different_reference_owner",
+    "old_reference_identity": 18
+  },
+  {
+    "frame": 31,
+    "timestamp": 6.2,
+    "track_id": 4,
+    "detection_id": 6,
+    "bbox": {
+      "x": 254.37656593322754,
+      "y": 118.55865573883057,
+      "w": 39.762367248535156,
+      "h": 156.8703155517578
+    },
+    "previous_association": {
+      "time": 6.0,
+      "bbox": {
+        "x": 237.46287775039673,
+        "y": 106.2543888092041,
+        "w": 52.17555618286133,
+        "h": 171.05006408691406
+      },
+      "track_id": 4
+    },
+    "track_state": "NORMAL",
+    "fall_history": false,
+    "recovery_history": false,
+    "incident_state": "none (MOT has no incident packets)",
+    "association_score": 0.2213391164142564,
+    "association_reason": "reconstructed legacy gated geometry; no validated continuation token",
+    "reference_identity": 8,
+    "gap": 0.20000000000000018,
+    "overlap": 0.5743697040264456,
+    "predicted_distance": 0.0936500276221901,
+    "failure": "same_track_id_different_reference_owner",
+    "old_reference_identity": 1
+  },
+  {
+    "frame": 31,
+    "timestamp": 6.2,
+    "track_id": 4,
+    "detection_id": 6,
+    "bbox": {
+      "x": 254.37656593322754,
+      "y": 118.55865573883057,
+      "w": 39.762367248535156,
+      "h": 156.8703155517578
+    },
+    "previous_association": {
+      "time": 6.0,
+      "bbox": {
+        "x": 237.46287775039673,
+        "y": 106.2543888092041,
+        "w": 52.17555618286133,
+        "h": 171.05006408691406
+      },
+      "track_id": 4
+    },
+    "track_state": "NORMAL",
+    "fall_history": false,
+    "recovery_history": false,
+    "incident_state": "none (MOT has no incident packets)",
+    "association_score": 0.2213391164142564,
+    "association_reason": "reconstructed legacy gated geometry; no validated continuation token",
+    "reference_identity": 8,
+    "gap": 0.20000000000000018,
+    "overlap": 0.5743697040264456,
+    "predicted_distance": 0.0936500276221901,
+    "failure": "reference_identity_track_id_change",
+    "old_track_id": 11
+  },
+  {
+    "frame": 31,
+    "timestamp": 6.2,
+    "track_id": 22,
+    "detection_id": 4,
+    "bbox": {
+      "x": 208.93813514709473,
+      "y": 129.2292537689209,
+      "w": 50.52406311035156,
+      "h": 142.9235076904297
+    },
+    "previous_association": null,
+    "track_state": "NORMAL",
+    "fall_history": false,
+    "recovery_history": false,
+    "incident_state": "none (MOT has no incident packets)",
+    "association_score": null,
+    "association_reason": "new_track",
+    "reference_identity": 10,
+    "failure": "reference_identity_track_id_change",
+    "old_track_id": 17
+  },
+  {
+    "frame": 31,
+    "timestamp": 6.2,
+    "track_id": 23,
+    "detection_id": 9,
+    "bbox": {
+      "x": 489.0490357875824,
+      "y": 143.93104648590088,
+      "w": 21.63785171508789,
+      "h": 73.02787780761719
+    },
+    "previous_association": null,
+    "track_state": "NORMAL",
+    "fall_history": false,
+    "recovery_history": false,
+    "incident_state": "none (MOT has no incident packets)",
+    "association_score": null,
+    "association_reason": "new_track",
+    "reference_identity": 18,
+    "failure": "reference_identity_track_id_change",
+    "old_track_id": 19
+  },
+  {
+    "frame": 32,
+    "timestamp": 6.4,
+    "track_id": 21,
+    "detection_id": 1,
+    "bbox": {
+      "x": 1.8581876754760742,
+      "y": 26.359396934509277,
+      "w": 154.090087890625,
+      "h": 331.6708984375
+    },
+    "previous_association": {
+      "time": 6.2,
+      "bbox": {
+        "x": 0.0,
+        "y": 68.61467933654785,
+        "w": 103.3485107421875,
+        "h": 260.9322509765625
+      },
+      "track_id": 21
+    },
+    "track_state": "NORMAL",
+    "fall_history": false,
+    "recovery_history": false,
+    "incident_state": "none (MOT has no incident packets)",
+    "association_score": 0.19798760257831202,
+    "association_reason": "reconstructed legacy gated geometry; no validated continuation token",
+    "reference_identity": 19,
+    "gap": 0.20000000000000018,
+    "overlap": 0.5132979565402072,
+    "predicted_distance": 0.051976989540374156,
+    "failure": "same_track_id_different_reference_owner",
+    "old_reference_identity": 29
+  },
+  {
+    "frame": 32,
+    "timestamp": 6.4,
+    "track_id": 21,
+    "detection_id": 1,
+    "bbox": {
+      "x": 1.8581876754760742,
+      "y": 26.359396934509277,
+      "w": 154.090087890625,
+      "h": 331.6708984375
+    },
+    "previous_association": {
+      "time": 6.2,
+      "bbox": {
+        "x": 0.0,
+        "y": 68.61467933654785,
+        "w": 103.3485107421875,
+        "h": 260.9322509765625
+      },
+      "track_id": 21
+    },
+    "track_state": "NORMAL",
+    "fall_history": false,
+    "recovery_history": false,
+    "incident_state": "none (MOT has no incident packets)",
+    "association_score": 0.19798760257831202,
+    "association_reason": "reconstructed legacy gated geometry; no validated continuation token",
+    "reference_identity": 19,
+    "gap": 0.20000000000000018,
+    "overlap": 0.5132979565402072,
+    "predicted_distance": 0.051976989540374156,
+    "failure": "reference_identity_track_id_change",
+    "old_track_id": 2
+  },
+  {
+    "frame": 32,
+    "timestamp": 6.4,
+    "track_id": 22,
+    "detection_id": 4,
+    "bbox": {
+      "x": 162.77059745788574,
+      "y": 130.19216346740723,
+      "w": 40.36769104003906,
+      "h": 139.50204467773438
+    },
+    "previous_association": {
+      "time": 6.2,
+      "bbox": {
+        "x": 208.93813514709473,
+        "y": 129.2292537689209,
+        "w": 50.52406311035156,
+        "h": 142.9235076904297
+      },
+      "track_id": 22
+    },
+    "track_state": "NORMAL",
+    "fall_history": false,
+    "recovery_history": false,
+    "incident_state": "none (MOT has no incident packets)",
+    "association_score": 0.6585916739140075,
+    "association_reason": "reconstructed legacy gated geometry; no validated continuation token",
+    "reference_identity": 7,
+    "gap": 0.20000000000000018,
+    "overlap": 0.0,
+    "predicted_distance": 0.35859167391400754,
+    "failure": "same_track_id_different_reference_owner",
+    "old_reference_identity": 10
+  },
+  {
+    "frame": 32,
+    "timestamp": 6.4,
+    "track_id": 22,
+    "detection_id": 4,
+    "bbox": {
+      "x": 162.77059745788574,
+      "y": 130.19216346740723,
+      "w": 40.36769104003906,
+      "h": 139.50204467773438
+    },
+    "previous_association": {
+      "time": 6.2,
+      "bbox": {
+        "x": 208.93813514709473,
+        "y": 129.2292537689209,
+        "w": 50.52406311035156,
+        "h": 142.9235076904297
+      },
+      "track_id": 22
+    },
+    "track_state": "NORMAL",
+    "fall_history": false,
+    "recovery_history": false,
+    "incident_state": "none (MOT has no incident packets)",
+    "association_score": 0.6585916739140075,
+    "association_reason": "reconstructed legacy gated geometry; no validated continuation token",
+    "reference_identity": 7,
+    "gap": 0.20000000000000018,
+    "overlap": 0.0,
+    "predicted_distance": 0.35859167391400754,
+    "failure": "reference_identity_track_id_change",
+    "old_track_id": 17
+  },
+  {
+    "frame": 33,
+    "timestamp": 6.6,
+    "track_id": 2,
+    "detection_id": 1,
+    "bbox": {
+      "x": 84.2971658706665,
+      "y": 75.31841921806335,
+      "w": 111.51602172851562,
+      "h": 240.75967407226562
+    },
+    "previous_association": {
+      "time": 6.2,
+      "bbox": {
+        "x": 83.94176864624023,
+        "y": 35.33169937133789,
+        "w": 151.01583862304688,
+        "h": 321.98358154296875
+      },
+      "track_id": 2
+    },
+    "track_state": "NORMAL",
+    "fall_history": false,
+    "recovery_history": false,
+    "incident_state": "none (MOT has no incident packets)",
+    "association_score": 0.2710480267337701,
+    "association_reason": "reconstructed legacy gated geometry; no validated continuation token",
+    "reference_identity": 29,
+    "gap": 0.39999999999999947,
+    "overlap": 0.5521598054578067,
+    "predicted_distance": 0.13669596837111211,
+    "failure": "same_track_id_different_reference_owner",
+    "old_reference_identity": 19
+  },
+  {
+    "frame": 33,
+    "timestamp": 6.6,
+    "track_id": 2,
+    "detection_id": 1,
+    "bbox": {
+      "x": 84.2971658706665,
+      "y": 75.31841921806335,
+      "w": 111.51602172851562,
+      "h": 240.75967407226562
+    },
+    "previous_association": {
+      "time": 6.2,
+      "bbox": {
+        "x": 83.94176864624023,
+        "y": 35.33169937133789,
+        "w": 151.01583862304688,
+        "h": 321.98358154296875
+      },
+      "track_id": 2
+    },
+    "track_state": "NORMAL",
+    "fall_history": false,
+    "recovery_history": false,
+    "incident_state": "none (MOT has no incident packets)",
+    "association_score": 0.2710480267337701,
+    "association_reason": "reconstructed legacy gated geometry; no validated continuation token",
+    "reference_identity": 29,
+    "gap": 0.39999999999999947,
+    "overlap": 0.5521598054578067,
+    "predicted_distance": 0.13669596837111211,
+    "failure": "reference_identity_track_id_change",
+    "old_track_id": 21
+  },
+  {
+    "frame": 33,
+    "timestamp": 6.6,
+    "track_id": 3,
+    "detection_id": 2,
+    "bbox": {
+      "x": 0.17968368530273438,
+      "y": 13.595863342285156,
+      "w": 78.87263488769531,
+      "h": 343.2820739746094
+    },
+    "previous_association": {
+      "time": 5.2,
+      "bbox": {
+        "x": 45.95173263549805,
+        "y": 127.72265434265137,
+        "w": 57.79108428955078,
+        "h": 168.87442016601562
+      },
+      "track_id": 3
+    },
+    "track_state": "NORMAL",
+    "fall_history": false,
+    "recovery_history": false,
+    "incident_state": "none (MOT has no incident packets)",
+    "association_score": 0.4006788976922993,
+    "association_reason": "reconstructed legacy gated geometry; no validated continuation token",
+    "reference_identity": 19,
+    "gap": 1.3999999999999995,
+    "overlap": 0.17890268772268988,
+    "predicted_distance": 0.1543497040091063,
+    "failure": "same_track_id_different_reference_owner",
+    "old_reference_identity": 10
+  },
+  {
+    "frame": 33,
+    "timestamp": 6.6,
+    "track_id": 3,
+    "detection_id": 2,
+    "bbox": {
+      "x": 0.17968368530273438,
+      "y": 13.595863342285156,
+      "w": 78.87263488769531,
+      "h": 343.2820739746094
+    },
+    "previous_association": {
+      "time": 5.2,
+      "bbox": {
+        "x": 45.95173263549805,
+        "y": 127.72265434265137,
+        "w": 57.79108428955078,
+        "h": 168.87442016601562
+      },
+      "track_id": 3
+    },
+    "track_state": "NORMAL",
+    "fall_history": false,
+    "recovery_history": false,
+    "incident_state": "none (MOT has no incident packets)",
+    "association_score": 0.4006788976922993,
+    "association_reason": "reconstructed legacy gated geometry; no validated continuation token",
+    "reference_identity": 19,
+    "gap": 1.3999999999999995,
+    "overlap": 0.17890268772268988,
+    "predicted_distance": 0.1543497040091063,
+    "failure": "reference_identity_track_id_change",
+    "old_track_id": 21
+  },
+  {
+    "frame": 34,
+    "timestamp": 6.8,
+    "track_id": 26,
+    "detection_id": 4,
+    "bbox": {
+      "x": 283.9507751464844,
+      "y": 136.32857131958008,
+      "w": 53.29790115356445,
+      "h": 126.82853698730469
+    },
+    "previous_association": null,
+    "track_state": "NORMAL",
+    "fall_history": false,
+    "recovery_history": false,
+    "incident_state": "none (MOT has no incident packets)",
+    "association_score": null,
+    "association_reason": "new_track",
+    "reference_identity": 10,
+    "failure": "reference_identity_track_id_change",
+    "old_track_id": 22
+  },
+  {
+    "frame": 35,
+    "timestamp": 7.0,
+    "track_id": 11,
+    "detection_id": 6,
+    "bbox": {
+      "x": 167.2673454284668,
+      "y": 87.72076320648193,
+      "w": 95.80256652832031,
+      "h": 214.1147918701172
+    },
+    "previous_association": {
+      "time": 6.4,
+      "bbox": {
+        "x": 190.66082572937012,
+        "y": 126.26734781265259,
+        "w": 52.2425537109375,
+        "h": 136.7093505859375
+      },
+      "track_id": 11
+    },
+    "track_state": "NORMAL",
+    "fall_history": false,
+    "recovery_history": false,
+    "incident_state": "none (MOT has no incident packets)",
+    "association_score": 0.26759628158445226,
+    "association_reason": "reconstructed legacy gated geometry; no validated continuation token",
+    "reference_identity": 29,
+    "gap": 0.5999999999999996,
+    "overlap": 0.34817597723691124,
+    "predicted_distance": 0.07204907475552567,
+    "failure": "same_track_id_different_reference_owner",
+    "old_reference_identity": 1
+  },
+  {
+    "frame": 35,
+    "timestamp": 7.0,
+    "track_id": 11,
+    "detection_id": 6,
+    "bbox": {
+      "x": 167.2673454284668,
+      "y": 87.72076320648193,
+      "w": 95.80256652832031,
+      "h": 214.1147918701172
+    },
+    "previous_association": {
+      "time": 6.4,
+      "bbox": {
+        "x": 190.66082572937012,
+        "y": 126.26734781265259,
+        "w": 52.2425537109375,
+        "h": 136.7093505859375
+      },
+      "track_id": 11
+    },
+    "track_state": "NORMAL",
+    "fall_history": false,
+    "recovery_history": false,
+    "incident_state": "none (MOT has no incident packets)",
+    "association_score": 0.26759628158445226,
+    "association_reason": "reconstructed legacy gated geometry; no validated continuation token",
+    "reference_identity": 29,
+    "gap": 0.5999999999999996,
+    "overlap": 0.34817597723691124,
+    "predicted_distance": 0.07204907475552567,
+    "failure": "reference_identity_track_id_change",
+    "old_track_id": 2
+  },
+  {
+    "frame": 35,
+    "timestamp": 7.0,
+    "track_id": 27,
+    "detection_id": 1,
+    "bbox": {
+      "x": 226.58404159545898,
+      "y": 124.85019207000732,
+      "w": 68.51520538330078,
+      "h": 141.1109619140625
+    },
+    "previous_association": null,
+    "track_state": "NORMAL",
+    "fall_history": false,
+    "recovery_history": false,
+    "incident_state": "none (MOT has no incident packets)",
+    "association_score": null,
+    "association_reason": "new_track",
+    "reference_identity": 1,
+    "failure": "reference_identity_track_id_change",
+    "old_track_id": 11
+  },
+  {
+    "frame": 37,
+    "timestamp": 7.4,
+    "track_id": 27,
+    "detection_id": 3,
+    "bbox": {
+      "x": 240.5150260925293,
+      "y": 88.96220397949219,
+      "w": 77.17698669433594,
+      "h": 200.2183380126953
+    },
+    "previous_association": {
+      "time": 7.2,
+      "bbox": {
+        "x": 253.31886625289917,
+        "y": 121.40608215332031,
+        "w": 41.030174255371094,
+        "h": 140.87705993652344
+      },
+      "track_id": 27
+    },
+    "track_state": "NORMAL",
+    "fall_history": false,
+    "recovery_history": false,
+    "incident_state": "none (MOT has no incident packets)",
+    "association_score": 0.2265510237448613,
+    "association_reason": "reconstructed legacy gated geometry; no validated continuation token",
+    "reference_identity": 29,
+    "gap": 0.20000000000000018,
+    "overlap": 0.37406921727506154,
+    "predicted_distance": 0.038771788927379744,
+    "failure": "same_track_id_different_reference_owner",
+    "old_reference_identity": 1
+  },
+  {
+    "frame": 37,
+    "timestamp": 7.4,
+    "track_id": 27,
+    "detection_id": 3,
+    "bbox": {
+      "x": 240.5150260925293,
+      "y": 88.96220397949219,
+      "w": 77.17698669433594,
+      "h": 200.2183380126953
+    },
+    "previous_association": {
+      "time": 7.2,
+      "bbox": {
+        "x": 253.31886625289917,
+        "y": 121.40608215332031,
+        "w": 41.030174255371094,
+        "h": 140.87705993652344
+      },
+      "track_id": 27
+    },
+    "track_state": "NORMAL",
+    "fall_history": false,
+    "recovery_history": false,
+    "incident_state": "none (MOT has no incident packets)",
+    "association_score": 0.2265510237448613,
+    "association_reason": "reconstructed legacy gated geometry; no validated continuation token",
+    "reference_identity": 29,
+    "gap": 0.20000000000000018,
+    "overlap": 0.37406921727506154,
+    "predicted_distance": 0.038771788927379744,
+    "failure": "reference_identity_track_id_change",
+    "old_track_id": 11
+  },
+  {
+    "frame": 37,
+    "timestamp": 7.4,
+    "track_id": 21,
+    "detection_id": 7,
+    "bbox": {
+      "x": 44.39586162567139,
+      "y": 101.879807472229,
+      "w": 55.589900970458984,
+      "h": 212.0191650390625
+    },
+    "previous_association": {
+      "time": 6.6,
+      "bbox": {
+        "x": 58.68483591079712,
+        "y": 86.47024154663086,
+        "w": 51.91965866088867,
+        "h": 212.9769744873047
+      },
+      "track_id": 21
+    },
+    "track_state": "NORMAL",
+    "fall_history": false,
+    "recovery_history": false,
+    "incident_state": "none (MOT has no incident packets)",
+    "association_score": 0.2464404761884863,
+    "association_reason": "reconstructed legacy gated geometry; no validated continuation token",
+    "reference_identity": 13,
+    "gap": 0.8000000000000007,
+    "overlap": 0.5556838709063658,
+    "predicted_distance": 0.11314563746039606,
+    "failure": "same_track_id_different_reference_owner",
+    "old_reference_identity": 19
+  },
+  {
+    "frame": 37,
+    "timestamp": 7.4,
+    "track_id": 11,
+    "detection_id": 1,
+    "bbox": {
+      "x": 176.97515106201172,
+      "y": 100.52467632293701,
+      "w": 71.8027114868164,
+      "h": 186.71229553222656
+    },
+    "previous_association": {
+      "time": 7.2,
+      "bbox": {
+        "x": 183.97860145568848,
+        "y": 88.76330089569092,
+        "w": 94.40953826904297,
+        "h": 208.39356994628906
+      },
+      "track_id": 11
+    },
+    "track_state": "NORMAL",
+    "fall_history": false,
+    "recovery_history": false,
+    "incident_state": "none (MOT has no incident packets)",
+    "association_score": 0.29223084785224407,
+    "association_reason": "reconstructed legacy gated geometry; no validated continuation token",
+    "reference_identity": 11,
+    "gap": 0.20000000000000018,
+    "overlap": 0.576629277486301,
+    "predicted_distance": 0.1652196310981344,
+    "failure": "same_track_id_different_reference_owner",
+    "old_reference_identity": 29
+  },
+  {
+    "frame": 37,
+    "timestamp": 7.4,
+    "track_id": 11,
+    "detection_id": 1,
+    "bbox": {
+      "x": 176.97515106201172,
+      "y": 100.52467632293701,
+      "w": 71.8027114868164,
+      "h": 186.71229553222656
+    },
+    "previous_association": {
+      "time": 7.2,
+      "bbox": {
+        "x": 183.97860145568848,
+        "y": 88.76330089569092,
+        "w": 94.40953826904297,
+        "h": 208.39356994628906
+      },
+      "track_id": 11
+    },
+    "track_state": "NORMAL",
+    "fall_history": false,
+    "recovery_history": false,
+    "incident_state": "none (MOT has no incident packets)",
+    "association_score": 0.29223084785224407,
+    "association_reason": "reconstructed legacy gated geometry; no validated continuation token",
+    "reference_identity": 11,
+    "gap": 0.20000000000000018,
+    "overlap": 0.576629277486301,
+    "predicted_distance": 0.1652196310981344,
+    "failure": "reference_identity_track_id_change",
+    "old_track_id": 28
+  },
+  {
+    "frame": 37,
+    "timestamp": 7.4,
+    "track_id": 8,
+    "detection_id": 2,
+    "bbox": {
+      "x": 56.96138954162598,
+      "y": 104.12913465499878,
+      "w": 136.97230529785156,
+      "h": 221.9468994140625
+    },
+    "previous_association": {
+      "time": 7.2,
+      "bbox": {
+        "x": 0.13318252563476562,
+        "y": 0.0,
+        "w": 163.94912719726562,
+        "h": 355.5335292816162
+      },
+      "track_id": 8
+    },
+    "track_state": "NORMAL",
+    "fall_history": false,
+    "recovery_history": false,
+    "incident_state": "none (MOT has no incident packets)",
+    "association_score": 0.42483339905570316,
+    "association_reason": "reconstructed legacy gated geometry; no validated continuation token",
+    "reference_identity": 12,
+    "gap": 0.20000000000000018,
+    "overlap": 0.36625151084706603,
+    "predicted_distance": 0.23470885230982297,
+    "failure": "same_track_id_different_reference_owner",
+    "old_reference_identity": 20
+  },
+  {
+    "frame": 37,
+    "timestamp": 7.4,
+    "track_id": 29,
+    "detection_id": 9,
+    "bbox": {
+      "x": 279.15736389160156,
+      "y": 145.92685508728027,
+      "w": 45.422882080078125,
+      "h": 113.22869873046875
+    },
+    "previous_association": null,
+    "track_state": "NORMAL",
+    "fall_history": false,
+    "recovery_history": false,
+    "incident_state": "none (MOT has no incident packets)",
+    "association_score": null,
+    "association_reason": "new_track",
+    "reference_identity": 7,
+    "failure": "reference_identity_track_id_change",
+    "old_track_id": 22
+  },
+  {
+    "frame": 38,
+    "timestamp": 7.6,
+    "track_id": 19,
+    "detection_id": 9,
+    "bbox": {
+      "x": 492.9262762069702,
+      "y": 154.1686885356903,
+      "w": 23.01844596862793,
+      "h": 83.32162475585938
+    },
+    "previous_association": {
+      "time": 7.4,
+      "bbox": {
+        "x": 492.27528619766235,
+        "y": 151.0339126586914,
+        "w": 28.221391677856445,
+        "h": 80.77897644042969
+      },
+      "track_id": 19
+    },
+    "track_state": "NORMAL",
+    "fall_history": false,
+    "recovery_history": false,
+    "incident_state": "none (MOT has no incident packets)",
+    "association_score": 0.16015436082713508,
+    "association_reason": "reconstructed legacy gated geometry; no validated continuation token",
+    "reference_identity": 21,
+    "gap": 0.1999999999999993,
+    "overlap": 0.7414799239470407,
+    "predicted_distance": 0.08259833801124726,
+    "failure": "same_track_id_different_reference_owner",
+    "old_reference_identity": 22
+  },
+  {
+    "frame": 38,
+    "timestamp": 7.6,
+    "track_id": 19,
+    "detection_id": 9,
+    "bbox": {
+      "x": 492.9262762069702,
+      "y": 154.1686885356903,
+      "w": 23.01844596862793,
+      "h": 83.32162475585938
+    },
+    "previous_association": {
+      "time": 7.4,
+      "bbox": {
+        "x": 492.27528619766235,
+        "y": 151.0339126586914,
+        "w": 28.221391677856445,
+        "h": 80.77897644042969
+      },
+      "track_id": 19
+    },
+    "track_state": "NORMAL",
+    "fall_history": false,
+    "recovery_history": false,
+    "incident_state": "none (MOT has no incident packets)",
+    "association_score": 0.16015436082713508,
+    "association_reason": "reconstructed legacy gated geometry; no validated continuation token",
+    "reference_identity": 21,
+    "gap": 0.1999999999999993,
+    "overlap": 0.7414799239470407,
+    "predicted_distance": 0.08259833801124726,
+    "failure": "reference_identity_track_id_change",
+    "old_track_id": 20
+  },
+  {
+    "frame": 38,
+    "timestamp": 7.6,
+    "track_id": 28,
+    "detection_id": 5,
+    "bbox": {
+      "x": 131.84188270568848,
+      "y": 97.4791669845581,
+      "w": 75.20227813720703,
+      "h": 219.6351318359375
+    },
+    "previous_association": {
+      "time": 7.2,
+      "bbox": {
+        "x": 158.64949989318848,
+        "y": 96.26659202575684,
+        "w": 47.19545364379883,
+        "h": 189.2226104736328
+      },
+      "track_id": 28
+    },
+    "track_state": "NORMAL",
+    "fall_history": false,
+    "recovery_history": false,
+    "incident_state": "none (MOT has no incident packets)",
+    "association_score": 0.23419129554059226,
+    "association_reason": "reconstructed legacy gated geometry; no validated continuation token",
+    "reference_identity": 12,
+    "gap": 0.39999999999999947,
+    "overlap": 0.5353604139917103,
+    "predicted_distance": 0.09479941973810534,
+    "failure": "same_track_id_different_reference_owner",
+    "old_reference_identity": 11
+  },
+  {
+    "frame": 38,
+    "timestamp": 7.6,
+    "track_id": 28,
+    "detection_id": 5,
+    "bbox": {
+      "x": 131.84188270568848,
+      "y": 97.4791669845581,
+      "w": 75.20227813720703,
+      "h": 219.6351318359375
+    },
+    "previous_association": {
+      "time": 7.2,
+      "bbox": {
+        "x": 158.64949989318848,
+        "y": 96.26659202575684,
+        "w": 47.19545364379883,
+        "h": 189.2226104736328
+      },
+      "track_id": 28
+    },
+    "track_state": "NORMAL",
+    "fall_history": false,
+    "recovery_history": false,
+    "incident_state": "none (MOT has no incident packets)",
+    "association_score": 0.23419129554059226,
+    "association_reason": "reconstructed legacy gated geometry; no validated continuation token",
+    "reference_identity": 12,
+    "gap": 0.39999999999999947,
+    "overlap": 0.5353604139917103,
+    "predicted_distance": 0.09479941973810534,
+    "failure": "reference_identity_track_id_change",
+    "old_track_id": 8
+  },
+  {
+    "frame": 38,
+    "timestamp": 7.6,
+    "track_id": 24,
+    "detection_id": 8,
+    "bbox": {
+      "x": 505.3816833496094,
+      "y": 153.6416039466858,
+      "w": 27.93108558654785,
+      "h": 77.99577331542969
+    },
+    "previous_association": {
+      "time": 7.0,
+      "bbox": {
+        "x": 495.8001194000244,
+        "y": 155.69849729537964,
+        "w": 20.202171325683594,
+        "h": 61.7891845703125
+      },
+      "track_id": 24
+    },
+    "track_state": "NORMAL",
+    "fall_history": false,
+    "recovery_history": false,
+    "incident_state": "none (MOT has no incident packets)",
+    "association_score": 0.3635400130409061,
+    "association_reason": "reconstructed legacy gated geometry; no validated continuation token",
+    "reference_identity": 22,
+    "gap": 0.5999999999999996,
+    "overlap": 0.2368627799881795,
+    "predicted_distance": 0.13459884703736,
+    "failure": "reference_identity_track_id_change",
+    "old_track_id": 19
+  },
+  {
+    "frame": 39,
+    "timestamp": 7.8,
+    "track_id": 28,
+    "detection_id": 5,
+    "bbox": {
+      "x": 133.18009567260742,
+      "y": 109.14080333709717,
+      "w": 48.881412506103516,
+      "h": 190.845703125
+    },
+    "previous_association": {
+      "time": 7.6,
+      "bbox": {
+        "x": 131.84188270568848,
+        "y": 97.4791669845581,
+        "w": 75.20227813720703,
+        "h": 219.6351318359375
+      },
+      "track_id": 28
+    },
+    "track_state": "NORMAL",
+    "fall_history": false,
+    "recovery_history": false,
+    "incident_state": "none (MOT has no incident packets)",
+    "association_score": 0.18615865642472618,
+    "association_reason": "reconstructed legacy gated geometry; no validated continuation token",
+    "reference_identity": 13,
+    "gap": 0.20000000000000018,
+    "overlap": 0.5647982301734163,
+    "predicted_distance": 0.05559812547675108,
+    "failure": "same_track_id_different_reference_owner",
+    "old_reference_identity": 12
+  },
+  {
+    "frame": 39,
+    "timestamp": 7.8,
+    "track_id": 28,
+    "detection_id": 5,
+    "bbox": {
+      "x": 133.18009567260742,
+      "y": 109.14080333709717,
+      "w": 48.881412506103516,
+      "h": 190.845703125
+    },
+    "previous_association": {
+      "time": 7.6,
+      "bbox": {
+        "x": 131.84188270568848,
+        "y": 97.4791669845581,
+        "w": 75.20227813720703,
+        "h": 219.6351318359375
+      },
+      "track_id": 28
+    },
+    "track_state": "NORMAL",
+    "fall_history": false,
+    "recovery_history": false,
+    "incident_state": "none (MOT has no incident packets)",
+    "association_score": 0.18615865642472618,
+    "association_reason": "reconstructed legacy gated geometry; no validated continuation token",
+    "reference_identity": 13,
+    "gap": 0.20000000000000018,
+    "overlap": 0.5647982301734163,
+    "predicted_distance": 0.05559812547675108,
+    "failure": "reference_identity_track_id_change",
+    "old_track_id": 21
+  },
+  {
+    "frame": 39,
+    "timestamp": 7.8,
+    "track_id": 8,
+    "detection_id": 0,
+    "bbox": {
+      "x": 158.32932662963867,
+      "y": 104.84035348892212,
+      "w": 91.88590240478516,
+      "h": 208.44776916503906
+    },
+    "previous_association": {
+      "time": 7.4,
+      "bbox": {
+        "x": 56.96138954162598,
+        "y": 104.12913465499878,
+        "w": 136.97230529785156,
+        "h": 221.9468994140625
+      },
+      "track_id": 8
+    },
+    "track_state": "NORMAL",
+    "fall_history": false,
+    "recovery_history": false,
+    "incident_state": "none (MOT has no incident packets)",
+    "association_score": 0.5093226196558689,
+    "association_reason": "reconstructed legacy gated geometry; no validated continuation token",
+    "reference_identity": 12,
+    "gap": 0.39999999999999947,
+    "overlap": 0.17615094135051673,
+    "predicted_distance": 0.26216790206102397,
+    "failure": "reference_identity_track_id_change",
+    "old_track_id": 28
+  },
+  {
+    "frame": 40,
+    "timestamp": 8.0,
+    "track_id": 21,
+    "detection_id": 2,
+    "bbox": {
+      "x": 158.4008331298828,
+      "y": 114.09656620025635,
+      "w": 63.7772216796875,
+      "h": 181.85086059570312
+    },
+    "previous_association": {
+      "time": 7.6,
+      "bbox": {
+        "x": 68.58784580230713,
+        "y": 102.55790901184082,
+        "w": 85.71778106689453,
+        "h": 200.8419189453125
+      },
+      "track_id": 21
+    },
+    "track_state": "NORMAL",
+    "fall_history": false,
+    "recovery_history": false,
+    "incident_state": "none (MOT has no incident packets)",
+    "association_score": 0.4537349211774381,
+    "association_reason": "reconstructed legacy gated geometry; no validated continuation token",
+    "reference_identity": 13,
+    "gap": 0.40000000000000036,
+    "overlap": 0.0,
+    "predicted_distance": 0.1537349211774381,
+    "failure": "reference_identity_track_id_change",
+    "old_track_id": 28
+  },
+  {
+    "frame": 41,
+    "timestamp": 8.2,
+    "track_id": 29,
+    "detection_id": 5,
+    "bbox": {
+      "x": 287.4995017051697,
+      "y": 105.19563674926758,
+      "w": 38.79446029663086,
+      "h": 158.51634216308594
+    },
+    "previous_association": {
+      "time": 8.0,
+      "bbox": {
+        "x": 302.4559688568115,
+        "y": 123.60222625732422,
+        "w": 26.263721466064453,
+        "h": 129.63323974609375
+      },
+      "track_id": 29
+    },
+    "track_state": "NORMAL",
+    "fall_history": false,
+    "recovery_history": false,
+    "incident_state": "none (MOT has no incident packets)",
+    "association_score": 0.18463801841844774,
+    "association_reason": "reconstructed legacy gated geometry; no validated continuation token",
+    "reference_identity": 11,
+    "gap": 0.1999999999999993,
+    "overlap": 0.4780617325556261,
+    "predicted_distance": 0.02805653818513557,
+    "failure": "same_track_id_different_reference_owner",
+    "old_reference_identity": 7
+  },
+  {
+    "frame": 41,
+    "timestamp": 8.2,
+    "track_id": 29,
+    "detection_id": 5,
+    "bbox": {
+      "x": 287.4995017051697,
+      "y": 105.19563674926758,
+      "w": 38.79446029663086,
+      "h": 158.51634216308594
+    },
+    "previous_association": {
+      "time": 8.0,
+      "bbox": {
+        "x": 302.4559688568115,
+        "y": 123.60222625732422,
+        "w": 26.263721466064453,
+        "h": 129.63323974609375
+      },
+      "track_id": 29
+    },
+    "track_state": "NORMAL",
+    "fall_history": false,
+    "recovery_history": false,
+    "incident_state": "none (MOT has no incident packets)",
+    "association_score": 0.18463801841844774,
+    "association_reason": "reconstructed legacy gated geometry; no validated continuation token",
+    "reference_identity": 11,
+    "gap": 0.1999999999999993,
+    "overlap": 0.4780617325556261,
+    "predicted_distance": 0.02805653818513557,
+    "failure": "reference_identity_track_id_change",
+    "old_track_id": 11
+  },
+  {
+    "frame": 41,
+    "timestamp": 8.2,
+    "track_id": 31,
+    "detection_id": 9,
+    "bbox": {
+      "x": 513.5722498893738,
+      "y": 148.71448755264282,
+      "w": 23.152210235595703,
+      "h": 85.29125213623047
+    },
+    "previous_association": {
+      "time": 7.6,
+      "bbox": {
+        "x": 514.0916855335236,
+        "y": 157.6182255744934,
+        "w": 18.88345718383789,
+        "h": 45.70098876953125
+      },
+      "track_id": 31
+    },
+    "track_state": "RAPID_DESCENT",
+    "fall_history": false,
+    "recovery_history": false,
+    "incident_state": "none (MOT has no incident packets)",
+    "association_score": 0.2979839575198646,
+    "association_reason": "reconstructed legacy gated geometry; no validated continuation token",
+    "reference_identity": 22,
+    "gap": 0.5999999999999996,
+    "overlap": 0.43702889954171464,
+    "predicted_distance": 0.12909262738237903,
+    "failure": "reference_identity_track_id_change",
+    "old_track_id": 24
+  },
+  {
+    "frame": 41,
+    "timestamp": 8.2,
+    "track_id": 11,
+    "detection_id": 7,
+    "bbox": {
+      "x": 319.67927598953247,
+      "y": 126.26049423217773,
+      "w": 31.68326187133789,
+      "h": 121.07437896728516
+    },
+    "previous_association": {
+      "time": 8.0,
+      "bbox": {
+        "x": 254.08294105529785,
+        "y": 107.51468896865845,
+        "w": 63.057373046875,
+        "h": 167.9374237060547
+      },
+      "track_id": 11
+    },
+    "track_state": "NORMAL",
+    "fall_history": false,
+    "recovery_history": false,
+    "incident_state": "none (MOT has no incident packets)",
+    "association_score": 0.5171555876232484,
+    "association_reason": "reconstructed legacy gated geometry; no validated continuation token",
+    "reference_identity": 1,
+    "gap": 0.1999999999999993,
+    "overlap": 0.0,
+    "predicted_distance": 0.21715558762324846,
+    "failure": "same_track_id_different_reference_owner",
+    "old_reference_identity": 11
+  },
+  {
+    "frame": 41,
+    "timestamp": 8.2,
+    "track_id": 11,
+    "detection_id": 7,
+    "bbox": {
+      "x": 319.67927598953247,
+      "y": 126.26049423217773,
+      "w": 31.68326187133789,
+      "h": 121.07437896728516
+    },
+    "previous_association": {
+      "time": 8.0,
+      "bbox": {
+        "x": 254.08294105529785,
+        "y": 107.51468896865845,
+        "w": 63.057373046875,
+        "h": 167.9374237060547
+      },
+      "track_id": 11
+    },
+    "track_state": "NORMAL",
+    "fall_history": false,
+    "recovery_history": false,
+    "incident_state": "none (MOT has no incident packets)",
+    "association_score": 0.5171555876232484,
+    "association_reason": "reconstructed legacy gated geometry; no validated continuation token",
+    "reference_identity": 1,
+    "gap": 0.1999999999999993,
+    "overlap": 0.0,
+    "predicted_distance": 0.21715558762324846,
+    "failure": "reference_identity_track_id_change",
+    "old_track_id": 27
+  },
+  {
+    "frame": 42,
+    "timestamp": 8.4,
+    "track_id": 29,
+    "detection_id": 3,
+    "bbox": {
+      "x": 274.89884853363037,
+      "y": 108.32471179962158,
+      "w": 56.00786590576172,
+      "h": 185.06320190429688
+    },
+    "previous_association": {
+      "time": 8.2,
+      "bbox": {
+        "x": 287.4995017051697,
+        "y": 105.19563674926758,
+        "w": 38.79446029663086,
+        "h": 158.51634216308594
+      },
+      "track_id": 29
+    },
+    "track_state": "NORMAL",
+    "fall_history": false,
+    "recovery_history": false,
+    "incident_state": "none (MOT has no incident packets)",
+    "association_score": 0.24048912935246905,
+    "association_reason": "reconstructed legacy gated geometry; no validated continuation token",
+    "reference_identity": 12,
+    "gap": 0.20000000000000107,
+    "overlap": 0.5748563227060767,
+    "predicted_distance": 0.11294602616429206,
+    "failure": "same_track_id_different_reference_owner",
+    "old_reference_identity": 11
+  },
+  {
+    "frame": 42,
+    "timestamp": 8.4,
+    "track_id": 29,
+    "detection_id": 3,
+    "bbox": {
+      "x": 274.89884853363037,
+      "y": 108.32471179962158,
+      "w": 56.00786590576172,
+      "h": 185.06320190429688
+    },
+    "previous_association": {
+      "time": 8.2,
+      "bbox": {
+        "x": 287.4995017051697,
+        "y": 105.19563674926758,
+        "w": 38.79446029663086,
+        "h": 158.51634216308594
+      },
+      "track_id": 29
+    },
+    "track_state": "NORMAL",
+    "fall_history": false,
+    "recovery_history": false,
+    "incident_state": "none (MOT has no incident packets)",
+    "association_score": 0.24048912935246905,
+    "association_reason": "reconstructed legacy gated geometry; no validated continuation token",
+    "reference_identity": 12,
+    "gap": 0.20000000000000107,
+    "overlap": 0.5748563227060767,
+    "predicted_distance": 0.11294602616429206,
+    "failure": "reference_identity_track_id_change",
+    "old_track_id": 8
+  },
+  {
+    "frame": 42,
+    "timestamp": 8.4,
+    "track_id": 11,
+    "detection_id": 9,
+    "bbox": {
+      "x": 310.3227481842041,
+      "y": 110.39876461029053,
+      "w": 38.98267364501953,
+      "h": 148.9641571044922
+    },
+    "previous_association": {
+      "time": 8.2,
+      "bbox": {
+        "x": 319.67927598953247,
+        "y": 126.26049423217773,
+        "w": 31.68326187133789,
+        "h": 121.07437896728516
+      },
+      "track_id": 11
+    },
+    "track_state": "NORMAL",
+    "fall_history": false,
+    "recovery_history": false,
+    "incident_state": "none (MOT has no incident packets)",
+    "association_score": 0.49612722325207254,
+    "association_reason": "reconstructed legacy gated geometry; no validated continuation token",
+    "reference_identity": 11,
+    "gap": 0.20000000000000107,
+    "overlap": 0.5922914076834582,
+    "predicted_distance": 0.37381464555711,
+    "failure": "same_track_id_different_reference_owner",
+    "old_reference_identity": 1
+  },
+  {
+    "frame": 42,
+    "timestamp": 8.4,
+    "track_id": 11,
+    "detection_id": 9,
+    "bbox": {
+      "x": 310.3227481842041,
+      "y": 110.39876461029053,
+      "w": 38.98267364501953,
+      "h": 148.9641571044922
+    },
+    "previous_association": {
+      "time": 8.2,
+      "bbox": {
+        "x": 319.67927598953247,
+        "y": 126.26049423217773,
+        "w": 31.68326187133789,
+        "h": 121.07437896728516
+      },
+      "track_id": 11
+    },
+    "track_state": "NORMAL",
+    "fall_history": false,
+    "recovery_history": false,
+    "incident_state": "none (MOT has no incident packets)",
+    "association_score": 0.49612722325207254,
+    "association_reason": "reconstructed legacy gated geometry; no validated continuation token",
+    "reference_identity": 11,
+    "gap": 0.20000000000000107,
+    "overlap": 0.5922914076834582,
+    "predicted_distance": 0.37381464555711,
+    "failure": "reference_identity_track_id_change",
+    "old_track_id": 29
+  },
+  {
+    "frame": 42,
+    "timestamp": 8.4,
+    "track_id": 33,
+    "detection_id": 8,
+    "bbox": {
+      "x": 334.5384192466736,
+      "y": 135.0460159778595,
+      "w": 27.195819854736328,
+      "h": 116.52071380615234
+    },
+    "previous_association": null,
+    "track_state": "NORMAL",
+    "fall_history": false,
+    "recovery_history": false,
+    "incident_state": "none (MOT has no incident packets)",
+    "association_score": null,
+    "association_reason": "new_track",
+    "reference_identity": 1,
+    "failure": "reference_identity_track_id_change",
+    "old_track_id": 11
+  },
+  {
+    "frame": 44,
+    "timestamp": 8.8,
+    "track_id": 29,
+    "detection_id": 0,
+    "bbox": {
+      "x": 274.53029680252075,
+      "y": 116.53044033050537,
+      "w": 62.10811233520508,
+      "h": 160.69508361816406
+    },
+    "previous_association": {
+      "time": 8.4,
+      "bbox": {
+        "x": 274.89884853363037,
+        "y": 108.32471179962158,
+        "w": 56.00786590576172,
+        "h": 185.06320190429688
+      },
+      "track_id": 29
+    },
+    "track_state": "NORMAL",
+    "fall_history": false,
+    "recovery_history": false,
+    "incident_state": "none (MOT has no incident packets)",
+    "association_score": 0.20064440250612925,
+    "association_reason": "reconstructed legacy gated geometry; no validated continuation token",
+    "reference_identity": 13,
+    "gap": 0.40000000000000036,
+    "overlap": 0.7932984442624463,
+    "predicted_distance": 0.13863393578486316,
+    "failure": "same_track_id_different_reference_owner",
+    "old_reference_identity": 12
+  },
+  {
+    "frame": 44,
+    "timestamp": 8.8,
+    "track_id": 29,
+    "detection_id": 0,
+    "bbox": {
+      "x": 274.53029680252075,
+      "y": 116.53044033050537,
+      "w": 62.10811233520508,
+      "h": 160.69508361816406
+    },
+    "previous_association": {
+      "time": 8.4,
+      "bbox": {
+        "x": 274.89884853363037,
+        "y": 108.32471179962158,
+        "w": 56.00786590576172,
+        "h": 185.06320190429688
+      },
+      "track_id": 29
+    },
+    "track_state": "NORMAL",
+    "fall_history": false,
+    "recovery_history": false,
+    "incident_state": "none (MOT has no incident packets)",
+    "association_score": 0.20064440250612925,
+    "association_reason": "reconstructed legacy gated geometry; no validated continuation token",
+    "reference_identity": 13,
+    "gap": 0.40000000000000036,
+    "overlap": 0.7932984442624463,
+    "predicted_distance": 0.13863393578486316,
+    "failure": "reference_identity_track_id_change",
+    "old_track_id": 21
+  },
+  {
+    "frame": 44,
+    "timestamp": 8.8,
+    "track_id": 33,
+    "detection_id": 1,
+    "bbox": {
+      "x": 331.4754238128662,
+      "y": 113.43080425262451,
+      "w": 56.842464447021484,
+      "h": 169.4511260986328
+    },
+    "previous_association": {
+      "time": 8.6,
+      "bbox": {
+        "x": 350.1287078857422,
+        "y": 128.7342185974121,
+        "w": 30.77861213684082,
+        "h": 114.33101654052734
+      },
+      "track_id": 33
+    },
+    "track_state": "NORMAL",
+    "fall_history": false,
+    "recovery_history": false,
+    "incident_state": "none (MOT has no incident packets)",
+    "association_score": 0.3689863682392844,
+    "association_reason": "reconstructed legacy gated geometry; no validated continuation token",
+    "reference_identity": 11,
+    "gap": 0.20000000000000107,
+    "overlap": 0.3653387509071498,
+    "predicted_distance": 0.17858799351142932,
+    "failure": "same_track_id_different_reference_owner",
+    "old_reference_identity": 1
+  },
+  {
+    "frame": 44,
+    "timestamp": 8.8,
+    "track_id": 33,
+    "detection_id": 1,
+    "bbox": {
+      "x": 331.4754238128662,
+      "y": 113.43080425262451,
+      "w": 56.842464447021484,
+      "h": 169.4511260986328
+    },
+    "previous_association": {
+      "time": 8.6,
+      "bbox": {
+        "x": 350.1287078857422,
+        "y": 128.7342185974121,
+        "w": 30.77861213684082,
+        "h": 114.33101654052734
+      },
+      "track_id": 33
+    },
+    "track_state": "NORMAL",
+    "fall_history": false,
+    "recovery_history": false,
+    "incident_state": "none (MOT has no incident packets)",
+    "association_score": 0.3689863682392844,
+    "association_reason": "reconstructed legacy gated geometry; no validated continuation token",
+    "reference_identity": 11,
+    "gap": 0.20000000000000107,
+    "overlap": 0.3653387509071498,
+    "predicted_distance": 0.17858799351142932,
+    "failure": "reference_identity_track_id_change",
+    "old_track_id": 11
+  },
+  {
+    "frame": 45,
+    "timestamp": 9.0,
+    "track_id": 11,
+    "detection_id": 1,
+    "bbox": {
+      "x": 307.1325273513794,
+      "y": 116.71541452407837,
+      "w": 41.92061996459961,
+      "h": 153.42318725585938
+    },
+    "previous_association": {
+      "time": 8.6,
+      "bbox": {
+        "x": 291.6068592071533,
+        "y": 110.28930759429932,
+        "w": 77.04052734375,
+        "h": 181.05169677734375
+      },
+      "track_id": 11
+    },
+    "track_state": "NORMAL",
+    "fall_history": false,
+    "recovery_history": false,
+    "incident_state": "none (MOT has no incident packets)",
+    "association_score": 0.3130823294798428,
+    "association_reason": "reconstructed legacy gated geometry; no validated continuation token",
+    "reference_identity": 13,
+    "gap": 0.40000000000000036,
+    "overlap": 0.46110183580837083,
+    "predicted_distance": 0.15141288022235405,
+    "failure": "same_track_id_different_reference_owner",
+    "old_reference_identity": 11
+  },
+  {
+    "frame": 45,
+    "timestamp": 9.0,
+    "track_id": 11,
+    "detection_id": 1,
+    "bbox": {
+      "x": 307.1325273513794,
+      "y": 116.71541452407837,
+      "w": 41.92061996459961,
+      "h": 153.42318725585938
+    },
+    "previous_association": {
+      "time": 8.6,
+      "bbox": {
+        "x": 291.6068592071533,
+        "y": 110.28930759429932,
+        "w": 77.04052734375,
+        "h": 181.05169677734375
+      },
+      "track_id": 11
+    },
+    "track_state": "NORMAL",
+    "fall_history": false,
+    "recovery_history": false,
+    "incident_state": "none (MOT has no incident packets)",
+    "association_score": 0.3130823294798428,
+    "association_reason": "reconstructed legacy gated geometry; no validated continuation token",
+    "reference_identity": 13,
+    "gap": 0.40000000000000036,
+    "overlap": 0.46110183580837083,
+    "predicted_distance": 0.15141288022235405,
+    "failure": "reference_identity_track_id_change",
+    "old_track_id": 29
+  },
+  {
+    "frame": 46,
+    "timestamp": 9.2,
+    "track_id": 33,
+    "detection_id": 0,
+    "bbox": {
+      "x": 379.500449180603,
+      "y": 112.91636276245117,
+      "w": 57.427589416503906,
+      "h": 161.8345184326172
+    },
+    "previous_association": {
+      "time": 9.0,
+      "bbox": {
+        "x": 344.01885986328125,
+        "y": 114.0361385345459,
+        "w": 79.00474548339844,
+        "h": 165.58155822753906
+      },
+      "track_id": 33
+    },
+    "track_state": "NORMAL",
+    "fall_history": false,
+    "recovery_history": false,
+    "incident_state": "none (MOT has no incident packets)",
+    "association_score": 0.17550815496964328,
+    "association_reason": "reconstructed legacy gated geometry; no validated continuation token",
+    "reference_identity": 12,
+    "gap": 0.1999999999999993,
+    "overlap": 0.4547790993150317,
+    "predicted_distance": 0.01194188476415277,
+    "failure": "same_track_id_different_reference_owner",
+    "old_reference_identity": 11
+  },
+  {
+    "frame": 46,
+    "timestamp": 9.2,
+    "track_id": 33,
+    "detection_id": 0,
+    "bbox": {
+      "x": 379.500449180603,
+      "y": 112.91636276245117,
+      "w": 57.427589416503906,
+      "h": 161.8345184326172
+    },
+    "previous_association": {
+      "time": 9.0,
+      "bbox": {
+        "x": 344.01885986328125,
+        "y": 114.0361385345459,
+        "w": 79.00474548339844,
+        "h": 165.58155822753906
+      },
+      "track_id": 33
+    },
+    "track_state": "NORMAL",
+    "fall_history": false,
+    "recovery_history": false,
+    "incident_state": "none (MOT has no incident packets)",
+    "association_score": 0.17550815496964328,
+    "association_reason": "reconstructed legacy gated geometry; no validated continuation token",
+    "reference_identity": 12,
+    "gap": 0.1999999999999993,
+    "overlap": 0.4547790993150317,
+    "predicted_distance": 0.01194188476415277,
+    "failure": "reference_identity_track_id_change",
+    "old_track_id": 29
+  },
+  {
+    "frame": 46,
+    "timestamp": 9.2,
+    "track_id": 35,
+    "detection_id": 9,
+    "bbox": {
+      "x": 374.88510847091675,
+      "y": 111.4248275756836,
+      "w": 27.54143714904785,
+      "h": 143.61932373046875
+    },
+    "previous_association": {
+      "time": 8.8,
+      "bbox": {
+        "x": 363.1762251853943,
+        "y": 129.1511573791504,
+        "w": 20.568424224853516,
+        "h": 51.23273849487305
+      },
+      "track_id": 35
+    },
+    "track_state": "RAPID_DESCENT",
+    "fall_history": false,
+    "recovery_history": false,
+    "incident_state": "none (MOT has no incident packets)",
+    "association_score": 0.4947898778214045,
+    "association_reason": "reconstructed legacy gated geometry; no validated continuation token",
+    "reference_identity": 11,
+    "gap": 0.3999999999999986,
+    "overlap": 0.09964052699642298,
+    "predicted_distance": 0.22468203592033145,
+    "failure": "reference_identity_track_id_change",
+    "old_track_id": 33
+  }
+]

@@ -1,0 +1,62 @@
+test_config_validates_backend (test_backends.BackendTests.test_config_validates_backend) ... ok
+ok
+test_unknown_backend_rejected (test_backends.BackendTests.test_unknown_backend_rejected) ... ok
+ok
+ok
+ok
+ok
+ok
+ok
+ok
+test_bounded_history_and_future (test_perception.PerceptionTests.test_bounded_history_and_future) ... ok
+test_geometry (test_perception.PerceptionTests.test_geometry) ... ok
+test_horizontal_first_frame_not_fall (test_perception.PerceptionTests.test_horizontal_first_frame_not_fall) ... ok
+test_low_sampling_rate_breaks_continuity (test_perception.PerceptionTests.test_low_sampling_rate_breaks_continuity) ... ok
+test_missing_history_no_immobility (test_perception.PerceptionTests.test_missing_history_no_immobility) ... ok
+test_motion_quality_and_translation (test_perception.PerceptionTests.test_motion_quality_and_translation) ... ok
+test_multiple_people_one_to_one (test_perception.PerceptionTests.test_multiple_people_one_to_one) ... ok
+test_region_inspection (test_perception.PerceptionTests.test_region_inspection) ... ok
+test_schema_rejects_invalid (test_perception.PerceptionTests.test_schema_rejects_invalid) ... ok
+test_sitting_does_not_trigger (test_perception.PerceptionTests.test_sitting_does_not_trigger) ... ok
+test_temporal_fall_immobility_recovery (test_perception.PerceptionTests.test_temporal_fall_immobility_recovery) ... ok
+test_tool_bounds_and_empty (test_perception.PerceptionTests.test_tool_bounds_and_empty) ... ok
+test_tracker_velocity_and_expiry (test_perception.PerceptionTests.test_tracker_velocity_and_expiry) ... ok
+test_aspect_jitter_and_old_velocity_cannot_create_fall (test_phase1b.SequenceTests.test_aspect_jitter_and_old_velocity_cannot_create_fall) ... ok
+test_compact_squat_with_large_height_loss_and_widening (test_phase1b.SequenceTests.test_compact_squat_with_large_height_loss_and_widening) ... ok
+test_continuous_immobility_separate_from_event (test_phase1b.SequenceTests.test_continuous_immobility_separate_from_event) ... ok
+test_gap_can_support_fall_but_not_immobility (test_phase1b.SequenceTests.test_gap_can_support_fall_but_not_immobility) ... ok
+test_gap_resets_stationary_clock (test_phase1b.SequenceTests.test_gap_resets_stationary_clock) ... ok
+test_immediate_recovery_preserves_event_then_dismisses (test_phase1b.SequenceTests.test_immediate_recovery_preserves_event_then_dismisses) ... ok
+test_new_fall_after_recovery (test_phase1b.SequenceTests.test_new_fall_after_recovery) ... ok
+test_no_cross_person_fall_history (test_phase1b.SequenceTests.test_no_cross_person_fall_history) ... ok
+test_sitting_crouching_partial_occlusion (test_phase1b.SequenceTests.test_sitting_crouching_partial_occlusion) ... ok
+test_timestamp_order_and_tool_window_boundaries (test_phase1b.SequenceTests.test_timestamp_order_and_tool_window_boundaries) ... ok
+test_transition_boundary_and_stale_reference (test_phase1b.SequenceTests.test_transition_boundary_and_stale_reference) ... ok
+test_ambiguous_return_gets_new_id (test_phase1b.TrackingRecoveryTests.test_ambiguous_return_gets_new_id) ... ok
+test_low_confidence_cannot_steal_high_confidence_match (test_phase1b.TrackingRecoveryTests.test_low_confidence_cannot_steal_high_confidence_match) ... ok
+test_low_confidence_only_continues_existing_tracks (test_phase1b.TrackingRecoveryTests.test_low_confidence_only_continues_existing_tracks) ... ok
+test_missing_frames_reassociate_without_emitting_boxes (test_phase1b.TrackingRecoveryTests.test_missing_frames_reassociate_without_emitting_boxes) ... ok
+test_prediction_does_not_run_away_after_missing_frames (test_phase1b.TrackingRecoveryTests.test_prediction_does_not_run_away_after_missing_frames) ... ok
+test_retention_boundary_and_expiry (test_phase1b.TrackingRecoveryTests.test_retention_boundary_and_expiry) ... ok
+test_two_people_one_missing_does_not_take_other_identity (test_phase1b.TrackingRecoveryTests.test_two_people_one_missing_does_not_take_other_identity) ... ok
+test_ambiguous_short_overlap_experiment_does_not_transfer_history (test_phase1c.FreshAuditTests.test_ambiguous_short_overlap_experiment_does_not_transfer_history) ... ok
+test_falling_person_occluded_while_neighbor_walks_keeps_ownership (test_phase1c.FreshAuditTests.test_falling_person_occluded_while_neighbor_walks_keeps_ownership) ... ok
+test_initial_ground_is_not_a_fall (test_phase1c.FreshAuditTests.test_initial_ground_is_not_a_fall) ... ok
+test_intention_is_not_observable_from_identical_box_trajectories (test_phase1c.FreshAuditTests.test_intention_is_not_observable_from_identical_box_trajectories) ... ok
+test_matching_does_not_reuse_one_box_for_two_people (test_phase1c.FreshAuditTests.test_matching_does_not_reuse_one_box_for_two_people) ... ok
+test_missed_span_is_lower_bound_and_fragment_is_explicit (test_phase1c.FreshAuditTests.test_missed_span_is_lower_bound_and_fragment_is_explicit) ... ok
+test_partial_movement_preserves_fall_but_resets_stationarity (test_phase1c.FreshAuditTests.test_partial_movement_preserves_fall_but_resets_stationarity) ... ok
+test_reference_relative_jitter_ignores_real_translation (test_phase1c.FreshAuditTests.test_reference_relative_jitter_ignores_real_translation) ... ok
+test_rotation_experiment_does_not_skip_when_original_person_visible (test_phase1c.FreshAuditTests.test_rotation_experiment_does_not_skip_when_original_person_visible) ... ok
+test_seated_compact_transition_is_documented_geometry_limit (test_phase1c.FreshAuditTests.test_seated_compact_transition_is_documented_geometry_limit) ... ok
+test_old_recovery_cannot_dismiss_current_event (test_policy.PolicyTests.test_old_recovery_cannot_dismiss_current_event) ... ok
+test_stale_tool_evidence_cannot_dismiss (test_policy.PolicyTests.test_stale_tool_evidence_cannot_dismiss) ... ok
+test_file_timestamps_and_eof (test_source.SourceTests.test_file_timestamps_and_eof) ... ok
+test_reconnect_budget (test_source.SourceTests.test_reconnect_budget) ... ok
+test_reconnect_does_not_replay_old_frame (test_source.SourceTests.test_reconnect_does_not_replay_old_frame) ... ok
+test_stalled_native_call_can_be_terminated (test_source.SourceTests.test_stalled_native_call_can_be_terminated) ... ok
+
+----------------------------------------------------------------------
+Ran 57 tests in 28.208s
+
+OK

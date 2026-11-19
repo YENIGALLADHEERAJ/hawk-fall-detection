@@ -1,0 +1,233 @@
+[
+  {
+    "id": "gmdcsa_extra_s2_ADL_01",
+    "path": "data/sources/gmdcsa-adl-extra/s2_ADL_01.mp4",
+    "source": "https://raw.githubusercontent.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/v2.1/Subject%202/ADL/01.mp4",
+    "sha256": "700b8e5e81952f83d62ec0016555d2f8a3d38a9d62ebd1e6c907e12b14aa8d20",
+    "event_present": false,
+    "incident_onset": null,
+    "split": "extra_no_fall_not_used_for_tuning",
+    "scenario": "GMDCSA24 v2.1 daily activity",
+    "license": "MIT (repository)"
+  },
+  {
+    "id": "gmdcsa_extra_s2_ADL_04",
+    "path": "data/sources/gmdcsa-adl-extra/s2_ADL_04.mp4",
+    "source": "https://raw.githubusercontent.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/v2.1/Subject%202/ADL/04.mp4",
+    "sha256": "af4e5edb1e1d7240522e92863240b9b84a076afd071bab622c37ff86685be52a",
+    "event_present": false,
+    "incident_onset": null,
+    "split": "extra_no_fall_not_used_for_tuning",
+    "scenario": "GMDCSA24 v2.1 daily activity",
+    "license": "MIT (repository)"
+  },
+  {
+    "id": "gmdcsa_extra_s2_ADL_07",
+    "path": "data/sources/gmdcsa-adl-extra/s2_ADL_07.mp4",
+    "source": "https://raw.githubusercontent.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/v2.1/Subject%202/ADL/07.mp4",
+    "sha256": "75d01033fa0e56d2ad6ee06a59b583d920b3167c8e7aabee6098ff550019a316",
+    "event_present": false,
+    "incident_onset": null,
+    "split": "extra_no_fall_not_used_for_tuning",
+    "scenario": "GMDCSA24 v2.1 daily activity",
+    "license": "MIT (repository)"
+  },
+  {
+    "id": "gmdcsa_extra_s2_ADL_10",
+    "path": "data/sources/gmdcsa-adl-extra/s2_ADL_10.mp4",
+    "source": "https://raw.githubusercontent.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/v2.1/Subject%202/ADL/10.mp4",
+    "sha256": "120c9fa62a1dcf39388c776485635bd556b47ea3bcc71e7fc900b9bdd0b00aca",
+    "event_present": false,
+    "incident_onset": null,
+    "split": "extra_no_fall_not_used_for_tuning",
+    "scenario": "GMDCSA24 v2.1 daily activity",
+    "license": "MIT (repository)"
+  },
+  {
+    "id": "gmdcsa_extra_s2_ADL_13",
+    "path": "data/sources/gmdcsa-adl-extra/s2_ADL_13.mp4",
+    "source": "https://raw.githubusercontent.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/v2.1/Subject%202/ADL/13.mp4",
+    "sha256": "d231d21a135524718e384bd6a148e4f6f3ad7dbe3e4ced1dbb8f0cdd548e979d",
+    "event_present": false,
+    "incident_onset": null,
+    "split": "extra_no_fall_not_used_for_tuning",
+    "scenario": "GMDCSA24 v2.1 daily activity",
+    "license": "MIT (repository)"
+  },
+  {
+    "id": "gmdcsa_extra_s2_ADL_17",
+    "path": "data/sources/gmdcsa-adl-extra/s2_ADL_17.mp4",
+    "source": "https://raw.githubusercontent.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/v2.1/Subject%202/ADL/17.mp4",
+    "sha256": "55defae6328e428c0ca7b246d09022cadb544660084db1e84a51d0eee7b3b6b3",
+    "event_present": false,
+    "incident_onset": null,
+    "split": "extra_no_fall_not_used_for_tuning",
+    "scenario": "GMDCSA24 v2.1 daily activity",
+    "license": "MIT (repository)"
+  },
+  {
+    "id": "gmdcsa_extra_s2_ADL_20",
+    "path": "data/sources/gmdcsa-adl-extra/s2_ADL_20.mp4",
+    "source": "https://raw.githubusercontent.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/v2.1/Subject%202/ADL/20.mp4",
+    "sha256": "03417405897279a3d7203d524fbdadcd3572d82a35a21bb0a213fdf493d6678e",
+    "event_present": false,
+    "incident_onset": null,
+    "split": "extra_no_fall_not_used_for_tuning",
+    "scenario": "GMDCSA24 v2.1 daily activity",
+    "license": "MIT (repository)"
+  },
+  {
+    "id": "gmdcsa_extra_s3_ADL_01",
+    "path": "data/sources/gmdcsa-adl-extra/s3_ADL_01.mp4",
+    "source": "https://raw.githubusercontent.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/v2.1/Subject%203/ADL/01.mp4",
+    "sha256": "17c8df7c792a8b48707003971c9b2a44dd2a75a227b8060570600a263baf7c85",
+    "event_present": false,
+    "incident_onset": null,
+    "split": "extra_no_fall_not_used_for_tuning",
+    "scenario": "GMDCSA24 v2.1 daily activity",
+    "license": "MIT (repository)"
+  },
+  {
+    "id": "gmdcsa_extra_s3_ADL_03",
+    "path": "data/sources/gmdcsa-adl-extra/s3_ADL_03.mp4",
+    "source": "https://raw.githubusercontent.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/v2.1/Subject%203/ADL/03.mp4",
+    "sha256": "f587753621be201cf3a4f00521d99e7869471de47df3d73ec2270efb4bdd0d76",
+    "event_present": false,
+    "incident_onset": null,
+    "split": "extra_no_fall_not_used_for_tuning",
+    "scenario": "GMDCSA24 v2.1 daily activity",
+    "license": "MIT (repository)"
+  },
+  {
+    "id": "gmdcsa_extra_s3_ADL_05",
+    "path": "data/sources/gmdcsa-adl-extra/s3_ADL_05.mp4",
+    "source": "https://raw.githubusercontent.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/v2.1/Subject%203/ADL/05.mp4",
+    "sha256": "8353ad735c66f1806a77dce2e235e481414023b2dd37a60c6f395f99fca5ac0b",
+    "event_present": false,
+    "incident_onset": null,
+    "split": "extra_no_fall_not_used_for_tuning",
+    "scenario": "GMDCSA24 v2.1 daily activity",
+    "license": "MIT (repository)"
+  },
+  {
+    "id": "gmdcsa_extra_s3_ADL_07",
+    "path": "data/sources/gmdcsa-adl-extra/s3_ADL_07.mp4",
+    "source": "https://raw.githubusercontent.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/v2.1/Subject%203/ADL/07.mp4",
+    "sha256": "aefbdc248f169ec30bdfb0e81a39fec11b63e315fea6e5be2057615ffecb2c2f",
+    "event_present": false,
+    "incident_onset": null,
+    "split": "extra_no_fall_not_used_for_tuning",
+    "scenario": "GMDCSA24 v2.1 daily activity",
+    "license": "MIT (repository)"
+  },
+  {
+    "id": "gmdcsa_extra_s3_ADL_10",
+    "path": "data/sources/gmdcsa-adl-extra/s3_ADL_10.mp4",
+    "source": "https://raw.githubusercontent.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/v2.1/Subject%203/ADL/10.mp4",
+    "sha256": "145f29516fa6c06ecec6f47d024b86898e930fe95286d136a607084d90b64a1d",
+    "event_present": false,
+    "incident_onset": null,
+    "split": "extra_no_fall_not_used_for_tuning",
+    "scenario": "GMDCSA24 v2.1 daily activity",
+    "license": "MIT (repository)"
+  },
+  {
+    "id": "gmdcsa_extra_s3_ADL_12",
+    "path": "data/sources/gmdcsa-adl-extra/s3_ADL_12.mp4",
+    "source": "https://raw.githubusercontent.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/v2.1/Subject%203/ADL/12.mp4",
+    "sha256": "1ac3eb88b6993bb5bad420c69633e83dab3bf79604d03955b7d1343501ffc47c",
+    "event_present": false,
+    "incident_onset": null,
+    "split": "extra_no_fall_not_used_for_tuning",
+    "scenario": "GMDCSA24 v2.1 daily activity",
+    "license": "MIT (repository)"
+  },
+  {
+    "id": "gmdcsa_extra_s3_ADL_15",
+    "path": "data/sources/gmdcsa-adl-extra/s3_ADL_15.mp4",
+    "source": "https://raw.githubusercontent.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/v2.1/Subject%203/ADL/15.mp4",
+    "sha256": "b3fb82289131f8d363fb731f05576c9138c9425d2f18412cbd1dc758646506a5",
+    "event_present": false,
+    "incident_onset": null,
+    "split": "extra_no_fall_not_used_for_tuning",
+    "scenario": "GMDCSA24 v2.1 daily activity",
+    "license": "MIT (repository)"
+  },
+  {
+    "id": "gmdcsa_extra_s4_ADL_01",
+    "path": "data/sources/gmdcsa-adl-extra/s4_ADL_01.mp4",
+    "source": "https://raw.githubusercontent.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/v2.1/Subject%204/ADL/01.mp4",
+    "sha256": "820bbbb1189ee2fe176b453e3dc26b730cd9a22fe6b0a18b42410732513b8e43",
+    "event_present": false,
+    "incident_onset": null,
+    "split": "extra_no_fall_not_used_for_tuning",
+    "scenario": "GMDCSA24 v2.1 daily activity",
+    "license": "MIT (repository)"
+  },
+  {
+    "id": "gmdcsa_extra_s4_ADL_03",
+    "path": "data/sources/gmdcsa-adl-extra/s4_ADL_03.mp4",
+    "source": "https://raw.githubusercontent.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/v2.1/Subject%204/ADL/03.mp4",
+    "sha256": "4b5f84f64edeae806555a9b4517a4c7e2daa46e8ba4b1d32bf4caf8afe914ed2",
+    "event_present": false,
+    "incident_onset": null,
+    "split": "extra_no_fall_not_used_for_tuning",
+    "scenario": "GMDCSA24 v2.1 daily activity",
+    "license": "MIT (repository)"
+  },
+  {
+    "id": "gmdcsa_extra_s4_ADL_05",
+    "path": "data/sources/gmdcsa-adl-extra/s4_ADL_05.mp4",
+    "source": "https://raw.githubusercontent.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/v2.1/Subject%204/ADL/05.mp4",
+    "sha256": "d7bd6f68df5f0c526ab2a1ada10eac780fd429e7cfb58cc14b673eaf1d682d69",
+    "event_present": false,
+    "incident_onset": null,
+    "split": "extra_no_fall_not_used_for_tuning",
+    "scenario": "GMDCSA24 v2.1 daily activity",
+    "license": "MIT (repository)"
+  },
+  {
+    "id": "gmdcsa_extra_s4_ADL_07",
+    "path": "data/sources/gmdcsa-adl-extra/s4_ADL_07.mp4",
+    "source": "https://raw.githubusercontent.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/v2.1/Subject%204/ADL/07.mp4",
+    "sha256": "6e410abbc6d4ef7bf52ac835b952a74a94311d0977fdfddb21885477602b7b69",
+    "event_present": false,
+    "incident_onset": null,
+    "split": "extra_no_fall_not_used_for_tuning",
+    "scenario": "GMDCSA24 v2.1 daily activity",
+    "license": "MIT (repository)"
+  },
+  {
+    "id": "gmdcsa_extra_s4_ADL_09",
+    "path": "data/sources/gmdcsa-adl-extra/s4_ADL_09.mp4",
+    "source": "https://raw.githubusercontent.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/v2.1/Subject%204/ADL/09.mp4",
+    "sha256": "c910141112d74d00d9a9c4f749b23d8e92b144270e6a54f65073a11c7f6bc4c1",
+    "event_present": false,
+    "incident_onset": null,
+    "split": "extra_no_fall_not_used_for_tuning",
+    "scenario": "GMDCSA24 v2.1 daily activity",
+    "license": "MIT (repository)"
+  },
+  {
+    "id": "gmdcsa_extra_s4_ADL_11",
+    "path": "data/sources/gmdcsa-adl-extra/s4_ADL_11.mp4",
+    "source": "https://raw.githubusercontent.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/v2.1/Subject%204/ADL/11.mp4",
+    "sha256": "94d467ff662ef086d5f2009aa4c29596819b50fe6dd3989648b78d3f029a03d8",
+    "event_present": false,
+    "incident_onset": null,
+    "split": "extra_no_fall_not_used_for_tuning",
+    "scenario": "GMDCSA24 v2.1 daily activity",
+    "license": "MIT (repository)"
+  },
+  {
+    "id": "gmdcsa_extra_s4_ADL_13",
+    "path": "data/sources/gmdcsa-adl-extra/s4_ADL_13.mp4",
+    "source": "https://raw.githubusercontent.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/v2.1/Subject%204/ADL/13.mp4",
+    "sha256": "67fdb5cc193595f74e371ce520a1ca40018258c8a9d1802653cef5101c37aa3b",
+    "event_present": false,
+    "incident_onset": null,
+    "split": "extra_no_fall_not_used_for_tuning",
+    "scenario": "GMDCSA24 v2.1 daily activity",
+    "license": "MIT (repository)"
+  }
+]

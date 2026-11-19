@@ -1,0 +1,234 @@
+{
+  "scope": "temporal-only replay of measured real detections and motion; no new detector inference or FPS claim",
+  "source_results": "evaluation/phase1b/development/results.json",
+  "source_run_id": "20261027T155139115544",
+  "configuration": {
+    "improved_tracking": true,
+    "improved_temporal": true,
+    "continuation_threshold": null,
+    "track_hold_seconds": 1.5,
+    "prediction_horizon_seconds": 0.25,
+    "minimum_drop_heights": 0.18,
+    "minimum_average_descent": 0.15,
+    "maximum_ground_height_ratio": 0.75,
+    "detector_size": 640,
+    "rotation_fallback": true,
+    "sample_fps": 5.0,
+    "max_seconds": 60,
+    "max_width": 640,
+    "detector_threshold": 0.3,
+    "horizontal_ratio": 1.15,
+    "upright_ratio": 0.8,
+    "descent_heights_s": 0.25,
+    "transition_seconds": 1.5,
+    "stationary_heights_s": 0.12,
+    "stationary_flow_px_s": 6,
+    "immobile_seconds": 1.5,
+    "review_seconds": 2.5,
+    "max_gap_seconds": 0.5,
+    "history_seconds": 5,
+    "max_evidence_packets": 10,
+    "threads": 2
+  },
+  "true_positive_clips": 10,
+  "positive_clips": 11,
+  "false_positive_clips": 0,
+  "negative_clips": 13,
+  "clips": [
+    {
+      "id": "clip_00",
+      "event_present": true,
+      "candidate_times": [
+        1.8
+      ],
+      "dismissal_times": [],
+      "diagnostics_sha256": "a078ccfb0ea6667b0ebdb567e5b2e384e52300c7f5402e2249f97fcfc0d1ea79"
+    },
+    {
+      "id": "clip_01",
+      "event_present": null,
+      "candidate_times": [],
+      "dismissal_times": [],
+      "diagnostics_sha256": "7f369b5c32883acb817a851e9a38ab84270fc723301a639bd88c57f59bcaf1e2"
+    },
+    {
+      "id": "clip_02",
+      "event_present": true,
+      "candidate_times": [
+        1.4
+      ],
+      "dismissal_times": [],
+      "diagnostics_sha256": "a2d119fa40e9574b078c56b7f4d6b98b77d748ffb9f7d08867b66c073d8dcc64"
+    },
+    {
+      "id": "clip_03",
+      "event_present": true,
+      "candidate_times": [
+        1.2
+      ],
+      "dismissal_times": [],
+      "diagnostics_sha256": "5ec5e209c9d7d9015744636cadc3679993b7aa7dd9f1a99076c20b2ce383cfa9"
+    },
+    {
+      "id": "clip_04",
+      "event_present": true,
+      "candidate_times": [
+        1.0
+      ],
+      "dismissal_times": [],
+      "diagnostics_sha256": "b56263f1116017440388112e87a5170b69811dac90308c4794c5a8c450bc2d66"
+    },
+    {
+      "id": "clip_05",
+      "event_present": true,
+      "candidate_times": [],
+      "dismissal_times": [],
+      "diagnostics_sha256": "8f027e7cb317ebe01315d839b982f380759e495d993bf7be146b97a93e005cd4"
+    },
+    {
+      "id": "clip_06",
+      "event_present": false,
+      "candidate_times": [],
+      "dismissal_times": [],
+      "diagnostics_sha256": "f21f105391c8fe34bdb47921f91de4b379880514cc2526d4cebea406b4848b20"
+    },
+    {
+      "id": "clip_07",
+      "event_present": false,
+      "candidate_times": [],
+      "dismissal_times": [],
+      "diagnostics_sha256": "65b9e65ff401fcb923cdb5688ef4c0cd3fbdc2d912d60814e7e3a3dd68103566"
+    },
+    {
+      "id": "clip_08",
+      "event_present": false,
+      "candidate_times": [],
+      "dismissal_times": [],
+      "diagnostics_sha256": "58ebd99ff67bc28ffdb1243814140be85b04a1955d1720a736da4fd5aca296f6"
+    },
+    {
+      "id": "clip_09",
+      "event_present": false,
+      "candidate_times": [],
+      "dismissal_times": [],
+      "diagnostics_sha256": "f93658d3380d9b00ae0314a7c81a60724d7d936167b50ae8bc919c8978ee1980"
+    },
+    {
+      "id": "clip_10",
+      "event_present": false,
+      "candidate_times": [],
+      "dismissal_times": [],
+      "diagnostics_sha256": "6639f57903d6ab7f4c018bc1d7a2d9689b9aa713c26cb85f7837379a140f75e8"
+    },
+    {
+      "id": "clip_11",
+      "event_present": false,
+      "candidate_times": [],
+      "dismissal_times": [],
+      "diagnostics_sha256": "6b4194b3f2801c30b643299f133030fc114cf970bc5d9d536ade072d5af1dd56"
+    },
+    {
+      "id": "gmdcsa_Fall_01",
+      "event_present": true,
+      "candidate_times": [
+        4.058443349753695
+      ],
+      "dismissal_times": [],
+      "diagnostics_sha256": "38d1e13b00ed5279d20e65fd3dd252dce25fac55fe07457dcf00d68b2fffe10a"
+    },
+    {
+      "id": "gmdcsa_Fall_02",
+      "event_present": true,
+      "candidate_times": [
+        2.2242698412698414
+      ],
+      "dismissal_times": [],
+      "diagnostics_sha256": "96425a38c58801f748e27e68f99672c5d09890590b31eacf84526cfeabc4737c"
+    },
+    {
+      "id": "gmdcsa_Fall_03",
+      "event_present": true,
+      "candidate_times": [
+        3.0281079545454546
+      ],
+      "dismissal_times": [],
+      "diagnostics_sha256": "4cbb3d08b3f44bb503d7008dbe97c7673a701d4363a4510dfea270aac1fac613"
+    },
+    {
+      "id": "gmdcsa_Fall_07",
+      "event_present": true,
+      "candidate_times": [
+        1.8188823529411764
+      ],
+      "dismissal_times": [],
+      "diagnostics_sha256": "c8bcc5a40f204e542ca3715be30544d863aebfb2a40bd62c717bbfce93afaac7"
+    },
+    {
+      "id": "gmdcsa_Fall_11",
+      "event_present": true,
+      "candidate_times": [
+        2.0212375690607733
+      ],
+      "dismissal_times": [],
+      "diagnostics_sha256": "de9f786f81df2d4107648ce2e170ded66ef5af5acb699effbfbdcf1a01349da0"
+    },
+    {
+      "id": "gmdcsa_Fall_12",
+      "event_present": true,
+      "candidate_times": [
+        2.870028
+      ],
+      "dismissal_times": [],
+      "diagnostics_sha256": "4bc3f813528afaab6d7835a571ce3029fccb8310c26956c918556b5d86a13a0f"
+    },
+    {
+      "id": "gmdcsa_ADL_01",
+      "event_present": false,
+      "candidate_times": [],
+      "dismissal_times": [],
+      "diagnostics_sha256": "13e2ef76e1ddee01aec5edf2c56e793c9da5c67c7a32edab4e5511211b07c9b7"
+    },
+    {
+      "id": "gmdcsa_ADL_02",
+      "event_present": false,
+      "candidate_times": [],
+      "dismissal_times": [],
+      "diagnostics_sha256": "dcb2ae7a1334dc2b36c5ca540d97b546de97a100f1099402db9445dfd35055b5"
+    },
+    {
+      "id": "gmdcsa_ADL_03",
+      "event_present": false,
+      "candidate_times": [],
+      "dismissal_times": [],
+      "diagnostics_sha256": "fc7dc84089d43cb44fda1735974348a46dd61fb61e4c8db962d801a324930191"
+    },
+    {
+      "id": "gmdcsa_ADL_04",
+      "event_present": false,
+      "candidate_times": [],
+      "dismissal_times": [],
+      "diagnostics_sha256": "3fbe3f9fd416b7703b68edb96679c325aec5dc56c71f1abd75fe1c5ca5b31464"
+    },
+    {
+      "id": "gmdcsa_ADL_08",
+      "event_present": false,
+      "candidate_times": [],
+      "dismissal_times": [],
+      "diagnostics_sha256": "565c3e6cf20aa5fabdd531736a61af451d84caeb2a2e8f816983d1a4402c7e77"
+    },
+    {
+      "id": "gmdcsa_ADL_11",
+      "event_present": false,
+      "candidate_times": [],
+      "dismissal_times": [],
+      "diagnostics_sha256": "f092795cad1e939e8c2f4535bc9d26c61f59e460bdba3258e51e8b11ee5b7d61"
+    },
+    {
+      "id": "gmdcsa_ADL_13",
+      "event_present": false,
+      "candidate_times": [],
+      "dismissal_times": [],
+      "diagnostics_sha256": "5d190186b628ee01bd64dc11fe3aff1e9bee9be0843ffc90621a6358ede9e639"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "holdout_s2_Fall_13",
+    "path": "data/clips/holdout_s2_Fall_13.mp4",
+    "source": "https://raw.githubusercontent.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/v2.1/Subject%202/Fall/13.mp4",
+    "sha256": "1d98ea500dd2d74e281d4e60f23d882d122dad868d7a8db5113b24c01c99ef7e",
+    "event_present": true,
+    "incident_onset": 2.5,
+    "split": "subject_held_out_no_retuning",
+    "scenario": "night fall"
+  },
+  {
+    "id": "holdout_s2_ADL_14",
+    "path": "data/clips/holdout_s2_ADL_14.mp4",
+    "source": "https://raw.githubusercontent.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/v2.1/Subject%202/ADL/14.mp4",
+    "sha256": "5cf456ef4e1efb3aa3e0e7a8aa3e58a5d58a87f4fc73f6b832276839af65e358",
+    "event_present": false,
+    "incident_onset": null,
+    "split": "subject_held_out_no_retuning",
+    "scenario": "night walking and sitting"
+  },
+  {
+    "id": "holdout_s3_Fall_16",
+    "path": "data/clips/holdout_s3_Fall_16.mp4",
+    "source": "https://raw.githubusercontent.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/v2.1/Subject%203/Fall/16.mp4",
+    "sha256": "28c03494de00d7aefc6baa5b976da66ef51962e6157f84e16caffc03279972fa",
+    "event_present": true,
+    "incident_onset": 1.8,
+    "split": "subject_held_out_no_retuning",
+    "scenario": "night walking fall"
+  },
+  {
+    "id": "holdout_s3_ADL_13",
+    "path": "data/clips/holdout_s3_ADL_13.mp4",
+    "source": "https://raw.githubusercontent.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/v2.1/Subject%203/ADL/13.mp4",
+    "sha256": "cc8847e582cc3644e745628bf14c66ca11efb235c5a3aef9d5a11355b4cdca9b",
+    "event_present": false,
+    "incident_onset": null,
+    "split": "subject_held_out_no_retuning",
+    "scenario": "night seated on floor"
+  },
+  {
+    "id": "holdout_s3_ADL_09",
+    "path": "data/clips/holdout_s3_ADL_09.mp4",
+    "source": "https://raw.githubusercontent.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/v2.1/Subject%203/ADL/09.mp4",
+    "sha256": "5100230c1f7d22a400ca810b9eef7162853cb556484648bf5c9fbf1844df618d",
+    "event_present": false,
+    "incident_onset": null,
+    "split": "subject_held_out_no_retuning",
+    "scenario": "lying to standing; no preceding fall"
+  }
+]

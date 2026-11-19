@@ -1,0 +1,22 @@
+[
+  {
+    "id": "mot17_02_crowd",
+    "path": "data/clips/identity_mot17_02.avi",
+    "sha256": "417c6e38315bf8bf97a26829d5414ad6c502b83e1d5768ea2f6320eda2572a6a",
+    "event_present": false,
+    "incident_onset": null,
+    "split": "crowd_negative",
+    "scenario": "MOT17-02 pedestrians, no falls (CC BY-NC-SA 3.0), 5 Hz subset",
+    "license": "CC BY-NC-SA 3.0"
+  },
+  {
+    "id": "mot17_04_crowd",
+    "path": "data/clips/identity_mot17_04.avi",
+    "sha256": "5e335a3eb2f0fe0cb178c595fc37d109ee01cc50bd2ec9fbd353b5dfc43b2782",
+    "event_present": false,
+    "incident_onset": null,
+    "split": "crowd_negative",
+    "scenario": "MOT17-04 pedestrians, no falls (CC BY-NC-SA 3.0), 5 Hz subset",
+    "license": "CC BY-NC-SA 3.0"
+  }
+]

@@ -1,0 +1,147 @@
+{
+  "date": "2026-10-28",
+  "assist_commit": "7a11c96b9a3576cef92f0795a19b3786c69a3335",
+  "selection_basis": "publisher activity metadata, before inference; final reserve never opened",
+  "validation": [
+    {
+      "id": "fresh_gmd4_Fall_03",
+      "source": "https://raw.githubusercontent.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/v2.1/Subject%204/Fall/03.mp4",
+      "event_present": true,
+      "incident_onset": 1.7,
+      "scenario": "forward fall",
+      "dataset": "GMDCSA24",
+      "subject_group": "GMDCSA24_Subject4",
+      "license": "MIT"
+    },
+    {
+      "id": "fresh_gmd4_Fall_07",
+      "source": "https://raw.githubusercontent.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/v2.1/Subject%204/Fall/07.mp4",
+      "event_present": true,
+      "incident_onset": 2.4,
+      "scenario": "sideways fall",
+      "dataset": "GMDCSA24",
+      "subject_group": "GMDCSA24_Subject4",
+      "license": "MIT"
+    },
+    {
+      "id": "fresh_gmd4_Fall_08",
+      "source": "https://raw.githubusercontent.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/v2.1/Subject%204/Fall/08.mp4",
+      "event_present": true,
+      "incident_onset": 2.3,
+      "scenario": "backward seated fall",
+      "dataset": "GMDCSA24",
+      "subject_group": "GMDCSA24_Subject4",
+      "license": "MIT"
+    },
+    {
+      "id": "fresh_gmd4_Fall_11",
+      "source": "https://raw.githubusercontent.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/v2.1/Subject%204/Fall/11.mp4",
+      "event_present": true,
+      "incident_onset": 1.2,
+      "scenario": "forward partially visible fall",
+      "dataset": "GMDCSA24",
+      "subject_group": "GMDCSA24_Subject4",
+      "license": "MIT"
+    },
+    {
+      "id": "fresh_gmd4_ADL_14",
+      "source": "https://raw.githubusercontent.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/v2.1/Subject%204/ADL/14.mp4",
+      "event_present": false,
+      "incident_onset": null,
+      "scenario": "standing up and bending",
+      "dataset": "GMDCSA24",
+      "subject_group": "GMDCSA24_Subject4",
+      "license": "MIT"
+    },
+    {
+      "id": "fresh_gmd4_ADL_17",
+      "source": "https://raw.githubusercontent.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/v2.1/Subject%204/ADL/17.mp4",
+      "event_present": false,
+      "incident_onset": null,
+      "scenario": "walking and picking object from floor",
+      "dataset": "GMDCSA24",
+      "subject_group": "GMDCSA24_Subject4",
+      "license": "MIT"
+    },
+    {
+      "id": "fresh_assist_02_fall_backward",
+      "source": "https://raw.githubusercontent.com/ASSIST-IoT-SRIPAS/multimodal-fall-detection-dataset/7a11c96b9a3576cef92f0795a19b3786c69a3335/videos/fall/02_fall_backward.mp4",
+      "event_present": true,
+      "incident_onset": null,
+      "scenario": "02_fall_backward",
+      "dataset": "ASSIST-IoT reference videos",
+      "subject_group": "reference demonstrators; identity not inferred",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "fresh_assist_04_forward_fall_jogging",
+      "source": "https://raw.githubusercontent.com/ASSIST-IoT-SRIPAS/multimodal-fall-detection-dataset/7a11c96b9a3576cef92f0795a19b3786c69a3335/videos/fall/04_forward_fall_jogging.mp4",
+      "event_present": true,
+      "incident_onset": null,
+      "scenario": "04_forward_fall_jogging",
+      "dataset": "ASSIST-IoT reference videos",
+      "subject_group": "reference demonstrators; identity not inferred",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "fresh_assist_05_vertical_fall_faint",
+      "source": "https://raw.githubusercontent.com/ASSIST-IoT-SRIPAS/multimodal-fall-detection-dataset/7a11c96b9a3576cef92f0795a19b3786c69a3335/videos/fall/05_vertical_fall_faint.mp4",
+      "event_present": true,
+      "incident_onset": null,
+      "scenario": "05_vertical_fall_faint",
+      "dataset": "ASSIST-IoT reference videos",
+      "subject_group": "reference demonstrators; identity not inferred",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "fresh_assist_07_fall_to_knees_forward",
+      "source": "https://raw.githubusercontent.com/ASSIST-IoT-SRIPAS/multimodal-fall-detection-dataset/7a11c96b9a3576cef92f0795a19b3786c69a3335/videos/fall/07_fall_to_knees_forward.mp4",
+      "event_present": true,
+      "incident_onset": null,
+      "scenario": "07_fall_to_knees_forward",
+      "dataset": "ASSIST-IoT reference videos",
+      "subject_group": "reference demonstrators; identity not inferred",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "fresh_assist_01_walking_slowly",
+      "source": "https://raw.githubusercontent.com/ASSIST-IoT-SRIPAS/multimodal-fall-detection-dataset/7a11c96b9a3576cef92f0795a19b3786c69a3335/videos/adl/01_walking_slowly.mp4",
+      "event_present": false,
+      "incident_onset": null,
+      "scenario": "01_walking_slowly",
+      "dataset": "ASSIST-IoT reference videos",
+      "subject_group": "reference demonstrators; identity not inferred",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "fresh_assist_12_sitting_laying_down_quickly",
+      "source": "https://raw.githubusercontent.com/ASSIST-IoT-SRIPAS/multimodal-fall-detection-dataset/7a11c96b9a3576cef92f0795a19b3786c69a3335/videos/adl/12_sitting_laying_down_quickly.mp4",
+      "event_present": false,
+      "incident_onset": null,
+      "scenario": "12_sitting_laying_down_quickly",
+      "dataset": "ASSIST-IoT reference videos",
+      "subject_group": "reference demonstrators; identity not inferred",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "fresh_assist_13_bending_at_knees",
+      "source": "https://raw.githubusercontent.com/ASSIST-IoT-SRIPAS/multimodal-fall-detection-dataset/7a11c96b9a3576cef92f0795a19b3786c69a3335/videos/adl/13_bending_at_knees.mp4",
+      "event_present": false,
+      "incident_onset": null,
+      "scenario": "13_bending_at_knees",
+      "dataset": "ASSIST-IoT reference videos",
+      "subject_group": "reference demonstrators; identity not inferred",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "fresh_assist_14_bending_wo_knees",
+      "source": "https://raw.githubusercontent.com/ASSIST-IoT-SRIPAS/multimodal-fall-detection-dataset/7a11c96b9a3576cef92f0795a19b3786c69a3335/videos/adl/14_bending_wo_knees.mp4",
+      "event_present": false,
+      "incident_onset": null,
+      "scenario": "14_bending_wo_knees",
+      "dataset": "ASSIST-IoT reference videos",
+      "subject_group": "reference demonstrators; identity not inferred",
+      "license": "CC-BY-4.0"
+    }
+  ]
+}

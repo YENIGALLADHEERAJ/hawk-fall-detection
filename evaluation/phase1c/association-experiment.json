@@ -1,0 +1,300 @@
+{
+  "scope": "Counterfactual tracking on recorded real MOT detections. Baseline ID sequence asserted identical. No new DNN, motion, fall or throughput benchmark.",
+  "run_id": "20261028T144937925673",
+  "results": {
+    "baseline": {
+      "reference_instances": 397,
+      "matched_iou50": 342,
+      "matched_iou75": 271,
+      "recall_iou50": 0.8614609571788413,
+      "recall_iou75": 0.6826196473551638,
+      "unmatched_predictions_in_scored_roi": 127,
+      "matched_mean_iou": 0.8202623243119015,
+      "mean_center_error_heights": 0.03059777194547548,
+      "mean_abs_log_area_error": 0.16418992139500296,
+      "mean_reference_relative_center_jitter": 0.031601325366045804,
+      "mean_reference_relative_log_area_change": 0.13109865840127222,
+      "id_switches": 37,
+      "fragments_after_missing": 12,
+      "longest_missed_sample_span_seconds": 1.4000000000000004,
+      "phases": {
+        "visibility_high": [
+          301,
+          284
+        ],
+        "visibility_low": [
+          96,
+          58
+        ]
+      },
+      "per_identity": {
+        "1": {
+          "reference_samples": 32,
+          "missed": 0,
+          "longest_missed_sample_span_seconds": 0,
+          "id_switches": 4,
+          "fragments_after_missing": 0
+        },
+        "19": {
+          "reference_samples": 34,
+          "missed": 0,
+          "longest_missed_sample_span_seconds": 0,
+          "id_switches": 2,
+          "fragments_after_missing": 0
+        },
+        "20": {
+          "reference_samples": 37,
+          "missed": 3,
+          "longest_missed_sample_span_seconds": 0.4,
+          "id_switches": 0,
+          "fragments_after_missing": 0
+        },
+        "21": {
+          "reference_samples": 40,
+          "missed": 16,
+          "longest_missed_sample_span_seconds": 1.0,
+          "id_switches": 2,
+          "fragments_after_missing": 5
+        },
+        "22": {
+          "reference_samples": 41,
+          "missed": 3,
+          "longest_missed_sample_span_seconds": 0.20000000000000018,
+          "id_switches": 3,
+          "fragments_after_missing": 2
+        },
+        "23": {
+          "reference_samples": 46,
+          "missed": 11,
+          "longest_missed_sample_span_seconds": 1.4000000000000004,
+          "id_switches": 1,
+          "fragments_after_missing": 1
+        },
+        "16": {
+          "reference_samples": 5,
+          "missed": 2,
+          "longest_missed_sample_span_seconds": 0.20000000000000018,
+          "id_switches": 0,
+          "fragments_after_missing": 0
+        },
+        "43": {
+          "reference_samples": 2,
+          "missed": 2,
+          "longest_missed_sample_span_seconds": 0.19999999999999996,
+          "id_switches": 0,
+          "fragments_after_missing": 0
+        },
+        "7": {
+          "reference_samples": 21,
+          "missed": 2,
+          "longest_missed_sample_span_seconds": 0.20000000000000018,
+          "id_switches": 3,
+          "fragments_after_missing": 1
+        },
+        "8": {
+          "reference_samples": 25,
+          "missed": 0,
+          "longest_missed_sample_span_seconds": 0,
+          "id_switches": 2,
+          "fragments_after_missing": 0
+        },
+        "10": {
+          "reference_samples": 24,
+          "missed": 5,
+          "longest_missed_sample_span_seconds": 0.20000000000000018,
+          "id_switches": 3,
+          "fragments_after_missing": 1
+        },
+        "18": {
+          "reference_samples": 23,
+          "missed": 1,
+          "longest_missed_sample_span_seconds": 0,
+          "id_switches": 1,
+          "fragments_after_missing": 0
+        },
+        "29": {
+          "reference_samples": 20,
+          "missed": 3,
+          "longest_missed_sample_span_seconds": 0.1999999999999993,
+          "id_switches": 3,
+          "fragments_after_missing": 1
+        },
+        "12": {
+          "reference_samples": 16,
+          "missed": 5,
+          "longest_missed_sample_span_seconds": 0.40000000000000036,
+          "id_switches": 4,
+          "fragments_after_missing": 1
+        },
+        "11": {
+          "reference_samples": 15,
+          "missed": 0,
+          "longest_missed_sample_span_seconds": 0,
+          "id_switches": 5,
+          "fragments_after_missing": 0
+        },
+        "13": {
+          "reference_samples": 14,
+          "missed": 0,
+          "longest_missed_sample_span_seconds": 0,
+          "id_switches": 4,
+          "fragments_after_missing": 0
+        },
+        "2": {
+          "reference_samples": 2,
+          "missed": 2,
+          "longest_missed_sample_span_seconds": 0.39999999999999947,
+          "id_switches": 0,
+          "fragments_after_missing": 0
+        }
+      }
+    },
+    "short_gap_guard": {
+      "reference_instances": 397,
+      "matched_iou50": 342,
+      "matched_iou75": 271,
+      "recall_iou50": 0.8614609571788413,
+      "recall_iou75": 0.6826196473551638,
+      "unmatched_predictions_in_scored_roi": 127,
+      "matched_mean_iou": 0.8202623243119015,
+      "mean_center_error_heights": 0.03059777194547548,
+      "mean_abs_log_area_error": 0.16418992139500296,
+      "mean_reference_relative_center_jitter": 0.031601325366045804,
+      "mean_reference_relative_log_area_change": 0.13109865840127222,
+      "id_switches": 92,
+      "fragments_after_missing": 12,
+      "longest_missed_sample_span_seconds": 1.4000000000000004,
+      "phases": {
+        "visibility_high": [
+          301,
+          284
+        ],
+        "visibility_low": [
+          96,
+          58
+        ]
+      },
+      "per_identity": {
+        "1": {
+          "reference_samples": 32,
+          "missed": 0,
+          "longest_missed_sample_span_seconds": 0,
+          "id_switches": 4,
+          "fragments_after_missing": 0
+        },
+        "19": {
+          "reference_samples": 34,
+          "missed": 0,
+          "longest_missed_sample_span_seconds": 0,
+          "id_switches": 2,
+          "fragments_after_missing": 0
+        },
+        "20": {
+          "reference_samples": 37,
+          "missed": 3,
+          "longest_missed_sample_span_seconds": 0.4,
+          "id_switches": 14,
+          "fragments_after_missing": 0
+        },
+        "21": {
+          "reference_samples": 40,
+          "missed": 16,
+          "longest_missed_sample_span_seconds": 1.0,
+          "id_switches": 7,
+          "fragments_after_missing": 5
+        },
+        "22": {
+          "reference_samples": 41,
+          "missed": 3,
+          "longest_missed_sample_span_seconds": 0.20000000000000018,
+          "id_switches": 13,
+          "fragments_after_missing": 2
+        },
+        "23": {
+          "reference_samples": 46,
+          "missed": 11,
+          "longest_missed_sample_span_seconds": 1.4000000000000004,
+          "id_switches": 1,
+          "fragments_after_missing": 1
+        },
+        "16": {
+          "reference_samples": 5,
+          "missed": 2,
+          "longest_missed_sample_span_seconds": 0.20000000000000018,
+          "id_switches": 0,
+          "fragments_after_missing": 0
+        },
+        "43": {
+          "reference_samples": 2,
+          "missed": 2,
+          "longest_missed_sample_span_seconds": 0.19999999999999996,
+          "id_switches": 0,
+          "fragments_after_missing": 0
+        },
+        "7": {
+          "reference_samples": 21,
+          "missed": 2,
+          "longest_missed_sample_span_seconds": 0.20000000000000018,
+          "id_switches": 3,
+          "fragments_after_missing": 1
+        },
+        "8": {
+          "reference_samples": 25,
+          "missed": 0,
+          "longest_missed_sample_span_seconds": 0,
+          "id_switches": 7,
+          "fragments_after_missing": 0
+        },
+        "10": {
+          "reference_samples": 24,
+          "missed": 5,
+          "longest_missed_sample_span_seconds": 0.20000000000000018,
+          "id_switches": 4,
+          "fragments_after_missing": 1
+        },
+        "18": {
+          "reference_samples": 23,
+          "missed": 1,
+          "longest_missed_sample_span_seconds": 0,
+          "id_switches": 3,
+          "fragments_after_missing": 0
+        },
+        "29": {
+          "reference_samples": 20,
+          "missed": 3,
+          "longest_missed_sample_span_seconds": 0.1999999999999993,
+          "id_switches": 8,
+          "fragments_after_missing": 1
+        },
+        "12": {
+          "reference_samples": 16,
+          "missed": 5,
+          "longest_missed_sample_span_seconds": 0.40000000000000036,
+          "id_switches": 6,
+          "fragments_after_missing": 1
+        },
+        "11": {
+          "reference_samples": 15,
+          "missed": 0,
+          "longest_missed_sample_span_seconds": 0,
+          "id_switches": 11,
+          "fragments_after_missing": 0
+        },
+        "13": {
+          "reference_samples": 14,
+          "missed": 0,
+          "longest_missed_sample_span_seconds": 0,
+          "id_switches": 9,
+          "fragments_after_missing": 0
+        },
+        "2": {
+          "reference_samples": 2,
+          "missed": 2,
+          "longest_missed_sample_span_seconds": 0.39999999999999947,
+          "id_switches": 0,
+          "fragments_after_missing": 0
+        }
+      }
+    }
+  }
+}

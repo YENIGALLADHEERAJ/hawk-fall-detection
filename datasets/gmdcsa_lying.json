@@ -1,0 +1,123 @@
+[
+  {
+    "id": "gmdcsa_lying_s2_ADL_03",
+    "path": "data/sources/gmdcsa-lying/s2_ADL_03.mp4",
+    "source": "https://raw.githubusercontent.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/v2.1/Subject%202/ADL/03.mp4",
+    "sha256": "df03bbbb1cb6c2fb7a91c61671e1722f1514a584bd226f7fa38b7f26767cd930",
+    "event_present": false,
+    "incident_onset": null,
+    "split": "lying_sleeping_no_fall_not_used_for_tuning",
+    "scenario": "GMDCSA24 v2.1 ADL with sleeping/lying/stretching",
+    "license": "MIT (repository)"
+  },
+  {
+    "id": "gmdcsa_lying_s2_ADL_12",
+    "path": "data/sources/gmdcsa-lying/s2_ADL_12.mp4",
+    "source": "https://raw.githubusercontent.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/v2.1/Subject%202/ADL/12.mp4",
+    "sha256": "24559694cceadbcf1bb34f217967c233e412b97e25f9dd9be3f733f4e16067df",
+    "event_present": false,
+    "incident_onset": null,
+    "split": "lying_sleeping_no_fall_not_used_for_tuning",
+    "scenario": "GMDCSA24 v2.1 ADL with sleeping/lying/stretching",
+    "license": "MIT (repository)"
+  },
+  {
+    "id": "gmdcsa_lying_s2_ADL_16",
+    "path": "data/sources/gmdcsa-lying/s2_ADL_16.mp4",
+    "source": "https://raw.githubusercontent.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/v2.1/Subject%202/ADL/16.mp4",
+    "sha256": "35a994e3139f1be2ec1dec4d835a404d1b1133d3a02dfb49d20f6d5dfe163305",
+    "event_present": false,
+    "incident_onset": null,
+    "split": "lying_sleeping_no_fall_not_used_for_tuning",
+    "scenario": "GMDCSA24 v2.1 ADL with sleeping/lying/stretching",
+    "license": "MIT (repository)"
+  },
+  {
+    "id": "gmdcsa_lying_s2_ADL_08",
+    "path": "data/sources/gmdcsa-lying/s2_ADL_08.mp4",
+    "source": "https://raw.githubusercontent.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/v2.1/Subject%202/ADL/08.mp4",
+    "sha256": "ef58c25c6d49708af13033c18623abc977215f2866ca8afcd42e6fd2f73679d8",
+    "event_present": false,
+    "incident_onset": null,
+    "split": "lying_sleeping_no_fall_not_used_for_tuning",
+    "scenario": "GMDCSA24 v2.1 ADL with sleeping/lying/stretching",
+    "license": "MIT (repository)"
+  },
+  {
+    "id": "gmdcsa_lying_s3_ADL_08",
+    "path": "data/sources/gmdcsa-lying/s3_ADL_08.mp4",
+    "source": "https://raw.githubusercontent.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/v2.1/Subject%203/ADL/08.mp4",
+    "sha256": "b383bb83a22b286cfc65fdd934137ee8b29e84aef7be0b540271d7c69d10fa8b",
+    "event_present": false,
+    "incident_onset": null,
+    "split": "lying_sleeping_no_fall_not_used_for_tuning",
+    "scenario": "GMDCSA24 v2.1 ADL with sleeping/lying/stretching",
+    "license": "MIT (repository)"
+  },
+  {
+    "id": "gmdcsa_lying_s3_ADL_06",
+    "path": "data/sources/gmdcsa-lying/s3_ADL_06.mp4",
+    "source": "https://raw.githubusercontent.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/v2.1/Subject%203/ADL/06.mp4",
+    "sha256": "1953d8a5305e7d8da22ac3dd2f6ca1128c63f3671aaf71761d9dbf9e4f82b971",
+    "event_present": false,
+    "incident_onset": null,
+    "split": "lying_sleeping_no_fall_not_used_for_tuning",
+    "scenario": "GMDCSA24 v2.1 ADL with sleeping/lying/stretching",
+    "license": "MIT (repository)"
+  },
+  {
+    "id": "gmdcsa_lying_s4_ADL_08",
+    "path": "data/sources/gmdcsa-lying/s4_ADL_08.mp4",
+    "source": "https://raw.githubusercontent.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/v2.1/Subject%204/ADL/08.mp4",
+    "sha256": "b56a914572559ea75b58eea722fa483d52092b2ad35e3000708f27b04adb1b8f",
+    "event_present": false,
+    "incident_onset": null,
+    "split": "lying_sleeping_no_fall_not_used_for_tuning",
+    "scenario": "GMDCSA24 v2.1 ADL with sleeping/lying/stretching",
+    "license": "MIT (repository)"
+  },
+  {
+    "id": "gmdcsa_lying_s4_ADL_10",
+    "path": "data/sources/gmdcsa-lying/s4_ADL_10.mp4",
+    "source": "https://raw.githubusercontent.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/v2.1/Subject%204/ADL/10.mp4",
+    "sha256": "9547a6408eeeca6da339b111cf6d3112129ef02105941d7f1c1051c12bb9f849",
+    "event_present": false,
+    "incident_onset": null,
+    "split": "lying_sleeping_no_fall_not_used_for_tuning",
+    "scenario": "GMDCSA24 v2.1 ADL with sleeping/lying/stretching",
+    "license": "MIT (repository)"
+  },
+  {
+    "id": "gmdcsa_lying_s4_ADL_15",
+    "path": "data/sources/gmdcsa-lying/s4_ADL_15.mp4",
+    "source": "https://raw.githubusercontent.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/v2.1/Subject%204/ADL/15.mp4",
+    "sha256": "a42a66af9fc8e8e9df46518f6960efb1899fbc368950c5517c1ab9d4f4704918",
+    "event_present": false,
+    "incident_onset": null,
+    "split": "lying_sleeping_no_fall_not_used_for_tuning",
+    "scenario": "GMDCSA24 v2.1 ADL with sleeping/lying/stretching",
+    "license": "MIT (repository)"
+  },
+  {
+    "id": "gmdcsa_lying_s4_ADL_16",
+    "path": "data/sources/gmdcsa-lying/s4_ADL_16.mp4",
+    "source": "https://raw.githubusercontent.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/v2.1/Subject%204/ADL/16.mp4",
+    "sha256": "20895c4a7ce5ff072158cc9c16675e2cbd39dc7c472ad2e511f097123918a4db",
+    "event_present": false,
+    "incident_onset": null,
+    "split": "lying_sleeping_no_fall_not_used_for_tuning",
+    "scenario": "GMDCSA24 v2.1 ADL with sleeping/lying/stretching",
+    "license": "MIT (repository)"
+  },
+  {
+    "id": "gmdcsa_lying_s3_ADL_03",
+    "path": "data/sources/gmdcsa-adl-extra/s3_ADL_03.mp4",
+    "source": "https://raw.githubusercontent.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/v2.1/Subject%203/ADL/03.mp4",
+    "sha256": "f587753621be201cf3a4f00521d99e7869471de47df3d73ec2270efb4bdd0d76",
+    "event_present": false,
+    "incident_onset": null,
+    "split": "lying_sleeping_no_fall_not_used_for_tuning",
+    "scenario": "GMDCSA24 v2.1 ADL with sleeping/lying",
+    "license": "MIT (repository)"
+  }
+]

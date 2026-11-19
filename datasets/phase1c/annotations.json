@@ -1,0 +1,1582 @@
+{
+  "method": "Single AI visual annotator, raw images before model inference; visible-body boxes, approximate +/-6 preview pixels; sparse exploratory audit, not expert or full-frame ground truth. ASSIST inset excluded from localization scoring, retained in pipeline input. Same person in two views is not multi-person evidence.",
+  "clips": [
+    {
+      "clip_id": "fresh_gmd4_Fall_03",
+      "frames": [
+        {
+          "frame_index": 36,
+          "timestamp": 1.206996,
+          "preview_width": 320,
+          "preview_height": 240,
+          "source_width": 640,
+          "source_height": 480,
+          "scale": 0.5,
+          "box_preview_xyxy": [
+            14,
+            0,
+            174,
+            240
+          ],
+          "phase": "upright",
+          "reference_identity": 1
+        },
+        {
+          "frame_index": 48,
+          "timestamp": 1.6093279999999999,
+          "preview_width": 320,
+          "preview_height": 240,
+          "source_width": 640,
+          "source_height": 480,
+          "scale": 0.5,
+          "box_preview_xyxy": [
+            39,
+            0,
+            173,
+            240
+          ],
+          "phase": "upright",
+          "reference_identity": 1
+        },
+        {
+          "frame_index": 60,
+          "timestamp": 2.01166,
+          "preview_width": 320,
+          "preview_height": 240,
+          "source_width": 640,
+          "source_height": 480,
+          "scale": 0.5,
+          "box_preview_xyxy": [
+            46,
+            85,
+            175,
+            240
+          ],
+          "phase": "descent",
+          "reference_identity": 1
+        },
+        {
+          "frame_index": 72,
+          "timestamp": 2.413992,
+          "preview_width": 320,
+          "preview_height": 240,
+          "source_width": 640,
+          "source_height": 480,
+          "scale": 0.5,
+          "box_preview_xyxy": [
+            40,
+            158,
+            160,
+            240
+          ],
+          "phase": "ground",
+          "reference_identity": 1
+        },
+        {
+          "frame_index": 162,
+          "timestamp": 5.431482,
+          "preview_width": 320,
+          "preview_height": 240,
+          "source_width": 640,
+          "source_height": 480,
+          "scale": 0.5,
+          "box_preview_xyxy": [
+            26,
+            177,
+            156,
+            240
+          ],
+          "phase": "ground",
+          "reference_identity": 1
+        },
+        {
+          "frame_index": 192,
+          "timestamp": 6.4373119999999995,
+          "preview_width": 320,
+          "preview_height": 240,
+          "source_width": 640,
+          "source_height": 480,
+          "scale": 0.5,
+          "box_preview_xyxy": [
+            25,
+            178,
+            163,
+            240
+          ],
+          "phase": "ground",
+          "reference_identity": 1
+        }
+      ],
+      "main_view_preview_roi": [
+        0,
+        0,
+        320,
+        240
+      ]
+    },
+    {
+      "clip_id": "fresh_gmd4_Fall_07",
+      "frames": [
+        {
+          "frame_index": 60,
+          "timestamp": 2.012244680851064,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [
+            82,
+            44,
+            188,
+            166
+          ],
+          "phase": "descent",
+          "reference_identity": 1
+        },
+        {
+          "frame_index": 72,
+          "timestamp": 2.4146936170212765,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [
+            96,
+            68,
+            188,
+            165
+          ],
+          "phase": "descent",
+          "reference_identity": 1
+        },
+        {
+          "frame_index": 84,
+          "timestamp": 2.817142553191489,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [
+            85,
+            99,
+            184,
+            168
+          ],
+          "phase": "descent",
+          "reference_identity": 1
+        },
+        {
+          "frame_index": 96,
+          "timestamp": 3.219591489361702,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [
+            50,
+            119,
+            187,
+            166
+          ],
+          "phase": "ground",
+          "reference_identity": 1
+        },
+        {
+          "frame_index": 150,
+          "timestamp": 5.0306117021276595,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [
+            57,
+            117,
+            189,
+            167
+          ],
+          "phase": "ground",
+          "reference_identity": 1
+        },
+        {
+          "frame_index": 180,
+          "timestamp": 6.036734042553191,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [
+            58,
+            119,
+            188,
+            167
+          ],
+          "phase": "ground",
+          "reference_identity": 1
+        }
+      ],
+      "main_view_preview_roi": [
+        0,
+        0,
+        320,
+        240
+      ]
+    },
+    {
+      "clip_id": "fresh_gmd4_Fall_08",
+      "frames": [
+        {
+          "frame_index": 54,
+          "timestamp": 1.8069882352941176,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [
+            48,
+            42,
+            122,
+            151
+          ],
+          "phase": "seated",
+          "reference_identity": 1
+        },
+        {
+          "frame_index": 66,
+          "timestamp": 2.2085411764705882,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [
+            49,
+            45,
+            132,
+            151
+          ],
+          "phase": "descent",
+          "reference_identity": 1
+        },
+        {
+          "frame_index": 78,
+          "timestamp": 2.610094117647059,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [
+            47,
+            65,
+            151,
+            150
+          ],
+          "phase": "descent",
+          "reference_identity": 1
+        },
+        {
+          "frame_index": 90,
+          "timestamp": 3.011647058823529,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [
+            47,
+            87,
+            155,
+            154
+          ],
+          "phase": "ground",
+          "reference_identity": 1
+        },
+        {
+          "frame_index": 150,
+          "timestamp": 5.0194117647058825,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [
+            47,
+            87,
+            155,
+            154
+          ],
+          "phase": "ground",
+          "reference_identity": 1
+        },
+        {
+          "frame_index": 180,
+          "timestamp": 6.023294117647058,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [
+            47,
+            87,
+            155,
+            154
+          ],
+          "phase": "ground",
+          "reference_identity": 1
+        }
+      ],
+      "main_view_preview_roi": [
+        0,
+        0,
+        320,
+        240
+      ]
+    },
+    {
+      "clip_id": "fresh_gmd4_Fall_11",
+      "frames": [
+        {
+          "frame_index": 24,
+          "timestamp": 0.8049647058823529,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [
+            119,
+            0,
+            160,
+            161
+          ],
+          "phase": "upright",
+          "reference_identity": 1
+        },
+        {
+          "frame_index": 36,
+          "timestamp": 1.2074470588235293,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [
+            96,
+            0,
+            162,
+            162
+          ],
+          "phase": "descent",
+          "reference_identity": 1
+        },
+        {
+          "frame_index": 48,
+          "timestamp": 1.6099294117647058,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [
+            48,
+            70,
+            159,
+            163
+          ],
+          "phase": "descent",
+          "reference_identity": 1
+        },
+        {
+          "frame_index": 60,
+          "timestamp": 2.0124117647058823,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [
+            49,
+            128,
+            160,
+            164
+          ],
+          "phase": "ground",
+          "reference_identity": 1
+        },
+        {
+          "frame_index": 108,
+          "timestamp": 3.6223411764705884,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [
+            49,
+            128,
+            160,
+            164
+          ],
+          "phase": "ground",
+          "reference_identity": 1
+        },
+        {
+          "frame_index": 132,
+          "timestamp": 4.427305882352941,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [
+            49,
+            128,
+            160,
+            164
+          ],
+          "phase": "ground",
+          "reference_identity": 1
+        }
+      ],
+      "main_view_preview_roi": [
+        0,
+        0,
+        320,
+        240
+      ]
+    },
+    {
+      "clip_id": "fresh_gmd4_ADL_14",
+      "frames": [
+        {
+          "frame_index": 12,
+          "timestamp": 0.40188709677419354,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [
+            69,
+            3,
+            135,
+            165
+          ],
+          "phase": "nonfall",
+          "reference_identity": 1
+        },
+        {
+          "frame_index": 48,
+          "timestamp": 1.6075483870967742,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [
+            61,
+            7,
+            110,
+            156
+          ],
+          "phase": "nonfall",
+          "reference_identity": 1
+        },
+        {
+          "frame_index": 102,
+          "timestamp": 3.416040322580645,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [
+            40,
+            28,
+            119,
+            157
+          ],
+          "phase": "nonfall",
+          "reference_identity": 1
+        },
+        {
+          "frame_index": 150,
+          "timestamp": 5.023588709677419,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [
+            78,
+            0,
+            120,
+            164
+          ],
+          "phase": "nonfall",
+          "reference_identity": 1
+        },
+        {
+          "frame_index": 198,
+          "timestamp": 6.631137096774194,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [
+            70,
+            0,
+            122,
+            165
+          ],
+          "phase": "nonfall",
+          "reference_identity": 1
+        },
+        {
+          "frame_index": 234,
+          "timestamp": 7.836798387096774,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [
+            78,
+            0,
+            122,
+            162
+          ],
+          "phase": "nonfall",
+          "reference_identity": 1
+        }
+      ],
+      "main_view_preview_roi": [
+        0,
+        0,
+        320,
+        240
+      ]
+    },
+    {
+      "clip_id": "fresh_gmd4_ADL_17",
+      "frames": [
+        {
+          "frame_index": 12,
+          "timestamp": 0.40163655913978497,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [],
+          "phase": "nonfall",
+          "reference_identity": 1
+        },
+        {
+          "frame_index": 36,
+          "timestamp": 1.2049096774193548,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [
+            55,
+            0,
+            111,
+            161
+          ],
+          "phase": "nonfall",
+          "reference_identity": 1
+        },
+        {
+          "frame_index": 72,
+          "timestamp": 2.4098193548387097,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [
+            80,
+            59,
+            152,
+            159
+          ],
+          "phase": "nonfall",
+          "reference_identity": 1
+        },
+        {
+          "frame_index": 114,
+          "timestamp": 3.8155473118279573,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [
+            78,
+            17,
+            130,
+            161
+          ],
+          "phase": "nonfall",
+          "reference_identity": 1
+        },
+        {
+          "frame_index": 150,
+          "timestamp": 5.020456989247312,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [
+            51,
+            6,
+            90,
+            158
+          ],
+          "phase": "nonfall",
+          "reference_identity": 1
+        },
+        {
+          "frame_index": 174,
+          "timestamp": 5.823730107526882,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [
+            32,
+            11,
+            63,
+            156
+          ],
+          "phase": "nonfall",
+          "reference_identity": 1
+        }
+      ],
+      "main_view_preview_roi": [
+        0,
+        0,
+        320,
+        240
+      ]
+    },
+    {
+      "clip_id": "fresh_assist_02_fall_backward",
+      "frames": [
+        {
+          "frame_index": 30,
+          "timestamp": 1.0,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [
+            145,
+            15,
+            178,
+            95
+          ],
+          "phase": "upright",
+          "reference_identity": 1
+        },
+        {
+          "frame_index": 120,
+          "timestamp": 4.0,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [
+            140,
+            83,
+            243,
+            119
+          ],
+          "phase": "ground",
+          "reference_identity": 1
+        },
+        {
+          "frame_index": 234,
+          "timestamp": 7.8,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [
+            140,
+            83,
+            244,
+            120
+          ],
+          "phase": "ground",
+          "reference_identity": 1
+        },
+        {
+          "frame_index": 354,
+          "timestamp": 11.8,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [
+            140,
+            83,
+            244,
+            120
+          ],
+          "phase": "ground",
+          "reference_identity": 1
+        },
+        {
+          "frame_index": 474,
+          "timestamp": 15.8,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [
+            140,
+            83,
+            244,
+            120
+          ],
+          "phase": "ground",
+          "reference_identity": 1
+        },
+        {
+          "frame_index": 558,
+          "timestamp": 18.6,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [
+            145,
+            31,
+            180,
+            94
+          ],
+          "phase": "recovery",
+          "reference_identity": 1
+        }
+      ],
+      "main_view_preview_roi": [
+        108,
+        0,
+        320,
+        180
+      ]
+    },
+    {
+      "clip_id": "fresh_assist_04_forward_fall_jogging",
+      "frames": [
+        {
+          "frame_index": 24,
+          "timestamp": 0.8,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [
+            17,
+            26,
+            36,
+            89
+          ],
+          "phase": "upright",
+          "reference_identity": 1
+        },
+        {
+          "frame_index": 84,
+          "timestamp": 2.8,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [
+            47,
+            56,
+            106,
+            115
+          ],
+          "phase": "descent",
+          "reference_identity": 1
+        },
+        {
+          "frame_index": 168,
+          "timestamp": 5.6,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [
+            46,
+            90,
+            128,
+            135
+          ],
+          "phase": "ground",
+          "reference_identity": 1
+        },
+        {
+          "frame_index": 252,
+          "timestamp": 8.4,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [
+            46,
+            91,
+            128,
+            135
+          ],
+          "phase": "ground",
+          "reference_identity": 1
+        },
+        {
+          "frame_index": 336,
+          "timestamp": 11.2,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [
+            46,
+            91,
+            128,
+            135
+          ],
+          "phase": "ground",
+          "reference_identity": 1
+        },
+        {
+          "frame_index": 402,
+          "timestamp": 13.4,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [
+            46,
+            91,
+            128,
+            135
+          ],
+          "phase": "ground",
+          "reference_identity": 1
+        }
+      ],
+      "main_view_preview_roi": [
+        0,
+        0,
+        213,
+        180
+      ]
+    },
+    {
+      "clip_id": "fresh_assist_05_vertical_fall_faint",
+      "frames": [
+        {
+          "frame_index": 24,
+          "timestamp": 0.8,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [
+            40,
+            0,
+            82,
+            102
+          ],
+          "phase": "upright",
+          "reference_identity": 1
+        },
+        {
+          "frame_index": 90,
+          "timestamp": 3.0,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [
+            55,
+            33,
+            110,
+            111
+          ],
+          "phase": "descent",
+          "reference_identity": 1
+        },
+        {
+          "frame_index": 180,
+          "timestamp": 6.0,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [
+            54,
+            88,
+            145,
+            138
+          ],
+          "phase": "ground",
+          "reference_identity": 1
+        },
+        {
+          "frame_index": 270,
+          "timestamp": 9.0,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [
+            54,
+            88,
+            145,
+            138
+          ],
+          "phase": "ground",
+          "reference_identity": 1
+        },
+        {
+          "frame_index": 360,
+          "timestamp": 12.0,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [
+            54,
+            88,
+            145,
+            138
+          ],
+          "phase": "ground",
+          "reference_identity": 1
+        },
+        {
+          "frame_index": 432,
+          "timestamp": 14.4,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [
+            54,
+            88,
+            145,
+            138
+          ],
+          "phase": "ground",
+          "reference_identity": 1
+        }
+      ],
+      "main_view_preview_roi": [
+        0,
+        0,
+        213,
+        180
+      ]
+    },
+    {
+      "clip_id": "fresh_assist_07_fall_to_knees_forward",
+      "frames": [
+        {
+          "frame_index": 12,
+          "timestamp": 0.4,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [
+            46,
+            0,
+            99,
+            110
+          ],
+          "phase": "upright",
+          "reference_identity": 1
+        },
+        {
+          "frame_index": 54,
+          "timestamp": 1.8,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [
+            48,
+            32,
+            145,
+            134
+          ],
+          "phase": "descent",
+          "reference_identity": 1
+        },
+        {
+          "frame_index": 108,
+          "timestamp": 3.6,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [
+            52,
+            98,
+            164,
+            160
+          ],
+          "phase": "ground",
+          "reference_identity": 1
+        },
+        {
+          "frame_index": 162,
+          "timestamp": 5.4,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [
+            52,
+            98,
+            164,
+            160
+          ],
+          "phase": "ground",
+          "reference_identity": 1
+        },
+        {
+          "frame_index": 216,
+          "timestamp": 7.2,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [
+            52,
+            98,
+            164,
+            160
+          ],
+          "phase": "ground",
+          "reference_identity": 1
+        },
+        {
+          "frame_index": 258,
+          "timestamp": 8.6,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [
+            52,
+            98,
+            164,
+            160
+          ],
+          "phase": "ground",
+          "reference_identity": 1
+        }
+      ],
+      "main_view_preview_roi": [
+        0,
+        0,
+        213,
+        180
+      ]
+    },
+    {
+      "clip_id": "fresh_assist_01_walking_slowly",
+      "frames": [
+        {
+          "frame_index": 6,
+          "timestamp": 0.2,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [
+            162,
+            24,
+            213,
+            161
+          ],
+          "phase": "nonfall",
+          "reference_identity": 1
+        },
+        {
+          "frame_index": 30,
+          "timestamp": 1.0,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [
+            145,
+            29,
+            185,
+            141
+          ],
+          "phase": "nonfall",
+          "reference_identity": 1
+        },
+        {
+          "frame_index": 66,
+          "timestamp": 2.2,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [
+            102,
+            31,
+            127,
+            102
+          ],
+          "phase": "nonfall",
+          "reference_identity": 1
+        },
+        {
+          "frame_index": 96,
+          "timestamp": 3.2,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [
+            76,
+            34,
+            98,
+            91
+          ],
+          "phase": "nonfall",
+          "reference_identity": 1
+        },
+        {
+          "frame_index": 132,
+          "timestamp": 4.4,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [
+            57,
+            34,
+            78,
+            86
+          ],
+          "phase": "nonfall",
+          "reference_identity": 1
+        },
+        {
+          "frame_index": 156,
+          "timestamp": 5.2,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [
+            47,
+            34,
+            63,
+            83
+          ],
+          "phase": "nonfall",
+          "reference_identity": 1
+        }
+      ],
+      "main_view_preview_roi": [
+        0,
+        0,
+        213,
+        180
+      ]
+    },
+    {
+      "clip_id": "fresh_assist_12_sitting_laying_down_quickly",
+      "frames": [
+        {
+          "frame_index": 18,
+          "timestamp": 0.6,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [
+            144,
+            42,
+            183,
+            96
+          ],
+          "phase": "nonfall",
+          "reference_identity": 1
+        },
+        {
+          "frame_index": 72,
+          "timestamp": 2.4,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [
+            144,
+            46,
+            182,
+            96
+          ],
+          "phase": "nonfall",
+          "reference_identity": 1
+        },
+        {
+          "frame_index": 150,
+          "timestamp": 5.0,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [
+            146,
+            80,
+            198,
+            108
+          ],
+          "phase": "nonfall",
+          "reference_identity": 1
+        },
+        {
+          "frame_index": 222,
+          "timestamp": 7.4,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [
+            146,
+            63,
+            189,
+            99
+          ],
+          "phase": "nonfall",
+          "reference_identity": 1
+        },
+        {
+          "frame_index": 300,
+          "timestamp": 10.0,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [
+            146,
+            43,
+            183,
+            97
+          ],
+          "phase": "nonfall",
+          "reference_identity": 1
+        },
+        {
+          "frame_index": 354,
+          "timestamp": 11.8,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [
+            146,
+            43,
+            183,
+            97
+          ],
+          "phase": "nonfall",
+          "reference_identity": 1
+        }
+      ],
+      "main_view_preview_roi": [
+        108,
+        0,
+        320,
+        180
+      ]
+    },
+    {
+      "clip_id": "fresh_assist_13_bending_at_knees",
+      "frames": [
+        {
+          "frame_index": 6,
+          "timestamp": 0.2,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [
+            39,
+            26,
+            61,
+            86
+          ],
+          "phase": "nonfall",
+          "reference_identity": 1
+        },
+        {
+          "frame_index": 30,
+          "timestamp": 1.0,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [
+            33,
+            49,
+            59,
+            86
+          ],
+          "phase": "nonfall",
+          "reference_identity": 1
+        },
+        {
+          "frame_index": 60,
+          "timestamp": 2.0,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [
+            33,
+            61,
+            58,
+            86
+          ],
+          "phase": "nonfall",
+          "reference_identity": 1
+        },
+        {
+          "frame_index": 90,
+          "timestamp": 3.0,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [
+            33,
+            61,
+            57,
+            86
+          ],
+          "phase": "nonfall",
+          "reference_identity": 1
+        },
+        {
+          "frame_index": 120,
+          "timestamp": 4.0,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [
+            40,
+            27,
+            61,
+            86
+          ],
+          "phase": "nonfall",
+          "reference_identity": 1
+        },
+        {
+          "frame_index": 144,
+          "timestamp": 4.8,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [
+            39,
+            27,
+            61,
+            86
+          ],
+          "phase": "nonfall",
+          "reference_identity": 1
+        }
+      ],
+      "main_view_preview_roi": [
+        0,
+        0,
+        213,
+        180
+      ]
+    },
+    {
+      "clip_id": "fresh_assist_14_bending_wo_knees",
+      "frames": [
+        {
+          "frame_index": 18,
+          "timestamp": 0.6,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [
+            43,
+            26,
+            67,
+            86
+          ],
+          "phase": "nonfall",
+          "reference_identity": 1
+        },
+        {
+          "frame_index": 60,
+          "timestamp": 2.0,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [
+            43,
+            26,
+            67,
+            86
+          ],
+          "phase": "nonfall",
+          "reference_identity": 1
+        },
+        {
+          "frame_index": 126,
+          "timestamp": 4.2,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [
+            40,
+            53,
+            67,
+            87
+          ],
+          "phase": "nonfall",
+          "reference_identity": 1
+        },
+        {
+          "frame_index": 186,
+          "timestamp": 6.2,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [
+            40,
+            53,
+            67,
+            87
+          ],
+          "phase": "nonfall",
+          "reference_identity": 1
+        },
+        {
+          "frame_index": 246,
+          "timestamp": 8.2,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [
+            40,
+            53,
+            67,
+            87
+          ],
+          "phase": "nonfall",
+          "reference_identity": 1
+        },
+        {
+          "frame_index": 294,
+          "timestamp": 9.8,
+          "preview_width": 320,
+          "preview_height": 180,
+          "source_width": 1280,
+          "source_height": 720,
+          "scale": 0.25,
+          "box_preview_xyxy": [
+            45,
+            27,
+            68,
+            87
+          ],
+          "phase": "nonfall",
+          "reference_identity": 1
+        }
+      ],
+      "main_view_preview_roi": [
+        0,
+        0,
+        213,
+        180
+      ]
+    }
+  ]
+}

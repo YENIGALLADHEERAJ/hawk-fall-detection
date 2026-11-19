@@ -1,0 +1,5273 @@
+{
+  "scope": "Paired 84 preselected raw snapshots; detector only, no temporal, tracker or evidence evaluation. Same .3 confidence, same model and 640 input; do not compare throughput with full pipeline FPS. No selection on final reserve.",
+  "model_sha256": "c5c2d13e59ae883e6af3b45daea64af4833a4951c92d116ec270d9ddbe998063",
+  "results": {
+    "fallback": {
+      "localization": {
+        "reference_instances": 83,
+        "matched_iou50": 78,
+        "matched_iou75": 74,
+        "recall_iou50": 0.9397590361445783,
+        "recall_iou75": 0.891566265060241,
+        "unmatched_predictions_in_scored_roi": 7,
+        "matched_mean_iou": 0.8786552954095742,
+        "mean_center_error_heights": 0.04232749632927306,
+        "mean_abs_log_area_error": 0.07563168972384426,
+        "mean_reference_relative_center_jitter": 0.04678047731817497,
+        "mean_reference_relative_log_area_change": 0.08408379230879331,
+        "id_switches": null,
+        "fragments_after_missing": 3,
+        "longest_missed_sample_span_seconds": 2.0,
+        "phases": {
+          "upright": [
+            7,
+            7
+          ],
+          "descent": [
+            11,
+            11
+          ],
+          "ground": [
+            28,
+            27
+          ],
+          "seated": [
+            1,
+            1
+          ],
+          "nonfall": [
+            35,
+            31
+          ],
+          "recovery": [
+            1,
+            1
+          ]
+        },
+        "per_identity": {
+          "fresh_gmd4_Fall_03": {
+            "reference_samples": 6,
+            "missed": 1,
+            "longest_missed_sample_span_seconds": 0,
+            "id_switches": null,
+            "fragments_after_missing": 1
+          },
+          "fresh_gmd4_Fall_07": {
+            "reference_samples": 6,
+            "missed": 0,
+            "longest_missed_sample_span_seconds": 0,
+            "id_switches": null,
+            "fragments_after_missing": 0
+          },
+          "fresh_gmd4_Fall_08": {
+            "reference_samples": 6,
+            "missed": 0,
+            "longest_missed_sample_span_seconds": 0,
+            "id_switches": null,
+            "fragments_after_missing": 0
+          },
+          "fresh_gmd4_Fall_11": {
+            "reference_samples": 6,
+            "missed": 0,
+            "longest_missed_sample_span_seconds": 0,
+            "id_switches": null,
+            "fragments_after_missing": 0
+          },
+          "fresh_gmd4_ADL_14": {
+            "reference_samples": 6,
+            "missed": 0,
+            "longest_missed_sample_span_seconds": 0,
+            "id_switches": null,
+            "fragments_after_missing": 0
+          },
+          "fresh_gmd4_ADL_17": {
+            "reference_samples": 5,
+            "missed": 0,
+            "longest_missed_sample_span_seconds": 0,
+            "id_switches": null,
+            "fragments_after_missing": 0
+          },
+          "fresh_assist_02_fall_backward": {
+            "reference_samples": 6,
+            "missed": 0,
+            "longest_missed_sample_span_seconds": 0,
+            "id_switches": null,
+            "fragments_after_missing": 0
+          },
+          "fresh_assist_04_forward_fall_jogging": {
+            "reference_samples": 6,
+            "missed": 0,
+            "longest_missed_sample_span_seconds": 0,
+            "id_switches": null,
+            "fragments_after_missing": 0
+          },
+          "fresh_assist_05_vertical_fall_faint": {
+            "reference_samples": 6,
+            "missed": 0,
+            "longest_missed_sample_span_seconds": 0,
+            "id_switches": null,
+            "fragments_after_missing": 0
+          },
+          "fresh_assist_07_fall_to_knees_forward": {
+            "reference_samples": 6,
+            "missed": 0,
+            "longest_missed_sample_span_seconds": 0,
+            "id_switches": null,
+            "fragments_after_missing": 0
+          },
+          "fresh_assist_01_walking_slowly": {
+            "reference_samples": 6,
+            "missed": 0,
+            "longest_missed_sample_span_seconds": 0,
+            "id_switches": null,
+            "fragments_after_missing": 0
+          },
+          "fresh_assist_12_sitting_laying_down_quickly": {
+            "reference_samples": 6,
+            "missed": 0,
+            "longest_missed_sample_span_seconds": 0,
+            "id_switches": null,
+            "fragments_after_missing": 0
+          },
+          "fresh_assist_13_bending_at_knees": {
+            "reference_samples": 6,
+            "missed": 2,
+            "longest_missed_sample_span_seconds": 1.0,
+            "id_switches": null,
+            "fragments_after_missing": 1
+          },
+          "fresh_assist_14_bending_wo_knees": {
+            "reference_samples": 6,
+            "missed": 2,
+            "longest_missed_sample_span_seconds": 2.0,
+            "id_switches": null,
+            "fragments_after_missing": 1
+          }
+        }
+      },
+      "detector_only_fps": 1.4854492080086055,
+      "p50_ms": 528.1772500020452,
+      "p95_ms": 1462.3877800768237,
+      "cpu_one_core_percent_including_decode": 207.19050652938304,
+      "memory": {
+        "working_set_mib": 138.05078125,
+        "process_peak_working_set_mib": 191.01953125
+      },
+      "frames": 84
+    },
+    "all_views": {
+      "localization": {
+        "reference_instances": 83,
+        "matched_iou50": 79,
+        "matched_iou75": 76,
+        "recall_iou50": 0.9518072289156626,
+        "recall_iou75": 0.9156626506024096,
+        "unmatched_predictions_in_scored_roi": 35,
+        "matched_mean_iou": 0.8803805761219652,
+        "mean_center_error_heights": 0.04221361923760317,
+        "mean_abs_log_area_error": 0.07186236088206967,
+        "mean_reference_relative_center_jitter": 0.0526630054886393,
+        "mean_reference_relative_log_area_change": 0.09148148999553861,
+        "id_switches": null,
+        "fragments_after_missing": 3,
+        "longest_missed_sample_span_seconds": 1.0,
+        "phases": {
+          "upright": [
+            7,
+            7
+          ],
+          "descent": [
+            11,
+            11
+          ],
+          "ground": [
+            28,
+            27
+          ],
+          "seated": [
+            1,
+            1
+          ],
+          "nonfall": [
+            35,
+            32
+          ],
+          "recovery": [
+            1,
+            1
+          ]
+        },
+        "per_identity": {
+          "fresh_gmd4_Fall_03": {
+            "reference_samples": 6,
+            "missed": 1,
+            "longest_missed_sample_span_seconds": 0,
+            "id_switches": null,
+            "fragments_after_missing": 1
+          },
+          "fresh_gmd4_Fall_07": {
+            "reference_samples": 6,
+            "missed": 0,
+            "longest_missed_sample_span_seconds": 0,
+            "id_switches": null,
+            "fragments_after_missing": 0
+          },
+          "fresh_gmd4_Fall_08": {
+            "reference_samples": 6,
+            "missed": 0,
+            "longest_missed_sample_span_seconds": 0,
+            "id_switches": null,
+            "fragments_after_missing": 0
+          },
+          "fresh_gmd4_Fall_11": {
+            "reference_samples": 6,
+            "missed": 0,
+            "longest_missed_sample_span_seconds": 0,
+            "id_switches": null,
+            "fragments_after_missing": 0
+          },
+          "fresh_gmd4_ADL_14": {
+            "reference_samples": 6,
+            "missed": 0,
+            "longest_missed_sample_span_seconds": 0,
+            "id_switches": null,
+            "fragments_after_missing": 0
+          },
+          "fresh_gmd4_ADL_17": {
+            "reference_samples": 5,
+            "missed": 0,
+            "longest_missed_sample_span_seconds": 0,
+            "id_switches": null,
+            "fragments_after_missing": 0
+          },
+          "fresh_assist_02_fall_backward": {
+            "reference_samples": 6,
+            "missed": 0,
+            "longest_missed_sample_span_seconds": 0,
+            "id_switches": null,
+            "fragments_after_missing": 0
+          },
+          "fresh_assist_04_forward_fall_jogging": {
+            "reference_samples": 6,
+            "missed": 0,
+            "longest_missed_sample_span_seconds": 0,
+            "id_switches": null,
+            "fragments_after_missing": 0
+          },
+          "fresh_assist_05_vertical_fall_faint": {
+            "reference_samples": 6,
+            "missed": 0,
+            "longest_missed_sample_span_seconds": 0,
+            "id_switches": null,
+            "fragments_after_missing": 0
+          },
+          "fresh_assist_07_fall_to_knees_forward": {
+            "reference_samples": 6,
+            "missed": 0,
+            "longest_missed_sample_span_seconds": 0,
+            "id_switches": null,
+            "fragments_after_missing": 0
+          },
+          "fresh_assist_01_walking_slowly": {
+            "reference_samples": 6,
+            "missed": 0,
+            "longest_missed_sample_span_seconds": 0,
+            "id_switches": null,
+            "fragments_after_missing": 0
+          },
+          "fresh_assist_12_sitting_laying_down_quickly": {
+            "reference_samples": 6,
+            "missed": 0,
+            "longest_missed_sample_span_seconds": 0,
+            "id_switches": null,
+            "fragments_after_missing": 0
+          },
+          "fresh_assist_13_bending_at_knees": {
+            "reference_samples": 6,
+            "missed": 2,
+            "longest_missed_sample_span_seconds": 1.0,
+            "id_switches": null,
+            "fragments_after_missing": 1
+          },
+          "fresh_assist_14_bending_wo_knees": {
+            "reference_samples": 6,
+            "missed": 1,
+            "longest_missed_sample_span_seconds": 0,
+            "id_switches": null,
+            "fragments_after_missing": 1
+          }
+        }
+      },
+      "detector_only_fps": 0.6660789001420989,
+      "p50_ms": 1442.3442000406794,
+      "p95_ms": 1729.184449929744,
+      "cpu_one_core_percent_including_decode": 196.9138724095356,
+      "memory": {
+        "working_set_mib": 165.75390625,
+        "process_peak_working_set_mib": 193.11328125
+      },
+      "frames": 84
+    }
+  },
+  "samples": {
+    "fallback": [
+      {
+        "timestamp": 1.206996,
+        "references": [
+          {
+            "box": [
+              28.0,
+              0.0,
+              348.0,
+              480.0
+            ],
+            "identity": "fresh_gmd4_Fall_03",
+            "phase": "upright"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              17.048911094665527,
+              1.2169380187988281,
+              351.1980199813843,
+              477.8925971984863
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_gmd4_Fall_03",
+        "frame_index": 36
+      },
+      {
+        "timestamp": 1.6093279999999999,
+        "references": [
+          {
+            "box": [
+              78.0,
+              0.0,
+              346.0,
+              480.0
+            ],
+            "identity": "fresh_gmd4_Fall_03",
+            "phase": "upright"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              88.30259323120117,
+              3.6606369018554688,
+              354.8769645690918,
+              475.58101654052734
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_gmd4_Fall_03",
+        "frame_index": 48
+      },
+      {
+        "timestamp": 2.01166,
+        "references": [
+          {
+            "box": [
+              92.0,
+              170.0,
+              350.0,
+              480.0
+            ],
+            "identity": "fresh_gmd4_Fall_03",
+            "phase": "descent"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              82.06801509857178,
+              167.03931427001953,
+              338.17150020599365,
+              480.0
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_gmd4_Fall_03",
+        "frame_index": 60
+      },
+      {
+        "timestamp": 2.413992,
+        "references": [
+          {
+            "box": [
+              80.0,
+              316.0,
+              320.0,
+              480.0
+            ],
+            "identity": "fresh_gmd4_Fall_03",
+            "phase": "ground"
+          }
+        ],
+        "predictions": [],
+        "clip_id": "fresh_gmd4_Fall_03",
+        "frame_index": 72
+      },
+      {
+        "timestamp": 5.431482,
+        "references": [
+          {
+            "box": [
+              52.0,
+              354.0,
+              312.0,
+              480.0
+            ],
+            "identity": "fresh_gmd4_Fall_03",
+            "phase": "ground"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              50.03290843963623,
+              349.1542320251465,
+              325.7432050704956,
+              479.67634201049805
+            ],
+            "track_id": null
+          },
+          {
+            "box": [
+              30.895343780517578,
+              220.77396869659424,
+              64.57254409790039,
+              232.56126403808594
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_gmd4_Fall_03",
+        "frame_index": 162
+      },
+      {
+        "timestamp": 6.4373119999999995,
+        "references": [
+          {
+            "box": [
+              50.0,
+              356.0,
+              326.0,
+              480.0
+            ],
+            "identity": "fresh_gmd4_Fall_03",
+            "phase": "ground"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              49.46458339691162,
+              353.15074157714844,
+              329.10011196136475,
+              479.74053955078125
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_gmd4_Fall_03",
+        "frame_index": 192
+      },
+      {
+        "timestamp": 2.012244680851064,
+        "references": [
+          {
+            "box": [
+              164.0,
+              88.0,
+              376.0,
+              332.0
+            ],
+            "identity": "fresh_gmd4_Fall_07",
+            "phase": "descent"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              166.9348659515381,
+              90.75645065307617,
+              368.2289791107178,
+              329.2731742858887
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_gmd4_Fall_07",
+        "frame_index": 60
+      },
+      {
+        "timestamp": 2.4146936170212765,
+        "references": [
+          {
+            "box": [
+              192.0,
+              136.0,
+              376.0,
+              330.0
+            ],
+            "identity": "fresh_gmd4_Fall_07",
+            "phase": "descent"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              176.1750431060791,
+              134.80519485473633,
+              343.4768009185791,
+              325.78081130981445
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_gmd4_Fall_07",
+        "frame_index": 72
+      },
+      {
+        "timestamp": 2.817142553191489,
+        "references": [
+          {
+            "box": [
+              170.0,
+              198.0,
+              368.0,
+              336.0
+            ],
+            "identity": "fresh_gmd4_Fall_07",
+            "phase": "descent"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              169.54601192474365,
+              208.22700309753418,
+              374.76061153411865,
+              341.9743938446045
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_gmd4_Fall_07",
+        "frame_index": 84
+      },
+      {
+        "timestamp": 3.219591489361702,
+        "references": [
+          {
+            "box": [
+              100.0,
+              238.0,
+              374.0,
+              332.0
+            ],
+            "identity": "fresh_gmd4_Fall_07",
+            "phase": "ground"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              101.83717727661133,
+              236.5660343170166,
+              371.9983711242676,
+              356.2259464263916
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_gmd4_Fall_07",
+        "frame_index": 96
+      },
+      {
+        "timestamp": 5.0306117021276595,
+        "references": [
+          {
+            "box": [
+              114.0,
+              234.0,
+              378.0,
+              334.0
+            ],
+            "identity": "fresh_gmd4_Fall_07",
+            "phase": "ground"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              102.3141975402832,
+              241.6100664138794,
+              376.0690803527832,
+              353.7470598220825
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_gmd4_Fall_07",
+        "frame_index": 150
+      },
+      {
+        "timestamp": 6.036734042553191,
+        "references": [
+          {
+            "box": [
+              116.0,
+              238.0,
+              376.0,
+              334.0
+            ],
+            "identity": "fresh_gmd4_Fall_07",
+            "phase": "ground"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              82.92621612548828,
+              241.5564832687378,
+              374.5618362426758,
+              355.86979961395264
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_gmd4_Fall_07",
+        "frame_index": 180
+      },
+      {
+        "timestamp": 1.8069882352941176,
+        "references": [
+          {
+            "box": [
+              96.0,
+              84.0,
+              244.0,
+              302.0
+            ],
+            "identity": "fresh_gmd4_Fall_08",
+            "phase": "seated"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              108.8461594581604,
+              81.24882507324219,
+              248.56017923355103,
+              312.5533447265625
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_gmd4_Fall_08",
+        "frame_index": 54
+      },
+      {
+        "timestamp": 2.2085411764705882,
+        "references": [
+          {
+            "box": [
+              98.0,
+              90.0,
+              264.0,
+              302.0
+            ],
+            "identity": "fresh_gmd4_Fall_08",
+            "phase": "descent"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              107.84978675842285,
+              92.46240997314453,
+              267.3286380767822,
+              307.96048736572266
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_gmd4_Fall_08",
+        "frame_index": 66
+      },
+      {
+        "timestamp": 2.610094117647059,
+        "references": [
+          {
+            "box": [
+              94.0,
+              130.0,
+              302.0,
+              300.0
+            ],
+            "identity": "fresh_gmd4_Fall_08",
+            "phase": "descent"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              101.7236213684082,
+              128.19191551208496,
+              300.0944404602051,
+              301.7472286224365
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_gmd4_Fall_08",
+        "frame_index": 78
+      },
+      {
+        "timestamp": 3.011647058823529,
+        "references": [
+          {
+            "box": [
+              94.0,
+              174.0,
+              310.0,
+              308.0
+            ],
+            "identity": "fresh_gmd4_Fall_08",
+            "phase": "ground"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              93.6123743057251,
+              169.40794372558594,
+              316.6005640029907,
+              301.9426574707031
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_gmd4_Fall_08",
+        "frame_index": 90
+      },
+      {
+        "timestamp": 5.0194117647058825,
+        "references": [
+          {
+            "box": [
+              94.0,
+              174.0,
+              310.0,
+              308.0
+            ],
+            "identity": "fresh_gmd4_Fall_08",
+            "phase": "ground"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              102.67189025878906,
+              171.32616424560547,
+              298.66937255859375,
+              306.86927032470703
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_gmd4_Fall_08",
+        "frame_index": 150
+      },
+      {
+        "timestamp": 6.023294117647058,
+        "references": [
+          {
+            "box": [
+              94.0,
+              174.0,
+              310.0,
+              308.0
+            ],
+            "identity": "fresh_gmd4_Fall_08",
+            "phase": "ground"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              104.21355056762695,
+              171.69256591796875,
+              298.90173721313477,
+              306.0596923828125
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_gmd4_Fall_08",
+        "frame_index": 180
+      },
+      {
+        "timestamp": 0.8049647058823529,
+        "references": [
+          {
+            "box": [
+              238.0,
+              0.0,
+              320.0,
+              322.0
+            ],
+            "identity": "fresh_gmd4_Fall_11",
+            "phase": "upright"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              243.30181121826172,
+              0.0,
+              339.09769439697266,
+              318.13006591796875
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_gmd4_Fall_11",
+        "frame_index": 24
+      },
+      {
+        "timestamp": 1.2074470588235293,
+        "references": [
+          {
+            "box": [
+              192.0,
+              0.0,
+              324.0,
+              324.0
+            ],
+            "identity": "fresh_gmd4_Fall_11",
+            "phase": "descent"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              185.0560531616211,
+              0.5577392578125,
+              329.5812454223633,
+              323.8959655761719
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_gmd4_Fall_11",
+        "frame_index": 36
+      },
+      {
+        "timestamp": 1.6099294117647058,
+        "references": [
+          {
+            "box": [
+              96.0,
+              140.0,
+              318.0,
+              326.0
+            ],
+            "identity": "fresh_gmd4_Fall_11",
+            "phase": "descent"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              97.60179138183594,
+              142.19776153564453,
+              324.23753356933594,
+              322.4107131958008
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_gmd4_Fall_11",
+        "frame_index": 48
+      },
+      {
+        "timestamp": 2.0124117647058823,
+        "references": [
+          {
+            "box": [
+              98.0,
+              256.0,
+              320.0,
+              328.0
+            ],
+            "identity": "fresh_gmd4_Fall_11",
+            "phase": "ground"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              103.05943298339844,
+              259.7943992614746,
+              277.15635681152344,
+              330.91723251342773
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_gmd4_Fall_11",
+        "frame_index": 60
+      },
+      {
+        "timestamp": 3.6223411764705884,
+        "references": [
+          {
+            "box": [
+              98.0,
+              256.0,
+              320.0,
+              328.0
+            ],
+            "identity": "fresh_gmd4_Fall_11",
+            "phase": "ground"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              100.08552742004395,
+              257.82083892822266,
+              303.23523139953613,
+              334.0105285644531
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_gmd4_Fall_11",
+        "frame_index": 108
+      },
+      {
+        "timestamp": 4.427305882352941,
+        "references": [
+          {
+            "box": [
+              98.0,
+              256.0,
+              320.0,
+              328.0
+            ],
+            "identity": "fresh_gmd4_Fall_11",
+            "phase": "ground"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              2.259002685546875,
+              227.41062545776367,
+              313.9974060058594,
+              357.3737602233887
+            ],
+            "track_id": null
+          },
+          {
+            "box": [
+              96.55658721923828,
+              261.3838748931885,
+              306.7320785522461,
+              337.09787940979004
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_gmd4_Fall_11",
+        "frame_index": 132
+      },
+      {
+        "timestamp": 0.40188709677419354,
+        "references": [
+          {
+            "box": [
+              138.0,
+              6.0,
+              270.0,
+              330.0
+            ],
+            "identity": "fresh_gmd4_ADL_14",
+            "phase": "nonfall"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              144.98286056518555,
+              5.464282989501953,
+              271.5766792297363,
+              334.9843940734863
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_gmd4_ADL_14",
+        "frame_index": 12
+      },
+      {
+        "timestamp": 1.6075483870967742,
+        "references": [
+          {
+            "box": [
+              122.0,
+              14.0,
+              220.0,
+              312.0
+            ],
+            "identity": "fresh_gmd4_ADL_14",
+            "phase": "nonfall"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              125.43443393707275,
+              15.058429718017578,
+              216.9544153213501,
+              315.60295486450195
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_gmd4_ADL_14",
+        "frame_index": 48
+      },
+      {
+        "timestamp": 3.416040322580645,
+        "references": [
+          {
+            "box": [
+              80.0,
+              56.0,
+              238.0,
+              314.0
+            ],
+            "identity": "fresh_gmd4_ADL_14",
+            "phase": "nonfall"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              78.28976821899414,
+              54.05850601196289,
+              237.0628547668457,
+              321.05038833618164
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_gmd4_ADL_14",
+        "frame_index": 102
+      },
+      {
+        "timestamp": 5.023588709677419,
+        "references": [
+          {
+            "box": [
+              156.0,
+              0.0,
+              240.0,
+              328.0
+            ],
+            "identity": "fresh_gmd4_ADL_14",
+            "phase": "nonfall"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              149.84014892578125,
+              0.8191146850585938,
+              251.84051513671875,
+              328.8811264038086
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_gmd4_ADL_14",
+        "frame_index": 150
+      },
+      {
+        "timestamp": 6.631137096774194,
+        "references": [
+          {
+            "box": [
+              140.0,
+              0.0,
+              244.0,
+              330.0
+            ],
+            "identity": "fresh_gmd4_ADL_14",
+            "phase": "nonfall"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              134.29990482330322,
+              0.7695083618164062,
+              250.6318063735962,
+              325.8461380004883
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_gmd4_ADL_14",
+        "frame_index": 198
+      },
+      {
+        "timestamp": 7.836798387096774,
+        "references": [
+          {
+            "box": [
+              156.0,
+              0.0,
+              244.0,
+              324.0
+            ],
+            "identity": "fresh_gmd4_ADL_14",
+            "phase": "nonfall"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              155.686541557312,
+              0.528106689453125,
+              243.96238231658936,
+              328.54364013671875
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_gmd4_ADL_14",
+        "frame_index": 234
+      },
+      {
+        "timestamp": 0.40163655913978497,
+        "references": [],
+        "predictions": [],
+        "clip_id": "fresh_gmd4_ADL_17",
+        "frame_index": 12
+      },
+      {
+        "timestamp": 1.2049096774193548,
+        "references": [
+          {
+            "box": [
+              110.0,
+              0.0,
+              222.0,
+              322.0
+            ],
+            "identity": "fresh_gmd4_ADL_17",
+            "phase": "nonfall"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              112.04526996612549,
+              0.0,
+              218.76957416534424,
+              328.44201278686523
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_gmd4_ADL_17",
+        "frame_index": 36
+      },
+      {
+        "timestamp": 2.4098193548387097,
+        "references": [
+          {
+            "box": [
+              160.0,
+              118.0,
+              304.0,
+              318.0
+            ],
+            "identity": "fresh_gmd4_ADL_17",
+            "phase": "nonfall"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              159.27661514282227,
+              113.45441341400146,
+              304.943546295166,
+              319.596640586853
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_gmd4_ADL_17",
+        "frame_index": 72
+      },
+      {
+        "timestamp": 3.8155473118279573,
+        "references": [
+          {
+            "box": [
+              156.0,
+              34.0,
+              260.0,
+              322.0
+            ],
+            "identity": "fresh_gmd4_ADL_17",
+            "phase": "nonfall"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              159.09695053100586,
+              28.22507095336914,
+              258.2847709655762,
+              306.0122718811035
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_gmd4_ADL_17",
+        "frame_index": 114
+      },
+      {
+        "timestamp": 5.020456989247312,
+        "references": [
+          {
+            "box": [
+              102.0,
+              12.0,
+              180.0,
+              316.0
+            ],
+            "identity": "fresh_gmd4_ADL_17",
+            "phase": "nonfall"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              91.13697338104248,
+              13.287425994873047,
+              183.63306713104248,
+              303.4054374694824
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_gmd4_ADL_17",
+        "frame_index": 150
+      },
+      {
+        "timestamp": 5.823730107526882,
+        "references": [
+          {
+            "box": [
+              64.0,
+              22.0,
+              126.0,
+              312.0
+            ],
+            "identity": "fresh_gmd4_ADL_17",
+            "phase": "nonfall"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              60.5819616317749,
+              17.612201690673828,
+              118.02793025970459,
+              306.7935981750488
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_gmd4_ADL_17",
+        "frame_index": 174
+      },
+      {
+        "timestamp": 1.0,
+        "references": [
+          {
+            "box": [
+              290.0,
+              30.0,
+              356.0,
+              190.0
+            ],
+            "identity": "fresh_assist_02_fall_backward",
+            "phase": "upright"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              290.08156967163086,
+              27.483622550964355,
+              355.0532112121582,
+              186.05031871795654
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_02_fall_backward",
+        "frame_index": 30
+      },
+      {
+        "timestamp": 4.0,
+        "references": [
+          {
+            "box": [
+              280.0,
+              166.0,
+              486.0,
+              238.0
+            ],
+            "identity": "fresh_assist_02_fall_backward",
+            "phase": "ground"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              287.72922134399414,
+              165.83884382247925,
+              490.56845474243164,
+              231.48726606369019
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_02_fall_backward",
+        "frame_index": 120
+      },
+      {
+        "timestamp": 7.8,
+        "references": [
+          {
+            "box": [
+              280.0,
+              166.0,
+              488.0,
+              240.0
+            ],
+            "identity": "fresh_assist_02_fall_backward",
+            "phase": "ground"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              296.2901735305786,
+              167.10336017608643,
+              490.9396028518677,
+              233.65866565704346
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_02_fall_backward",
+        "frame_index": 234
+      },
+      {
+        "timestamp": 11.8,
+        "references": [
+          {
+            "box": [
+              280.0,
+              166.0,
+              488.0,
+              240.0
+            ],
+            "identity": "fresh_assist_02_fall_backward",
+            "phase": "ground"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              287.19114661216736,
+              167.43962860107422,
+              486.5269010066986,
+              232.5736083984375
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_02_fall_backward",
+        "frame_index": 354
+      },
+      {
+        "timestamp": 15.8,
+        "references": [
+          {
+            "box": [
+              280.0,
+              166.0,
+              488.0,
+              240.0
+            ],
+            "identity": "fresh_assist_02_fall_backward",
+            "phase": "ground"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              294.6807670593262,
+              166.761568069458,
+              492.3832206726074,
+              233.04001808166504
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_02_fall_backward",
+        "frame_index": 474
+      },
+      {
+        "timestamp": 18.6,
+        "references": [
+          {
+            "box": [
+              290.0,
+              62.0,
+              360.0,
+              188.0
+            ],
+            "identity": "fresh_assist_02_fall_backward",
+            "phase": "recovery"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              292.13821363449097,
+              63.49574661254883,
+              355.91751050949097,
+              188.97853469848633
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_02_fall_backward",
+        "frame_index": 558
+      },
+      {
+        "timestamp": 0.8,
+        "references": [
+          {
+            "box": [
+              34.0,
+              52.0,
+              72.0,
+              178.0
+            ],
+            "identity": "fresh_assist_04_forward_fall_jogging",
+            "phase": "upright"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              33.925429344177246,
+              47.59629440307617,
+              78.38417339324951,
+              177.13862228393555
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_04_forward_fall_jogging",
+        "frame_index": 24
+      },
+      {
+        "timestamp": 2.8,
+        "references": [
+          {
+            "box": [
+              94.0,
+              112.0,
+              212.0,
+              230.0
+            ],
+            "identity": "fresh_assist_04_forward_fall_jogging",
+            "phase": "descent"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              95.34527778625488,
+              112.85139560699463,
+              209.61441230773926,
+              230.18699741363525
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_04_forward_fall_jogging",
+        "frame_index": 84
+      },
+      {
+        "timestamp": 5.6,
+        "references": [
+          {
+            "box": [
+              92.0,
+              180.0,
+              256.0,
+              270.0
+            ],
+            "identity": "fresh_assist_04_forward_fall_jogging",
+            "phase": "ground"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              93.09061479568481,
+              183.76279878616333,
+              256.7672200202942,
+              270.7868847846985
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_04_forward_fall_jogging",
+        "frame_index": 168
+      },
+      {
+        "timestamp": 8.4,
+        "references": [
+          {
+            "box": [
+              92.0,
+              182.0,
+              256.0,
+              270.0
+            ],
+            "identity": "fresh_assist_04_forward_fall_jogging",
+            "phase": "ground"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              91.02629566192627,
+              183.9740867614746,
+              257.7671251296997,
+              266.58320236206055
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_04_forward_fall_jogging",
+        "frame_index": 252
+      },
+      {
+        "timestamp": 11.2,
+        "references": [
+          {
+            "box": [
+              92.0,
+              182.0,
+              256.0,
+              270.0
+            ],
+            "identity": "fresh_assist_04_forward_fall_jogging",
+            "phase": "ground"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              93.56266593933105,
+              183.41252279281616,
+              256.9844493865967,
+              270.17704916000366
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_04_forward_fall_jogging",
+        "frame_index": 336
+      },
+      {
+        "timestamp": 13.4,
+        "references": [
+          {
+            "box": [
+              92.0,
+              182.0,
+              256.0,
+              270.0
+            ],
+            "identity": "fresh_assist_04_forward_fall_jogging",
+            "phase": "ground"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              90.97172355651855,
+              184.2995834350586,
+              257.711332321167,
+              266.73865509033203
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_04_forward_fall_jogging",
+        "frame_index": 402
+      },
+      {
+        "timestamp": 0.8,
+        "references": [
+          {
+            "box": [
+              80.0,
+              0.0,
+              164.0,
+              204.0
+            ],
+            "identity": "fresh_assist_05_vertical_fall_faint",
+            "phase": "upright"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              91.79592227935791,
+              0.0,
+              162.47408390045166,
+              206.38367080688477
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_05_vertical_fall_faint",
+        "frame_index": 24
+      },
+      {
+        "timestamp": 3.0,
+        "references": [
+          {
+            "box": [
+              110.0,
+              66.0,
+              220.0,
+              222.0
+            ],
+            "identity": "fresh_assist_05_vertical_fall_faint",
+            "phase": "descent"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              122.17620944976807,
+              68.36818504333496,
+              216.71878910064697,
+              218.13927268981934
+            ],
+            "track_id": null
+          },
+          {
+            "box": [
+              112.6558723449707,
+              132.8979892730713,
+              183.62085342407227,
+              219.31707191467285
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_05_vertical_fall_faint",
+        "frame_index": 90
+      },
+      {
+        "timestamp": 6.0,
+        "references": [
+          {
+            "box": [
+              108.0,
+              176.0,
+              290.0,
+              276.0
+            ],
+            "identity": "fresh_assist_05_vertical_fall_faint",
+            "phase": "ground"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              115.26848793029785,
+              176.5727024078369,
+              291.5640354156494,
+              272.3658084869385
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_05_vertical_fall_faint",
+        "frame_index": 180
+      },
+      {
+        "timestamp": 9.0,
+        "references": [
+          {
+            "box": [
+              108.0,
+              176.0,
+              290.0,
+              276.0
+            ],
+            "identity": "fresh_assist_05_vertical_fall_faint",
+            "phase": "ground"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              114.10319995880127,
+              176.1007022857666,
+              290.6951494216919,
+              272.57972145080566
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_05_vertical_fall_faint",
+        "frame_index": 270
+      },
+      {
+        "timestamp": 12.0,
+        "references": [
+          {
+            "box": [
+              108.0,
+              176.0,
+              290.0,
+              276.0
+            ],
+            "identity": "fresh_assist_05_vertical_fall_faint",
+            "phase": "ground"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              113.73242473602295,
+              175.96975135803223,
+              290.4323148727417,
+              273.01651191711426
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_05_vertical_fall_faint",
+        "frame_index": 360
+      },
+      {
+        "timestamp": 14.4,
+        "references": [
+          {
+            "box": [
+              108.0,
+              176.0,
+              290.0,
+              276.0
+            ],
+            "identity": "fresh_assist_05_vertical_fall_faint",
+            "phase": "ground"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              113.80938339233398,
+              176.1313705444336,
+              290.2544059753418,
+              272.6427230834961
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_05_vertical_fall_faint",
+        "frame_index": 432
+      },
+      {
+        "timestamp": 0.4,
+        "references": [
+          {
+            "box": [
+              92.0,
+              0.0,
+              198.0,
+              220.0
+            ],
+            "identity": "fresh_assist_07_fall_to_knees_forward",
+            "phase": "upright"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              91.96249008178711,
+              0.5490074157714844,
+              192.7211570739746,
+              219.91489791870117
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_07_fall_to_knees_forward",
+        "frame_index": 12
+      },
+      {
+        "timestamp": 1.8,
+        "references": [
+          {
+            "box": [
+              96.0,
+              64.0,
+              290.0,
+              268.0
+            ],
+            "identity": "fresh_assist_07_fall_to_knees_forward",
+            "phase": "descent"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              92.12043786048889,
+              68.52010726928711,
+              267.05767846107483,
+              247.71328353881836
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_07_fall_to_knees_forward",
+        "frame_index": 54
+      },
+      {
+        "timestamp": 3.6,
+        "references": [
+          {
+            "box": [
+              104.0,
+              196.0,
+              328.0,
+              320.0
+            ],
+            "identity": "fresh_assist_07_fall_to_knees_forward",
+            "phase": "ground"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              104.53276634216309,
+              193.29682159423828,
+              327.8622188568115,
+              320.1215591430664
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_07_fall_to_knees_forward",
+        "frame_index": 108
+      },
+      {
+        "timestamp": 5.4,
+        "references": [
+          {
+            "box": [
+              104.0,
+              196.0,
+              328.0,
+              320.0
+            ],
+            "identity": "fresh_assist_07_fall_to_knees_forward",
+            "phase": "ground"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              105.00704193115234,
+              193.94094848632812,
+              327.7531967163086,
+              320.7860412597656
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_07_fall_to_knees_forward",
+        "frame_index": 162
+      },
+      {
+        "timestamp": 7.2,
+        "references": [
+          {
+            "box": [
+              104.0,
+              196.0,
+              328.0,
+              320.0
+            ],
+            "identity": "fresh_assist_07_fall_to_knees_forward",
+            "phase": "ground"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              103.64773845672607,
+              193.5760841369629,
+              329.196551322937,
+              320.79794692993164
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_07_fall_to_knees_forward",
+        "frame_index": 216
+      },
+      {
+        "timestamp": 8.6,
+        "references": [
+          {
+            "box": [
+              104.0,
+              196.0,
+              328.0,
+              320.0
+            ],
+            "identity": "fresh_assist_07_fall_to_knees_forward",
+            "phase": "ground"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              107.24027061462402,
+              193.95806503295898,
+              329.2875728607178,
+              320.5857810974121
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_07_fall_to_knees_forward",
+        "frame_index": 258
+      },
+      {
+        "timestamp": 0.2,
+        "references": [
+          {
+            "box": [
+              324.0,
+              48.0,
+              426.0,
+              322.0
+            ],
+            "identity": "fresh_assist_01_walking_slowly",
+            "phase": "nonfall"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              326.187837600708,
+              47.493675231933594,
+              426.10022163391113,
+              323.9386215209961
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_01_walking_slowly",
+        "frame_index": 6
+      },
+      {
+        "timestamp": 1.0,
+        "references": [
+          {
+            "box": [
+              290.0,
+              58.0,
+              370.0,
+              282.0
+            ],
+            "identity": "fresh_assist_01_walking_slowly",
+            "phase": "nonfall"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              294.34982776641846,
+              62.320091247558594,
+              371.07004261016846,
+              289.8265609741211
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_01_walking_slowly",
+        "frame_index": 30
+      },
+      {
+        "timestamp": 2.2,
+        "references": [
+          {
+            "box": [
+              204.0,
+              62.0,
+              254.0,
+              204.0
+            ],
+            "identity": "fresh_assist_01_walking_slowly",
+            "phase": "nonfall"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              203.14392709732056,
+              62.91183853149414,
+              257.53476572036743,
+              202.59155654907227
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_01_walking_slowly",
+        "frame_index": 66
+      },
+      {
+        "timestamp": 3.2,
+        "references": [
+          {
+            "box": [
+              152.0,
+              68.0,
+              196.0,
+              182.0
+            ],
+            "identity": "fresh_assist_01_walking_slowly",
+            "phase": "nonfall"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              154.19326972961426,
+              65.35382270812988,
+              194.61458778381348,
+              181.69182014465332
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_01_walking_slowly",
+        "frame_index": 96
+      },
+      {
+        "timestamp": 4.4,
+        "references": [
+          {
+            "box": [
+              114.0,
+              68.0,
+              156.0,
+              172.0
+            ],
+            "identity": "fresh_assist_01_walking_slowly",
+            "phase": "nonfall"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              114.30910301208496,
+              67.0255217552185,
+              151.57040214538574,
+              167.82846975326538
+            ],
+            "track_id": null
+          },
+          {
+            "box": [
+              46.52700138092041,
+              71.79121017456055,
+              71.84474849700928,
+              148.97323989868164
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_01_walking_slowly",
+        "frame_index": 132
+      },
+      {
+        "timestamp": 5.2,
+        "references": [
+          {
+            "box": [
+              94.0,
+              68.0,
+              126.0,
+              166.0
+            ],
+            "identity": "fresh_assist_01_walking_slowly",
+            "phase": "nonfall"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              95.01180839538574,
+              68.09935474395752,
+              127.62786293029785,
+              165.30478382110596
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_01_walking_slowly",
+        "frame_index": 156
+      },
+      {
+        "timestamp": 0.6,
+        "references": [
+          {
+            "box": [
+              288.0,
+              84.0,
+              366.0,
+              192.0
+            ],
+            "identity": "fresh_assist_12_sitting_laying_down_quickly",
+            "phase": "nonfall"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              285.3431701660156,
+              83.67507076263428,
+              360.28011322021484,
+              189.9957571029663
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_12_sitting_laying_down_quickly",
+        "frame_index": 18
+      },
+      {
+        "timestamp": 2.4,
+        "references": [
+          {
+            "box": [
+              288.0,
+              92.0,
+              364.0,
+              192.0
+            ],
+            "identity": "fresh_assist_12_sitting_laying_down_quickly",
+            "phase": "nonfall"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              286.58297967910767,
+              90.67995738983154,
+              366.54601526260376,
+              190.79230785369873
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_12_sitting_laying_down_quickly",
+        "frame_index": 72
+      },
+      {
+        "timestamp": 5.0,
+        "references": [
+          {
+            "box": [
+              292.0,
+              160.0,
+              396.0,
+              216.0
+            ],
+            "identity": "fresh_assist_12_sitting_laying_down_quickly",
+            "phase": "nonfall"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              294.08713150024414,
+              158.825692653656,
+              391.28833389282227,
+              207.1374068260193
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_12_sitting_laying_down_quickly",
+        "frame_index": 150
+      },
+      {
+        "timestamp": 7.4,
+        "references": [
+          {
+            "box": [
+              292.0,
+              126.0,
+              378.0,
+              198.0
+            ],
+            "identity": "fresh_assist_12_sitting_laying_down_quickly",
+            "phase": "nonfall"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              296.5145893096924,
+              125.00300598144531,
+              378.36988258361816,
+              197.6978759765625
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_12_sitting_laying_down_quickly",
+        "frame_index": 222
+      },
+      {
+        "timestamp": 10.0,
+        "references": [
+          {
+            "box": [
+              292.0,
+              86.0,
+              366.0,
+              194.0
+            ],
+            "identity": "fresh_assist_12_sitting_laying_down_quickly",
+            "phase": "nonfall"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              286.5304870605469,
+              85.18481254577637,
+              361.6188201904297,
+              190.2441234588623
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_12_sitting_laying_down_quickly",
+        "frame_index": 300
+      },
+      {
+        "timestamp": 11.8,
+        "references": [
+          {
+            "box": [
+              292.0,
+              86.0,
+              366.0,
+              194.0
+            ],
+            "identity": "fresh_assist_12_sitting_laying_down_quickly",
+            "phase": "nonfall"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              285.9343047142029,
+              84.99571895599365,
+              361.04386281967163,
+              190.33007717132568
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_12_sitting_laying_down_quickly",
+        "frame_index": 354
+      },
+      {
+        "timestamp": 0.2,
+        "references": [
+          {
+            "box": [
+              78.0,
+              52.0,
+              122.0,
+              172.0
+            ],
+            "identity": "fresh_assist_13_bending_at_knees",
+            "phase": "nonfall"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              82.14077997207642,
+              58.50810527801514,
+              120.1018853187561,
+              173.64853191375732
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_13_bending_at_knees",
+        "frame_index": 6
+      },
+      {
+        "timestamp": 1.0,
+        "references": [
+          {
+            "box": [
+              66.0,
+              98.0,
+              118.0,
+              172.0
+            ],
+            "identity": "fresh_assist_13_bending_at_knees",
+            "phase": "nonfall"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              65.52546691894531,
+              98.81176567077637,
+              113.90176773071289,
+              174.53654289245605
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_13_bending_at_knees",
+        "frame_index": 30
+      },
+      {
+        "timestamp": 2.0,
+        "references": [
+          {
+            "box": [
+              66.0,
+              122.0,
+              116.0,
+              172.0
+            ],
+            "identity": "fresh_assist_13_bending_at_knees",
+            "phase": "nonfall"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              127.47609233856201,
+              0.7890138626098633,
+              262.3544645309448,
+              33.070000648498535
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_13_bending_at_knees",
+        "frame_index": 60
+      },
+      {
+        "timestamp": 3.0,
+        "references": [
+          {
+            "box": [
+              66.0,
+              122.0,
+              114.0,
+              172.0
+            ],
+            "identity": "fresh_assist_13_bending_at_knees",
+            "phase": "nonfall"
+          }
+        ],
+        "predictions": [],
+        "clip_id": "fresh_assist_13_bending_at_knees",
+        "frame_index": 90
+      },
+      {
+        "timestamp": 4.0,
+        "references": [
+          {
+            "box": [
+              80.0,
+              54.0,
+              122.0,
+              172.0
+            ],
+            "identity": "fresh_assist_13_bending_at_knees",
+            "phase": "nonfall"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              77.57209634780884,
+              53.36021709442139,
+              118.44510507583618,
+              174.0564374923706
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_13_bending_at_knees",
+        "frame_index": 120
+      },
+      {
+        "timestamp": 4.8,
+        "references": [
+          {
+            "box": [
+              78.0,
+              54.0,
+              122.0,
+              172.0
+            ],
+            "identity": "fresh_assist_13_bending_at_knees",
+            "phase": "nonfall"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              73.80342769622803,
+              54.24345111846924,
+              118.37876415252686,
+              174.01970386505127
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_13_bending_at_knees",
+        "frame_index": 144
+      },
+      {
+        "timestamp": 0.6,
+        "references": [
+          {
+            "box": [
+              86.0,
+              52.0,
+              134.0,
+              172.0
+            ],
+            "identity": "fresh_assist_14_bending_wo_knees",
+            "phase": "nonfall"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              90.99534034729004,
+              55.059308767318726,
+              136.4588451385498,
+              174.61591124534607
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_14_bending_wo_knees",
+        "frame_index": 18
+      },
+      {
+        "timestamp": 2.0,
+        "references": [
+          {
+            "box": [
+              86.0,
+              52.0,
+              134.0,
+              172.0
+            ],
+            "identity": "fresh_assist_14_bending_wo_knees",
+            "phase": "nonfall"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              90.25699043273926,
+              52.82616901397705,
+              134.41022300720215,
+              174.26217365264893
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_14_bending_wo_knees",
+        "frame_index": 60
+      },
+      {
+        "timestamp": 4.2,
+        "references": [
+          {
+            "box": [
+              80.0,
+              106.0,
+              134.0,
+              174.0
+            ],
+            "identity": "fresh_assist_14_bending_wo_knees",
+            "phase": "nonfall"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              124.41020488739014,
+              0.9038348197937012,
+              262.05525493621826,
+              32.507543087005615
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_14_bending_wo_knees",
+        "frame_index": 126
+      },
+      {
+        "timestamp": 6.2,
+        "references": [
+          {
+            "box": [
+              80.0,
+              106.0,
+              134.0,
+              174.0
+            ],
+            "identity": "fresh_assist_14_bending_wo_knees",
+            "phase": "nonfall"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              126.68826389312744,
+              0.8455257415771484,
+              261.15327548980713,
+              32.679433822631836
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_14_bending_wo_knees",
+        "frame_index": 186
+      },
+      {
+        "timestamp": 8.2,
+        "references": [
+          {
+            "box": [
+              80.0,
+              106.0,
+              134.0,
+              174.0
+            ],
+            "identity": "fresh_assist_14_bending_wo_knees",
+            "phase": "nonfall"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              77.91557502746582,
+              101.68096160888672,
+              131.35251808166504,
+              173.546630859375
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_14_bending_wo_knees",
+        "frame_index": 246
+      },
+      {
+        "timestamp": 9.8,
+        "references": [
+          {
+            "box": [
+              90.0,
+              54.0,
+              136.0,
+              174.0
+            ],
+            "identity": "fresh_assist_14_bending_wo_knees",
+            "phase": "nonfall"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              92.53849411010742,
+              54.969258069992065,
+              138.08307647705078,
+              174.26959681510925
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_14_bending_wo_knees",
+        "frame_index": 294
+      }
+    ],
+    "all_views": [
+      {
+        "timestamp": 1.206996,
+        "references": [
+          {
+            "box": [
+              28.0,
+              0.0,
+              348.0,
+              480.0
+            ],
+            "identity": "fresh_gmd4_Fall_03",
+            "phase": "upright"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              17.048911094665527,
+              1.2169380187988281,
+              351.1980199813843,
+              477.8925971984863
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_gmd4_Fall_03",
+        "frame_index": 36
+      },
+      {
+        "timestamp": 1.6093279999999999,
+        "references": [
+          {
+            "box": [
+              78.0,
+              0.0,
+              346.0,
+              480.0
+            ],
+            "identity": "fresh_gmd4_Fall_03",
+            "phase": "upright"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              88.30259323120117,
+              3.6606369018554688,
+              354.8769645690918,
+              475.58101654052734
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_gmd4_Fall_03",
+        "frame_index": 48
+      },
+      {
+        "timestamp": 2.01166,
+        "references": [
+          {
+            "box": [
+              92.0,
+              170.0,
+              350.0,
+              480.0
+            ],
+            "identity": "fresh_gmd4_Fall_03",
+            "phase": "descent"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              82.06801509857178,
+              167.03931427001953,
+              338.17150020599365,
+              480.0
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_gmd4_Fall_03",
+        "frame_index": 60
+      },
+      {
+        "timestamp": 2.413992,
+        "references": [
+          {
+            "box": [
+              80.0,
+              316.0,
+              320.0,
+              480.0
+            ],
+            "identity": "fresh_gmd4_Fall_03",
+            "phase": "ground"
+          }
+        ],
+        "predictions": [],
+        "clip_id": "fresh_gmd4_Fall_03",
+        "frame_index": 72
+      },
+      {
+        "timestamp": 5.431482,
+        "references": [
+          {
+            "box": [
+              52.0,
+              354.0,
+              312.0,
+              480.0
+            ],
+            "identity": "fresh_gmd4_Fall_03",
+            "phase": "ground"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              50.03290843963623,
+              349.1542320251465,
+              325.7432050704956,
+              479.67634201049805
+            ],
+            "track_id": null
+          },
+          {
+            "box": [
+              30.895343780517578,
+              220.77396869659424,
+              64.57254409790039,
+              232.56126403808594
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_gmd4_Fall_03",
+        "frame_index": 162
+      },
+      {
+        "timestamp": 6.4373119999999995,
+        "references": [
+          {
+            "box": [
+              50.0,
+              356.0,
+              326.0,
+              480.0
+            ],
+            "identity": "fresh_gmd4_Fall_03",
+            "phase": "ground"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              49.46458339691162,
+              353.15074157714844,
+              329.10011196136475,
+              479.74053955078125
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_gmd4_Fall_03",
+        "frame_index": 192
+      },
+      {
+        "timestamp": 2.012244680851064,
+        "references": [
+          {
+            "box": [
+              164.0,
+              88.0,
+              376.0,
+              332.0
+            ],
+            "identity": "fresh_gmd4_Fall_07",
+            "phase": "descent"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              166.9348659515381,
+              90.75645065307617,
+              368.2289791107178,
+              329.2731742858887
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_gmd4_Fall_07",
+        "frame_index": 60
+      },
+      {
+        "timestamp": 2.4146936170212765,
+        "references": [
+          {
+            "box": [
+              192.0,
+              136.0,
+              376.0,
+              330.0
+            ],
+            "identity": "fresh_gmd4_Fall_07",
+            "phase": "descent"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              176.1750431060791,
+              134.80519485473633,
+              343.4768009185791,
+              325.78081130981445
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_gmd4_Fall_07",
+        "frame_index": 72
+      },
+      {
+        "timestamp": 2.817142553191489,
+        "references": [
+          {
+            "box": [
+              170.0,
+              198.0,
+              368.0,
+              336.0
+            ],
+            "identity": "fresh_gmd4_Fall_07",
+            "phase": "descent"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              169.54601192474365,
+              208.22700309753418,
+              374.76061153411865,
+              341.9743938446045
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_gmd4_Fall_07",
+        "frame_index": 84
+      },
+      {
+        "timestamp": 3.219591489361702,
+        "references": [
+          {
+            "box": [
+              100.0,
+              238.0,
+              374.0,
+              332.0
+            ],
+            "identity": "fresh_gmd4_Fall_07",
+            "phase": "ground"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              101.83717727661133,
+              236.5660343170166,
+              371.9983711242676,
+              356.2259464263916
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_gmd4_Fall_07",
+        "frame_index": 96
+      },
+      {
+        "timestamp": 5.0306117021276595,
+        "references": [
+          {
+            "box": [
+              114.0,
+              234.0,
+              378.0,
+              334.0
+            ],
+            "identity": "fresh_gmd4_Fall_07",
+            "phase": "ground"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              104.11882781982422,
+              243.74398612976074,
+              376.5704879760742,
+              337.9884853363037
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_gmd4_Fall_07",
+        "frame_index": 150
+      },
+      {
+        "timestamp": 6.036734042553191,
+        "references": [
+          {
+            "box": [
+              116.0,
+              238.0,
+              376.0,
+              334.0
+            ],
+            "identity": "fresh_gmd4_Fall_07",
+            "phase": "ground"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              104.60773086547852,
+              244.11402702331543,
+              375.31149673461914,
+              337.4813976287842
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_gmd4_Fall_07",
+        "frame_index": 180
+      },
+      {
+        "timestamp": 1.8069882352941176,
+        "references": [
+          {
+            "box": [
+              96.0,
+              84.0,
+              244.0,
+              302.0
+            ],
+            "identity": "fresh_gmd4_Fall_08",
+            "phase": "seated"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              108.8461594581604,
+              81.24882507324219,
+              248.56017923355103,
+              312.5533447265625
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_gmd4_Fall_08",
+        "frame_index": 54
+      },
+      {
+        "timestamp": 2.2085411764705882,
+        "references": [
+          {
+            "box": [
+              98.0,
+              90.0,
+              264.0,
+              302.0
+            ],
+            "identity": "fresh_gmd4_Fall_08",
+            "phase": "descent"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              107.84978675842285,
+              92.46240997314453,
+              267.3286380767822,
+              307.96048736572266
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_gmd4_Fall_08",
+        "frame_index": 66
+      },
+      {
+        "timestamp": 2.610094117647059,
+        "references": [
+          {
+            "box": [
+              94.0,
+              130.0,
+              302.0,
+              300.0
+            ],
+            "identity": "fresh_gmd4_Fall_08",
+            "phase": "descent"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              98.83645629882812,
+              127.88334655761719,
+              301.3594665527344,
+              303.63275146484375
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_gmd4_Fall_08",
+        "frame_index": 78
+      },
+      {
+        "timestamp": 3.011647058823529,
+        "references": [
+          {
+            "box": [
+              94.0,
+              174.0,
+              310.0,
+              308.0
+            ],
+            "identity": "fresh_gmd4_Fall_08",
+            "phase": "ground"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              93.6123743057251,
+              169.40794372558594,
+              316.6005640029907,
+              301.9426574707031
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_gmd4_Fall_08",
+        "frame_index": 90
+      },
+      {
+        "timestamp": 5.0194117647058825,
+        "references": [
+          {
+            "box": [
+              94.0,
+              174.0,
+              310.0,
+              308.0
+            ],
+            "identity": "fresh_gmd4_Fall_08",
+            "phase": "ground"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              98.586989402771,
+              172.9677791595459,
+              374.89295864105225,
+              309.10484886169434
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_gmd4_Fall_08",
+        "frame_index": 150
+      },
+      {
+        "timestamp": 6.023294117647058,
+        "references": [
+          {
+            "box": [
+              94.0,
+              174.0,
+              310.0,
+              308.0
+            ],
+            "identity": "fresh_gmd4_Fall_08",
+            "phase": "ground"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              100.11982345581055,
+              170.90856075286865,
+              301.0865287780762,
+              307.9852514266968
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_gmd4_Fall_08",
+        "frame_index": 180
+      },
+      {
+        "timestamp": 0.8049647058823529,
+        "references": [
+          {
+            "box": [
+              238.0,
+              0.0,
+              320.0,
+              322.0
+            ],
+            "identity": "fresh_gmd4_Fall_11",
+            "phase": "upright"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              243.30181121826172,
+              0.0,
+              339.09769439697266,
+              318.13006591796875
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_gmd4_Fall_11",
+        "frame_index": 24
+      },
+      {
+        "timestamp": 1.2074470588235293,
+        "references": [
+          {
+            "box": [
+              192.0,
+              0.0,
+              324.0,
+              324.0
+            ],
+            "identity": "fresh_gmd4_Fall_11",
+            "phase": "descent"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              185.0560531616211,
+              0.5577392578125,
+              329.5812454223633,
+              323.8959655761719
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_gmd4_Fall_11",
+        "frame_index": 36
+      },
+      {
+        "timestamp": 1.6099294117647058,
+        "references": [
+          {
+            "box": [
+              96.0,
+              140.0,
+              318.0,
+              326.0
+            ],
+            "identity": "fresh_gmd4_Fall_11",
+            "phase": "descent"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              97.60179138183594,
+              142.19776153564453,
+              324.23753356933594,
+              322.4107131958008
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_gmd4_Fall_11",
+        "frame_index": 48
+      },
+      {
+        "timestamp": 2.0124117647058823,
+        "references": [
+          {
+            "box": [
+              98.0,
+              256.0,
+              320.0,
+              328.0
+            ],
+            "identity": "fresh_gmd4_Fall_11",
+            "phase": "ground"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              100.12218999862671,
+              255.3019027709961,
+              295.890576839447,
+              333.31436920166016
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_gmd4_Fall_11",
+        "frame_index": 60
+      },
+      {
+        "timestamp": 3.6223411764705884,
+        "references": [
+          {
+            "box": [
+              98.0,
+              256.0,
+              320.0,
+              328.0
+            ],
+            "identity": "fresh_gmd4_Fall_11",
+            "phase": "ground"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              91.01438903808594,
+              258.6634759902954,
+              314.7428741455078,
+              347.4781732559204
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_gmd4_Fall_11",
+        "frame_index": 108
+      },
+      {
+        "timestamp": 4.427305882352941,
+        "references": [
+          {
+            "box": [
+              98.0,
+              256.0,
+              320.0,
+              328.0
+            ],
+            "identity": "fresh_gmd4_Fall_11",
+            "phase": "ground"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              2.259002685546875,
+              227.41062545776367,
+              313.9974060058594,
+              357.3737602233887
+            ],
+            "track_id": null
+          },
+          {
+            "box": [
+              96.55658721923828,
+              261.3838748931885,
+              306.7320785522461,
+              337.09787940979004
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_gmd4_Fall_11",
+        "frame_index": 132
+      },
+      {
+        "timestamp": 0.40188709677419354,
+        "references": [
+          {
+            "box": [
+              138.0,
+              6.0,
+              270.0,
+              330.0
+            ],
+            "identity": "fresh_gmd4_ADL_14",
+            "phase": "nonfall"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              144.98286056518555,
+              5.464282989501953,
+              271.5766792297363,
+              334.9843940734863
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_gmd4_ADL_14",
+        "frame_index": 12
+      },
+      {
+        "timestamp": 1.6075483870967742,
+        "references": [
+          {
+            "box": [
+              122.0,
+              14.0,
+              220.0,
+              312.0
+            ],
+            "identity": "fresh_gmd4_ADL_14",
+            "phase": "nonfall"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              125.43443393707275,
+              15.058429718017578,
+              216.9544153213501,
+              315.60295486450195
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_gmd4_ADL_14",
+        "frame_index": 48
+      },
+      {
+        "timestamp": 3.416040322580645,
+        "references": [
+          {
+            "box": [
+              80.0,
+              56.0,
+              238.0,
+              314.0
+            ],
+            "identity": "fresh_gmd4_ADL_14",
+            "phase": "nonfall"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              78.28976821899414,
+              54.05850601196289,
+              237.0628547668457,
+              321.05038833618164
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_gmd4_ADL_14",
+        "frame_index": 102
+      },
+      {
+        "timestamp": 5.023588709677419,
+        "references": [
+          {
+            "box": [
+              156.0,
+              0.0,
+              240.0,
+              328.0
+            ],
+            "identity": "fresh_gmd4_ADL_14",
+            "phase": "nonfall"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              149.84014892578125,
+              0.8191146850585938,
+              251.84051513671875,
+              328.8811264038086
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_gmd4_ADL_14",
+        "frame_index": 150
+      },
+      {
+        "timestamp": 6.631137096774194,
+        "references": [
+          {
+            "box": [
+              140.0,
+              0.0,
+              244.0,
+              330.0
+            ],
+            "identity": "fresh_gmd4_ADL_14",
+            "phase": "nonfall"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              134.29990482330322,
+              0.7695083618164062,
+              250.6318063735962,
+              325.8461380004883
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_gmd4_ADL_14",
+        "frame_index": 198
+      },
+      {
+        "timestamp": 7.836798387096774,
+        "references": [
+          {
+            "box": [
+              156.0,
+              0.0,
+              244.0,
+              324.0
+            ],
+            "identity": "fresh_gmd4_ADL_14",
+            "phase": "nonfall"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              155.686541557312,
+              0.528106689453125,
+              243.96238231658936,
+              328.54364013671875
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_gmd4_ADL_14",
+        "frame_index": 234
+      },
+      {
+        "timestamp": 0.40163655913978497,
+        "references": [],
+        "predictions": [],
+        "clip_id": "fresh_gmd4_ADL_17",
+        "frame_index": 12
+      },
+      {
+        "timestamp": 1.2049096774193548,
+        "references": [
+          {
+            "box": [
+              110.0,
+              0.0,
+              222.0,
+              322.0
+            ],
+            "identity": "fresh_gmd4_ADL_17",
+            "phase": "nonfall"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              112.04526996612549,
+              0.0,
+              218.76957416534424,
+              328.44201278686523
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_gmd4_ADL_17",
+        "frame_index": 36
+      },
+      {
+        "timestamp": 2.4098193548387097,
+        "references": [
+          {
+            "box": [
+              160.0,
+              118.0,
+              304.0,
+              318.0
+            ],
+            "identity": "fresh_gmd4_ADL_17",
+            "phase": "nonfall"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              159.27661514282227,
+              113.45441341400146,
+              304.943546295166,
+              319.596640586853
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_gmd4_ADL_17",
+        "frame_index": 72
+      },
+      {
+        "timestamp": 3.8155473118279573,
+        "references": [
+          {
+            "box": [
+              156.0,
+              34.0,
+              260.0,
+              322.0
+            ],
+            "identity": "fresh_gmd4_ADL_17",
+            "phase": "nonfall"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              159.09695053100586,
+              28.22507095336914,
+              258.2847709655762,
+              306.0122718811035
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_gmd4_ADL_17",
+        "frame_index": 114
+      },
+      {
+        "timestamp": 5.020456989247312,
+        "references": [
+          {
+            "box": [
+              102.0,
+              12.0,
+              180.0,
+              316.0
+            ],
+            "identity": "fresh_gmd4_ADL_17",
+            "phase": "nonfall"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              91.13697338104248,
+              13.287425994873047,
+              183.63306713104248,
+              303.4054374694824
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_gmd4_ADL_17",
+        "frame_index": 150
+      },
+      {
+        "timestamp": 5.823730107526882,
+        "references": [
+          {
+            "box": [
+              64.0,
+              22.0,
+              126.0,
+              312.0
+            ],
+            "identity": "fresh_gmd4_ADL_17",
+            "phase": "nonfall"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              60.5819616317749,
+              17.612201690673828,
+              118.02793025970459,
+              306.7935981750488
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_gmd4_ADL_17",
+        "frame_index": 174
+      },
+      {
+        "timestamp": 1.0,
+        "references": [
+          {
+            "box": [
+              290.0,
+              30.0,
+              356.0,
+              190.0
+            ],
+            "identity": "fresh_assist_02_fall_backward",
+            "phase": "upright"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              290.08156967163086,
+              27.483622550964355,
+              355.0532112121582,
+              186.05031871795654
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_02_fall_backward",
+        "frame_index": 30
+      },
+      {
+        "timestamp": 4.0,
+        "references": [
+          {
+            "box": [
+              280.0,
+              166.0,
+              486.0,
+              238.0
+            ],
+            "identity": "fresh_assist_02_fall_backward",
+            "phase": "ground"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              301.23950576782227,
+              167.85225296020508,
+              485.7307777404785,
+              239.42903518676758
+            ],
+            "track_id": null
+          },
+          {
+            "box": [
+              331.27111434936523,
+              1.0174293518066406,
+              457.6057243347168,
+              30.740684509277344
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_02_fall_backward",
+        "frame_index": 120
+      },
+      {
+        "timestamp": 7.8,
+        "references": [
+          {
+            "box": [
+              280.0,
+              166.0,
+              488.0,
+              240.0
+            ],
+            "identity": "fresh_assist_02_fall_backward",
+            "phase": "ground"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              296.2901735305786,
+              167.10336017608643,
+              490.9396028518677,
+              233.65866565704346
+            ],
+            "track_id": null
+          },
+          {
+            "box": [
+              333.66576385498047,
+              0.8065938949584961,
+              457.0061798095703,
+              30.505932807922363
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_02_fall_backward",
+        "frame_index": 234
+      },
+      {
+        "timestamp": 11.8,
+        "references": [
+          {
+            "box": [
+              280.0,
+              166.0,
+              488.0,
+              240.0
+            ],
+            "identity": "fresh_assist_02_fall_backward",
+            "phase": "ground"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              287.19114661216736,
+              167.43962860107422,
+              486.5269010066986,
+              232.5736083984375
+            ],
+            "track_id": null
+          },
+          {
+            "box": [
+              336.14495849609375,
+              0.7865190505981445,
+              454.78821563720703,
+              30.275816917419434
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_02_fall_backward",
+        "frame_index": 354
+      },
+      {
+        "timestamp": 15.8,
+        "references": [
+          {
+            "box": [
+              280.0,
+              166.0,
+              488.0,
+              240.0
+            ],
+            "identity": "fresh_assist_02_fall_backward",
+            "phase": "ground"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              294.6807670593262,
+              166.761568069458,
+              492.3832206726074,
+              233.04001808166504
+            ],
+            "track_id": null
+          },
+          {
+            "box": [
+              334.0816307067871,
+              0.8406524658203125,
+              458.45383071899414,
+              30.955799102783203
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_02_fall_backward",
+        "frame_index": 474
+      },
+      {
+        "timestamp": 18.6,
+        "references": [
+          {
+            "box": [
+              290.0,
+              62.0,
+              360.0,
+              188.0
+            ],
+            "identity": "fresh_assist_02_fall_backward",
+            "phase": "recovery"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              292.13821363449097,
+              63.49574661254883,
+              355.91751050949097,
+              188.97853469848633
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_02_fall_backward",
+        "frame_index": 558
+      },
+      {
+        "timestamp": 0.8,
+        "references": [
+          {
+            "box": [
+              34.0,
+              52.0,
+              72.0,
+              178.0
+            ],
+            "identity": "fresh_assist_04_forward_fall_jogging",
+            "phase": "upright"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              33.925429344177246,
+              47.59629440307617,
+              78.38417339324951,
+              177.13862228393555
+            ],
+            "track_id": null
+          },
+          {
+            "box": [
+              53.594913482666016,
+              0.15503931045532227,
+              290.5139961242676,
+              38.865511417388916
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_04_forward_fall_jogging",
+        "frame_index": 24
+      },
+      {
+        "timestamp": 2.8,
+        "references": [
+          {
+            "box": [
+              94.0,
+              112.0,
+              212.0,
+              230.0
+            ],
+            "identity": "fresh_assist_04_forward_fall_jogging",
+            "phase": "descent"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              95.34527778625488,
+              112.85139560699463,
+              209.61441230773926,
+              230.18699741363525
+            ],
+            "track_id": null
+          },
+          {
+            "box": [
+              55.51858139038086,
+              0.3366966247558594,
+              290.7559623718262,
+              37.16978454589844
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_04_forward_fall_jogging",
+        "frame_index": 84
+      },
+      {
+        "timestamp": 5.6,
+        "references": [
+          {
+            "box": [
+              92.0,
+              180.0,
+              256.0,
+              270.0
+            ],
+            "identity": "fresh_assist_04_forward_fall_jogging",
+            "phase": "ground"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              93.09061479568481,
+              183.76279878616333,
+              256.7672200202942,
+              270.7868847846985
+            ],
+            "track_id": null
+          },
+          {
+            "box": [
+              56.841854095458984,
+              0.08387327194213867,
+              289.4913902282715,
+              38.50243330001831
+            ],
+            "track_id": null
+          },
+          {
+            "box": [
+              88.3146104812622,
+              183.56291580200195,
+              365.80771350860596,
+              312.5321388244629
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_04_forward_fall_jogging",
+        "frame_index": 168
+      },
+      {
+        "timestamp": 8.4,
+        "references": [
+          {
+            "box": [
+              92.0,
+              182.0,
+              256.0,
+              270.0
+            ],
+            "identity": "fresh_assist_04_forward_fall_jogging",
+            "phase": "ground"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              91.02629566192627,
+              183.9740867614746,
+              257.7671251296997,
+              266.58320236206055
+            ],
+            "track_id": null
+          },
+          {
+            "box": [
+              56.783470153808594,
+              0.15217161178588867,
+              286.60779571533203,
+              38.376643657684326
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_04_forward_fall_jogging",
+        "frame_index": 252
+      },
+      {
+        "timestamp": 11.2,
+        "references": [
+          {
+            "box": [
+              92.0,
+              182.0,
+              256.0,
+              270.0
+            ],
+            "identity": "fresh_assist_04_forward_fall_jogging",
+            "phase": "ground"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              93.56266593933105,
+              183.41252279281616,
+              256.9844493865967,
+              270.17704916000366
+            ],
+            "track_id": null
+          },
+          {
+            "box": [
+              103.89730739593506,
+              0.0,
+              282.4916524887085,
+              39.42978382110596
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_04_forward_fall_jogging",
+        "frame_index": 336
+      },
+      {
+        "timestamp": 13.4,
+        "references": [
+          {
+            "box": [
+              92.0,
+              182.0,
+              256.0,
+              270.0
+            ],
+            "identity": "fresh_assist_04_forward_fall_jogging",
+            "phase": "ground"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              90.97172355651855,
+              184.2995834350586,
+              257.711332321167,
+              266.73865509033203
+            ],
+            "track_id": null
+          },
+          {
+            "box": [
+              100.93282985687256,
+              0.0006279945373535156,
+              285.19210720062256,
+              40.13745355606079
+            ],
+            "track_id": null
+          },
+          {
+            "box": [
+              92.96561241149902,
+              183.51366710662842,
+              366.2666072845459,
+              309.26262950897217
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_04_forward_fall_jogging",
+        "frame_index": 402
+      },
+      {
+        "timestamp": 0.8,
+        "references": [
+          {
+            "box": [
+              80.0,
+              0.0,
+              164.0,
+              204.0
+            ],
+            "identity": "fresh_assist_05_vertical_fall_faint",
+            "phase": "upright"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              91.79592227935791,
+              0.0,
+              162.47408390045166,
+              206.38367080688477
+            ],
+            "track_id": null
+          },
+          {
+            "box": [
+              114.96465396881104,
+              0.0,
+              281.989541053772,
+              89.43567276000977
+            ],
+            "track_id": null
+          },
+          {
+            "box": [
+              150.05246353149414,
+              0.18497657775878906,
+              284.8278694152832,
+              32.9429988861084
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_05_vertical_fall_faint",
+        "frame_index": 24
+      },
+      {
+        "timestamp": 3.0,
+        "references": [
+          {
+            "box": [
+              110.0,
+              66.0,
+              220.0,
+              222.0
+            ],
+            "identity": "fresh_assist_05_vertical_fall_faint",
+            "phase": "descent"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              122.17620944976807,
+              68.36818504333496,
+              216.71878910064697,
+              218.13927268981934
+            ],
+            "track_id": null
+          },
+          {
+            "box": [
+              112.6558723449707,
+              132.8979892730713,
+              183.62085342407227,
+              219.31707191467285
+            ],
+            "track_id": null
+          },
+          {
+            "box": [
+              62.70428276062012,
+              0.3994617462158203,
+              285.3721752166748,
+              36.72736167907715
+            ],
+            "track_id": null
+          },
+          {
+            "box": [
+              11.605613708496094,
+              0.0,
+              432.4993209838867,
+              322.05760955810547
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_05_vertical_fall_faint",
+        "frame_index": 90
+      },
+      {
+        "timestamp": 6.0,
+        "references": [
+          {
+            "box": [
+              108.0,
+              176.0,
+              290.0,
+              276.0
+            ],
+            "identity": "fresh_assist_05_vertical_fall_faint",
+            "phase": "ground"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              115.26848793029785,
+              176.5727024078369,
+              291.5640354156494,
+              272.3658084869385
+            ],
+            "track_id": null
+          },
+          {
+            "box": [
+              58.542442321777344,
+              0.3808422088623047,
+              288.4831314086914,
+              38.44040870666504
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_05_vertical_fall_faint",
+        "frame_index": 180
+      },
+      {
+        "timestamp": 9.0,
+        "references": [
+          {
+            "box": [
+              108.0,
+              176.0,
+              290.0,
+              276.0
+            ],
+            "identity": "fresh_assist_05_vertical_fall_faint",
+            "phase": "ground"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              114.10319995880127,
+              176.1007022857666,
+              290.6951494216919,
+              272.57972145080566
+            ],
+            "track_id": null
+          },
+          {
+            "box": [
+              57.95496368408203,
+              0.12886738777160645,
+              288.36890411376953,
+              39.15002369880676
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_05_vertical_fall_faint",
+        "frame_index": 270
+      },
+      {
+        "timestamp": 12.0,
+        "references": [
+          {
+            "box": [
+              108.0,
+              176.0,
+              290.0,
+              276.0
+            ],
+            "identity": "fresh_assist_05_vertical_fall_faint",
+            "phase": "ground"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              111.90094375610352,
+              175.98029613494873,
+              283.87602615356445,
+              273.87463665008545
+            ],
+            "track_id": null
+          },
+          {
+            "box": [
+              57.013919830322266,
+              0.16737103462219238,
+              288.8894844055176,
+              39.33207058906555
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_05_vertical_fall_faint",
+        "frame_index": 360
+      },
+      {
+        "timestamp": 14.4,
+        "references": [
+          {
+            "box": [
+              108.0,
+              176.0,
+              290.0,
+              276.0
+            ],
+            "identity": "fresh_assist_05_vertical_fall_faint",
+            "phase": "ground"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              112.64409828186035,
+              175.77917289733887,
+              283.4322147369385,
+              273.59306144714355
+            ],
+            "track_id": null
+          },
+          {
+            "box": [
+              60.38741683959961,
+              0.19226574897766113,
+              288.9000358581543,
+              38.41789364814758
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_05_vertical_fall_faint",
+        "frame_index": 432
+      },
+      {
+        "timestamp": 0.4,
+        "references": [
+          {
+            "box": [
+              92.0,
+              0.0,
+              198.0,
+              220.0
+            ],
+            "identity": "fresh_assist_07_fall_to_knees_forward",
+            "phase": "upright"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              91.96249008178711,
+              0.5490074157714844,
+              192.7211570739746,
+              219.91489791870117
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_07_fall_to_knees_forward",
+        "frame_index": 12
+      },
+      {
+        "timestamp": 1.8,
+        "references": [
+          {
+            "box": [
+              96.0,
+              64.0,
+              290.0,
+              268.0
+            ],
+            "identity": "fresh_assist_07_fall_to_knees_forward",
+            "phase": "descent"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              92.12043786048889,
+              68.52010726928711,
+              267.05767846107483,
+              247.71328353881836
+            ],
+            "track_id": null
+          },
+          {
+            "box": [
+              124.2925796508789,
+              0.9180822372436523,
+              256.02672576904297,
+              31.06937313079834
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_07_fall_to_knees_forward",
+        "frame_index": 54
+      },
+      {
+        "timestamp": 3.6,
+        "references": [
+          {
+            "box": [
+              104.0,
+              196.0,
+              328.0,
+              320.0
+            ],
+            "identity": "fresh_assist_07_fall_to_knees_forward",
+            "phase": "ground"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              104.53276634216309,
+              193.29682159423828,
+              327.8622188568115,
+              320.1215591430664
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_07_fall_to_knees_forward",
+        "frame_index": 108
+      },
+      {
+        "timestamp": 5.4,
+        "references": [
+          {
+            "box": [
+              104.0,
+              196.0,
+              328.0,
+              320.0
+            ],
+            "identity": "fresh_assist_07_fall_to_knees_forward",
+            "phase": "ground"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              105.00704193115234,
+              193.94094848632812,
+              327.7531967163086,
+              320.7860412597656
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_07_fall_to_knees_forward",
+        "frame_index": 162
+      },
+      {
+        "timestamp": 7.2,
+        "references": [
+          {
+            "box": [
+              104.0,
+              196.0,
+              328.0,
+              320.0
+            ],
+            "identity": "fresh_assist_07_fall_to_knees_forward",
+            "phase": "ground"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              103.64773845672607,
+              193.5760841369629,
+              329.196551322937,
+              320.79794692993164
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_07_fall_to_knees_forward",
+        "frame_index": 216
+      },
+      {
+        "timestamp": 8.6,
+        "references": [
+          {
+            "box": [
+              104.0,
+              196.0,
+              328.0,
+              320.0
+            ],
+            "identity": "fresh_assist_07_fall_to_knees_forward",
+            "phase": "ground"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              107.24027061462402,
+              193.95806503295898,
+              329.2875728607178,
+              320.5857810974121
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_07_fall_to_knees_forward",
+        "frame_index": 258
+      },
+      {
+        "timestamp": 0.2,
+        "references": [
+          {
+            "box": [
+              324.0,
+              48.0,
+              426.0,
+              322.0
+            ],
+            "identity": "fresh_assist_01_walking_slowly",
+            "phase": "nonfall"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              326.187837600708,
+              47.493675231933594,
+              426.10022163391113,
+              323.9386215209961
+            ],
+            "track_id": null
+          },
+          {
+            "box": [
+              127.35446834564209,
+              0.7374191284179688,
+              266.68505001068115,
+              32.83655548095703
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_01_walking_slowly",
+        "frame_index": 6
+      },
+      {
+        "timestamp": 1.0,
+        "references": [
+          {
+            "box": [
+              290.0,
+              58.0,
+              370.0,
+              282.0
+            ],
+            "identity": "fresh_assist_01_walking_slowly",
+            "phase": "nonfall"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              294.34982776641846,
+              62.320091247558594,
+              371.07004261016846,
+              289.8265609741211
+            ],
+            "track_id": null
+          },
+          {
+            "box": [
+              127.43262386322021,
+              0.7090349197387695,
+              265.7175817489624,
+              32.89641284942627
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_01_walking_slowly",
+        "frame_index": 30
+      },
+      {
+        "timestamp": 2.2,
+        "references": [
+          {
+            "box": [
+              204.0,
+              62.0,
+              254.0,
+              204.0
+            ],
+            "identity": "fresh_assist_01_walking_slowly",
+            "phase": "nonfall"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              203.14392709732056,
+              62.91183853149414,
+              257.53476572036743,
+              202.59155654907227
+            ],
+            "track_id": null
+          },
+          {
+            "box": [
+              122.92361164093018,
+              0.8211832046508789,
+              262.8265199661255,
+              32.741108894348145
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_01_walking_slowly",
+        "frame_index": 66
+      },
+      {
+        "timestamp": 3.2,
+        "references": [
+          {
+            "box": [
+              152.0,
+              68.0,
+              196.0,
+              182.0
+            ],
+            "identity": "fresh_assist_01_walking_slowly",
+            "phase": "nonfall"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              154.19326972961426,
+              65.35382270812988,
+              194.61458778381348,
+              181.69182014465332
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_01_walking_slowly",
+        "frame_index": 96
+      },
+      {
+        "timestamp": 4.4,
+        "references": [
+          {
+            "box": [
+              114.0,
+              68.0,
+              156.0,
+              172.0
+            ],
+            "identity": "fresh_assist_01_walking_slowly",
+            "phase": "nonfall"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              114.30910301208496,
+              67.0255217552185,
+              151.57040214538574,
+              167.82846975326538
+            ],
+            "track_id": null
+          },
+          {
+            "box": [
+              46.52700138092041,
+              71.79121017456055,
+              71.84474849700928,
+              148.97323989868164
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_01_walking_slowly",
+        "frame_index": 132
+      },
+      {
+        "timestamp": 5.2,
+        "references": [
+          {
+            "box": [
+              94.0,
+              68.0,
+              126.0,
+              166.0
+            ],
+            "identity": "fresh_assist_01_walking_slowly",
+            "phase": "nonfall"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              95.01180839538574,
+              68.09935474395752,
+              127.62786293029785,
+              165.30478382110596
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_01_walking_slowly",
+        "frame_index": 156
+      },
+      {
+        "timestamp": 0.6,
+        "references": [
+          {
+            "box": [
+              288.0,
+              84.0,
+              366.0,
+              192.0
+            ],
+            "identity": "fresh_assist_12_sitting_laying_down_quickly",
+            "phase": "nonfall"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              285.3431701660156,
+              83.67507076263428,
+              360.28011322021484,
+              189.9957571029663
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_12_sitting_laying_down_quickly",
+        "frame_index": 18
+      },
+      {
+        "timestamp": 2.4,
+        "references": [
+          {
+            "box": [
+              288.0,
+              92.0,
+              364.0,
+              192.0
+            ],
+            "identity": "fresh_assist_12_sitting_laying_down_quickly",
+            "phase": "nonfall"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              286.58297967910767,
+              90.67995738983154,
+              366.54601526260376,
+              190.79230785369873
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_12_sitting_laying_down_quickly",
+        "frame_index": 72
+      },
+      {
+        "timestamp": 5.0,
+        "references": [
+          {
+            "box": [
+              292.0,
+              160.0,
+              396.0,
+              216.0
+            ],
+            "identity": "fresh_assist_12_sitting_laying_down_quickly",
+            "phase": "nonfall"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              294.08713150024414,
+              158.825692653656,
+              391.28833389282227,
+              207.1374068260193
+            ],
+            "track_id": null
+          },
+          {
+            "box": [
+              333.8677635192871,
+              0.9746732711791992,
+              456.3487739562988,
+              31.01916217803955
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_12_sitting_laying_down_quickly",
+        "frame_index": 150
+      },
+      {
+        "timestamp": 7.4,
+        "references": [
+          {
+            "box": [
+              292.0,
+              126.0,
+              378.0,
+              198.0
+            ],
+            "identity": "fresh_assist_12_sitting_laying_down_quickly",
+            "phase": "nonfall"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              296.5145893096924,
+              125.00300598144531,
+              378.36988258361816,
+              197.6978759765625
+            ],
+            "track_id": null
+          },
+          {
+            "box": [
+              335.5998306274414,
+              0.8992214202880859,
+              455.02196502685547,
+              30.950035095214844
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_12_sitting_laying_down_quickly",
+        "frame_index": 222
+      },
+      {
+        "timestamp": 10.0,
+        "references": [
+          {
+            "box": [
+              292.0,
+              86.0,
+              366.0,
+              194.0
+            ],
+            "identity": "fresh_assist_12_sitting_laying_down_quickly",
+            "phase": "nonfall"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              286.5304870605469,
+              85.18481254577637,
+              361.6188201904297,
+              190.2441234588623
+            ],
+            "track_id": null
+          },
+          {
+            "box": [
+              335.7113952636719,
+              0.857421875,
+              457.12120056152344,
+              31.051057815551758
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_12_sitting_laying_down_quickly",
+        "frame_index": 300
+      },
+      {
+        "timestamp": 11.8,
+        "references": [
+          {
+            "box": [
+              292.0,
+              86.0,
+              366.0,
+              194.0
+            ],
+            "identity": "fresh_assist_12_sitting_laying_down_quickly",
+            "phase": "nonfall"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              285.9343047142029,
+              84.99571895599365,
+              361.04386281967163,
+              190.33007717132568
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_12_sitting_laying_down_quickly",
+        "frame_index": 354
+      },
+      {
+        "timestamp": 0.2,
+        "references": [
+          {
+            "box": [
+              78.0,
+              52.0,
+              122.0,
+              172.0
+            ],
+            "identity": "fresh_assist_13_bending_at_knees",
+            "phase": "nonfall"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              82.14077997207642,
+              58.50810527801514,
+              120.1018853187561,
+              173.64853191375732
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_13_bending_at_knees",
+        "frame_index": 6
+      },
+      {
+        "timestamp": 1.0,
+        "references": [
+          {
+            "box": [
+              66.0,
+              98.0,
+              118.0,
+              172.0
+            ],
+            "identity": "fresh_assist_13_bending_at_knees",
+            "phase": "nonfall"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              65.52546691894531,
+              98.81176567077637,
+              113.90176773071289,
+              174.53654289245605
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_13_bending_at_knees",
+        "frame_index": 30
+      },
+      {
+        "timestamp": 2.0,
+        "references": [
+          {
+            "box": [
+              66.0,
+              122.0,
+              116.0,
+              172.0
+            ],
+            "identity": "fresh_assist_13_bending_at_knees",
+            "phase": "nonfall"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              127.47609233856201,
+              0.7890138626098633,
+              262.3544645309448,
+              33.070000648498535
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_13_bending_at_knees",
+        "frame_index": 60
+      },
+      {
+        "timestamp": 3.0,
+        "references": [
+          {
+            "box": [
+              66.0,
+              122.0,
+              114.0,
+              172.0
+            ],
+            "identity": "fresh_assist_13_bending_at_knees",
+            "phase": "nonfall"
+          }
+        ],
+        "predictions": [],
+        "clip_id": "fresh_assist_13_bending_at_knees",
+        "frame_index": 90
+      },
+      {
+        "timestamp": 4.0,
+        "references": [
+          {
+            "box": [
+              80.0,
+              54.0,
+              122.0,
+              172.0
+            ],
+            "identity": "fresh_assist_13_bending_at_knees",
+            "phase": "nonfall"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              77.57209634780884,
+              53.36021709442139,
+              118.44510507583618,
+              174.0564374923706
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_13_bending_at_knees",
+        "frame_index": 120
+      },
+      {
+        "timestamp": 4.8,
+        "references": [
+          {
+            "box": [
+              78.0,
+              54.0,
+              122.0,
+              172.0
+            ],
+            "identity": "fresh_assist_13_bending_at_knees",
+            "phase": "nonfall"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              73.80342769622803,
+              54.24345111846924,
+              118.37876415252686,
+              174.01970386505127
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_13_bending_at_knees",
+        "frame_index": 144
+      },
+      {
+        "timestamp": 0.6,
+        "references": [
+          {
+            "box": [
+              86.0,
+              52.0,
+              134.0,
+              172.0
+            ],
+            "identity": "fresh_assist_14_bending_wo_knees",
+            "phase": "nonfall"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              90.99534034729004,
+              55.059308767318726,
+              136.4588451385498,
+              174.61591124534607
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_14_bending_wo_knees",
+        "frame_index": 18
+      },
+      {
+        "timestamp": 2.0,
+        "references": [
+          {
+            "box": [
+              86.0,
+              52.0,
+              134.0,
+              172.0
+            ],
+            "identity": "fresh_assist_14_bending_wo_knees",
+            "phase": "nonfall"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              90.25699043273926,
+              52.82616901397705,
+              134.41022300720215,
+              174.26217365264893
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_14_bending_wo_knees",
+        "frame_index": 60
+      },
+      {
+        "timestamp": 4.2,
+        "references": [
+          {
+            "box": [
+              80.0,
+              106.0,
+              134.0,
+              174.0
+            ],
+            "identity": "fresh_assist_14_bending_wo_knees",
+            "phase": "nonfall"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              124.41020488739014,
+              0.9038348197937012,
+              262.05525493621826,
+              32.507543087005615
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_14_bending_wo_knees",
+        "frame_index": 126
+      },
+      {
+        "timestamp": 6.2,
+        "references": [
+          {
+            "box": [
+              80.0,
+              106.0,
+              134.0,
+              174.0
+            ],
+            "identity": "fresh_assist_14_bending_wo_knees",
+            "phase": "nonfall"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              76.70196390151978,
+              104.71482276916504,
+              131.91961526870728,
+              174.7424716949463
+            ],
+            "track_id": null
+          },
+          {
+            "box": [
+              126.68826389312744,
+              0.8455257415771484,
+              261.15327548980713,
+              32.679433822631836
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_14_bending_wo_knees",
+        "frame_index": 186
+      },
+      {
+        "timestamp": 8.2,
+        "references": [
+          {
+            "box": [
+              80.0,
+              106.0,
+              134.0,
+              174.0
+            ],
+            "identity": "fresh_assist_14_bending_wo_knees",
+            "phase": "nonfall"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              77.91557502746582,
+              101.68096160888672,
+              131.35251808166504,
+              173.546630859375
+            ],
+            "track_id": null
+          },
+          {
+            "box": [
+              125.6556921005249,
+              0.7864184379577637,
+              263.6460790634155,
+              33.16094923019409
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_14_bending_wo_knees",
+        "frame_index": 246
+      },
+      {
+        "timestamp": 9.8,
+        "references": [
+          {
+            "box": [
+              90.0,
+              54.0,
+              136.0,
+              174.0
+            ],
+            "identity": "fresh_assist_14_bending_wo_knees",
+            "phase": "nonfall"
+          }
+        ],
+        "predictions": [
+          {
+            "box": [
+              92.53849411010742,
+              54.969258069992065,
+              138.08307647705078,
+              174.26959681510925
+            ],
+            "track_id": null
+          }
+        ],
+        "clip_id": "fresh_assist_14_bending_wo_knees",
+        "frame_index": 294
+      }
+    ]
+  }
+}

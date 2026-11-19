@@ -1,0 +1,265 @@
+{
+  "scope": "CPU replay including evidence/debug encoding; not live throughput",
+  "runs": [
+    {
+      "source": "data/clips/clip_00.mp4",
+      "source_sha256": "d6bc0b792416dbfd188a8583e657ac563bd1f07559e572fac947fd3a7e392f00",
+      "config": {
+        "detector_size": 320,
+        "rotation_fallback": true,
+        "sample_fps": 5.0,
+        "max_seconds": 60,
+        "max_width": 640,
+        "detector_threshold": 0.3,
+        "horizontal_ratio": 1.15,
+        "upright_ratio": 0.8,
+        "descent_heights_s": 0.25,
+        "transition_seconds": 1.5,
+        "stationary_heights_s": 0.12,
+        "stationary_flow_px_s": 6,
+        "immobile_seconds": 1.5,
+        "review_seconds": 2.5,
+        "max_gap_seconds": 0.5,
+        "history_seconds": 5,
+        "max_evidence_packets": 10,
+        "threads": 2
+      },
+      "opencv": "5.0.0",
+      "source_fps": 30.0,
+      "sampled_frames": 10,
+      "observed_seconds": 1.8,
+      "detections": 7,
+      "distinct_track_ids": 2,
+      "candidate_times": [
+        1.8
+      ],
+      "human_review_times": [],
+      "baseline_alert_times": [
+        1.8
+      ],
+      "exit_reason": "eof",
+      "wall_seconds": 3.1860340000130236,
+      "processing_fps": 3.1386984570657823,
+      "cpu_one_core_percent": 194.69738866486182,
+      "p50_ms": 212.37869997275993,
+      "p95_ms": 537.1202950482256,
+      "tool_calls": 2,
+      "memory": {
+        "working_set_mib": 118.93359375,
+        "process_peak_working_set_mib": 220.84765625
+      }
+    },
+    {
+      "source": "data/clips/clip_00.mp4",
+      "source_sha256": "d6bc0b792416dbfd188a8583e657ac563bd1f07559e572fac947fd3a7e392f00",
+      "config": {
+        "detector_size": 320,
+        "rotation_fallback": true,
+        "sample_fps": 10.0,
+        "max_seconds": 60,
+        "max_width": 640,
+        "detector_threshold": 0.3,
+        "horizontal_ratio": 1.15,
+        "upright_ratio": 0.8,
+        "descent_heights_s": 0.25,
+        "transition_seconds": 1.5,
+        "stationary_heights_s": 0.12,
+        "stationary_flow_px_s": 6,
+        "immobile_seconds": 1.5,
+        "review_seconds": 2.5,
+        "max_gap_seconds": 0.5,
+        "history_seconds": 5,
+        "max_evidence_packets": 10,
+        "threads": 2
+      },
+      "opencv": "5.0.0",
+      "source_fps": 30.0,
+      "sampled_frames": 19,
+      "observed_seconds": 1.8,
+      "detections": 16,
+      "distinct_track_ids": 1,
+      "candidate_times": [
+        1.7
+      ],
+      "human_review_times": [],
+      "baseline_alert_times": [
+        1.7
+      ],
+      "exit_reason": "eof",
+      "wall_seconds": 3.651712100021541,
+      "processing_fps": 5.203038870421335,
+      "cpu_one_core_percent": 194.68607615474568,
+      "p50_ms": 143.19189998786896,
+      "p95_ms": 335.8987299259752,
+      "tool_calls": 2,
+      "memory": {
+        "working_set_mib": 125.73046875,
+        "process_peak_working_set_mib": 231.125
+      }
+    },
+    {
+      "source": "data/clips/clip_00.mp4",
+      "source_sha256": "d6bc0b792416dbfd188a8583e657ac563bd1f07559e572fac947fd3a7e392f00",
+      "config": {
+        "detector_size": 320,
+        "rotation_fallback": true,
+        "sample_fps": 15.0,
+        "max_seconds": 60,
+        "max_width": 640,
+        "detector_threshold": 0.3,
+        "horizontal_ratio": 1.15,
+        "upright_ratio": 0.8,
+        "descent_heights_s": 0.25,
+        "transition_seconds": 1.5,
+        "stationary_heights_s": 0.12,
+        "stationary_flow_px_s": 6,
+        "immobile_seconds": 1.5,
+        "review_seconds": 2.5,
+        "max_gap_seconds": 0.5,
+        "history_seconds": 5,
+        "max_evidence_packets": 10,
+        "threads": 2
+      },
+      "opencv": "5.0.0",
+      "source_fps": 30.0,
+      "sampled_frames": 28,
+      "observed_seconds": 1.8,
+      "detections": 19,
+      "distinct_track_ids": 1,
+      "candidate_times": [
+        1.6666666666666667
+      ],
+      "human_review_times": [],
+      "baseline_alert_times": [
+        1.6666666666666667
+      ],
+      "exit_reason": "eof",
+      "wall_seconds": 6.001547399908304,
+      "processing_fps": 4.665463443715833,
+      "cpu_one_core_percent": 194.74144285153142,
+      "p50_ms": 126.82609999319538,
+      "p95_ms": 386.1414550105109,
+      "tool_calls": 2,
+      "memory": {
+        "working_set_mib": 138.01171875,
+        "process_peak_working_set_mib": 240.8828125
+      }
+    },
+    {
+      "source": "data/clips/clip_00.mp4",
+      "source_sha256": "d6bc0b792416dbfd188a8583e657ac563bd1f07559e572fac947fd3a7e392f00",
+      "config": {
+        "detector_size": 320,
+        "rotation_fallback": true,
+        "sample_fps": 30.0,
+        "max_seconds": 60,
+        "max_width": 640,
+        "detector_threshold": 0.3,
+        "horizontal_ratio": 1.15,
+        "upright_ratio": 0.8,
+        "descent_heights_s": 0.25,
+        "transition_seconds": 1.5,
+        "stationary_heights_s": 0.12,
+        "stationary_flow_px_s": 6,
+        "immobile_seconds": 1.5,
+        "review_seconds": 2.5,
+        "max_gap_seconds": 0.5,
+        "history_seconds": 5,
+        "max_evidence_packets": 10,
+        "threads": 2
+      },
+      "opencv": "5.0.0",
+      "source_fps": 30.0,
+      "sampled_frames": 56,
+      "observed_seconds": 1.8333333333333333,
+      "detections": 41,
+      "distinct_track_ids": 1,
+      "candidate_times": [
+        1.6333333333333333
+      ],
+      "human_review_times": [],
+      "baseline_alert_times": [
+        1.6333333333333333
+      ],
+      "exit_reason": "eof",
+      "wall_seconds": 10.970520199974999,
+      "processing_fps": 5.104589297427083,
+      "cpu_one_core_percent": 189.5705456159444,
+      "p50_ms": 127.26400000974536,
+      "p95_ms": 369.9419750191737,
+      "tool_calls": 2,
+      "memory": {
+        "working_set_mib": 159.16796875,
+        "process_peak_working_set_mib": 255.02734375
+      }
+    },
+    {
+      "source": "data/clips/clip_00.mp4",
+      "source_sha256": "d6bc0b792416dbfd188a8583e657ac563bd1f07559e572fac947fd3a7e392f00",
+      "config": {
+        "detector_size": 640,
+        "rotation_fallback": true,
+        "sample_fps": 5.0,
+        "max_seconds": 60,
+        "max_width": 640,
+        "detector_threshold": 0.3,
+        "horizontal_ratio": 1.15,
+        "upright_ratio": 0.8,
+        "descent_heights_s": 0.25,
+        "transition_seconds": 1.5,
+        "stationary_heights_s": 0.12,
+        "stationary_flow_px_s": 6,
+        "immobile_seconds": 1.5,
+        "review_seconds": 2.5,
+        "max_gap_seconds": 0.5,
+        "history_seconds": 5,
+        "max_evidence_packets": 10,
+        "threads": 2
+      },
+      "opencv": "5.0.0",
+      "source_fps": 30.0,
+      "sampled_frames": 10,
+      "observed_seconds": 1.8,
+      "detections": 10,
+      "distinct_track_ids": 1,
+      "candidate_times": [
+        1.6
+      ],
+      "human_review_times": [],
+      "baseline_alert_times": [
+        1.6
+      ],
+      "exit_reason": "eof",
+      "wall_seconds": 5.1288891999283805,
+      "processing_fps": 1.9497399164208187,
+      "cpu_one_core_percent": 197.10651967566713,
+      "p50_ms": 474.088050017599,
+      "p95_ms": 521.417249989463,
+      "tool_calls": 2,
+      "memory": {
+        "working_set_mib": 159.56640625,
+        "process_peak_working_set_mib": 260.9921875
+      }
+    }
+  ],
+  "motion_microbenchmarks": {
+    "difference": {
+      "p50_ms": 0.004300032742321491,
+      "p95_ms": 0.004554970655590296,
+      "samples": 50,
+      "resolution": [
+        96,
+        96
+      ]
+    },
+    "farneback": {
+      "p50_ms": 2.2391999955289066,
+      "p95_ms": 3.344965080032125,
+      "samples": 50,
+      "resolution": [
+        96,
+        96
+      ]
+    }
+  }
+}

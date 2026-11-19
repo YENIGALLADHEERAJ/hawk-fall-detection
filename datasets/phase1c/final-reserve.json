@@ -1,0 +1,74 @@
+[
+  {
+    "member": "VideoDataset/Fall/SBJ_04_LOC2/ACT10_B_1/20240913123603.mp4",
+    "source": "https://ndownloader.figshare.com/files/52990358",
+    "source_label": "Fall",
+    "size": 939983,
+    "split": "final_test_reserved",
+    "status": "unopened_unrun; source label not visually adjudicated",
+    "license": "CC-BY-4.0"
+  },
+  {
+    "member": "VideoDataset/Fall/SBJ_04_LOC2/ACT11_B_1/20240913123453.mp4",
+    "source": "https://ndownloader.figshare.com/files/52990358",
+    "source_label": "Fall",
+    "size": 821212,
+    "split": "final_test_reserved",
+    "status": "unopened_unrun; source label not visually adjudicated",
+    "license": "CC-BY-4.0"
+  },
+  {
+    "member": "VideoDataset/Fall/SBJ_04_LOC2/ACT1_B_1/20240913122939.mp4",
+    "source": "https://ndownloader.figshare.com/files/52990358",
+    "source_label": "Fall",
+    "size": 936604,
+    "split": "final_test_reserved",
+    "status": "unopened_unrun; source label not visually adjudicated",
+    "license": "CC-BY-4.0"
+  },
+  {
+    "member": "VideoDataset/Fall/SBJ_04_LOC2/ACT2_B_1/20240913122857.mp4",
+    "source": "https://ndownloader.figshare.com/files/52990358",
+    "source_label": "Fall",
+    "size": 867101,
+    "split": "final_test_reserved",
+    "status": "unopened_unrun; source label not visually adjudicated",
+    "license": "CC-BY-4.0"
+  },
+  {
+    "member": "VideoDataset/ADL/SBJ_04_LOC2/ACT13_B_1/20240913134817.mp4",
+    "source": "https://ndownloader.figshare.com/files/52990358",
+    "source_label": "ADL",
+    "size": 693794,
+    "split": "final_test_reserved",
+    "status": "unopened_unrun; source label not visually adjudicated",
+    "license": "CC-BY-4.0"
+  },
+  {
+    "member": "VideoDataset/ADL/SBJ_04_LOC2/ACT14_B_1/20240913135101.mp4",
+    "source": "https://ndownloader.figshare.com/files/52990358",
+    "source_label": "ADL",
+    "size": 757578,
+    "split": "final_test_reserved",
+    "status": "unopened_unrun; source label not visually adjudicated",
+    "license": "CC-BY-4.0"
+  },
+  {
+    "member": "VideoDataset/ADL/SBJ_04_LOC2/ACT15_B_1/20240924130530.mp4",
+    "source": "https://ndownloader.figshare.com/files/52990358",
+    "source_label": "ADL",
+    "size": 900928,
+    "split": "final_test_reserved",
+    "status": "unopened_unrun; source label not visually adjudicated",
+    "license": "CC-BY-4.0"
+  },
+  {
+    "member": "VideoDataset/ADL/SBJ_04_LOC2/ACT16_B_1/20240924131004.mp4",
+    "source": "https://ndownloader.figshare.com/files/52990358",
+    "source_label": "ADL",
+    "size": 922987,
+    "split": "final_test_reserved",
+    "status": "unopened_unrun; source label not visually adjudicated",
+    "license": "CC-BY-4.0"
+  }
+]

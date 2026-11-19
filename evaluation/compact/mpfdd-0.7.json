@@ -1,0 +1,297 @@
+{
+  "scope": "temporal-only replay of measured real detections and motion; no new detector inference or FPS claim",
+  "source_results": "evaluation/mpfdd/baseline/results.json",
+  "source_run_id": "20261115T182220678563",
+  "configuration": {
+    "rotation_all_views": false,
+    "improved_tracking": true,
+    "identity_tracking": false,
+    "optimal_assignment": false,
+    "appearance_weight": 1.0,
+    "improved_temporal": true,
+    "continuation_threshold": null,
+    "track_hold_seconds": 1.5,
+    "prediction_horizon_seconds": 0.25,
+    "minimum_drop_heights": 0.18,
+    "minimum_average_descent": 0.15,
+    "maximum_ground_height_ratio": 0.75,
+    "detector_size": 640,
+    "rotation_fallback": true,
+    "sample_fps": 5.0,
+    "max_seconds": 60,
+    "max_width": 640,
+    "detector_threshold": 0.3,
+    "horizontal_ratio": 1.15,
+    "upright_ratio": 0.8,
+    "descent_heights_s": 0.25,
+    "transition_seconds": 1.5,
+    "stationary_heights_s": 0.12,
+    "stationary_flow_px_s": 6,
+    "immobile_seconds": 1.5,
+    "review_seconds": 2.5,
+    "max_gap_seconds": 0.5,
+    "history_seconds": 5,
+    "max_evidence_packets": 10,
+    "threads": 8,
+    "detector_backend": "directml",
+    "detector_device": 1,
+    "compact_collapse_height_ratio": 0.7
+  },
+  "true_positive_clips": 19,
+  "positive_clips": 22,
+  "false_positive_clips": 0,
+  "negative_clips": 6,
+  "clips": [
+    {
+      "id": "mpfdd_S1_P2_F0_ADL_1",
+      "event_present": false,
+      "candidate_times": [],
+      "dismissal_times": [],
+      "diagnostics_sha256": "e4cc8f52f36a4063bedb10364323399188ccb845a12cf204a31042f48b517d9a"
+    },
+    {
+      "id": "mpfdd_S1_P2_F0_ADL_2",
+      "event_present": false,
+      "candidate_times": [],
+      "dismissal_times": [],
+      "diagnostics_sha256": "3f206c6603175181177dccb10cc67cafef85a846c77d31d79f197d49e46afcf9"
+    },
+    {
+      "id": "mpfdd_S1_P2_F0_ADL_3",
+      "event_present": false,
+      "candidate_times": [],
+      "dismissal_times": [],
+      "diagnostics_sha256": "e5f6f4e725b86e5edda0c7141f1f0481649f7986bd5bb3c20bd2652f976d372c"
+    },
+    {
+      "id": "mpfdd_S1_P2_F1_FALL_1",
+      "event_present": true,
+      "candidate_times": [
+        4.6
+      ],
+      "dismissal_times": [],
+      "diagnostics_sha256": "30bf6b02f9ac4cb7ecdecf1778ffed1ab1dbf0c1d95e7d66098d38180618ba62"
+    },
+    {
+      "id": "mpfdd_S1_P2_F1_FALL_2",
+      "event_present": true,
+      "candidate_times": [
+        4.4
+      ],
+      "dismissal_times": [
+        9.6
+      ],
+      "diagnostics_sha256": "cd0d5d226ee1cd06a606890e186c310587c2e81150b057f0126bb06dd068d7a4"
+    },
+    {
+      "id": "mpfdd_S1_P2_F1_FALL_3",
+      "event_present": true,
+      "candidate_times": [],
+      "dismissal_times": [],
+      "diagnostics_sha256": "ad207cbc2d45419f690b610e0f3819c7269d91755d6148e3b5da529aa310b29d"
+    },
+    {
+      "id": "mpfdd_S1_P2_F2_FALL_1",
+      "event_present": true,
+      "candidate_times": [
+        4.2,
+        7.4
+      ],
+      "dismissal_times": [],
+      "diagnostics_sha256": "47ed18c24ac9fa15611ff4874c2518c44523569c197009c4aeabae2013e92587"
+    },
+    {
+      "id": "mpfdd_S1_P2_F2_FALL_2",
+      "event_present": true,
+      "candidate_times": [
+        4.2,
+        7.0
+      ],
+      "dismissal_times": [],
+      "diagnostics_sha256": "9a0c2975ac97d76e667454e85c2d0e50205e93ef1220dfb0abb1db1d8b00733c"
+    },
+    {
+      "id": "mpfdd_S1_P2_F2_FALL_3",
+      "event_present": true,
+      "candidate_times": [
+        9.0
+      ],
+      "dismissal_times": [],
+      "diagnostics_sha256": "cdde963851cd4f6a8ecd269a802d98f86844feaeb518e24ed2ad8ddecfe241cc"
+    },
+    {
+      "id": "mpfdd_S2_P2_F0_ADL_1",
+      "event_present": false,
+      "candidate_times": [],
+      "dismissal_times": [],
+      "diagnostics_sha256": "2a3fe878fb0aa10c9b1bc44cc3c41099fe4873341af682297e2c63d2a967180c"
+    },
+    {
+      "id": "mpfdd_S2_P2_F0_ADL_2",
+      "event_present": false,
+      "candidate_times": [],
+      "dismissal_times": [],
+      "diagnostics_sha256": "a34f378539e994e0a4c31310dac49eb655c3fd99d6644eda810da9779f6bb024"
+    },
+    {
+      "id": "mpfdd_S2_P2_F0_ADL_3",
+      "event_present": false,
+      "candidate_times": [],
+      "dismissal_times": [],
+      "diagnostics_sha256": "40c7e5c3d78a11dc36880e86ef1d1220112d9c20338aa14696d76b98cb4bc5ab"
+    },
+    {
+      "id": "mpfdd_S2_P2_F1_FALL_1",
+      "event_present": true,
+      "candidate_times": [
+        1.8
+      ],
+      "dismissal_times": [
+        5.6
+      ],
+      "diagnostics_sha256": "c287e05d6dbe4b44b6c6cc808d18db9a18ea10efa8d3422d4cb147a30dfce46d"
+    },
+    {
+      "id": "mpfdd_S2_P2_F1_FALL_2",
+      "event_present": true,
+      "candidate_times": [
+        8.0
+      ],
+      "dismissal_times": [],
+      "diagnostics_sha256": "cc51eda1029f0216b258607eb2a0b20d39310952850a3107d1e64314a68af350"
+    },
+    {
+      "id": "mpfdd_S2_P2_F1_FALL_3",
+      "event_present": true,
+      "candidate_times": [
+        1.4
+      ],
+      "dismissal_times": [
+        6.6
+      ],
+      "diagnostics_sha256": "2428a6b9df30a44cf225a48e49a8fb0f61c9698e92adcf8d9fef4965644f42f8"
+    },
+    {
+      "id": "mpfdd_S2_P2_F1_FALL_4",
+      "event_present": true,
+      "candidate_times": [
+        6.4
+      ],
+      "dismissal_times": [],
+      "diagnostics_sha256": "cda7119d9342bd535536b52b27a55522e8fe85fca2f164e97397eee198747884"
+    },
+    {
+      "id": "mpfdd_S2_P2_F1_FALL_5",
+      "event_present": true,
+      "candidate_times": [],
+      "dismissal_times": [],
+      "diagnostics_sha256": "195f90a7f3af2ed1d552e83c9deb4727f1d6b212d143ee0627002a9eea05e640"
+    },
+    {
+      "id": "mpfdd_S2_P2_F2_FALL_1",
+      "event_present": true,
+      "candidate_times": [
+        6.8
+      ],
+      "dismissal_times": [],
+      "diagnostics_sha256": "267ac9c2793c9545c6d877db27bc9887e848b567e6007a0c579f49ab5fde0aa3"
+    },
+    {
+      "id": "mpfdd_S2_P2_F2_FALL_2",
+      "event_present": true,
+      "candidate_times": [
+        9.8
+      ],
+      "dismissal_times": [],
+      "diagnostics_sha256": "cedb671c3fbf9494daa68be0896bda921a32e476f7f46c39b6a3f1e8659fec84"
+    },
+    {
+      "id": "mpfdd_S2_P2_F2_FALL_3",
+      "event_present": true,
+      "candidate_times": [
+        7.8,
+        8.2
+      ],
+      "dismissal_times": [],
+      "diagnostics_sha256": "be73eb3b92537f24c47c4b4fd810b4113b5978e63f7e04f1d07e33ec9150622e"
+    },
+    {
+      "id": "mpfdd_S2_P2_F2_FALL_4",
+      "event_present": true,
+      "candidate_times": [
+        4.6,
+        6.4
+      ],
+      "dismissal_times": [],
+      "diagnostics_sha256": "56eb35b088de397bd1db703ecbdaae2d116790016ccd0d2aa65691fc2d98550f"
+    },
+    {
+      "id": "mpfdd_S2_P2_F2_FALL_5",
+      "event_present": true,
+      "candidate_times": [
+        8.4
+      ],
+      "dismissal_times": [
+        11.0
+      ],
+      "diagnostics_sha256": "290323ee9e6d4ea5158443d50fa9569fa81f3c19840f2e196f39dc185447be9d"
+    },
+    {
+      "id": "mpfdd_S3_P4_F1_FALL_1",
+      "event_present": true,
+      "candidate_times": [
+        5.0
+      ],
+      "dismissal_times": [],
+      "diagnostics_sha256": "def0f3e7e0790e2d37bdabe2411ba22b01c8dfd0c06ff70149a06f63b15336db"
+    },
+    {
+      "id": "mpfdd_S3_P4_F1_FALL_2",
+      "event_present": true,
+      "candidate_times": [
+        10.2
+      ],
+      "dismissal_times": [],
+      "diagnostics_sha256": "f895464800eecfb599d22824dd040bfa1f6a28ad377b645c539f064c1dbc82e2"
+    },
+    {
+      "id": "mpfdd_S3_P4_F1_FALL_3",
+      "event_present": true,
+      "candidate_times": [],
+      "dismissal_times": [],
+      "diagnostics_sha256": "ab03db5c0f72299d38e582451faa51e7a2e81f0f04385bbedb70884f2e940adf"
+    },
+    {
+      "id": "mpfdd_S3_P4_F1_FALL_4",
+      "event_present": true,
+      "candidate_times": [
+        3.8
+      ],
+      "dismissal_times": [
+        7.8
+      ],
+      "diagnostics_sha256": "244748d5a191dd9d6ef42f85f77875c072dfaefbe2986173fa0e043151f67024"
+    },
+    {
+      "id": "mpfdd_S4_P4_F2_FALL_1",
+      "event_present": true,
+      "candidate_times": [
+        4.4,
+        5.6,
+        5.6
+      ],
+      "dismissal_times": [],
+      "diagnostics_sha256": "2f239cb2cf9b2238b4de73141eef9f2b5bb1ef079f0df5600ac863e28e8fa77c"
+    },
+    {
+      "id": "mpfdd_S4_P4_F2_FALL_2",
+      "event_present": true,
+      "candidate_times": [
+        5.8,
+        6.8
+      ],
+      "dismissal_times": [],
+      "diagnostics_sha256": "9431d9814bd47160af4e36284c3936044b36913b8abd71309e2207194e950917"
+    }
+  ]
+}

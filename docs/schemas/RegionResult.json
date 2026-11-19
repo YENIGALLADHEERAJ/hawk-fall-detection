@@ -1,0 +1,47 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "status": {
+      "enum": [
+        "ok",
+        "insufficient_evidence"
+      ],
+      "title": "Status",
+      "type": "string"
+    },
+    "brightness": {
+      "minimum": 0,
+      "title": "Brightness",
+      "type": "number"
+    },
+    "texture_std": {
+      "minimum": 0,
+      "title": "Texture Std",
+      "type": "number"
+    },
+    "laplacian_variance": {
+      "minimum": 0,
+      "title": "Laplacian Variance",
+      "type": "number"
+    },
+    "latency_ms": {
+      "minimum": 0,
+      "title": "Latency Ms",
+      "type": "number"
+    },
+    "reason": {
+      "title": "Reason",
+      "type": "string"
+    }
+  },
+  "required": [
+    "status",
+    "brightness",
+    "texture_std",
+    "laplacian_variance",
+    "latency_ms",
+    "reason"
+  ],
+  "title": "RegionResult",
+  "type": "object"
+}

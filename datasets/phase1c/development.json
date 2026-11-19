@@ -1,0 +1,314 @@
+[
+  {
+    "id": "clip_00",
+    "path": "data/clips/clip_00.mp4",
+    "member": "VideoDataset/Fall/SBJ_10_LOC3/ACT6_R_1/20240915183801.mp4",
+    "sha256": "d6bc0b792416dbfd188a8583e657ac563bd1f07559e572fac947fd3a7e392f00",
+    "source_fall": true,
+    "split": "development",
+    "scenario": "brief fall",
+    "incident_onset": null,
+    "event_present": true
+  },
+  {
+    "id": "clip_01",
+    "path": "data/clips/clip_01.mp4",
+    "member": "VideoDataset/Fall/SBJ_10_LOC3/ACT1_B_2/20240915184659.mp4",
+    "sha256": "bdb70346f5af0d52a96368f14ae6e06a7c18606d69f628cbfec5ade148e5b9e6",
+    "source_fall": true,
+    "split": "development",
+    "scenario": "brief fall",
+    "incident_onset": null,
+    "event_present": null
+  },
+  {
+    "id": "clip_02",
+    "path": "data/clips/clip_02.mp4",
+    "member": "VideoDataset/Fall/SBJ_10_LOC3/ACT7_R_1/20240915183820.mp4",
+    "sha256": "c94b6a981acd23269732a97fe2793f9ae50fdc003b667570e6e7f74f5fd4634c",
+    "source_fall": true,
+    "split": "development",
+    "scenario": "brief fall",
+    "incident_onset": null,
+    "event_present": true
+  },
+  {
+    "id": "clip_03",
+    "path": "data/clips/clip_03.mp4",
+    "member": "VideoDataset/Fall/SBJ_10_LOC3/ACT3_R_1/20240915183454.mp4",
+    "sha256": "ec43f85dd62a30f14fb09306e9c2be679ebcdd806e0bd2a9de190157e8edcfd6",
+    "source_fall": true,
+    "split": "development",
+    "scenario": "brief fall",
+    "incident_onset": null,
+    "event_present": true
+  },
+  {
+    "id": "clip_04",
+    "path": "data/clips/clip_04.mp4",
+    "member": "VideoDataset/Fall/SBJ_10_LOC3/ACT2_R_1/20240915183151.mp4",
+    "sha256": "97e65f85852c1ade6d24aed1adbf8e1d009d0890756611e343a94b62a6c1544f",
+    "source_fall": true,
+    "split": "development",
+    "scenario": "brief fall",
+    "incident_onset": null,
+    "event_present": true
+  },
+  {
+    "id": "clip_05",
+    "path": "data/clips/clip_05.mp4",
+    "member": "VideoDataset/Fall/SBJ_10_LOC3/ACT11_L_2/20240915184515.mp4",
+    "sha256": "e8671568e2c320674d218b1ad5981d1820b79bba11865d0ce86925a7d0ca726f",
+    "source_fall": true,
+    "split": "development",
+    "scenario": "brief fall",
+    "incident_onset": null,
+    "event_present": true
+  },
+  {
+    "id": "clip_06",
+    "path": "data/clips/clip_06.mp4",
+    "member": "VideoDataset/ADL/SBJ_10_LOC3/ACT19_L_1/20240922170935.mp4",
+    "sha256": "53a689798790ee5a63d5f225b74259e8440f63f980e1cdd04bb2759a18974bbe",
+    "source_fall": false,
+    "split": "development",
+    "scenario": "daily activity",
+    "incident_onset": null,
+    "event_present": false
+  },
+  {
+    "id": "clip_07",
+    "path": "data/clips/clip_07.mp4",
+    "member": "VideoDataset/ADL/SBJ_10_LOC3/ACT25_L_1/20240922171530.mp4",
+    "sha256": "7411594988cf69b6b4e1de66d29e3688e3d545217bda40f715c5c74ba2c1b605",
+    "source_fall": false,
+    "split": "development",
+    "scenario": "daily activity",
+    "incident_onset": null,
+    "event_present": false
+  },
+  {
+    "id": "clip_08",
+    "path": "data/clips/clip_08.mp4",
+    "member": "VideoDataset/ADL/SBJ_10_LOC3/ACT25_F_1/20240922171626.mp4",
+    "sha256": "8f2a46bd3e2b59981e16eb115f34d5827c50dfacd576982f3ef93a17dbd105ff",
+    "source_fall": false,
+    "split": "development",
+    "scenario": "daily activity",
+    "incident_onset": null,
+    "event_present": false
+  },
+  {
+    "id": "clip_09",
+    "path": "data/clips/clip_09.mp4",
+    "member": "VideoDataset/ADL/SBJ_10_LOC3/ACT19_F_1/20240922171106.mp4",
+    "sha256": "e1307851d0dfc8f69f4302ad54abd11e77f1dd20e8c2b10af3f3eb15acc9024e",
+    "source_fall": false,
+    "split": "development",
+    "scenario": "daily activity",
+    "incident_onset": null,
+    "event_present": false
+  },
+  {
+    "id": "clip_10",
+    "path": "data/clips/clip_10.mp4",
+    "member": "VideoDataset/ADL/SBJ_10_LOC3/ACT18_F_1/20240922170912.mp4",
+    "sha256": "a1f4efdaeae9c7103f86cab1bcb404a41b997f99b78e728822ee1e28a9ffbd83",
+    "source_fall": false,
+    "split": "development",
+    "scenario": "daily activity",
+    "incident_onset": null,
+    "event_present": false
+  },
+  {
+    "id": "clip_11",
+    "path": "data/clips/clip_11.mp4",
+    "member": "VideoDataset/ADL/SBJ_10_LOC3/ACT24_F_1/20240922171545.mp4",
+    "sha256": "84d955e9aa4070466eabe6a60900b395854303ab76598074567ee9b2eac8e95a",
+    "source_fall": false,
+    "split": "development",
+    "scenario": "daily activity",
+    "incident_onset": null,
+    "event_present": false
+  },
+  {
+    "id": "gmdcsa_Fall_01",
+    "path": "data/clips/gmdcsa_Fall_01.mp4",
+    "sha256": "9807eb2335544fc18df2438aa4b5a9df6cd01b3d92bc813339dd4fa29306ee6b",
+    "event_present": true,
+    "incident_onset": 3.4,
+    "split": "development",
+    "scenario": "fall",
+    "source": "https://github.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/tree/v2.1/Subject%201/Fall/01.mp4"
+  },
+  {
+    "id": "gmdcsa_Fall_02",
+    "path": "data/clips/gmdcsa_Fall_02.mp4",
+    "sha256": "3baad9ad4ebfaa971bf7e2799fe1519524f68146e93c7819776752d7acd0a7fd",
+    "event_present": true,
+    "incident_onset": 1.9,
+    "split": "development",
+    "scenario": "fall",
+    "source": "https://github.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/tree/v2.1/Subject%201/Fall/02.mp4"
+  },
+  {
+    "id": "gmdcsa_Fall_03",
+    "path": "data/clips/gmdcsa_Fall_03.mp4",
+    "sha256": "b17c5217c0050c959c45f7ead8ce80fa1c459d62109f25ea72461ac729d5307c",
+    "event_present": true,
+    "incident_onset": 2.5,
+    "split": "development",
+    "scenario": "fall",
+    "source": "https://github.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/tree/v2.1/Subject%201/Fall/03.mp4"
+  },
+  {
+    "id": "gmdcsa_Fall_07",
+    "path": "data/clips/gmdcsa_Fall_07.mp4",
+    "sha256": "e584c98e13100befb24fa1854987d8adb50324e0f73dd6278661a8887b428b86",
+    "event_present": true,
+    "incident_onset": 1.1,
+    "split": "development",
+    "scenario": "fall",
+    "source": "https://github.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/tree/v2.1/Subject%201/Fall/07.mp4"
+  },
+  {
+    "id": "gmdcsa_Fall_11",
+    "path": "data/clips/gmdcsa_Fall_11.mp4",
+    "sha256": "c25e4fc9b669cb588b6145d2cfd94f2d403083293c08bc85fa863111372bfea7",
+    "event_present": true,
+    "incident_onset": 1,
+    "split": "development",
+    "scenario": "fall",
+    "source": "https://github.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/tree/v2.1/Subject%201/Fall/11.mp4"
+  },
+  {
+    "id": "gmdcsa_Fall_12",
+    "path": "data/clips/gmdcsa_Fall_12.mp4",
+    "sha256": "2354ba6441e0fc2173e283ed34cb2a75a08a45b01144882f8db5291cfb113851",
+    "event_present": true,
+    "incident_onset": 1.9,
+    "split": "development",
+    "scenario": "fall",
+    "source": "https://github.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/tree/v2.1/Subject%201/Fall/12.mp4"
+  },
+  {
+    "id": "gmdcsa_ADL_01",
+    "path": "data/clips/gmdcsa_ADL_01.mp4",
+    "sha256": "781f8a2ec152ba27c2d405b15af5f4a28f453c6e839b61ed3f4f5e2aa9a19aa4",
+    "event_present": false,
+    "incident_onset": null,
+    "split": "development",
+    "scenario": "daily activity",
+    "source": "https://github.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/tree/v2.1/Subject%201/ADL/01.mp4"
+  },
+  {
+    "id": "gmdcsa_ADL_02",
+    "path": "data/clips/gmdcsa_ADL_02.mp4",
+    "sha256": "8fe5e2a87c3d72b6f178788909d11a0cebe3f9db17c27ea3b44aa24841038791",
+    "event_present": false,
+    "incident_onset": null,
+    "split": "development",
+    "scenario": "daily activity",
+    "source": "https://github.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/tree/v2.1/Subject%201/ADL/02.mp4"
+  },
+  {
+    "id": "gmdcsa_ADL_03",
+    "path": "data/clips/gmdcsa_ADL_03.mp4",
+    "sha256": "ad6360ea3513d0f5222e34810f119b0e471012164ddc94ca234f30cf92715ae6",
+    "event_present": false,
+    "incident_onset": null,
+    "split": "development",
+    "scenario": "daily activity",
+    "source": "https://github.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/tree/v2.1/Subject%201/ADL/03.mp4"
+  },
+  {
+    "id": "gmdcsa_ADL_04",
+    "path": "data/clips/gmdcsa_ADL_04.mp4",
+    "sha256": "c336f1f81cfa647a77ae351ef02fa4e1716639d60d599c7ddec98aac2e3b969a",
+    "event_present": false,
+    "incident_onset": null,
+    "split": "development",
+    "scenario": "daily activity",
+    "source": "https://github.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/tree/v2.1/Subject%201/ADL/04.mp4"
+  },
+  {
+    "id": "gmdcsa_ADL_08",
+    "path": "data/clips/gmdcsa_ADL_08.mp4",
+    "sha256": "b8b4f8846e66c82c7bd5867fe24c6811fb2b31e0dc5a295ac2954b523e903bec",
+    "event_present": false,
+    "incident_onset": null,
+    "split": "development",
+    "scenario": "daily activity",
+    "source": "https://github.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/tree/v2.1/Subject%201/ADL/08.mp4"
+  },
+  {
+    "id": "gmdcsa_ADL_11",
+    "path": "data/clips/gmdcsa_ADL_11.mp4",
+    "sha256": "cb12602e5cd5d3e2ed9b6f9026926bb6609cb06428e07dce916e5527a9b2e5e9",
+    "event_present": false,
+    "incident_onset": null,
+    "split": "development",
+    "scenario": "daily activity",
+    "source": "https://github.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/tree/v2.1/Subject%201/ADL/11.mp4"
+  },
+  {
+    "id": "gmdcsa_ADL_13",
+    "path": "data/clips/gmdcsa_ADL_13.mp4",
+    "sha256": "406dd142be0bf973302caabf38f1109d939b5f0154ef88158b3adc5a50859d51",
+    "event_present": false,
+    "incident_onset": null,
+    "split": "development",
+    "scenario": "daily activity",
+    "source": "https://github.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/tree/v2.1/Subject%201/ADL/13.mp4"
+  },
+  {
+    "id": "holdout_s2_Fall_13",
+    "path": "data/clips/holdout_s2_Fall_13.mp4",
+    "source": "https://raw.githubusercontent.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/v2.1/Subject%202/Fall/13.mp4",
+    "sha256": "1d98ea500dd2d74e281d4e60f23d882d122dad868d7a8db5113b24c01c99ef7e",
+    "event_present": true,
+    "incident_onset": 2.5,
+    "split": "subject_held_out_no_retuning",
+    "scenario": "night fall"
+  },
+  {
+    "id": "holdout_s2_ADL_14",
+    "path": "data/clips/holdout_s2_ADL_14.mp4",
+    "source": "https://raw.githubusercontent.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/v2.1/Subject%202/ADL/14.mp4",
+    "sha256": "5cf456ef4e1efb3aa3e0e7a8aa3e58a5d58a87f4fc73f6b832276839af65e358",
+    "event_present": false,
+    "incident_onset": null,
+    "split": "subject_held_out_no_retuning",
+    "scenario": "night walking and sitting"
+  },
+  {
+    "id": "holdout_s3_Fall_16",
+    "path": "data/clips/holdout_s3_Fall_16.mp4",
+    "source": "https://raw.githubusercontent.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/v2.1/Subject%203/Fall/16.mp4",
+    "sha256": "28c03494de00d7aefc6baa5b976da66ef51962e6157f84e16caffc03279972fa",
+    "event_present": true,
+    "incident_onset": 1.8,
+    "split": "subject_held_out_no_retuning",
+    "scenario": "night walking fall"
+  },
+  {
+    "id": "holdout_s3_ADL_13",
+    "path": "data/clips/holdout_s3_ADL_13.mp4",
+    "source": "https://raw.githubusercontent.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/v2.1/Subject%203/ADL/13.mp4",
+    "sha256": "cc8847e582cc3644e745628bf14c66ca11efb235c5a3aef9d5a11355b4cdca9b",
+    "event_present": false,
+    "incident_onset": null,
+    "split": "subject_held_out_no_retuning",
+    "scenario": "night seated on floor"
+  },
+  {
+    "id": "holdout_s3_ADL_09",
+    "path": "data/clips/holdout_s3_ADL_09.mp4",
+    "source": "https://raw.githubusercontent.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/v2.1/Subject%203/ADL/09.mp4",
+    "sha256": "5100230c1f7d22a400ca810b9eef7162853cb556484648bf5c9fbf1844df618d",
+    "event_present": false,
+    "incident_onset": null,
+    "split": "subject_held_out_no_retuning",
+    "scenario": "lying to standing; no preceding fall"
+  }
+]

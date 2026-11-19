@@ -1,0 +1,354 @@
+{
+  "scope": "Replay of recorded real detections, clip fresh_mot17_09 (51 frames, 5 Hz). Weight 1.0 / decay .7 (and the optimal option) were first chosen on MOT17-09; any other clip is a held-out check of those fixed parameters.",
+  "run_id": "20261115T105816214382",
+  "baseline": {
+    "id_changes": 37,
+    "fragments": 12,
+    "owner_changes": 27,
+    "recall_iou50": 0.8615,
+    "tracks_created": 35
+  },
+  "optimal_assignment_only": {
+    "id_changes": 29,
+    "fragments": 12,
+    "owner_changes": 25,
+    "recall_iou50": 0.8615,
+    "tracks_created": 30
+  },
+  "appearance_only_greedy": {
+    "id_changes": 19,
+    "fragments": 12,
+    "owner_changes": 18,
+    "recall_iou50": 0.8615,
+    "tracks_created": 33
+  },
+  "appearance_and_optimal": {
+    "id_changes": 18,
+    "fragments": 12,
+    "owner_changes": 17,
+    "recall_iou50": 0.8615,
+    "tracks_created": 27
+  },
+  "sweep": [
+    {
+      "appearance_weight": 0.3,
+      "appearance_gate": 1.0,
+      "optimal": false,
+      "id_changes": 27,
+      "fragments": 12,
+      "owner_changes": 21,
+      "recall_iou50": 0.8615,
+      "tracks_created": 33
+    },
+    {
+      "appearance_weight": 0.3,
+      "appearance_gate": 1.0,
+      "optimal": true,
+      "id_changes": 26,
+      "fragments": 12,
+      "owner_changes": 15,
+      "recall_iou50": 0.8615,
+      "tracks_created": 37
+    },
+    {
+      "appearance_weight": 0.3,
+      "appearance_gate": 0.7,
+      "optimal": false,
+      "id_changes": 29,
+      "fragments": 12,
+      "owner_changes": 22,
+      "recall_iou50": 0.8615,
+      "tracks_created": 42
+    },
+    {
+      "appearance_weight": 0.3,
+      "appearance_gate": 0.7,
+      "optimal": true,
+      "id_changes": 23,
+      "fragments": 12,
+      "owner_changes": 17,
+      "recall_iou50": 0.8615,
+      "tracks_created": 39
+    },
+    {
+      "appearance_weight": 0.6,
+      "appearance_gate": 1.0,
+      "optimal": false,
+      "id_changes": 22,
+      "fragments": 12,
+      "owner_changes": 18,
+      "recall_iou50": 0.8615,
+      "tracks_created": 30
+    },
+    {
+      "appearance_weight": 0.6,
+      "appearance_gate": 1.0,
+      "optimal": true,
+      "id_changes": 22,
+      "fragments": 12,
+      "owner_changes": 17,
+      "recall_iou50": 0.8615,
+      "tracks_created": 34
+    },
+    {
+      "appearance_weight": 0.6,
+      "appearance_gate": 0.7,
+      "optimal": false,
+      "id_changes": 25,
+      "fragments": 12,
+      "owner_changes": 21,
+      "recall_iou50": 0.8615,
+      "tracks_created": 42
+    },
+    {
+      "appearance_weight": 0.6,
+      "appearance_gate": 0.7,
+      "optimal": true,
+      "id_changes": 20,
+      "fragments": 12,
+      "owner_changes": 16,
+      "recall_iou50": 0.8615,
+      "tracks_created": 38
+    },
+    {
+      "appearance_weight": 1.0,
+      "appearance_gate": 1.0,
+      "optimal": false,
+      "id_changes": 19,
+      "fragments": 12,
+      "owner_changes": 18,
+      "recall_iou50": 0.8615,
+      "tracks_created": 33
+    },
+    {
+      "appearance_weight": 1.0,
+      "appearance_gate": 1.0,
+      "optimal": true,
+      "id_changes": 18,
+      "fragments": 12,
+      "owner_changes": 17,
+      "recall_iou50": 0.8615,
+      "tracks_created": 27
+    },
+    {
+      "appearance_weight": 1.0,
+      "appearance_gate": 0.7,
+      "optimal": false,
+      "id_changes": 21,
+      "fragments": 12,
+      "owner_changes": 19,
+      "recall_iou50": 0.8615,
+      "tracks_created": 41
+    },
+    {
+      "appearance_weight": 1.0,
+      "appearance_gate": 0.7,
+      "optimal": true,
+      "id_changes": 16,
+      "fragments": 12,
+      "owner_changes": 15,
+      "recall_iou50": 0.8615,
+      "tracks_created": 38
+    },
+    {
+      "appearance_weight": 1.5,
+      "appearance_gate": 1.0,
+      "optimal": false,
+      "id_changes": 15,
+      "fragments": 12,
+      "owner_changes": 15,
+      "recall_iou50": 0.8615,
+      "tracks_created": 30
+    },
+    {
+      "appearance_weight": 1.5,
+      "appearance_gate": 1.0,
+      "optimal": true,
+      "id_changes": 15,
+      "fragments": 12,
+      "owner_changes": 12,
+      "recall_iou50": 0.8615,
+      "tracks_created": 28
+    },
+    {
+      "appearance_weight": 1.5,
+      "appearance_gate": 0.7,
+      "optimal": false,
+      "id_changes": 16,
+      "fragments": 12,
+      "owner_changes": 14,
+      "recall_iou50": 0.8615,
+      "tracks_created": 39
+    },
+    {
+      "appearance_weight": 1.5,
+      "appearance_gate": 0.7,
+      "optimal": true,
+      "id_changes": 16,
+      "fragments": 12,
+      "owner_changes": 15,
+      "recall_iou50": 0.8615,
+      "tracks_created": 38
+    },
+    {
+      "appearance_weight": 2,
+      "appearance_gate": 1.0,
+      "optimal": false,
+      "id_changes": 15,
+      "fragments": 12,
+      "owner_changes": 15,
+      "recall_iou50": 0.8615,
+      "tracks_created": 30
+    },
+    {
+      "appearance_weight": 2,
+      "appearance_gate": 1.0,
+      "optimal": true,
+      "id_changes": 19,
+      "fragments": 12,
+      "owner_changes": 20,
+      "recall_iou50": 0.8615,
+      "tracks_created": 28
+    },
+    {
+      "appearance_weight": 2,
+      "appearance_gate": 0.7,
+      "optimal": false,
+      "id_changes": 16,
+      "fragments": 12,
+      "owner_changes": 14,
+      "recall_iou50": 0.8615,
+      "tracks_created": 39
+    },
+    {
+      "appearance_weight": 2,
+      "appearance_gate": 0.7,
+      "optimal": true,
+      "id_changes": 16,
+      "fragments": 12,
+      "owner_changes": 15,
+      "recall_iou50": 0.8615,
+      "tracks_created": 38
+    },
+    {
+      "appearance_weight": 3,
+      "appearance_gate": 1.0,
+      "optimal": false,
+      "id_changes": 14,
+      "fragments": 12,
+      "owner_changes": 14,
+      "recall_iou50": 0.8615,
+      "tracks_created": 30
+    },
+    {
+      "appearance_weight": 3,
+      "appearance_gate": 1.0,
+      "optimal": true,
+      "id_changes": 23,
+      "fragments": 12,
+      "owner_changes": 21,
+      "recall_iou50": 0.8615,
+      "tracks_created": 29
+    },
+    {
+      "appearance_weight": 3,
+      "appearance_gate": 0.7,
+      "optimal": false,
+      "id_changes": 15,
+      "fragments": 12,
+      "owner_changes": 13,
+      "recall_iou50": 0.8615,
+      "tracks_created": 38
+    },
+    {
+      "appearance_weight": 3,
+      "appearance_gate": 0.7,
+      "optimal": true,
+      "id_changes": 16,
+      "fragments": 12,
+      "owner_changes": 14,
+      "recall_iou50": 0.8615,
+      "tracks_created": 39
+    },
+    {
+      "appearance_weight": 5,
+      "appearance_gate": 1.0,
+      "optimal": false,
+      "id_changes": 14,
+      "fragments": 12,
+      "owner_changes": 14,
+      "recall_iou50": 0.8615,
+      "tracks_created": 30
+    },
+    {
+      "appearance_weight": 5,
+      "appearance_gate": 1.0,
+      "optimal": true,
+      "id_changes": 23,
+      "fragments": 12,
+      "owner_changes": 21,
+      "recall_iou50": 0.8615,
+      "tracks_created": 28
+    },
+    {
+      "appearance_weight": 5,
+      "appearance_gate": 0.7,
+      "optimal": false,
+      "id_changes": 15,
+      "fragments": 12,
+      "owner_changes": 13,
+      "recall_iou50": 0.8615,
+      "tracks_created": 38
+    },
+    {
+      "appearance_weight": 5,
+      "appearance_gate": 0.7,
+      "optimal": true,
+      "id_changes": 15,
+      "fragments": 12,
+      "owner_changes": 13,
+      "recall_iou50": 0.8615,
+      "tracks_created": 38
+    },
+    {
+      "appearance_weight": 10,
+      "appearance_gate": 1.0,
+      "optimal": false,
+      "id_changes": 13,
+      "fragments": 12,
+      "owner_changes": 14,
+      "recall_iou50": 0.8615,
+      "tracks_created": 30
+    },
+    {
+      "appearance_weight": 10,
+      "appearance_gate": 1.0,
+      "optimal": true,
+      "id_changes": 22,
+      "fragments": 12,
+      "owner_changes": 21,
+      "recall_iou50": 0.8615,
+      "tracks_created": 28
+    },
+    {
+      "appearance_weight": 10,
+      "appearance_gate": 0.7,
+      "optimal": false,
+      "id_changes": 15,
+      "fragments": 12,
+      "owner_changes": 13,
+      "recall_iou50": 0.8615,
+      "tracks_created": 38
+    },
+    {
+      "appearance_weight": 10,
+      "appearance_gate": 0.7,
+      "optimal": true,
+      "id_changes": 15,
+      "fragments": 12,
+      "owner_changes": 13,
+      "recall_iou50": 0.8615,
+      "tracks_created": 38
+    }
+  ]
+}

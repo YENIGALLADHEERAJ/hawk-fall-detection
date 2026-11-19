@@ -1,0 +1,3689 @@
+{
+  "scope": "small development set; not held-out accuracy or medical validation",
+  "variant": "combined",
+  "run_id": "20261115T105245562695",
+  "configuration": {
+    "rotation_all_views": false,
+    "improved_tracking": true,
+    "improved_temporal": true,
+    "continuation_threshold": null,
+    "track_hold_seconds": 1.5,
+    "prediction_horizon_seconds": 0.25,
+    "minimum_drop_heights": 0.18,
+    "minimum_average_descent": 0.15,
+    "maximum_ground_height_ratio": 0.75,
+    "detector_size": 640,
+    "rotation_fallback": true,
+    "sample_fps": 5.0,
+    "max_seconds": 60,
+    "max_width": 640,
+    "detector_threshold": 0.3,
+    "horizontal_ratio": 1.15,
+    "upright_ratio": 0.8,
+    "descent_heights_s": 0.25,
+    "transition_seconds": 1.5,
+    "stationary_heights_s": 0.12,
+    "stationary_flow_px_s": 6,
+    "immobile_seconds": 1.5,
+    "review_seconds": 2.5,
+    "max_gap_seconds": 0.5,
+    "history_seconds": 5,
+    "max_evidence_packets": 10,
+    "threads": 2,
+    "detector_backend": "opencv",
+    "detector_device": 0
+  },
+  "comparison": {
+    "immediate": {
+      "positive_clips": 11,
+      "negative_clips": 13,
+      "true_positive_clips": 10,
+      "false_positive_clips": 4,
+      "event_recall": 0.9090909090909091,
+      "precision": 0.7142857142857143,
+      "false_positive_clip_rate": 0.3076923076923077,
+      "false_alert_events": 8,
+      "negative_observation_hours": 0.016554408328914905,
+      "false_alerts_per_negative_hour": 483.2549639377161
+    },
+    "temporal": {
+      "positive_clips": 11,
+      "negative_clips": 13,
+      "true_positive_clips": 10,
+      "false_positive_clips": 0,
+      "event_recall": 0.9090909090909091,
+      "precision": 1.0,
+      "false_positive_clip_rate": 0.0,
+      "false_alert_events": 0,
+      "negative_observation_hours": 0.016554408328914905,
+      "false_alerts_per_negative_hour": 0.0
+    }
+  },
+  "clips": [
+    {
+      "clip": {
+        "id": "clip_00",
+        "path": "data/clips/clip_00.mp4",
+        "member": "VideoDataset/Fall/SBJ_10_LOC3/ACT6_R_1/20240915183801.mp4",
+        "sha256": "d6bc0b792416dbfd188a8583e657ac563bd1f07559e572fac947fd3a7e392f00",
+        "source_fall": true,
+        "split": "development",
+        "scenario": "brief fall",
+        "incident_onset": null,
+        "event_present": true
+      },
+      "metrics": {
+        "source": "data/clips/clip_00.mp4",
+        "source_kind": "file",
+        "source_sha256": "d6bc0b792416dbfd188a8583e657ac563bd1f07559e572fac947fd3a7e392f00",
+        "source_reconnect_attempts": 0,
+        "config": {
+          "rotation_all_views": false,
+          "improved_tracking": true,
+          "improved_temporal": true,
+          "continuation_threshold": null,
+          "track_hold_seconds": 1.5,
+          "prediction_horizon_seconds": 0.25,
+          "minimum_drop_heights": 0.18,
+          "minimum_average_descent": 0.15,
+          "maximum_ground_height_ratio": 0.75,
+          "detector_size": 640,
+          "rotation_fallback": true,
+          "sample_fps": 5.0,
+          "max_seconds": 60,
+          "max_width": 640,
+          "detector_threshold": 0.3,
+          "horizontal_ratio": 1.15,
+          "upright_ratio": 0.8,
+          "descent_heights_s": 0.25,
+          "transition_seconds": 1.5,
+          "stationary_heights_s": 0.12,
+          "stationary_flow_px_s": 6,
+          "immobile_seconds": 1.5,
+          "review_seconds": 2.5,
+          "max_gap_seconds": 0.5,
+          "history_seconds": 5,
+          "max_evidence_packets": 10,
+          "threads": 2,
+          "detector_backend": "opencv",
+          "detector_device": 0
+        },
+        "opencv": "5.0.0",
+        "source_fps": 30.0,
+        "sampled_frames": 10,
+        "observed_seconds": 1.8,
+        "detections": 10,
+        "distinct_track_ids": 1,
+        "candidate_times": [
+          1.8
+        ],
+        "human_review_times": [],
+        "baseline_alert_times": [
+          1.6
+        ],
+        "exit_reason": "eof",
+        "wall_seconds": 1.7894849000003887,
+        "processing_fps": 5.588200269249452,
+        "cpu_one_core_percent": 198.2064782999415,
+        "p50_ms": 149.7260500000266,
+        "p95_ms": 174.3129350001254,
+        "tool_calls": 2,
+        "frame_latency_ms": [
+          183.3757999993395,
+          155.6412999998429,
+          147.8657000043313,
+          150.19349999784026,
+          149.19260000169743,
+          149.25860000221292,
+          152.07460000237916,
+          148.462400000426,
+          147.94309999706456,
+          163.23610000108602
+        ],
+        "stage_profile_ms": {
+          "preprocessing": {
+            "total": 4.9239000072702765,
+            "mean": 0.49239000072702765,
+            "p50": 0.4700999998021871,
+            "p95": 0.67715000041062
+          },
+          "detector": {
+            "total": 1482.4435000118683,
+            "mean": 148.24435000118683,
+            "p50": 146.09370000107447,
+            "p95": 158.82661000032383
+          },
+          "tracking": {
+            "total": 0.41590000910218805,
+            "mean": 0.041590000910218805,
+            "p50": 0.04150000313529745,
+            "p95": 0.05122500151628628
+          },
+          "motion": {
+            "total": 15.08940001076553,
+            "mean": 1.508940001076553,
+            "p50": 1.1911000037798658,
+            "p95": 3.5839349988236746
+          },
+          "temporal_and_logging": {
+            "total": 1.090400000975933,
+            "mean": 0.10904000009759329,
+            "p50": 0.10414999997010455,
+            "p95": 0.15499500004807482
+          },
+          "evidence": {
+            "total": 15.564499990432523,
+            "mean": 1.5564499990432523,
+            "p50": 0.000400003045797348,
+            "p95": 8.558525000626087
+          },
+          "visualization": {
+            "total": 26.371900014055427,
+            "mean": 2.6371900014055427,
+            "p50": 1.2158999961684458,
+            "p95": 9.14911000327264
+          }
+        },
+        "profile_semantics": "Wall-clock stage timings per sampled frame, summed across people. Detector includes its tensor preprocessing and rotation. Excludes decoding, startup and final serialization; evidence includes tools and packet I/O; visualization includes ring copy and debug video.",
+        "dismissed_candidates": 0,
+        "memory": {
+          "working_set_mib": 161.234375,
+          "process_peak_working_set_mib": 320.40234375
+        }
+      },
+      "candidate_detected": true,
+      "baseline_detected": true,
+      "latency_seconds": null
+    },
+    {
+      "clip": {
+        "id": "clip_01",
+        "path": "data/clips/clip_01.mp4",
+        "member": "VideoDataset/Fall/SBJ_10_LOC3/ACT1_B_2/20240915184659.mp4",
+        "sha256": "bdb70346f5af0d52a96368f14ae6e06a7c18606d69f628cbfec5ade148e5b9e6",
+        "source_fall": true,
+        "split": "development",
+        "scenario": "brief fall",
+        "incident_onset": null,
+        "event_present": null
+      },
+      "metrics": {
+        "source": "data/clips/clip_01.mp4",
+        "source_kind": "file",
+        "source_sha256": "bdb70346f5af0d52a96368f14ae6e06a7c18606d69f628cbfec5ade148e5b9e6",
+        "source_reconnect_attempts": 0,
+        "config": {
+          "rotation_all_views": false,
+          "improved_tracking": true,
+          "improved_temporal": true,
+          "continuation_threshold": null,
+          "track_hold_seconds": 1.5,
+          "prediction_horizon_seconds": 0.25,
+          "minimum_drop_heights": 0.18,
+          "minimum_average_descent": 0.15,
+          "maximum_ground_height_ratio": 0.75,
+          "detector_size": 640,
+          "rotation_fallback": true,
+          "sample_fps": 5.0,
+          "max_seconds": 60,
+          "max_width": 640,
+          "detector_threshold": 0.3,
+          "horizontal_ratio": 1.15,
+          "upright_ratio": 0.8,
+          "descent_heights_s": 0.25,
+          "transition_seconds": 1.5,
+          "stationary_heights_s": 0.12,
+          "stationary_flow_px_s": 6,
+          "immobile_seconds": 1.5,
+          "review_seconds": 2.5,
+          "max_gap_seconds": 0.5,
+          "history_seconds": 5,
+          "max_evidence_packets": 10,
+          "threads": 2,
+          "detector_backend": "opencv",
+          "detector_device": 0
+        },
+        "opencv": "5.0.0",
+        "source_fps": 30.0,
+        "sampled_frames": 10,
+        "observed_seconds": 1.8,
+        "detections": 10,
+        "distinct_track_ids": 1,
+        "candidate_times": [],
+        "human_review_times": [],
+        "baseline_alert_times": [],
+        "exit_reason": "eof",
+        "wall_seconds": 1.6907140999974217,
+        "processing_fps": 5.914660556752469,
+        "cpu_one_core_percent": 220.87560516622503,
+        "p50_ms": 147.36715000253753,
+        "p95_ms": 158.2277449990215,
+        "tool_calls": 0,
+        "frame_latency_ms": [
+          165.41599999618484,
+          144.26430000457913,
+          148.78570000291802,
+          149.4421000024886,
+          146.80979999684496,
+          147.64040000591194,
+          146.33689999755006,
+          147.69640000304207,
+          145.63069999712752,
+          147.0938999991631
+        ],
+        "stage_profile_ms": {
+          "preprocessing": {
+            "total": 6.22020000446355,
+            "mean": 0.622020000446355,
+            "p50": 0.6062499996914994,
+            "p95": 0.7408899997244589
+          },
+          "detector": {
+            "total": 1450.9908000036376,
+            "mean": 145.09908000036376,
+            "p50": 143.97769999777665,
+            "p95": 152.59283500236052
+          },
+          "tracking": {
+            "total": 1.0257000030833296,
+            "mean": 0.10257000030833296,
+            "p50": 0.11205000191694126,
+            "p95": 0.14524000107485335
+          },
+          "motion": {
+            "total": 11.955599999055266,
+            "mean": 1.1955599999055266,
+            "p50": 1.3467999997374136,
+            "p95": 1.5217399955872677
+          },
+          "temporal_and_logging": {
+            "total": 1.2158999961684458,
+            "mean": 0.12158999961684458,
+            "p50": 0.09719999798107892,
+            "p95": 0.24183500172512118
+          },
+          "evidence": {
+            "total": 0.0036999917938373983,
+            "mean": 0.00036999917938373983,
+            "p50": 0.000300002284348011,
+            "p95": 0.0006000012945150957
+          },
+          "visualization": {
+            "total": 16.270699998131022,
+            "mean": 1.6270699998131022,
+            "p50": 1.0919500018644612,
+            "p95": 4.0133800037438
+          }
+        },
+        "profile_semantics": "Wall-clock stage timings per sampled frame, summed across people. Detector includes its tensor preprocessing and rotation. Excludes decoding, startup and final serialization; evidence includes tools and packet I/O; visualization includes ring copy and debug video.",
+        "dismissed_candidates": 0,
+        "memory": {
+          "working_set_mib": 160.96875,
+          "process_peak_working_set_mib": 320.40234375
+        }
+      },
+      "candidate_detected": false,
+      "baseline_detected": false,
+      "latency_seconds": null
+    },
+    {
+      "clip": {
+        "id": "clip_02",
+        "path": "data/clips/clip_02.mp4",
+        "member": "VideoDataset/Fall/SBJ_10_LOC3/ACT7_R_1/20240915183820.mp4",
+        "sha256": "c94b6a981acd23269732a97fe2793f9ae50fdc003b667570e6e7f74f5fd4634c",
+        "source_fall": true,
+        "split": "development",
+        "scenario": "brief fall",
+        "incident_onset": null,
+        "event_present": true
+      },
+      "metrics": {
+        "source": "data/clips/clip_02.mp4",
+        "source_kind": "file",
+        "source_sha256": "c94b6a981acd23269732a97fe2793f9ae50fdc003b667570e6e7f74f5fd4634c",
+        "source_reconnect_attempts": 0,
+        "config": {
+          "rotation_all_views": false,
+          "improved_tracking": true,
+          "improved_temporal": true,
+          "continuation_threshold": null,
+          "track_hold_seconds": 1.5,
+          "prediction_horizon_seconds": 0.25,
+          "minimum_drop_heights": 0.18,
+          "minimum_average_descent": 0.15,
+          "maximum_ground_height_ratio": 0.75,
+          "detector_size": 640,
+          "rotation_fallback": true,
+          "sample_fps": 5.0,
+          "max_seconds": 60,
+          "max_width": 640,
+          "detector_threshold": 0.3,
+          "horizontal_ratio": 1.15,
+          "upright_ratio": 0.8,
+          "descent_heights_s": 0.25,
+          "transition_seconds": 1.5,
+          "stationary_heights_s": 0.12,
+          "stationary_flow_px_s": 6,
+          "immobile_seconds": 1.5,
+          "review_seconds": 2.5,
+          "max_gap_seconds": 0.5,
+          "history_seconds": 5,
+          "max_evidence_packets": 10,
+          "threads": 2,
+          "detector_backend": "opencv",
+          "detector_device": 0
+        },
+        "opencv": "5.0.0",
+        "source_fps": 30.0,
+        "sampled_frames": 10,
+        "observed_seconds": 1.8,
+        "detections": 10,
+        "distinct_track_ids": 1,
+        "candidate_times": [
+          1.4
+        ],
+        "human_review_times": [],
+        "baseline_alert_times": [
+          1.2
+        ],
+        "exit_reason": "eof",
+        "wall_seconds": 1.7048682000022382,
+        "processing_fps": 5.865556058812565,
+        "cpu_one_core_percent": 186.04810624046104,
+        "p50_ms": 148.2081499962078,
+        "p95_ms": 157.23592000285862,
+        "tool_calls": 2,
+        "frame_latency_ms": [
+          155.60220000043046,
+          149.29960000154097,
+          146.72620000055758,
+          146.29550000245217,
+          147.88299999781884,
+          147.3998000001302,
+          148.53329999459675,
+          158.5726000048453,
+          150.87360000325134,
+          147.0601000037277
+        ],
+        "stage_profile_ms": {
+          "preprocessing": {
+            "total": 5.97130000096513,
+            "mean": 0.597130000096513,
+            "p50": 0.5493999997270294,
+            "p95": 0.8245599990914342
+          },
+          "detector": {
+            "total": 1456.4894999930402,
+            "mean": 145.64894999930402,
+            "p50": 144.7947499982547,
+            "p95": 150.14996999852883
+          },
+          "tracking": {
+            "total": 0.8326000170200132,
+            "mean": 0.08326000170200132,
+            "p50": 0.0594000011915341,
+            "p95": 0.16280500130960715
+          },
+          "motion": {
+            "total": 10.826899990206584,
+            "mean": 1.0826899990206584,
+            "p50": 1.14824999764096,
+            "p95": 1.2937550021888455
+          },
+          "temporal_and_logging": {
+            "total": 1.1227000140934251,
+            "mean": 0.11227000140934251,
+            "p50": 0.1005000012810342,
+            "p95": 0.18229500165034537
+          },
+          "evidence": {
+            "total": 9.369800005515572,
+            "mean": 0.9369800005515572,
+            "p50": 0.00044999978854320943,
+            "p95": 5.151080002906373
+          },
+          "visualization": {
+            "total": 12.248000006366055,
+            "mean": 1.2248000006366055,
+            "p50": 1.1308000030112453,
+            "p95": 1.698074998057563
+          }
+        },
+        "profile_semantics": "Wall-clock stage timings per sampled frame, summed across people. Detector includes its tensor preprocessing and rotation. Excludes decoding, startup and final serialization; evidence includes tools and packet I/O; visualization includes ring copy and debug video.",
+        "dismissed_candidates": 0,
+        "memory": {
+          "working_set_mib": 161.71875,
+          "process_peak_working_set_mib": 322.21875
+        }
+      },
+      "candidate_detected": true,
+      "baseline_detected": true,
+      "latency_seconds": null
+    },
+    {
+      "clip": {
+        "id": "clip_03",
+        "path": "data/clips/clip_03.mp4",
+        "member": "VideoDataset/Fall/SBJ_10_LOC3/ACT3_R_1/20240915183454.mp4",
+        "sha256": "ec43f85dd62a30f14fb09306e9c2be679ebcdd806e0bd2a9de190157e8edcfd6",
+        "source_fall": true,
+        "split": "development",
+        "scenario": "brief fall",
+        "incident_onset": null,
+        "event_present": true
+      },
+      "metrics": {
+        "source": "data/clips/clip_03.mp4",
+        "source_kind": "file",
+        "source_sha256": "ec43f85dd62a30f14fb09306e9c2be679ebcdd806e0bd2a9de190157e8edcfd6",
+        "source_reconnect_attempts": 0,
+        "config": {
+          "rotation_all_views": false,
+          "improved_tracking": true,
+          "improved_temporal": true,
+          "continuation_threshold": null,
+          "track_hold_seconds": 1.5,
+          "prediction_horizon_seconds": 0.25,
+          "minimum_drop_heights": 0.18,
+          "minimum_average_descent": 0.15,
+          "maximum_ground_height_ratio": 0.75,
+          "detector_size": 640,
+          "rotation_fallback": true,
+          "sample_fps": 5.0,
+          "max_seconds": 60,
+          "max_width": 640,
+          "detector_threshold": 0.3,
+          "horizontal_ratio": 1.15,
+          "upright_ratio": 0.8,
+          "descent_heights_s": 0.25,
+          "transition_seconds": 1.5,
+          "stationary_heights_s": 0.12,
+          "stationary_flow_px_s": 6,
+          "immobile_seconds": 1.5,
+          "review_seconds": 2.5,
+          "max_gap_seconds": 0.5,
+          "history_seconds": 5,
+          "max_evidence_packets": 10,
+          "threads": 2,
+          "detector_backend": "opencv",
+          "detector_device": 0
+        },
+        "opencv": "5.0.0",
+        "source_fps": 30.0,
+        "sampled_frames": 10,
+        "observed_seconds": 1.8,
+        "detections": 10,
+        "distinct_track_ids": 1,
+        "candidate_times": [
+          1.2
+        ],
+        "human_review_times": [],
+        "baseline_alert_times": [
+          1.2
+        ],
+        "exit_reason": "eof",
+        "wall_seconds": 1.7480140999978175,
+        "processing_fps": 5.720777652773216,
+        "cpu_one_core_percent": 214.5291619789956,
+        "p50_ms": 149.0476500002842,
+        "p95_ms": 165.4917799958639,
+        "tool_calls": 3,
+        "frame_latency_ms": [
+          150.86029999656603,
+          145.59919999737758,
+          149.3214000001899,
+          145.35359999717912,
+          156.20909999415744,
+          164.38979999657022,
+          166.39339999528602,
+          148.7739000003785,
+          148.36920000379905,
+          147.94699999765726
+        ],
+        "stage_profile_ms": {
+          "preprocessing": {
+            "total": 5.590900000242982,
+            "mean": 0.5590900000242982,
+            "p50": 0.5567500011238735,
+            "p95": 0.6542100007209228
+          },
+          "detector": {
+            "total": 1478.1210999863106,
+            "mean": 147.81210999863106,
+            "p50": 145.83234999736305,
+            "p95": 157.55611500208033
+          },
+          "tracking": {
+            "total": 0.9194999947794713,
+            "mean": 0.09194999947794713,
+            "p50": 0.0394000016967766,
+            "p95": 0.3022249995410672
+          },
+          "motion": {
+            "total": 10.615700026392005,
+            "mean": 1.0615700026392005,
+            "p50": 1.1547000030986965,
+            "p95": 1.2880100035545181
+          },
+          "temporal_and_logging": {
+            "total": 1.236200005223509,
+            "mean": 0.12362000052235089,
+            "p50": 0.10534999819356017,
+            "p95": 0.2084600015223258
+          },
+          "evidence": {
+            "total": 13.392100001510698,
+            "mean": 1.3392100001510698,
+            "p50": 0.000800002453615889,
+            "p95": 7.3480099970765735
+          },
+          "visualization": {
+            "total": 12.091600008716341,
+            "mean": 1.209160000871634,
+            "p50": 1.1646500024653506,
+            "p95": 1.5332350034441327
+          }
+        },
+        "profile_semantics": "Wall-clock stage timings per sampled frame, summed across people. Detector includes its tensor preprocessing and rotation. Excludes decoding, startup and final serialization; evidence includes tools and packet I/O; visualization includes ring copy and debug video.",
+        "dismissed_candidates": 0,
+        "memory": {
+          "working_set_mib": 161.5234375,
+          "process_peak_working_set_mib": 322.21875
+        }
+      },
+      "candidate_detected": true,
+      "baseline_detected": true,
+      "latency_seconds": null
+    },
+    {
+      "clip": {
+        "id": "clip_04",
+        "path": "data/clips/clip_04.mp4",
+        "member": "VideoDataset/Fall/SBJ_10_LOC3/ACT2_R_1/20240915183151.mp4",
+        "sha256": "97e65f85852c1ade6d24aed1adbf8e1d009d0890756611e343a94b62a6c1544f",
+        "source_fall": true,
+        "split": "development",
+        "scenario": "brief fall",
+        "incident_onset": null,
+        "event_present": true
+      },
+      "metrics": {
+        "source": "data/clips/clip_04.mp4",
+        "source_kind": "file",
+        "source_sha256": "97e65f85852c1ade6d24aed1adbf8e1d009d0890756611e343a94b62a6c1544f",
+        "source_reconnect_attempts": 0,
+        "config": {
+          "rotation_all_views": false,
+          "improved_tracking": true,
+          "improved_temporal": true,
+          "continuation_threshold": null,
+          "track_hold_seconds": 1.5,
+          "prediction_horizon_seconds": 0.25,
+          "minimum_drop_heights": 0.18,
+          "minimum_average_descent": 0.15,
+          "maximum_ground_height_ratio": 0.75,
+          "detector_size": 640,
+          "rotation_fallback": true,
+          "sample_fps": 5.0,
+          "max_seconds": 60,
+          "max_width": 640,
+          "detector_threshold": 0.3,
+          "horizontal_ratio": 1.15,
+          "upright_ratio": 0.8,
+          "descent_heights_s": 0.25,
+          "transition_seconds": 1.5,
+          "stationary_heights_s": 0.12,
+          "stationary_flow_px_s": 6,
+          "immobile_seconds": 1.5,
+          "review_seconds": 2.5,
+          "max_gap_seconds": 0.5,
+          "history_seconds": 5,
+          "max_evidence_packets": 10,
+          "threads": 2,
+          "detector_backend": "opencv",
+          "detector_device": 0
+        },
+        "opencv": "5.0.0",
+        "source_fps": 30.0,
+        "sampled_frames": 10,
+        "observed_seconds": 1.8,
+        "detections": 10,
+        "distinct_track_ids": 1,
+        "candidate_times": [
+          1.0
+        ],
+        "human_review_times": [],
+        "baseline_alert_times": [
+          1.0
+        ],
+        "exit_reason": "eof",
+        "wall_seconds": 1.9086296999957995,
+        "processing_fps": 5.23936099287463,
+        "cpu_one_core_percent": 188.28953568143203,
+        "p50_ms": 149.92954999979702,
+        "p95_ms": 238.71793999933274,
+        "tool_calls": 3,
+        "frame_latency_ms": [
+          161.08279999752995,
+          153.86579999903915,
+          149.86769999813987,
+          149.96899999823654,
+          149.16880000237143,
+          160.64059999916935,
+          148.32219999516383,
+          144.35770000272896,
+          149.8901000013575,
+          302.237600000808
+        ],
+        "stage_profile_ms": {
+          "preprocessing": {
+            "total": 5.170200005522929,
+            "mean": 0.5170200005522929,
+            "p50": 0.5460499996843282,
+            "p95": 0.652579999223235
+          },
+          "detector": {
+            "total": 1624.251799992635,
+            "mean": 162.4251799992635,
+            "p50": 146.91844999833847,
+            "p95": 233.92122499790258
+          },
+          "tracking": {
+            "total": 0.40479999006493017,
+            "mean": 0.04047999900649302,
+            "p50": 0.03809999907389283,
+            "p95": 0.05355499961297026
+          },
+          "motion": {
+            "total": 10.722100007114932,
+            "mean": 1.0722100007114932,
+            "p50": 1.1383999990357552,
+            "p95": 1.3884349995350926
+          },
+          "temporal_and_logging": {
+            "total": 1.1692000043694861,
+            "mean": 0.11692000043694861,
+            "p50": 0.09815000157686882,
+            "p95": 0.21031499818491264
+          },
+          "evidence": {
+            "total": 9.995900007197633,
+            "mean": 0.9995900007197633,
+            "p50": 0.0008499991963617504,
+            "p95": 5.481130000771362
+          },
+          "visualization": {
+            "total": 16.37970000592759,
+            "mean": 1.6379700005927589,
+            "p50": 1.1476500039862003,
+            "p95": 3.8620249997620655
+          }
+        },
+        "profile_semantics": "Wall-clock stage timings per sampled frame, summed across people. Detector includes its tensor preprocessing and rotation. Excludes decoding, startup and final serialization; evidence includes tools and packet I/O; visualization includes ring copy and debug video.",
+        "dismissed_candidates": 0,
+        "memory": {
+          "working_set_mib": 162.77734375,
+          "process_peak_working_set_mib": 323.71875
+        }
+      },
+      "candidate_detected": true,
+      "baseline_detected": true,
+      "latency_seconds": null
+    },
+    {
+      "clip": {
+        "id": "clip_05",
+        "path": "data/clips/clip_05.mp4",
+        "member": "VideoDataset/Fall/SBJ_10_LOC3/ACT11_L_2/20240915184515.mp4",
+        "sha256": "e8671568e2c320674d218b1ad5981d1820b79bba11865d0ce86925a7d0ca726f",
+        "source_fall": true,
+        "split": "development",
+        "scenario": "brief fall",
+        "incident_onset": null,
+        "event_present": true
+      },
+      "metrics": {
+        "source": "data/clips/clip_05.mp4",
+        "source_kind": "file",
+        "source_sha256": "e8671568e2c320674d218b1ad5981d1820b79bba11865d0ce86925a7d0ca726f",
+        "source_reconnect_attempts": 0,
+        "config": {
+          "rotation_all_views": false,
+          "improved_tracking": true,
+          "improved_temporal": true,
+          "continuation_threshold": null,
+          "track_hold_seconds": 1.5,
+          "prediction_horizon_seconds": 0.25,
+          "minimum_drop_heights": 0.18,
+          "minimum_average_descent": 0.15,
+          "maximum_ground_height_ratio": 0.75,
+          "detector_size": 640,
+          "rotation_fallback": true,
+          "sample_fps": 5.0,
+          "max_seconds": 60,
+          "max_width": 640,
+          "detector_threshold": 0.3,
+          "horizontal_ratio": 1.15,
+          "upright_ratio": 0.8,
+          "descent_heights_s": 0.25,
+          "transition_seconds": 1.5,
+          "stationary_heights_s": 0.12,
+          "stationary_flow_px_s": 6,
+          "immobile_seconds": 1.5,
+          "review_seconds": 2.5,
+          "max_gap_seconds": 0.5,
+          "history_seconds": 5,
+          "max_evidence_packets": 10,
+          "threads": 2,
+          "detector_backend": "opencv",
+          "detector_device": 0
+        },
+        "opencv": "5.0.0",
+        "source_fps": 30.0,
+        "sampled_frames": 10,
+        "observed_seconds": 1.8,
+        "detections": 7,
+        "distinct_track_ids": 1,
+        "candidate_times": [],
+        "human_review_times": [],
+        "baseline_alert_times": [],
+        "exit_reason": "eof",
+        "wall_seconds": 2.6075723999965703,
+        "processing_fps": 3.834984601007877,
+        "cpu_one_core_percent": 184.5586339235041,
+        "p50_ms": 151.68879999691853,
+        "p95_ms": 444.44148499787843,
+        "tool_calls": 0,
+        "frame_latency_ms": [
+          155.00349999638274,
+          145.30020000529476,
+          147.5508000003174,
+          157.40540000115288,
+          148.37409999745432,
+          148.020099994028,
+          147.46910000394564,
+          437.3341000027722,
+          448.6493000003975,
+          439.2985999947996
+        ],
+        "stage_profile_ms": {
+          "preprocessing": {
+            "total": 6.140099998447113,
+            "mean": 0.6140099998447113,
+            "p50": 0.6097499972383957,
+            "p95": 0.7575949995953123
+          },
+          "detector": {
+            "total": 2346.8722000106936,
+            "mean": 234.68722000106936,
+            "p50": 148.68495000337134,
+            "p95": 442.7924500025256
+          },
+          "tracking": {
+            "total": 0.5320000054780394,
+            "mean": 0.05320000054780394,
+            "p50": 0.042150000808760524,
+            "p95": 0.12627500218513882
+          },
+          "motion": {
+            "total": 7.111300001270138,
+            "mean": 0.7111300001270138,
+            "p50": 1.130249998823274,
+            "p95": 1.2494399987190263
+          },
+          "temporal_and_logging": {
+            "total": 0.7459000044036657,
+            "mean": 0.07459000044036657,
+            "p50": 0.0913500007300172,
+            "p95": 0.1445700007025152
+          },
+          "evidence": {
+            "total": 0.0035000048228539526,
+            "mean": 0.00035000048228539526,
+            "p50": 0.0002999986463692039,
+            "p95": 0.0007200014806585382
+          },
+          "visualization": {
+            "total": 11.880900019605178,
+            "mean": 1.1880900019605178,
+            "p50": 1.1267500012763776,
+            "p95": 1.6411149958003073
+          }
+        },
+        "profile_semantics": "Wall-clock stage timings per sampled frame, summed across people. Detector includes its tensor preprocessing and rotation. Excludes decoding, startup and final serialization; evidence includes tools and packet I/O; visualization includes ring copy and debug video.",
+        "dismissed_candidates": 0,
+        "memory": {
+          "working_set_mib": 162.875,
+          "process_peak_working_set_mib": 323.71875
+        }
+      },
+      "candidate_detected": false,
+      "baseline_detected": false,
+      "latency_seconds": null
+    },
+    {
+      "clip": {
+        "id": "clip_06",
+        "path": "data/clips/clip_06.mp4",
+        "member": "VideoDataset/ADL/SBJ_10_LOC3/ACT19_L_1/20240922170935.mp4",
+        "sha256": "53a689798790ee5a63d5f225b74259e8440f63f980e1cdd04bb2759a18974bbe",
+        "source_fall": false,
+        "split": "development",
+        "scenario": "daily activity",
+        "incident_onset": null,
+        "event_present": false
+      },
+      "metrics": {
+        "source": "data/clips/clip_06.mp4",
+        "source_kind": "file",
+        "source_sha256": "53a689798790ee5a63d5f225b74259e8440f63f980e1cdd04bb2759a18974bbe",
+        "source_reconnect_attempts": 0,
+        "config": {
+          "rotation_all_views": false,
+          "improved_tracking": true,
+          "improved_temporal": true,
+          "continuation_threshold": null,
+          "track_hold_seconds": 1.5,
+          "prediction_horizon_seconds": 0.25,
+          "minimum_drop_heights": 0.18,
+          "minimum_average_descent": 0.15,
+          "maximum_ground_height_ratio": 0.75,
+          "detector_size": 640,
+          "rotation_fallback": true,
+          "sample_fps": 5.0,
+          "max_seconds": 60,
+          "max_width": 640,
+          "detector_threshold": 0.3,
+          "horizontal_ratio": 1.15,
+          "upright_ratio": 0.8,
+          "descent_heights_s": 0.25,
+          "transition_seconds": 1.5,
+          "stationary_heights_s": 0.12,
+          "stationary_flow_px_s": 6,
+          "immobile_seconds": 1.5,
+          "review_seconds": 2.5,
+          "max_gap_seconds": 0.5,
+          "history_seconds": 5,
+          "max_evidence_packets": 10,
+          "threads": 2,
+          "detector_backend": "opencv",
+          "detector_device": 0
+        },
+        "opencv": "5.0.0",
+        "source_fps": 30.0,
+        "sampled_frames": 10,
+        "observed_seconds": 1.8,
+        "detections": 10,
+        "distinct_track_ids": 1,
+        "candidate_times": [],
+        "human_review_times": [],
+        "baseline_alert_times": [],
+        "exit_reason": "eof",
+        "wall_seconds": 1.7348600999976043,
+        "processing_fps": 5.7641535476052566,
+        "cpu_one_core_percent": 183.73239432991753,
+        "p50_ms": 149.46190000046045,
+        "p95_ms": 153.10069000188378,
+        "tool_calls": 0,
+        "frame_latency_ms": [
+          155.0347000011243,
+          149.72169999964535,
+          149.44809999724384,
+          150.73690000281204,
+          148.9514999993844,
+          148.3079999961774,
+          149.47570000367705,
+          149.0683000010904,
+          149.76849999948172,
+          148.1701000011526
+        ],
+        "stage_profile_ms": {
+          "preprocessing": {
+            "total": 5.292800000461284,
+            "mean": 0.5292800000461284,
+            "p50": 0.5295999981171917,
+            "p95": 0.6944950029719621
+          },
+          "detector": {
+            "total": 1466.4635000008275,
+            "mean": 146.64635000008275,
+            "p50": 146.1446499961312,
+            "p95": 149.97547999919334
+          },
+          "tracking": {
+            "total": 0.41480000800220296,
+            "mean": 0.041480000800220296,
+            "p50": 0.03775000004679896,
+            "p95": 0.056630003746249685
+          },
+          "motion": {
+            "total": 10.263699987262953,
+            "mean": 1.0263699987262953,
+            "p50": 1.1340999953972641,
+            "p95": 1.1531150023074588
+          },
+          "temporal_and_logging": {
+            "total": 1.1692999905790202,
+            "mean": 0.11692999905790202,
+            "p50": 0.09805000081541948,
+            "p95": 0.21612500022456493
+          },
+          "evidence": {
+            "total": 0.003200009814463556,
+            "mean": 0.0003200009814463556,
+            "p50": 0.000300002284348011,
+            "p95": 0.0004550001904135569
+          },
+          "visualization": {
+            "total": 13.693399989278987,
+            "mean": 1.3693399989278987,
+            "p50": 1.317549995292211,
+            "p95": 1.7220950030605304
+          }
+        },
+        "profile_semantics": "Wall-clock stage timings per sampled frame, summed across people. Detector includes its tensor preprocessing and rotation. Excludes decoding, startup and final serialization; evidence includes tools and packet I/O; visualization includes ring copy and debug video.",
+        "dismissed_candidates": 0,
+        "memory": {
+          "working_set_mib": 162.1171875,
+          "process_peak_working_set_mib": 323.71875
+        }
+      },
+      "candidate_detected": false,
+      "baseline_detected": false,
+      "latency_seconds": null
+    },
+    {
+      "clip": {
+        "id": "clip_07",
+        "path": "data/clips/clip_07.mp4",
+        "member": "VideoDataset/ADL/SBJ_10_LOC3/ACT25_L_1/20240922171530.mp4",
+        "sha256": "7411594988cf69b6b4e1de66d29e3688e3d545217bda40f715c5c74ba2c1b605",
+        "source_fall": false,
+        "split": "development",
+        "scenario": "daily activity",
+        "incident_onset": null,
+        "event_present": false
+      },
+      "metrics": {
+        "source": "data/clips/clip_07.mp4",
+        "source_kind": "file",
+        "source_sha256": "7411594988cf69b6b4e1de66d29e3688e3d545217bda40f715c5c74ba2c1b605",
+        "source_reconnect_attempts": 0,
+        "config": {
+          "rotation_all_views": false,
+          "improved_tracking": true,
+          "improved_temporal": true,
+          "continuation_threshold": null,
+          "track_hold_seconds": 1.5,
+          "prediction_horizon_seconds": 0.25,
+          "minimum_drop_heights": 0.18,
+          "minimum_average_descent": 0.15,
+          "maximum_ground_height_ratio": 0.75,
+          "detector_size": 640,
+          "rotation_fallback": true,
+          "sample_fps": 5.0,
+          "max_seconds": 60,
+          "max_width": 640,
+          "detector_threshold": 0.3,
+          "horizontal_ratio": 1.15,
+          "upright_ratio": 0.8,
+          "descent_heights_s": 0.25,
+          "transition_seconds": 1.5,
+          "stationary_heights_s": 0.12,
+          "stationary_flow_px_s": 6,
+          "immobile_seconds": 1.5,
+          "review_seconds": 2.5,
+          "max_gap_seconds": 0.5,
+          "history_seconds": 5,
+          "max_evidence_packets": 10,
+          "threads": 2,
+          "detector_backend": "opencv",
+          "detector_device": 0
+        },
+        "opencv": "5.0.0",
+        "source_fps": 30.0,
+        "sampled_frames": 10,
+        "observed_seconds": 1.8,
+        "detections": 10,
+        "distinct_track_ids": 1,
+        "candidate_times": [],
+        "human_review_times": [],
+        "baseline_alert_times": [],
+        "exit_reason": "eof",
+        "wall_seconds": 1.76583369999571,
+        "processing_fps": 5.663047431943503,
+        "cpu_one_core_percent": 206.17032056919317,
+        "p50_ms": 152.34680000139633,
+        "p95_ms": 155.3295399993658,
+        "tool_calls": 0,
+        "frame_latency_ms": [
+          153.9437999963411,
+          153.96509999845875,
+          150.21819999674335,
+          153.11459999793442,
+          151.9302999950014,
+          156.44590000010794,
+          152.51379999972414,
+          152.17980000306852,
+          147.4540999988676,
+          151.11809999507386
+        ],
+        "stage_profile_ms": {
+          "preprocessing": {
+            "total": 5.683299983502366,
+            "mean": 0.5683299983502366,
+            "p50": 0.5189499970583711,
+            "p95": 0.7496649988752323
+          },
+          "detector": {
+            "total": 1490.5105000070762,
+            "mean": 149.05105000070762,
+            "p50": 148.88580000115326,
+            "p95": 152.40857000098913
+          },
+          "tracking": {
+            "total": 0.37400000292109326,
+            "mean": 0.037400000292109326,
+            "p50": 0.0377000033040531,
+            "p95": 0.042644999120966524
+          },
+          "motion": {
+            "total": 10.840599992661737,
+            "mean": 1.0840599992661737,
+            "p50": 1.1341499994159676,
+            "p95": 1.4010799983225297
+          },
+          "temporal_and_logging": {
+            "total": 0.9910000080708414,
+            "mean": 0.09910000080708414,
+            "p50": 0.0961500008997973,
+            "p95": 0.11871500319102778
+          },
+          "evidence": {
+            "total": 0.003500012098811567,
+            "mean": 0.0003500012098811567,
+            "p50": 0.000300002284348011,
+            "p95": 0.0005000005330657586
+          },
+          "visualization": {
+            "total": 13.104599973303266,
+            "mean": 1.3104599973303266,
+            "p50": 1.2308499972277787,
+            "p95": 1.6718449998734282
+          }
+        },
+        "profile_semantics": "Wall-clock stage timings per sampled frame, summed across people. Detector includes its tensor preprocessing and rotation. Excludes decoding, startup and final serialization; evidence includes tools and packet I/O; visualization includes ring copy and debug video.",
+        "dismissed_candidates": 0,
+        "memory": {
+          "working_set_mib": 162.078125,
+          "process_peak_working_set_mib": 323.71875
+        }
+      },
+      "candidate_detected": false,
+      "baseline_detected": false,
+      "latency_seconds": null
+    },
+    {
+      "clip": {
+        "id": "clip_08",
+        "path": "data/clips/clip_08.mp4",
+        "member": "VideoDataset/ADL/SBJ_10_LOC3/ACT25_F_1/20240922171626.mp4",
+        "sha256": "8f2a46bd3e2b59981e16eb115f34d5827c50dfacd576982f3ef93a17dbd105ff",
+        "source_fall": false,
+        "split": "development",
+        "scenario": "daily activity",
+        "incident_onset": null,
+        "event_present": false
+      },
+      "metrics": {
+        "source": "data/clips/clip_08.mp4",
+        "source_kind": "file",
+        "source_sha256": "8f2a46bd3e2b59981e16eb115f34d5827c50dfacd576982f3ef93a17dbd105ff",
+        "source_reconnect_attempts": 0,
+        "config": {
+          "rotation_all_views": false,
+          "improved_tracking": true,
+          "improved_temporal": true,
+          "continuation_threshold": null,
+          "track_hold_seconds": 1.5,
+          "prediction_horizon_seconds": 0.25,
+          "minimum_drop_heights": 0.18,
+          "minimum_average_descent": 0.15,
+          "maximum_ground_height_ratio": 0.75,
+          "detector_size": 640,
+          "rotation_fallback": true,
+          "sample_fps": 5.0,
+          "max_seconds": 60,
+          "max_width": 640,
+          "detector_threshold": 0.3,
+          "horizontal_ratio": 1.15,
+          "upright_ratio": 0.8,
+          "descent_heights_s": 0.25,
+          "transition_seconds": 1.5,
+          "stationary_heights_s": 0.12,
+          "stationary_flow_px_s": 6,
+          "immobile_seconds": 1.5,
+          "review_seconds": 2.5,
+          "max_gap_seconds": 0.5,
+          "history_seconds": 5,
+          "max_evidence_packets": 10,
+          "threads": 2,
+          "detector_backend": "opencv",
+          "detector_device": 0
+        },
+        "opencv": "5.0.0",
+        "source_fps": 30.0,
+        "sampled_frames": 10,
+        "observed_seconds": 1.8,
+        "detections": 10,
+        "distinct_track_ids": 1,
+        "candidate_times": [],
+        "human_review_times": [],
+        "baseline_alert_times": [],
+        "exit_reason": "eof",
+        "wall_seconds": 1.7511681000032695,
+        "processing_fps": 5.71047405442192,
+        "cpu_one_core_percent": 184.69814519770895,
+        "p50_ms": 151.27805000156513,
+        "p95_ms": 154.24955499947828,
+        "tool_calls": 0,
+        "frame_latency_ms": [
+          150.86430000519613,
+          149.5708000002196,
+          153.82819999649655,
+          151.3974000044982,
+          153.61839999968652,
+          146.3607999976375,
+          154.59430000191787,
+          147.78060000389814,
+          151.15869999863207,
+          152.46140000090236
+        ],
+        "stage_profile_ms": {
+          "preprocessing": {
+            "total": 5.237699995632283,
+            "mean": 0.5237699995632283,
+            "p50": 0.48750000132713467,
+            "p95": 0.6848899996839463
+          },
+          "detector": {
+            "total": 1479.2466000071727,
+            "mean": 147.92466000071727,
+            "p50": 148.09165000042412,
+            "p95": 150.98307499974908
+          },
+          "tracking": {
+            "total": 0.43280000681988895,
+            "mean": 0.043280000681988895,
+            "p50": 0.038700003642588854,
+            "p95": 0.06607999857806131
+          },
+          "motion": {
+            "total": 10.50260000192793,
+            "mean": 1.050260000192793,
+            "p50": 1.1539999977685511,
+            "p95": 1.2040650010021636
+          },
+          "temporal_and_logging": {
+            "total": 1.0082000007969327,
+            "mean": 0.10082000007969327,
+            "p50": 0.10019999535870738,
+            "p95": 0.11733500105037817
+          },
+          "evidence": {
+            "total": 0.003300010575912893,
+            "mean": 0.0003300010575912893,
+            "p50": 0.000300002284348011,
+            "p95": 0.000500003807246685
+          },
+          "visualization": {
+            "total": 13.819499981764238,
+            "mean": 1.3819499981764238,
+            "p50": 1.2655499958782457,
+            "p95": 1.8135149977752003
+          }
+        },
+        "profile_semantics": "Wall-clock stage timings per sampled frame, summed across people. Detector includes its tensor preprocessing and rotation. Excludes decoding, startup and final serialization; evidence includes tools and packet I/O; visualization includes ring copy and debug video.",
+        "dismissed_candidates": 0,
+        "memory": {
+          "working_set_mib": 161.80078125,
+          "process_peak_working_set_mib": 323.71875
+        }
+      },
+      "candidate_detected": false,
+      "baseline_detected": false,
+      "latency_seconds": null
+    },
+    {
+      "clip": {
+        "id": "clip_09",
+        "path": "data/clips/clip_09.mp4",
+        "member": "VideoDataset/ADL/SBJ_10_LOC3/ACT19_F_1/20240922171106.mp4",
+        "sha256": "e1307851d0dfc8f69f4302ad54abd11e77f1dd20e8c2b10af3f3eb15acc9024e",
+        "source_fall": false,
+        "split": "development",
+        "scenario": "daily activity",
+        "incident_onset": null,
+        "event_present": false
+      },
+      "metrics": {
+        "source": "data/clips/clip_09.mp4",
+        "source_kind": "file",
+        "source_sha256": "e1307851d0dfc8f69f4302ad54abd11e77f1dd20e8c2b10af3f3eb15acc9024e",
+        "source_reconnect_attempts": 0,
+        "config": {
+          "rotation_all_views": false,
+          "improved_tracking": true,
+          "improved_temporal": true,
+          "continuation_threshold": null,
+          "track_hold_seconds": 1.5,
+          "prediction_horizon_seconds": 0.25,
+          "minimum_drop_heights": 0.18,
+          "minimum_average_descent": 0.15,
+          "maximum_ground_height_ratio": 0.75,
+          "detector_size": 640,
+          "rotation_fallback": true,
+          "sample_fps": 5.0,
+          "max_seconds": 60,
+          "max_width": 640,
+          "detector_threshold": 0.3,
+          "horizontal_ratio": 1.15,
+          "upright_ratio": 0.8,
+          "descent_heights_s": 0.25,
+          "transition_seconds": 1.5,
+          "stationary_heights_s": 0.12,
+          "stationary_flow_px_s": 6,
+          "immobile_seconds": 1.5,
+          "review_seconds": 2.5,
+          "max_gap_seconds": 0.5,
+          "history_seconds": 5,
+          "max_evidence_packets": 10,
+          "threads": 2,
+          "detector_backend": "opencv",
+          "detector_device": 0
+        },
+        "opencv": "5.0.0",
+        "source_fps": 30.0,
+        "sampled_frames": 10,
+        "observed_seconds": 1.8,
+        "detections": 10,
+        "distinct_track_ids": 1,
+        "candidate_times": [],
+        "human_review_times": [],
+        "baseline_alert_times": [],
+        "exit_reason": "eof",
+        "wall_seconds": 2.2727337000033003,
+        "processing_fps": 4.3999875568288,
+        "cpu_one_core_percent": 214.49939339540398,
+        "p50_ms": 221.3866500023869,
+        "p95_ms": 237.30919499721495,
+        "tool_calls": 0,
+        "frame_latency_ms": [
+          155.6773999982397,
+          148.74250000139,
+          149.12110000295797,
+          220.25200000643963,
+          194.4952000048943,
+          234.75820000021486,
+          238.9952999947127,
+          235.24840000027325,
+          230.36339999816846,
+          222.52129999833414
+        ],
+        "stage_profile_ms": {
+          "preprocessing": {
+            "total": 7.492200005799532,
+            "mean": 0.7492200005799532,
+            "p50": 0.7803500011505093,
+            "p95": 1.02801999746589
+          },
+          "detector": {
+            "total": 1994.2405999900075,
+            "mean": 199.42405999900075,
+            "p50": 217.6387999970757,
+            "p95": 233.88406499507255
+          },
+          "tracking": {
+            "total": 0.39459999243263155,
+            "mean": 0.039459999243263155,
+            "p50": 0.03604999801609665,
+            "p95": 0.0502449955092743
+          },
+          "motion": {
+            "total": 11.391899992304388,
+            "mean": 1.1391899992304388,
+            "p50": 1.1945500009460375,
+            "p95": 1.4043299972399836
+          },
+          "temporal_and_logging": {
+            "total": 1.0097999911522493,
+            "mean": 0.10097999911522493,
+            "p50": 0.1021999960357789,
+            "p95": 0.11555000055523122
+          },
+          "evidence": {
+            "total": 0.0038000071072019637,
+            "mean": 0.00038000071072019637,
+            "p50": 0.000300002284348011,
+            "p95": 0.0006000012945150957
+          },
+          "visualization": {
+            "total": 14.266100006352644,
+            "mean": 1.4266100006352644,
+            "p50": 1.3564500040956773,
+            "p95": 1.982214998497511
+          }
+        },
+        "profile_semantics": "Wall-clock stage timings per sampled frame, summed across people. Detector includes its tensor preprocessing and rotation. Excludes decoding, startup and final serialization; evidence includes tools and packet I/O; visualization includes ring copy and debug video.",
+        "dismissed_candidates": 0,
+        "memory": {
+          "working_set_mib": 162.515625,
+          "process_peak_working_set_mib": 323.71875
+        }
+      },
+      "candidate_detected": false,
+      "baseline_detected": false,
+      "latency_seconds": null
+    },
+    {
+      "clip": {
+        "id": "clip_10",
+        "path": "data/clips/clip_10.mp4",
+        "member": "VideoDataset/ADL/SBJ_10_LOC3/ACT18_F_1/20240922170912.mp4",
+        "sha256": "a1f4efdaeae9c7103f86cab1bcb404a41b997f99b78e728822ee1e28a9ffbd83",
+        "source_fall": false,
+        "split": "development",
+        "scenario": "daily activity",
+        "incident_onset": null,
+        "event_present": false
+      },
+      "metrics": {
+        "source": "data/clips/clip_10.mp4",
+        "source_kind": "file",
+        "source_sha256": "a1f4efdaeae9c7103f86cab1bcb404a41b997f99b78e728822ee1e28a9ffbd83",
+        "source_reconnect_attempts": 0,
+        "config": {
+          "rotation_all_views": false,
+          "improved_tracking": true,
+          "improved_temporal": true,
+          "continuation_threshold": null,
+          "track_hold_seconds": 1.5,
+          "prediction_horizon_seconds": 0.25,
+          "minimum_drop_heights": 0.18,
+          "minimum_average_descent": 0.15,
+          "maximum_ground_height_ratio": 0.75,
+          "detector_size": 640,
+          "rotation_fallback": true,
+          "sample_fps": 5.0,
+          "max_seconds": 60,
+          "max_width": 640,
+          "detector_threshold": 0.3,
+          "horizontal_ratio": 1.15,
+          "upright_ratio": 0.8,
+          "descent_heights_s": 0.25,
+          "transition_seconds": 1.5,
+          "stationary_heights_s": 0.12,
+          "stationary_flow_px_s": 6,
+          "immobile_seconds": 1.5,
+          "review_seconds": 2.5,
+          "max_gap_seconds": 0.5,
+          "history_seconds": 5,
+          "max_evidence_packets": 10,
+          "threads": 2,
+          "detector_backend": "opencv",
+          "detector_device": 0
+        },
+        "opencv": "5.0.0",
+        "source_fps": 30.0,
+        "sampled_frames": 10,
+        "observed_seconds": 1.8,
+        "detections": 10,
+        "distinct_track_ids": 1,
+        "candidate_times": [],
+        "human_review_times": [],
+        "baseline_alert_times": [],
+        "exit_reason": "eof",
+        "wall_seconds": 2.3581125999990036,
+        "processing_fps": 4.240679601137039,
+        "cpu_one_core_percent": 229.26174093647117,
+        "p50_ms": 216.87884999482776,
+        "p95_ms": 246.4245800030767,
+        "tool_calls": 0,
+        "frame_latency_ms": [
+          168.2418000054895,
+          158.7781999987783,
+          200.5559999961406,
+          235.8094000010169,
+          177.86559999512974,
+          242.59020000317832,
+          235.0302000049851,
+          193.41719999647466,
+          233.20169999351492,
+          249.56180000299355
+        ],
+        "stage_profile_ms": {
+          "preprocessing": {
+            "total": 10.327600000891834,
+            "mean": 1.0327600000891834,
+            "p50": 1.003699995635543,
+            "p95": 1.5650600034859956
+          },
+          "detector": {
+            "total": 2045.0529000008828,
+            "mean": 204.50529000008828,
+            "p50": 211.47904999816092,
+            "p95": 240.44030000040948
+          },
+          "tracking": {
+            "total": 0.6998000026214868,
+            "mean": 0.06998000026214868,
+            "p50": 0.08004999835975468,
+            "p95": 0.09638500014261808
+          },
+          "motion": {
+            "total": 15.866499983530957,
+            "mean": 1.5866499983530957,
+            "p50": 1.6598499969404656,
+            "p95": 2.2617850005190117
+          },
+          "temporal_and_logging": {
+            "total": 1.8415000013192184,
+            "mean": 0.18415000013192184,
+            "p50": 0.16789999790489674,
+            "p95": 0.34886500252468966
+          },
+          "evidence": {
+            "total": 0.005899993993807584,
+            "mean": 0.0005899993993807584,
+            "p50": 0.0005499969120137393,
+            "p95": 0.0008999995770864189
+          },
+          "visualization": {
+            "total": 19.163299999490846,
+            "mean": 1.9163299999490846,
+            "p50": 1.9361000013304874,
+            "p95": 2.3714650033070934
+          }
+        },
+        "profile_semantics": "Wall-clock stage timings per sampled frame, summed across people. Detector includes its tensor preprocessing and rotation. Excludes decoding, startup and final serialization; evidence includes tools and packet I/O; visualization includes ring copy and debug video.",
+        "dismissed_candidates": 0,
+        "memory": {
+          "working_set_mib": 162.6484375,
+          "process_peak_working_set_mib": 323.71875
+        }
+      },
+      "candidate_detected": false,
+      "baseline_detected": false,
+      "latency_seconds": null
+    },
+    {
+      "clip": {
+        "id": "clip_11",
+        "path": "data/clips/clip_11.mp4",
+        "member": "VideoDataset/ADL/SBJ_10_LOC3/ACT24_F_1/20240922171545.mp4",
+        "sha256": "84d955e9aa4070466eabe6a60900b395854303ab76598074567ee9b2eac8e95a",
+        "source_fall": false,
+        "split": "development",
+        "scenario": "daily activity",
+        "incident_onset": null,
+        "event_present": false
+      },
+      "metrics": {
+        "source": "data/clips/clip_11.mp4",
+        "source_kind": "file",
+        "source_sha256": "84d955e9aa4070466eabe6a60900b395854303ab76598074567ee9b2eac8e95a",
+        "source_reconnect_attempts": 0,
+        "config": {
+          "rotation_all_views": false,
+          "improved_tracking": true,
+          "improved_temporal": true,
+          "continuation_threshold": null,
+          "track_hold_seconds": 1.5,
+          "prediction_horizon_seconds": 0.25,
+          "minimum_drop_heights": 0.18,
+          "minimum_average_descent": 0.15,
+          "maximum_ground_height_ratio": 0.75,
+          "detector_size": 640,
+          "rotation_fallback": true,
+          "sample_fps": 5.0,
+          "max_seconds": 60,
+          "max_width": 640,
+          "detector_threshold": 0.3,
+          "horizontal_ratio": 1.15,
+          "upright_ratio": 0.8,
+          "descent_heights_s": 0.25,
+          "transition_seconds": 1.5,
+          "stationary_heights_s": 0.12,
+          "stationary_flow_px_s": 6,
+          "immobile_seconds": 1.5,
+          "review_seconds": 2.5,
+          "max_gap_seconds": 0.5,
+          "history_seconds": 5,
+          "max_evidence_packets": 10,
+          "threads": 2,
+          "detector_backend": "opencv",
+          "detector_device": 0
+        },
+        "opencv": "5.0.0",
+        "source_fps": 30.0,
+        "sampled_frames": 10,
+        "observed_seconds": 1.8,
+        "detections": 10,
+        "distinct_track_ids": 1,
+        "candidate_times": [],
+        "human_review_times": [],
+        "baseline_alert_times": [],
+        "exit_reason": "eof",
+        "wall_seconds": 2.635653299999831,
+        "processing_fps": 3.794125729662791,
+        "cpu_one_core_percent": 240.68985097548327,
+        "p50_ms": 239.82195000280626,
+        "p95_ms": 261.1735750026128,
+        "tool_calls": 0,
+        "frame_latency_ms": [
+          221.84199999901466,
+          203.95250000001397,
+          240.27850000129547,
+          248.94599999970524,
+          266.31730000372045,
+          254.88680000125896,
+          239.36540000431705,
+          207.6073999996879,
+          238.36060000030557,
+          242.4650999964797
+        ],
+        "stage_profile_ms": {
+          "preprocessing": {
+            "total": 10.58779999584658,
+            "mean": 1.058779999584658,
+            "p50": 0.9403499971085694,
+            "p95": 1.7510049998236348
+          },
+          "detector": {
+            "total": 2315.801399992779,
+            "mean": 231.5801399992779,
+            "p50": 235.6099499957054,
+            "p95": 255.723644999307
+          },
+          "tracking": {
+            "total": 0.8323000074597076,
+            "mean": 0.08323000074597076,
+            "p50": 0.07069999992381781,
+            "p95": 0.15170499900705173
+          },
+          "motion": {
+            "total": 15.010299990535714,
+            "mean": 1.5010299990535714,
+            "p50": 1.633899999433197,
+            "p95": 2.0849000033194898
+          },
+          "temporal_and_logging": {
+            "total": 1.5625000087311491,
+            "mean": 0.1562500008731149,
+            "p50": 0.12939999942318536,
+            "p95": 0.2941050031949997
+          },
+          "evidence": {
+            "total": 0.004500012437347323,
+            "mean": 0.00045000124373473227,
+            "p50": 0.000400003045797348,
+            "p95": 0.0008100028935587031
+          },
+          "visualization": {
+            "total": 18.313900000066496,
+            "mean": 1.8313900000066496,
+            "p50": 1.9130999971821439,
+            "p95": 2.3701649966824334
+          }
+        },
+        "profile_semantics": "Wall-clock stage timings per sampled frame, summed across people. Detector includes its tensor preprocessing and rotation. Excludes decoding, startup and final serialization; evidence includes tools and packet I/O; visualization includes ring copy and debug video.",
+        "dismissed_candidates": 0,
+        "memory": {
+          "working_set_mib": 162.88671875,
+          "process_peak_working_set_mib": 323.71875
+        }
+      },
+      "candidate_detected": false,
+      "baseline_detected": false,
+      "latency_seconds": null
+    },
+    {
+      "clip": {
+        "id": "gmdcsa_Fall_01",
+        "path": "data/clips/gmdcsa_Fall_01.mp4",
+        "sha256": "9807eb2335544fc18df2438aa4b5a9df6cd01b3d92bc813339dd4fa29306ee6b",
+        "event_present": true,
+        "incident_onset": 3.4,
+        "split": "development",
+        "scenario": "fall",
+        "source": "https://github.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/tree/v2.1/Subject%201/Fall/01.mp4"
+      },
+      "metrics": {
+        "source": "data/clips/gmdcsa_Fall_01.mp4",
+        "source_kind": "file",
+        "source_sha256": "9807eb2335544fc18df2438aa4b5a9df6cd01b3d92bc813339dd4fa29306ee6b",
+        "source_reconnect_attempts": 0,
+        "config": {
+          "rotation_all_views": false,
+          "improved_tracking": true,
+          "improved_temporal": true,
+          "continuation_threshold": null,
+          "track_hold_seconds": 1.5,
+          "prediction_horizon_seconds": 0.25,
+          "minimum_drop_heights": 0.18,
+          "minimum_average_descent": 0.15,
+          "maximum_ground_height_ratio": 0.75,
+          "detector_size": 640,
+          "rotation_fallback": true,
+          "sample_fps": 5.0,
+          "max_seconds": 60,
+          "max_width": 640,
+          "detector_threshold": 0.3,
+          "horizontal_ratio": 1.15,
+          "upright_ratio": 0.8,
+          "descent_heights_s": 0.25,
+          "transition_seconds": 1.5,
+          "stationary_heights_s": 0.12,
+          "stationary_flow_px_s": 6,
+          "immobile_seconds": 1.5,
+          "review_seconds": 2.5,
+          "max_gap_seconds": 0.5,
+          "history_seconds": 5,
+          "max_evidence_packets": 10,
+          "threads": 2,
+          "detector_backend": "opencv",
+          "detector_device": 0
+        },
+        "opencv": "5.0.0",
+        "source_fps": 29.567986949302313,
+        "sampled_frames": 34,
+        "observed_seconds": 6.696431527093596,
+        "detections": 21,
+        "distinct_track_ids": 1,
+        "candidate_times": [
+          4.058443349753695
+        ],
+        "human_review_times": [],
+        "baseline_alert_times": [
+          3.652599014778325
+        ],
+        "exit_reason": "eof",
+        "wall_seconds": 10.835723900003359,
+        "processing_fps": 3.13776913418673,
+        "cpu_one_core_percent": 197.98515722602852,
+        "p50_ms": 170.76575000101002,
+        "p95_ms": 481.16013999824645,
+        "tool_calls": 2,
+        "frame_latency_ms": [
+          157.48409999650903,
+          151.82669999921927,
+          155.1149999941117,
+          160.13260000181617,
+          157.90900000138208,
+          171.708400004718,
+          163.2095000022673,
+          167.72589999891352,
+          153.8672000024235,
+          169.82309999730205,
+          168.4711999987485,
+          164.12819999823114,
+          163.51420000137296,
+          164.7674999985611,
+          155.38050000031944,
+          163.58440000476548,
+          157.80910000466974,
+          154.83270000549965,
+          475.0075999982073,
+          481.84809999656864,
+          520.5302999966079,
+          472.28229999745963,
+          460.34969999891473,
+          468.5462999987067,
+          480.7896999991499,
+          464.102300000377,
+          472.03299999819137,
+          475.122800002282,
+          462.66520000062883,
+          472.2581000023638,
+          455.93799999915063,
+          477.2155000027851,
+          477.5971999988542,
+          472.8746999971918
+        ],
+        "stage_profile_ms": {
+          "preprocessing": {
+            "total": 11.704599986842368,
+            "mean": 0.34425294078948143,
+            "p50": 0.32170000122278,
+            "p95": 0.4628500020771753
+          },
+          "detector": {
+            "total": 10356.472500010568,
+            "mean": 304.602132353252,
+            "p50": 167.3323499999242,
+            "p95": 478.23073500039754
+          },
+          "tracking": {
+            "total": 2.5610000084270723,
+            "mean": 0.07532352965961978,
+            "p50": 0.07864999861340038,
+            "p95": 0.13115000328980383
+          },
+          "motion": {
+            "total": 27.343000008841045,
+            "mean": 0.8042058826129719,
+            "p50": 1.1791500000981614,
+            "p95": 1.6150500014191491
+          },
+          "temporal_and_logging": {
+            "total": 3.2368999818572775,
+            "mean": 0.0952029406428611,
+            "p50": 0.09660000068834051,
+            "p95": 0.28636499519052433
+          },
+          "evidence": {
+            "total": 28.815300000132993,
+            "mean": 0.8475088235333234,
+            "p50": 0.000300002284348011,
+            "p95": 0.0006999980541877449
+          },
+          "visualization": {
+            "total": 54.69839998113457,
+            "mean": 1.6087764700333698,
+            "p50": 1.5841500025999267,
+            "p95": 1.9352250015799652
+          }
+        },
+        "profile_semantics": "Wall-clock stage timings per sampled frame, summed across people. Detector includes its tensor preprocessing and rotation. Excludes decoding, startup and final serialization; evidence includes tools and packet I/O; visualization includes ring copy and debug video.",
+        "dismissed_candidates": 0,
+        "memory": {
+          "working_set_mib": 170.703125,
+          "process_peak_working_set_mib": 323.71875
+        }
+      },
+      "candidate_detected": true,
+      "baseline_detected": true,
+      "latency_seconds": 0.658443349753695
+    },
+    {
+      "clip": {
+        "id": "gmdcsa_Fall_02",
+        "path": "data/clips/gmdcsa_Fall_02.mp4",
+        "sha256": "3baad9ad4ebfaa971bf7e2799fe1519524f68146e93c7819776752d7acd0a7fd",
+        "event_present": true,
+        "incident_onset": 1.9,
+        "split": "development",
+        "scenario": "fall",
+        "source": "https://github.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/tree/v2.1/Subject%201/Fall/02.mp4"
+      },
+      "metrics": {
+        "source": "data/clips/gmdcsa_Fall_02.mp4",
+        "source_kind": "file",
+        "source_sha256": "3baad9ad4ebfaa971bf7e2799fe1519524f68146e93c7819776752d7acd0a7fd",
+        "source_reconnect_attempts": 0,
+        "config": {
+          "rotation_all_views": false,
+          "improved_tracking": true,
+          "improved_temporal": true,
+          "continuation_threshold": null,
+          "track_hold_seconds": 1.5,
+          "prediction_horizon_seconds": 0.25,
+          "minimum_drop_heights": 0.18,
+          "minimum_average_descent": 0.15,
+          "maximum_ground_height_ratio": 0.75,
+          "detector_size": 640,
+          "rotation_fallback": true,
+          "sample_fps": 5.0,
+          "max_seconds": 60,
+          "max_width": 640,
+          "detector_threshold": 0.3,
+          "horizontal_ratio": 1.15,
+          "upright_ratio": 0.8,
+          "descent_heights_s": 0.25,
+          "transition_seconds": 1.5,
+          "stationary_heights_s": 0.12,
+          "stationary_flow_px_s": 6,
+          "immobile_seconds": 1.5,
+          "review_seconds": 2.5,
+          "max_gap_seconds": 0.5,
+          "history_seconds": 5,
+          "max_evidence_packets": 10,
+          "threads": 2,
+          "detector_backend": "opencv",
+          "detector_device": 0
+        },
+        "opencv": "5.0.0",
+        "source_fps": 29.67265876442421,
+        "sampled_frames": 32,
+        "observed_seconds": 6.268396825396826,
+        "detections": 17,
+        "distinct_track_ids": 1,
+        "candidate_times": [
+          2.2242698412698414
+        ],
+        "human_review_times": [],
+        "baseline_alert_times": [
+          2.2242698412698414
+        ],
+        "exit_reason": "eof",
+        "wall_seconds": 11.5094939000046,
+        "processing_fps": 2.780313389799634,
+        "cpu_one_core_percent": 196.71260262791355,
+        "p50_ms": 437.4078000037116,
+        "p95_ms": 447.64474500188953,
+        "tool_calls": 6,
+        "frame_latency_ms": [
+          163.76030000537867,
+          161.36469999764813,
+          150.4346000001533,
+          152.4483999965014,
+          147.38409999699797,
+          147.07220000127563,
+          146.79569999861997,
+          148.11870000266936,
+          149.0364999990561,
+          146.92980000108946,
+          441.91029999637976,
+          452.6560000012978,
+          438.11200000345707,
+          430.38890000025276,
+          435.3631000049063,
+          440.66900000325404,
+          445.0347000019974,
+          427.6547999979812,
+          441.60009999905014,
+          442.80820000130916,
+          431.2136999942595,
+          441.5967999957502,
+          443.037800003367,
+          439.96969999716384,
+          438.392299998668,
+          440.9830999939004,
+          450.8348000017577,
+          436.70360000396613,
+          434.3790999992052,
+          443.3193000004394,
+          444.6103000009316,
+          441.9506000049296
+        ],
+        "stage_profile_ms": {
+          "preprocessing": {
+            "total": 10.910999990301207,
+            "mean": 0.3409687496969127,
+            "p50": 0.32965000355034135,
+            "p95": 0.4623200020432705
+          },
+          "detector": {
+            "total": 11089.63049997692,
+            "mean": 346.55095312427875,
+            "p50": 434.14779999875464,
+            "p95": 442.21171499775664
+          },
+          "tracking": {
+            "total": 2.727600010985043,
+            "mean": 0.08523750034328259,
+            "p50": 0.09644999954616651,
+            "p95": 0.1529549997940194
+          },
+          "motion": {
+            "total": 21.24010000261478,
+            "mean": 0.6637531250817119,
+            "p50": 0.5942999996477738,
+            "p95": 1.4739849972102093
+          },
+          "temporal_and_logging": {
+            "total": 2.04350001149578,
+            "mean": 0.06385937535924313,
+            "p50": 0.0837500010675285,
+            "p95": 0.18294499714102128
+          },
+          "evidence": {
+            "total": 16.55390000087209,
+            "mean": 0.5173093750272528,
+            "p50": 0.000300002284348011,
+            "p95": 0.18308499929844393
+          },
+          "visualization": {
+            "total": 49.87340005027363,
+            "mean": 1.558543751571051,
+            "p50": 1.4920499997970182,
+            "p95": 1.9585000027291244
+          }
+        },
+        "profile_semantics": "Wall-clock stage timings per sampled frame, summed across people. Detector includes its tensor preprocessing and rotation. Excludes decoding, startup and final serialization; evidence includes tools and packet I/O; visualization includes ring copy and debug video.",
+        "dismissed_candidates": 0,
+        "memory": {
+          "working_set_mib": 169.69921875,
+          "process_peak_working_set_mib": 323.71875
+        }
+      },
+      "candidate_detected": true,
+      "baseline_detected": true,
+      "latency_seconds": 0.3242698412698415
+    },
+    {
+      "clip": {
+        "id": "gmdcsa_Fall_03",
+        "path": "data/clips/gmdcsa_Fall_03.mp4",
+        "sha256": "b17c5217c0050c959c45f7ead8ce80fa1c459d62109f25ea72461ac729d5307c",
+        "event_present": true,
+        "incident_onset": 2.5,
+        "split": "development",
+        "scenario": "fall",
+        "source": "https://github.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/tree/v2.1/Subject%201/Fall/03.mp4"
+      },
+      "metrics": {
+        "source": "data/clips/gmdcsa_Fall_03.mp4",
+        "source_kind": "file",
+        "source_sha256": "b17c5217c0050c959c45f7ead8ce80fa1c459d62109f25ea72461ac729d5307c",
+        "source_reconnect_attempts": 0,
+        "config": {
+          "rotation_all_views": false,
+          "improved_tracking": true,
+          "improved_temporal": true,
+          "continuation_threshold": null,
+          "track_hold_seconds": 1.5,
+          "prediction_horizon_seconds": 0.25,
+          "minimum_drop_heights": 0.18,
+          "minimum_average_descent": 0.15,
+          "maximum_ground_height_ratio": 0.75,
+          "detector_size": 640,
+          "rotation_fallback": true,
+          "sample_fps": 5.0,
+          "max_seconds": 60,
+          "max_width": 640,
+          "detector_threshold": 0.3,
+          "horizontal_ratio": 1.15,
+          "upright_ratio": 0.8,
+          "descent_heights_s": 0.25,
+          "transition_seconds": 1.5,
+          "stationary_heights_s": 0.12,
+          "stationary_flow_px_s": 6,
+          "immobile_seconds": 1.5,
+          "review_seconds": 2.5,
+          "max_gap_seconds": 0.5,
+          "history_seconds": 5,
+          "max_evidence_packets": 10,
+          "threads": 2,
+          "detector_backend": "opencv",
+          "detector_device": 0
+        },
+        "opencv": "5.0.0",
+        "source_fps": 29.721529532955433,
+        "sampled_frames": 30,
+        "observed_seconds": 5.854342045454546,
+        "detections": 31,
+        "distinct_track_ids": 2,
+        "candidate_times": [
+          3.0281079545454546
+        ],
+        "human_review_times": [],
+        "baseline_alert_times": [
+          3.0281079545454546
+        ],
+        "exit_reason": "eof",
+        "wall_seconds": 8.942075699997076,
+        "processing_fps": 3.354925747274742,
+        "cpu_one_core_percent": 191.8598161722743,
+        "p50_ms": 223.17169999951147,
+        "p95_ms": 455.4891049996513,
+        "tool_calls": 6,
+        "frame_latency_ms": [
+          155.93649999937043,
+          144.95780000288505,
+          150.57789999991655,
+          144.64610000140965,
+          148.15380000072764,
+          146.27619999373564,
+          147.5849999987986,
+          153.19529999396764,
+          148.38430000236258,
+          145.59310000186088,
+          150.25749999767868,
+          290.4068999996525,
+          145.6575000047451,
+          146.6528000019025,
+          434.17110000154935,
+          458.1608000007691,
+          429.37179999717046,
+          432.6214000029722,
+          435.63710000307765,
+          432.9987000019173,
+          436.30010000197217,
+          435.27710000489606,
+          438.0907999948249,
+          146.69590000266908,
+          430.1638000033563,
+          141.16080000530928,
+          435.5176000026404,
+          460.71899999515153,
+          452.22369999828516,
+          439.3729000003077
+        ],
+        "stage_profile_ms": {
+          "preprocessing": {
+            "total": 9.517400023469236,
+            "mean": 0.3172466674489745,
+            "p50": 0.2935500015155412,
+            "p95": 0.47569499947712734
+          },
+          "detector": {
+            "total": 8530.5221999879,
+            "mean": 284.35073999959667,
+            "p50": 219.81919999961974,
+            "p95": 442.94432999995473
+          },
+          "tracking": {
+            "total": 3.123800015600864,
+            "mean": 0.10412666718669546,
+            "p50": 0.1109000004362315,
+            "p95": 0.1580100019054953
+          },
+          "motion": {
+            "total": 37.83389999443898,
+            "mean": 1.2611299998146326,
+            "p50": 1.2687500020547304,
+            "p95": 1.8381650039373185
+          },
+          "temporal_and_logging": {
+            "total": 3.194199984136503,
+            "mean": 0.10647333280455011,
+            "p50": 0.09504999979981221,
+            "p95": 0.1704050009720957
+          },
+          "evidence": {
+            "total": 21.31119999830844,
+            "mean": 0.710373333276948,
+            "p50": 0.000700001692166552,
+            "p95": 0.22710999619448557
+          },
+          "visualization": {
+            "total": 46.6086000087671,
+            "mean": 1.5536200002922367,
+            "p50": 1.5072499991219956,
+            "p95": 1.7843199959315823
+          }
+        },
+        "profile_semantics": "Wall-clock stage timings per sampled frame, summed across people. Detector includes its tensor preprocessing and rotation. Excludes decoding, startup and final serialization; evidence includes tools and packet I/O; visualization includes ring copy and debug video.",
+        "dismissed_candidates": 0,
+        "memory": {
+          "working_set_mib": 171.02734375,
+          "process_peak_working_set_mib": 323.71875
+        }
+      },
+      "candidate_detected": true,
+      "baseline_detected": true,
+      "latency_seconds": 0.5281079545454546
+    },
+    {
+      "clip": {
+        "id": "gmdcsa_Fall_07",
+        "path": "data/clips/gmdcsa_Fall_07.mp4",
+        "sha256": "e584c98e13100befb24fa1854987d8adb50324e0f73dd6278661a8887b428b86",
+        "event_present": true,
+        "incident_onset": 1.1,
+        "split": "development",
+        "scenario": "fall",
+        "source": "https://github.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/tree/v2.1/Subject%201/Fall/07.mp4"
+      },
+      "metrics": {
+        "source": "data/clips/gmdcsa_Fall_07.mp4",
+        "source_kind": "file",
+        "source_sha256": "e584c98e13100befb24fa1854987d8adb50324e0f73dd6278661a8887b428b86",
+        "source_reconnect_attempts": 0,
+        "config": {
+          "rotation_all_views": false,
+          "improved_tracking": true,
+          "improved_temporal": true,
+          "continuation_threshold": null,
+          "track_hold_seconds": 1.5,
+          "prediction_horizon_seconds": 0.25,
+          "minimum_drop_heights": 0.18,
+          "minimum_average_descent": 0.15,
+          "maximum_ground_height_ratio": 0.75,
+          "detector_size": 640,
+          "rotation_fallback": true,
+          "sample_fps": 5.0,
+          "max_seconds": 60,
+          "max_width": 640,
+          "detector_threshold": 0.3,
+          "horizontal_ratio": 1.15,
+          "upright_ratio": 0.8,
+          "descent_heights_s": 0.25,
+          "transition_seconds": 1.5,
+          "stationary_heights_s": 0.12,
+          "stationary_flow_px_s": 6,
+          "immobile_seconds": 1.5,
+          "review_seconds": 2.5,
+          "max_gap_seconds": 0.5,
+          "history_seconds": 5,
+          "max_evidence_packets": 10,
+          "threads": 2,
+          "detector_backend": "opencv",
+          "detector_device": 0
+        },
+        "opencv": "5.0.0",
+        "source_fps": 29.688561172019018,
+        "sampled_frames": 26,
+        "observed_seconds": 5.052450980392156,
+        "detections": 22,
+        "distinct_track_ids": 1,
+        "candidate_times": [
+          1.8188823529411764
+        ],
+        "human_review_times": [],
+        "baseline_alert_times": [
+          1.8188823529411764
+        ],
+        "exit_reason": "eof",
+        "wall_seconds": 7.150896500003,
+        "processing_fps": 3.63590774946737,
+        "cpu_one_core_percent": 196.65366433417265,
+        "p50_ms": 294.1754499988747,
+        "p95_ms": 434.9398249996739,
+        "tool_calls": 6,
+        "frame_latency_ms": [
+          149.92009999696165,
+          148.57829999527894,
+          144.6862999946461,
+          144.2728000038187,
+          147.65489999990677,
+          147.1042999983183,
+          146.87140000023646,
+          148.3799000052386,
+          144.27859999705106,
+          301.5071000045282,
+          431.1247000005096,
+          435.70619999809423,
+          432.6407000044128,
+          290.30670000065584,
+          295.6666999962181,
+          305.7614999997895,
+          297.51490000489866,
+          298.9616999984719,
+          286.6520999959903,
+          289.80740000406513,
+          295.6541000021389,
+          297.07110000163084,
+          292.98450000351295,
+          295.3663999942364,
+          296.351599994523,
+          439.62079999619164
+        ],
+        "stage_profile_ms": {
+          "preprocessing": {
+            "total": 8.090000002994202,
+            "mean": 0.31115384626900777,
+            "p50": 0.30065000100876205,
+            "p95": 0.3963000035582809
+          },
+          "detector": {
+            "total": 6805.033699987689,
+            "mean": 261.7320653841419,
+            "p50": 288.2456999977876,
+            "p95": 433.1660250045388
+          },
+          "tracking": {
+            "total": 2.4263999875984155,
+            "mean": 0.0933230764460929,
+            "p50": 0.09759999738889746,
+            "p95": 0.15929999790387228
+          },
+          "motion": {
+            "total": 26.001499994890764,
+            "mean": 1.0000576921111832,
+            "p50": 1.174099998024758,
+            "p95": 1.414199999999255
+          },
+          "temporal_and_logging": {
+            "total": 2.3464999758289196,
+            "mean": 0.09024999907034306,
+            "p50": 0.09175000377581455,
+            "p95": 0.19287499890197068
+          },
+          "evidence": {
+            "total": 17.731399995682295,
+            "mean": 0.6819769229108575,
+            "p50": 0.0007499984349124134,
+            "p95": 0.21234999985608738
+          },
+          "visualization": {
+            "total": 39.3440000116243,
+            "mean": 1.5132307696778577,
+            "p50": 1.4425000008486677,
+            "p95": 1.9326000001456123
+          }
+        },
+        "profile_semantics": "Wall-clock stage timings per sampled frame, summed across people. Detector includes its tensor preprocessing and rotation. Excludes decoding, startup and final serialization; evidence includes tools and packet I/O; visualization includes ring copy and debug video.",
+        "dismissed_candidates": 0,
+        "memory": {
+          "working_set_mib": 170.984375,
+          "process_peak_working_set_mib": 323.71875
+        }
+      },
+      "candidate_detected": true,
+      "baseline_detected": true,
+      "latency_seconds": 0.7188823529411763
+    },
+    {
+      "clip": {
+        "id": "gmdcsa_Fall_11",
+        "path": "data/clips/gmdcsa_Fall_11.mp4",
+        "sha256": "c25e4fc9b669cb588b6145d2cfd94f2d403083293c08bc85fa863111372bfea7",
+        "event_present": true,
+        "incident_onset": 1,
+        "split": "development",
+        "scenario": "fall",
+        "source": "https://github.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/tree/v2.1/Subject%201/Fall/11.mp4"
+      },
+      "metrics": {
+        "source": "data/clips/gmdcsa_Fall_11.mp4",
+        "source_kind": "file",
+        "source_sha256": "c25e4fc9b669cb588b6145d2cfd94f2d403083293c08bc85fa863111372bfea7",
+        "source_reconnect_attempts": 0,
+        "config": {
+          "rotation_all_views": false,
+          "improved_tracking": true,
+          "improved_temporal": true,
+          "continuation_threshold": null,
+          "track_hold_seconds": 1.5,
+          "prediction_horizon_seconds": 0.25,
+          "minimum_drop_heights": 0.18,
+          "minimum_average_descent": 0.15,
+          "maximum_ground_height_ratio": 0.75,
+          "detector_size": 640,
+          "rotation_fallback": true,
+          "sample_fps": 5.0,
+          "max_seconds": 60,
+          "max_width": 640,
+          "detector_threshold": 0.3,
+          "horizontal_ratio": 1.15,
+          "upright_ratio": 0.8,
+          "descent_heights_s": 0.25,
+          "transition_seconds": 1.5,
+          "stationary_heights_s": 0.12,
+          "stationary_flow_px_s": 6,
+          "immobile_seconds": 1.5,
+          "review_seconds": 2.5,
+          "max_gap_seconds": 0.5,
+          "history_seconds": 5,
+          "max_evidence_packets": 10,
+          "threads": 2,
+          "detector_backend": "opencv",
+          "detector_device": 0
+        },
+        "opencv": "5.0.0",
+        "source_fps": 29.684783678289108,
+        "sampled_frames": 31,
+        "observed_seconds": 6.0637127071823205,
+        "detections": 31,
+        "distinct_track_ids": 1,
+        "candidate_times": [
+          2.0212375690607733
+        ],
+        "human_review_times": [],
+        "baseline_alert_times": [
+          2.0212375690607733
+        ],
+        "exit_reason": "eof",
+        "wall_seconds": 7.267783700001019,
+        "processing_fps": 4.265399367897486,
+        "cpu_one_core_percent": 198.00568638274117,
+        "p50_ms": 155.64830000221264,
+        "p95_ms": 384.25850000203354,
+        "tool_calls": 11,
+        "frame_latency_ms": [
+          152.12740000424674,
+          148.4513000032166,
+          144.86820000456646,
+          146.55470000434434,
+          148.37619999889284,
+          148.65620000637136,
+          146.88459999888437,
+          147.38789999682922,
+          146.93489999626763,
+          144.63989999785554,
+          163.80370000115363,
+          144.7355999989668,
+          148.5688000029768,
+          144.84980000270298,
+          155.64830000221264,
+          145.26469999691471,
+          148.10810000199126,
+          439.59020000329474,
+          289.9464999936754,
+          301.13079999864567,
+          464.77239999512676,
+          293.0433000001358,
+          295.14409999683267,
+          290.20609999861335,
+          293.7374999964959,
+          291.26019999966957,
+          290.06959999969695,
+          291.67510000115726,
+          286.00330000335816,
+          289.7118000037153,
+          328.92680000077235
+        ],
+        "stage_profile_ms": {
+          "preprocessing": {
+            "total": 9.509599971352145,
+            "mean": 0.3067612893984563,
+            "p50": 0.28469999961089343,
+            "p95": 0.4375000025902409
+          },
+          "detector": {
+            "total": 6811.631199983822,
+            "mean": 219.73003870915554,
+            "p50": 148.64820000366308,
+            "p95": 366.9719499994244
+          },
+          "tracking": {
+            "total": 3.1293000138248317,
+            "mean": 0.1009451617362849,
+            "p50": 0.10630000178935006,
+            "p95": 0.1785000022209715
+          },
+          "motion": {
+            "total": 39.583100013260264,
+            "mean": 1.2768741939761374,
+            "p50": 1.2845000019297004,
+            "p95": 1.4569999984814785
+          },
+          "temporal_and_logging": {
+            "total": 3.2499000153620727,
+            "mean": 0.10483548436651847,
+            "p50": 0.09640000644139946,
+            "p95": 0.16504999803146347
+          },
+          "evidence": {
+            "total": 48.66959997889353,
+            "mean": 1.5699870960933398,
+            "p50": 0.0011000010999850929,
+            "p95": 9.795249996386701
+          },
+          "visualization": {
+            "total": 47.082499957468826,
+            "mean": 1.5187903212086717,
+            "p50": 1.476199999160599,
+            "p95": 1.8527999964135233
+          }
+        },
+        "profile_semantics": "Wall-clock stage timings per sampled frame, summed across people. Detector includes its tensor preprocessing and rotation. Excludes decoding, startup and final serialization; evidence includes tools and packet I/O; visualization includes ring copy and debug video.",
+        "dismissed_candidates": 0,
+        "memory": {
+          "working_set_mib": 169.5234375,
+          "process_peak_working_set_mib": 323.71875
+        }
+      },
+      "candidate_detected": true,
+      "baseline_detected": true,
+      "latency_seconds": 1.0212375690607733
+    },
+    {
+      "clip": {
+        "id": "gmdcsa_Fall_12",
+        "path": "data/clips/gmdcsa_Fall_12.mp4",
+        "sha256": "2354ba6441e0fc2173e283ed34cb2a75a08a45b01144882f8db5291cfb113851",
+        "event_present": true,
+        "incident_onset": 1.9,
+        "split": "development",
+        "scenario": "fall",
+        "source": "https://github.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/tree/v2.1/Subject%201/Fall/12.mp4"
+      },
+      "metrics": {
+        "source": "data/clips/gmdcsa_Fall_12.mp4",
+        "source_kind": "file",
+        "source_sha256": "2354ba6441e0fc2173e283ed34cb2a75a08a45b01144882f8db5291cfb113851",
+        "source_reconnect_attempts": 0,
+        "config": {
+          "rotation_all_views": false,
+          "improved_tracking": true,
+          "improved_temporal": true,
+          "continuation_threshold": null,
+          "track_hold_seconds": 1.5,
+          "prediction_horizon_seconds": 0.25,
+          "minimum_drop_heights": 0.18,
+          "minimum_average_descent": 0.15,
+          "maximum_ground_height_ratio": 0.75,
+          "detector_size": 640,
+          "rotation_fallback": true,
+          "sample_fps": 5.0,
+          "max_seconds": 60,
+          "max_width": 640,
+          "detector_threshold": 0.3,
+          "horizontal_ratio": 1.15,
+          "upright_ratio": 0.8,
+          "descent_heights_s": 0.25,
+          "transition_seconds": 1.5,
+          "stationary_heights_s": 0.12,
+          "stationary_flow_px_s": 6,
+          "immobile_seconds": 1.5,
+          "review_seconds": 2.5,
+          "max_gap_seconds": 0.5,
+          "history_seconds": 5,
+          "max_evidence_packets": 10,
+          "threads": 2,
+          "detector_backend": "opencv",
+          "detector_device": 0
+        },
+        "opencv": "5.0.0",
+        "source_fps": 29.268007141393742,
+        "sampled_frames": 34,
+        "observed_seconds": 6.765066,
+        "detections": 15,
+        "distinct_track_ids": 1,
+        "candidate_times": [
+          2.870028
+        ],
+        "human_review_times": [],
+        "baseline_alert_times": [
+          2.870028
+        ],
+        "exit_reason": "eof",
+        "wall_seconds": 10.86322979999386,
+        "processing_fps": 3.129824244353113,
+        "cpu_one_core_percent": 197.6276889586938,
+        "p50_ms": 427.1714000024076,
+        "p95_ms": 446.41950000004726,
+        "tool_calls": 2,
+        "frame_latency_ms": [
+          157.19490000628866,
+          145.6971000006888,
+          150.1066000055289,
+          144.79460000438849,
+          148.4312999964459,
+          145.16220000223257,
+          147.7634000038961,
+          148.27489999879617,
+          151.0825000004843,
+          154.30560000095284,
+          147.79560000170022,
+          144.50679999572458,
+          146.5708999967319,
+          145.0710999997682,
+          165.5430000027991,
+          433.8740000021062,
+          435.559600002307,
+          444.56020000507124,
+          444.67250000161584,
+          435.9399000022677,
+          431.9459999969695,
+          430.0048000004608,
+          434.67409999720985,
+          437.7722999997786,
+          441.37980000232346,
+          439.24189999961527,
+          445.5935000005411,
+          426.6769000023487,
+          434.30570000055013,
+          431.2544999993406,
+          427.6659000024665,
+          425.8741000012378,
+          454.7467000011238,
+          447.95349999913014
+        ],
+        "stage_profile_ms": {
+          "preprocessing": {
+            "total": 10.831400002643932,
+            "mean": 0.3185705883130568,
+            "p50": 0.3094500025326852,
+            "p95": 0.4545750009128822
+          },
+          "detector": {
+            "total": 10429.983099958918,
+            "mean": 306.7642088223211,
+            "p50": 425.22249999819905,
+            "p95": 444.345759996213
+          },
+          "tracking": {
+            "total": 2.6196999970125034,
+            "mean": 0.07704999991213246,
+            "p50": 0.0626500004727859,
+            "p95": 0.1457199985452462
+          },
+          "motion": {
+            "total": 19.159799987392034,
+            "mean": 0.5635235290409422,
+            "p50": 0.0,
+            "p95": 1.472019999710028
+          },
+          "temporal_and_logging": {
+            "total": 1.7831000077421777,
+            "mean": 0.052444117874769935,
+            "p50": 0.0,
+            "p95": 0.14905500320310217
+          },
+          "evidence": {
+            "total": 22.38609999039909,
+            "mean": 0.6584147055999732,
+            "p50": 0.00029999500839039683,
+            "p95": 0.0007000006007729098
+          },
+          "visualization": {
+            "total": 55.82730002788594,
+            "mean": 1.6419794125848806,
+            "p50": 1.5429000013682526,
+            "p95": 1.788855002814671
+          }
+        },
+        "profile_semantics": "Wall-clock stage timings per sampled frame, summed across people. Detector includes its tensor preprocessing and rotation. Excludes decoding, startup and final serialization; evidence includes tools and packet I/O; visualization includes ring copy and debug video.",
+        "dismissed_candidates": 0,
+        "memory": {
+          "working_set_mib": 172.9609375,
+          "process_peak_working_set_mib": 323.71875
+        }
+      },
+      "candidate_detected": true,
+      "baseline_detected": true,
+      "latency_seconds": 0.9700280000000001
+    },
+    {
+      "clip": {
+        "id": "gmdcsa_ADL_01",
+        "path": "data/clips/gmdcsa_ADL_01.mp4",
+        "sha256": "781f8a2ec152ba27c2d405b15af5f4a28f453c6e839b61ed3f4f5e2aa9a19aa4",
+        "event_present": false,
+        "incident_onset": null,
+        "split": "development",
+        "scenario": "daily activity",
+        "source": "https://github.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/tree/v2.1/Subject%201/ADL/01.mp4"
+      },
+      "metrics": {
+        "source": "data/clips/gmdcsa_ADL_01.mp4",
+        "source_kind": "file",
+        "source_sha256": "781f8a2ec152ba27c2d405b15af5f4a28f453c6e839b61ed3f4f5e2aa9a19aa4",
+        "source_reconnect_attempts": 0,
+        "config": {
+          "rotation_all_views": false,
+          "improved_tracking": true,
+          "improved_temporal": true,
+          "continuation_threshold": null,
+          "track_hold_seconds": 1.5,
+          "prediction_horizon_seconds": 0.25,
+          "minimum_drop_heights": 0.18,
+          "minimum_average_descent": 0.15,
+          "maximum_ground_height_ratio": 0.75,
+          "detector_size": 640,
+          "rotation_fallback": true,
+          "sample_fps": 5.0,
+          "max_seconds": 60,
+          "max_width": 640,
+          "detector_threshold": 0.3,
+          "horizontal_ratio": 1.15,
+          "upright_ratio": 0.8,
+          "descent_heights_s": 0.25,
+          "transition_seconds": 1.5,
+          "stationary_heights_s": 0.12,
+          "stationary_flow_px_s": 6,
+          "immobile_seconds": 1.5,
+          "review_seconds": 2.5,
+          "max_gap_seconds": 0.5,
+          "history_seconds": 5,
+          "max_evidence_packets": 10,
+          "threads": 2,
+          "detector_backend": "opencv",
+          "detector_device": 0
+        },
+        "opencv": "5.0.0",
+        "source_fps": 29.61249929494049,
+        "sampled_frames": 41,
+        "observed_seconds": 8.104685714285715,
+        "detections": 14,
+        "distinct_track_ids": 1,
+        "candidate_times": [],
+        "human_review_times": [],
+        "baseline_alert_times": [
+          1.823554285714286
+        ],
+        "exit_reason": "eof",
+        "wall_seconds": 14.313283399998909,
+        "processing_fps": 2.8644720330209577,
+        "cpu_one_core_percent": 196.27746628703056,
+        "p50_ms": 425.74880000029225,
+        "p95_ms": 440.1360000047134,
+        "tool_calls": 0,
+        "frame_latency_ms": [
+          150.51189999940107,
+          144.5021999970777,
+          143.21869999548653,
+          144.61730000039097,
+          142.63109999592416,
+          143.3945999960997,
+          142.78919999924256,
+          142.4916000032681,
+          145.13480000459822,
+          144.90339999611024,
+          144.34600000095088,
+          141.95550000295043,
+          285.4774000006728,
+          423.26450000109617,
+          422.2001000016462,
+          290.9557000020868,
+          425.74880000029225,
+          429.33630000334233,
+          425.08700000325916,
+          428.21120000007795,
+          427.71219999849563,
+          432.24040000495734,
+          428.0730000027688,
+          425.92750000039814,
+          435.19240000023274,
+          423.27559999830555,
+          425.3392999962671,
+          426.98969999764813,
+          429.82800000027055,
+          436.8663999994169,
+          430.9843000010005,
+          449.7050999998464,
+          441.2344000011217,
+          427.336100001412,
+          438.7131999974372,
+          440.1360000047134,
+          435.2548000024399,
+          431.64640000031795,
+          432.0067000007839,
+          423.7247999990359,
+          435.6556000057026
+        ],
+        "stage_profile_ms": {
+          "preprocessing": {
+            "total": 11.306500004138798,
+            "mean": 0.2757682927838731,
+            "p50": 0.26539999817032367,
+            "p95": 0.32729999657021835
+          },
+          "detector": {
+            "total": 13833.617699965544,
+            "mean": 337.4053097552572,
+            "p50": 423.658500003512,
+            "p95": 437.89880000258563
+          },
+          "tracking": {
+            "total": 2.5699000179884024,
+            "mean": 0.06268048824361958,
+            "p50": 0.049299997044727206,
+            "p95": 0.1303000026382506
+          },
+          "motion": {
+            "total": 16.30710000608815,
+            "mean": 0.39773414648995487,
+            "p50": 0.0,
+            "p95": 1.3417000009212643
+          },
+          "temporal_and_logging": {
+            "total": 1.2776000148733146,
+            "mean": 0.03116097597251987,
+            "p50": 0.0,
+            "p95": 0.09479999425821006
+          },
+          "evidence": {
+            "total": 0.015499994333367795,
+            "mean": 0.0003780486422772633,
+            "p50": 0.000300002284348011,
+            "p95": 0.0008999995770864189
+          },
+          "visualization": {
+            "total": 70.12910000048578,
+            "mean": 1.7104658536703847,
+            "p50": 1.7128999970736913,
+            "p95": 1.9670999972731806
+          }
+        },
+        "profile_semantics": "Wall-clock stage timings per sampled frame, summed across people. Detector includes its tensor preprocessing and rotation. Excludes decoding, startup and final serialization; evidence includes tools and packet I/O; visualization includes ring copy and debug video.",
+        "dismissed_candidates": 0,
+        "memory": {
+          "working_set_mib": 172.1796875,
+          "process_peak_working_set_mib": 323.71875
+        }
+      },
+      "candidate_detected": false,
+      "baseline_detected": true,
+      "latency_seconds": null
+    },
+    {
+      "clip": {
+        "id": "gmdcsa_ADL_02",
+        "path": "data/clips/gmdcsa_ADL_02.mp4",
+        "sha256": "8fe5e2a87c3d72b6f178788909d11a0cebe3f9db17c27ea3b44aa24841038791",
+        "event_present": false,
+        "incident_onset": null,
+        "split": "development",
+        "scenario": "daily activity",
+        "source": "https://github.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/tree/v2.1/Subject%201/ADL/02.mp4"
+      },
+      "metrics": {
+        "source": "data/clips/gmdcsa_ADL_02.mp4",
+        "source_kind": "file",
+        "source_sha256": "8fe5e2a87c3d72b6f178788909d11a0cebe3f9db17c27ea3b44aa24841038791",
+        "source_reconnect_attempts": 0,
+        "config": {
+          "rotation_all_views": false,
+          "improved_tracking": true,
+          "improved_temporal": true,
+          "continuation_threshold": null,
+          "track_hold_seconds": 1.5,
+          "prediction_horizon_seconds": 0.25,
+          "minimum_drop_heights": 0.18,
+          "minimum_average_descent": 0.15,
+          "maximum_ground_height_ratio": 0.75,
+          "detector_size": 640,
+          "rotation_fallback": true,
+          "sample_fps": 5.0,
+          "max_seconds": 60,
+          "max_width": 640,
+          "detector_threshold": 0.3,
+          "horizontal_ratio": 1.15,
+          "upright_ratio": 0.8,
+          "descent_heights_s": 0.25,
+          "transition_seconds": 1.5,
+          "stationary_heights_s": 0.12,
+          "stationary_flow_px_s": 6,
+          "immobile_seconds": 1.5,
+          "review_seconds": 2.5,
+          "max_gap_seconds": 0.5,
+          "history_seconds": 5,
+          "max_evidence_packets": 10,
+          "threads": 2,
+          "detector_backend": "opencv",
+          "detector_device": 0
+        },
+        "opencv": "5.0.0",
+        "source_fps": 29.598477223124682,
+        "sampled_frames": 33,
+        "observed_seconds": 6.486820202020202,
+        "detections": 35,
+        "distinct_track_ids": 3,
+        "candidate_times": [],
+        "human_review_times": [],
+        "baseline_alert_times": [
+          1.216278787878788,
+          2.2298444444444443,
+          6.486820202020202
+        ],
+        "exit_reason": "eof",
+        "wall_seconds": 6.810385900003894,
+        "processing_fps": 4.845540397348281,
+        "cpu_one_core_percent": 205.33895149747687,
+        "p50_ms": 145.66570000170032,
+        "p95_ms": 432.1503400016809,
+        "tool_calls": 0,
+        "frame_latency_ms": [
+          154.26129999832483,
+          146.2993999957689,
+          146.03709999937564,
+          145.02579999680165,
+          143.98849999997765,
+          144.27989999967394,
+          145.39589999913005,
+          143.16669999971054,
+          141.8370999963372,
+          145.8746999996947,
+          146.79700000124285,
+          145.0364000047557,
+          145.2925999983563,
+          429.65320000075735,
+          431.9067000033101,
+          426.35129999689525,
+          143.77219999732915,
+          142.84399999451125,
+          144.7247999967658,
+          425.36850000033155,
+          146.15769999363692,
+          148.6183000015444,
+          146.1490000001504,
+          145.95859999826644,
+          145.66570000170032,
+          144.1365999999107,
+          432.51579999923706,
+          144.30210000136867,
+          146.53109999926528,
+          435.0938999996288,
+          143.95260000310373,
+          143.82299999851966,
+          145.6562000021222
+        ],
+        "stage_profile_ms": {
+          "preprocessing": {
+            "total": 9.023099963087589,
+            "mean": 0.27342727160871483,
+            "p50": 0.26870000147027895,
+            "p95": 0.347199996758718
+          },
+          "detector": {
+            "total": 6389.228200001526,
+            "mean": 193.612975757622,
+            "p50": 142.08209999924293,
+            "p95": 428.74554000009084
+          },
+          "tracking": {
+            "total": 3.7635999760823324,
+            "mean": 0.11404848412370705,
+            "p50": 0.11969999468419701,
+            "p95": 0.18699999927775934
+          },
+          "motion": {
+            "total": 42.552400002023205,
+            "mean": 1.289466666727976,
+            "p50": 1.2615000014193356,
+            "p95": 1.797039998928084
+          },
+          "temporal_and_logging": {
+            "total": 3.5703999892575666,
+            "mean": 0.10819393906841111,
+            "p50": 0.09119999594986439,
+            "p95": 0.20874000474577767
+          },
+          "evidence": {
+            "total": 0.01710002834443003,
+            "mean": 0.0005181826771039403,
+            "p50": 0.000300002284348011,
+            "p95": 0.0004999994416721165
+          },
+          "visualization": {
+            "total": 53.06009999912931,
+            "mean": 1.6078818181554335,
+            "p50": 1.5683000019635074,
+            "p95": 1.7547000024933368
+          }
+        },
+        "profile_semantics": "Wall-clock stage timings per sampled frame, summed across people. Detector includes its tensor preprocessing and rotation. Excludes decoding, startup and final serialization; evidence includes tools and packet I/O; visualization includes ring copy and debug video.",
+        "dismissed_candidates": 0,
+        "memory": {
+          "working_set_mib": 178.87890625,
+          "process_peak_working_set_mib": 323.71875
+        }
+      },
+      "candidate_detected": false,
+      "baseline_detected": true,
+      "latency_seconds": null
+    },
+    {
+      "clip": {
+        "id": "gmdcsa_ADL_03",
+        "path": "data/clips/gmdcsa_ADL_03.mp4",
+        "sha256": "ad6360ea3513d0f5222e34810f119b0e471012164ddc94ca234f30cf92715ae6",
+        "event_present": false,
+        "incident_onset": null,
+        "split": "development",
+        "scenario": "daily activity",
+        "source": "https://github.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/tree/v2.1/Subject%201/ADL/03.mp4"
+      },
+      "metrics": {
+        "source": "data/clips/gmdcsa_ADL_03.mp4",
+        "source_kind": "file",
+        "source_sha256": "ad6360ea3513d0f5222e34810f119b0e471012164ddc94ca234f30cf92715ae6",
+        "source_reconnect_attempts": 0,
+        "config": {
+          "rotation_all_views": false,
+          "improved_tracking": true,
+          "improved_temporal": true,
+          "continuation_threshold": null,
+          "track_hold_seconds": 1.5,
+          "prediction_horizon_seconds": 0.25,
+          "minimum_drop_heights": 0.18,
+          "minimum_average_descent": 0.15,
+          "maximum_ground_height_ratio": 0.75,
+          "detector_size": 640,
+          "rotation_fallback": true,
+          "sample_fps": 5.0,
+          "max_seconds": 60,
+          "max_width": 640,
+          "detector_threshold": 0.3,
+          "horizontal_ratio": 1.15,
+          "upright_ratio": 0.8,
+          "descent_heights_s": 0.25,
+          "transition_seconds": 1.5,
+          "stationary_heights_s": 0.12,
+          "stationary_flow_px_s": 6,
+          "immobile_seconds": 1.5,
+          "review_seconds": 2.5,
+          "max_gap_seconds": 0.5,
+          "history_seconds": 5,
+          "max_evidence_packets": 10,
+          "threads": 2,
+          "detector_backend": "opencv",
+          "detector_device": 0
+        },
+        "opencv": "5.0.0",
+        "source_fps": 29.74840918264128,
+        "sampled_frames": 34,
+        "observed_seconds": 6.655818090452262,
+        "detections": 35,
+        "distinct_track_ids": 2,
+        "candidate_times": [],
+        "human_review_times": [],
+        "baseline_alert_times": [
+          0.8067658291457287,
+          1.210148743718593
+        ],
+        "exit_reason": "eof",
+        "wall_seconds": 12.752588799994555,
+        "processing_fps": 2.6661253282168493,
+        "cpu_one_core_percent": 187.46193714024722,
+        "p50_ms": 431.9412500008184,
+        "p95_ms": 441.6760300013266,
+        "tool_calls": 0,
+        "frame_latency_ms": [
+          148.98339999490418,
+          145.6569000001764,
+          146.08240000234218,
+          148.37259999330854,
+          147.201200001291,
+          145.6936999966274,
+          147.68210000329418,
+          427.4972999992315,
+          434.88289999368135,
+          446.35469999775523,
+          145.9536999973352,
+          433.14400000235764,
+          431.9894000000204,
+          439.1900999980862,
+          434.5690999980434,
+          440.9509000033722,
+          434.5199000017601,
+          443.0226999975275,
+          423.8236999954097,
+          435.7342000002973,
+          426.37780000222847,
+          433.50590000045486,
+          432.3883000033675,
+          428.06430000200635,
+          431.3745000035851,
+          431.1256000000867,
+          432.4955000047339,
+          431.8931000016164,
+          428.2729000042309,
+          425.7045999984257,
+          435.3510000000824,
+          436.311299999943,
+          439.06260000221664,
+          434.76969999755966
+        ],
+        "stage_profile_ms": {
+          "preprocessing": {
+            "total": 9.70420000521699,
+            "mean": 0.2854176472122644,
+            "p50": 0.2696999981708359,
+            "p95": 0.3840499997750157
+          },
+          "detector": {
+            "total": 12326.744399993913,
+            "mean": 362.5513058821739,
+            "p50": 428.5310999985086,
+            "p95": 438.07539000226825
+          },
+          "tracking": {
+            "total": 3.109499979473185,
+            "mean": 0.09145588174921132,
+            "p50": 0.10259999908157624,
+            "p95": 0.16265500307781616
+          },
+          "motion": {
+            "total": 42.51600000861799,
+            "mean": 1.2504705884887646,
+            "p50": 1.2366000009933487,
+            "p95": 1.5648799999326002
+          },
+          "temporal_and_logging": {
+            "total": 3.638700000010431,
+            "mean": 0.1070205882356009,
+            "p50": 0.0899500009836629,
+            "p95": 0.20266999745217612
+          },
+          "evidence": {
+            "total": 0.013199998647905886,
+            "mean": 0.0003882352543501731,
+            "p50": 0.000300002284348011,
+            "p95": 0.0006050020601833233
+          },
+          "visualization": {
+            "total": 56.84439996548463,
+            "mean": 1.6718941166319008,
+            "p50": 1.6058000037446618,
+            "p95": 1.8911200011643812
+          }
+        },
+        "profile_semantics": "Wall-clock stage timings per sampled frame, summed across people. Detector includes its tensor preprocessing and rotation. Excludes decoding, startup and final serialization; evidence includes tools and packet I/O; visualization includes ring copy and debug video.",
+        "dismissed_candidates": 0,
+        "memory": {
+          "working_set_mib": 188.79296875,
+          "process_peak_working_set_mib": 323.71875
+        }
+      },
+      "candidate_detected": false,
+      "baseline_detected": true,
+      "latency_seconds": null
+    },
+    {
+      "clip": {
+        "id": "gmdcsa_ADL_04",
+        "path": "data/clips/gmdcsa_ADL_04.mp4",
+        "sha256": "c336f1f81cfa647a77ae351ef02fa4e1716639d60d599c7ddec98aac2e3b969a",
+        "event_present": false,
+        "incident_onset": null,
+        "split": "development",
+        "scenario": "daily activity",
+        "source": "https://github.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/tree/v2.1/Subject%201/ADL/04.mp4"
+      },
+      "metrics": {
+        "source": "data/clips/gmdcsa_ADL_04.mp4",
+        "source_kind": "file",
+        "source_sha256": "c336f1f81cfa647a77ae351ef02fa4e1716639d60d599c7ddec98aac2e3b969a",
+        "source_reconnect_attempts": 0,
+        "config": {
+          "rotation_all_views": false,
+          "improved_tracking": true,
+          "improved_temporal": true,
+          "continuation_threshold": null,
+          "track_hold_seconds": 1.5,
+          "prediction_horizon_seconds": 0.25,
+          "minimum_drop_heights": 0.18,
+          "minimum_average_descent": 0.15,
+          "maximum_ground_height_ratio": 0.75,
+          "detector_size": 640,
+          "rotation_fallback": true,
+          "sample_fps": 5.0,
+          "max_seconds": 60,
+          "max_width": 640,
+          "detector_threshold": 0.3,
+          "horizontal_ratio": 1.15,
+          "upright_ratio": 0.8,
+          "descent_heights_s": 0.25,
+          "transition_seconds": 1.5,
+          "stationary_heights_s": 0.12,
+          "stationary_flow_px_s": 6,
+          "immobile_seconds": 1.5,
+          "review_seconds": 2.5,
+          "max_gap_seconds": 0.5,
+          "history_seconds": 5,
+          "max_evidence_packets": 10,
+          "threads": 2,
+          "detector_backend": "opencv",
+          "detector_device": 0
+        },
+        "opencv": "5.0.0",
+        "source_fps": 29.263422443323638,
+        "sampled_frames": 29,
+        "observed_seconds": 5.740955294117647,
+        "detections": 30,
+        "distinct_track_ids": 2,
+        "candidate_times": [],
+        "human_review_times": [],
+        "baseline_alert_times": [
+          0.0,
+          1.4352388235294118
+        ],
+        "exit_reason": "eof",
+        "wall_seconds": 6.524497899998096,
+        "processing_fps": 4.444786471616224,
+        "cpu_one_core_percent": 209.78625803533473,
+        "p50_ms": 145.1286000010441,
+        "p95_ms": 438.18499999615597,
+        "tool_calls": 0,
+        "frame_latency_ms": [
+          438.0964999945718,
+          436.38389999978244,
+          438.39419999858364,
+          430.0146000023233,
+          433.64080000174,
+          438.2439999972121,
+          435.41969999932917,
+          148.10200000647455,
+          149.8527000003378,
+          142.51320000039414,
+          144.6016999980202,
+          144.26069999899482,
+          145.1286000010441,
+          142.38489999843296,
+          145.212100003846,
+          163.08200000639772,
+          147.02930000203196,
+          142.95270000002347,
+          145.38059999904362,
+          142.76589999644784,
+          143.24720000149682,
+          144.11000000109198,
+          145.00679999764543,
+          142.81879999907687,
+          144.30710000306135,
+          142.92130000103498,
+          143.9408999940497,
+          145.29819999734173,
+          144.0433999960078
+        ],
+        "stage_profile_ms": {
+          "preprocessing": {
+            "total": 8.614600003056694,
+            "mean": 0.29705517251919633,
+            "p50": 0.2932999996119179,
+            "p95": 0.37197999772615725
+          },
+          "detector": {
+            "total": 6145.784300009836,
+            "mean": 211.92359655206332,
+            "p50": 141.50369999697432,
+            "p95": 434.95773999748053
+          },
+          "tracking": {
+            "total": 3.0833999771857634,
+            "mean": 0.10632413714433667,
+            "p50": 0.11970000196015462,
+            "p95": 0.15746000135550275
+          },
+          "motion": {
+            "total": 36.64380001282552,
+            "mean": 1.263579310787087,
+            "p50": 1.261299999896437,
+            "p95": 1.655119999486487
+          },
+          "temporal_and_logging": {
+            "total": 3.059600006963592,
+            "mean": 0.10550344851598593,
+            "p50": 0.094600000011269,
+            "p95": 0.17526000301586456
+          },
+          "evidence": {
+            "total": 0.01230002089869231,
+            "mean": 0.00042413865167904516,
+            "p50": 0.000300002284348011,
+            "p95": 0.0005599998985417185
+          },
+          "visualization": {
+            "total": 47.280800019507296,
+            "mean": 1.6303724144657687,
+            "p50": 1.5880999999353662,
+            "p95": 1.8100000015692785
+          }
+        },
+        "profile_semantics": "Wall-clock stage timings per sampled frame, summed across people. Detector includes its tensor preprocessing and rotation. Excludes decoding, startup and final serialization; evidence includes tools and packet I/O; visualization includes ring copy and debug video.",
+        "dismissed_candidates": 0,
+        "memory": {
+          "working_set_mib": 191.9140625,
+          "process_peak_working_set_mib": 323.71875
+        }
+      },
+      "candidate_detected": false,
+      "baseline_detected": true,
+      "latency_seconds": null
+    },
+    {
+      "clip": {
+        "id": "gmdcsa_ADL_08",
+        "path": "data/clips/gmdcsa_ADL_08.mp4",
+        "sha256": "b8b4f8846e66c82c7bd5867fe24c6811fb2b31e0dc5a295ac2954b523e903bec",
+        "event_present": false,
+        "incident_onset": null,
+        "split": "development",
+        "scenario": "daily activity",
+        "source": "https://github.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/tree/v2.1/Subject%201/ADL/08.mp4"
+      },
+      "metrics": {
+        "source": "data/clips/gmdcsa_ADL_08.mp4",
+        "source_kind": "file",
+        "source_sha256": "b8b4f8846e66c82c7bd5867fe24c6811fb2b31e0dc5a295ac2954b523e903bec",
+        "source_reconnect_attempts": 0,
+        "config": {
+          "rotation_all_views": false,
+          "improved_tracking": true,
+          "improved_temporal": true,
+          "continuation_threshold": null,
+          "track_hold_seconds": 1.5,
+          "prediction_horizon_seconds": 0.25,
+          "minimum_drop_heights": 0.18,
+          "minimum_average_descent": 0.15,
+          "maximum_ground_height_ratio": 0.75,
+          "detector_size": 640,
+          "rotation_fallback": true,
+          "sample_fps": 5.0,
+          "max_seconds": 60,
+          "max_width": 640,
+          "detector_threshold": 0.3,
+          "horizontal_ratio": 1.15,
+          "upright_ratio": 0.8,
+          "descent_heights_s": 0.25,
+          "transition_seconds": 1.5,
+          "stationary_heights_s": 0.12,
+          "stationary_flow_px_s": 6,
+          "immobile_seconds": 1.5,
+          "review_seconds": 2.5,
+          "max_gap_seconds": 0.5,
+          "history_seconds": 5,
+          "max_evidence_packets": 10,
+          "threads": 2,
+          "detector_backend": "opencv",
+          "detector_device": 0
+        },
+        "opencv": "5.0.0",
+        "source_fps": 29.73240832507433,
+        "sampled_frames": 32,
+        "observed_seconds": 6.2558,
+        "detections": 34,
+        "distinct_track_ids": 3,
+        "candidate_times": [],
+        "human_review_times": [],
+        "baseline_alert_times": [],
+        "exit_reason": "eof",
+        "wall_seconds": 4.92665549999947,
+        "processing_fps": 6.495278592140945,
+        "cpu_one_core_percent": 193.46288775419808,
+        "p50_ms": 144.51185000143596,
+        "p95_ms": 149.72774499983643,
+        "tool_calls": 0,
+        "frame_latency_ms": [
+          149.26199999899836,
+          142.80549999966752,
+          142.3967000009725,
+          150.43360000709072,
+          146.89999999973224,
+          143.76820000325097,
+          144.66669999819715,
+          141.82090000394965,
+          145.08290000230772,
+          141.75350000004983,
+          143.3711999998195,
+          143.9105000026757,
+          149.635900001158,
+          147.70929999940563,
+          142.47250000335043,
+          145.0951000006171,
+          149.83999999822117,
+          145.11140000104206,
+          145.0025000012829,
+          144.35700000467477,
+          143.33939999778522,
+          142.12140000017826,
+          144.7150999956648,
+          144.07280000159517,
+          148.96520000183955,
+          144.78670000244165,
+          143.05159999639727,
+          142.90450000407873,
+          144.75049999600742,
+          144.00390000082552,
+          142.35760000156006,
+          146.79579999938142
+        ],
+        "stage_profile_ms": {
+          "preprocessing": {
+            "total": 8.403600040765014,
+            "mean": 0.2626125012739067,
+            "p50": 0.256650000665104,
+            "p95": 0.34386000079393847
+          },
+          "detector": {
+            "total": 4526.7223000046215,
+            "mean": 141.46007187514442,
+            "p50": 141.15524999942863,
+            "p95": 146.25067000051786
+          },
+          "tracking": {
+            "total": 3.1964999870979227,
+            "mean": 0.09989062459681008,
+            "p50": 0.11649999942164868,
+            "p95": 0.1584249985171482
+          },
+          "motion": {
+            "total": 42.838300025323406,
+            "mean": 1.3386968757913564,
+            "p50": 1.3427500016405247,
+            "p95": 1.7629100013436978
+          },
+          "temporal_and_logging": {
+            "total": 3.4747999816318043,
+            "mean": 0.10858749942599388,
+            "p50": 0.09589999899617396,
+            "p95": 0.19047499990847425
+          },
+          "evidence": {
+            "total": 0.012600045010913163,
+            "mean": 0.00039375140659103636,
+            "p50": 0.000300002284348011,
+            "p95": 0.000500003807246685
+          },
+          "visualization": {
+            "total": 47.473200007516425,
+            "mean": 1.4835375002348883,
+            "p50": 1.4293000058387406,
+            "p95": 1.6427149977971567
+          }
+        },
+        "profile_semantics": "Wall-clock stage timings per sampled frame, summed across people. Detector includes its tensor preprocessing and rotation. Excludes decoding, startup and final serialization; evidence includes tools and packet I/O; visualization includes ring copy and debug video.",
+        "dismissed_candidates": 0,
+        "memory": {
+          "working_set_mib": 176.5078125,
+          "process_peak_working_set_mib": 323.71875
+        }
+      },
+      "candidate_detected": false,
+      "baseline_detected": false,
+      "latency_seconds": null
+    },
+    {
+      "clip": {
+        "id": "gmdcsa_ADL_11",
+        "path": "data/clips/gmdcsa_ADL_11.mp4",
+        "sha256": "cb12602e5cd5d3e2ed9b6f9026926bb6609cb06428e07dce916e5527a9b2e5e9",
+        "event_present": false,
+        "incident_onset": null,
+        "split": "development",
+        "scenario": "daily activity",
+        "source": "https://github.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/tree/v2.1/Subject%201/ADL/11.mp4"
+      },
+      "metrics": {
+        "source": "data/clips/gmdcsa_ADL_11.mp4",
+        "source_kind": "file",
+        "source_sha256": "cb12602e5cd5d3e2ed9b6f9026926bb6609cb06428e07dce916e5527a9b2e5e9",
+        "source_reconnect_attempts": 0,
+        "config": {
+          "rotation_all_views": false,
+          "improved_tracking": true,
+          "improved_temporal": true,
+          "continuation_threshold": null,
+          "track_hold_seconds": 1.5,
+          "prediction_horizon_seconds": 0.25,
+          "minimum_drop_heights": 0.18,
+          "minimum_average_descent": 0.15,
+          "maximum_ground_height_ratio": 0.75,
+          "detector_size": 640,
+          "rotation_fallback": true,
+          "sample_fps": 5.0,
+          "max_seconds": 60,
+          "max_width": 640,
+          "detector_threshold": 0.3,
+          "horizontal_ratio": 1.15,
+          "upright_ratio": 0.8,
+          "descent_heights_s": 0.25,
+          "transition_seconds": 1.5,
+          "stationary_heights_s": 0.12,
+          "stationary_flow_px_s": 6,
+          "immobile_seconds": 1.5,
+          "review_seconds": 2.5,
+          "max_gap_seconds": 0.5,
+          "history_seconds": 5,
+          "max_evidence_packets": 10,
+          "threads": 2,
+          "detector_backend": "opencv",
+          "detector_device": 0
+        },
+        "opencv": "5.0.0",
+        "source_fps": 29.741666249114193,
+        "sampled_frames": 47,
+        "observed_seconds": 9.27991046931408,
+        "detections": 47,
+        "distinct_track_ids": 1,
+        "candidate_times": [],
+        "human_review_times": [],
+        "baseline_alert_times": [],
+        "exit_reason": "eof",
+        "wall_seconds": 7.208543400003691,
+        "processing_fps": 6.520041205547286,
+        "cpu_one_core_percent": 196.16480355785552,
+        "p50_ms": 144.02759999939008,
+        "p95_ms": 149.22710999817355,
+        "tool_calls": 0,
+        "frame_latency_ms": [
+          149.7566999969422,
+          144.7240999987116,
+          143.0015000005369,
+          143.94629999878816,
+          146.5115999963018,
+          142.43569999962347,
+          144.2934000006062,
+          142.46409999759635,
+          144.06910000252537,
+          146.24340000591474,
+          143.07879999978468,
+          143.12839999911375,
+          146.97840000008,
+          144.60959999996703,
+          145.3163999976823,
+          141.71269999496872,
+          146.92210000066552,
+          144.98060000187252,
+          144.5562000008067,
+          143.12390000122832,
+          142.3727000001236,
+          143.6385000051814,
+          142.6599999977043,
+          142.55209999828367,
+          143.5602999990806,
+          146.2826999995741,
+          144.52880000317236,
+          147.9914000010467,
+          146.29869999771472,
+          143.66940000036266,
+          144.02759999939008,
+          146.51400000002468,
+          143.5570999965421,
+          146.63260000088485,
+          145.3059999985271,
+          142.42889999877661,
+          144.36070000374457,
+          143.44689999416005,
+          142.2164999967208,
+          143.279200005054,
+          143.38490000227466,
+          144.3994999935967,
+          141.92780000303173,
+          142.9634999949485,
+          143.77429999876767,
+          151.12419999786653,
+          152.58319999702508
+        ],
+        "stage_profile_ms": {
+          "preprocessing": {
+            "total": 12.57999998779269,
+            "mean": 0.26765957420835507,
+            "p50": 0.25379999715369195,
+            "p95": 0.3586099970561917
+          },
+          "detector": {
+            "total": 6636.86799997231,
+            "mean": 141.20995744621936,
+            "p50": 140.44750000175554,
+            "p95": 146.03950999953668
+          },
+          "tracking": {
+            "total": 4.656600023736246,
+            "mean": 0.09907659624970735,
+            "p50": 0.11390000145183876,
+            "p95": 0.16430000396212563
+          },
+          "motion": {
+            "total": 59.94099998497404,
+            "mean": 1.2753404252122136,
+            "p50": 1.3066000028629787,
+            "p95": 1.5244399990478994
+          },
+          "temporal_and_logging": {
+            "total": 5.191999989619944,
+            "mean": 0.11046808488553073,
+            "p50": 0.09720000525703654,
+            "p95": 0.1793200033716857
+          },
+          "evidence": {
+            "total": 0.01599998358869925,
+            "mean": 0.00034042518273828197,
+            "p50": 0.000300002284348011,
+            "p95": 0.0005700043402612205
+          },
+          "visualization": {
+            "total": 70.3408999615931,
+            "mean": 1.496614892799853,
+            "p50": 1.4353000005939975,
+            "p95": 1.7984700032684484
+          }
+        },
+        "profile_semantics": "Wall-clock stage timings per sampled frame, summed across people. Detector includes its tensor preprocessing and rotation. Excludes decoding, startup and final serialization; evidence includes tools and packet I/O; visualization includes ring copy and debug video.",
+        "dismissed_candidates": 0,
+        "memory": {
+          "working_set_mib": 191.86328125,
+          "process_peak_working_set_mib": 323.71875
+        }
+      },
+      "candidate_detected": false,
+      "baseline_detected": false,
+      "latency_seconds": null
+    },
+    {
+      "clip": {
+        "id": "gmdcsa_ADL_13",
+        "path": "data/clips/gmdcsa_ADL_13.mp4",
+        "sha256": "406dd142be0bf973302caabf38f1109d939b5f0154ef88158b3adc5a50859d51",
+        "event_present": false,
+        "incident_onset": null,
+        "split": "development",
+        "scenario": "daily activity",
+        "source": "https://github.com/ekramalam/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/tree/v2.1/Subject%201/ADL/13.mp4"
+      },
+      "metrics": {
+        "source": "data/clips/gmdcsa_ADL_13.mp4",
+        "source_kind": "file",
+        "source_sha256": "406dd142be0bf973302caabf38f1109d939b5f0154ef88158b3adc5a50859d51",
+        "source_reconnect_attempts": 0,
+        "config": {
+          "rotation_all_views": false,
+          "improved_tracking": true,
+          "improved_temporal": true,
+          "continuation_threshold": null,
+          "track_hold_seconds": 1.5,
+          "prediction_horizon_seconds": 0.25,
+          "minimum_drop_heights": 0.18,
+          "minimum_average_descent": 0.15,
+          "maximum_ground_height_ratio": 0.75,
+          "detector_size": 640,
+          "rotation_fallback": true,
+          "sample_fps": 5.0,
+          "max_seconds": 60,
+          "max_width": 640,
+          "detector_threshold": 0.3,
+          "horizontal_ratio": 1.15,
+          "upright_ratio": 0.8,
+          "descent_heights_s": 0.25,
+          "transition_seconds": 1.5,
+          "stationary_heights_s": 0.12,
+          "stationary_flow_px_s": 6,
+          "immobile_seconds": 1.5,
+          "review_seconds": 2.5,
+          "max_gap_seconds": 0.5,
+          "history_seconds": 5,
+          "max_evidence_packets": 10,
+          "threads": 2,
+          "detector_backend": "opencv",
+          "detector_device": 0
+        },
+        "opencv": "5.0.0",
+        "source_fps": 29.656178634864247,
+        "sampled_frames": 32,
+        "observed_seconds": 6.271880213903743,
+        "detections": 32,
+        "distinct_track_ids": 1,
+        "candidate_times": [],
+        "human_review_times": [],
+        "baseline_alert_times": [],
+        "exit_reason": "eof",
+        "wall_seconds": 4.943438000002061,
+        "processing_fps": 6.4732277415002795,
+        "cpu_one_core_percent": 196.9150821755212,
+        "p50_ms": 144.67214999967837,
+        "p95_ms": 150.58921500458382,
+        "tool_calls": 0,
+        "frame_latency_ms": [
+          150.797500005865,
+          142.54580000124406,
+          148.638699996809,
+          143.67869999841787,
+          148.73430000443477,
+          145.87879999453435,
+          144.00580000074115,
+          147.04299999721115,
+          142.96940000349423,
+          142.55709999997634,
+          143.2557000007364,
+          144.22999999806052,
+          142.54200000141282,
+          146.21579999948153,
+          144.22729999932926,
+          144.27810000051977,
+          142.3575000007986,
+          150.2674000003026,
+          146.9853999951738,
+          142.44769999640994,
+          144.98340000136523,
+          150.87800000037532,
+          150.41880000353558,
+          143.26469999650726,
+          145.38700000412064,
+          142.34510000096634,
+          146.55409999977564,
+          146.82340000581462,
+          141.19680000294466,
+          144.3608999979915,
+          146.5877999944496,
+          145.59350000490667
+        ],
+        "stage_profile_ms": {
+          "preprocessing": {
+            "total": 9.495100035564974,
+            "mean": 0.29672187611140544,
+            "p50": 0.2873999983421527,
+            "p95": 0.3521150010783458
+          },
+          "detector": {
+            "total": 4543.991400023515,
+            "mean": 141.99973125073484,
+            "p50": 141.296149999107,
+            "p95": 147.13742000312777
+          },
+          "tracking": {
+            "total": 3.3856999725685455,
+            "mean": 0.10580312414276705,
+            "p50": 0.12240000069141388,
+            "p95": 0.15771499856782611
+          },
+          "motion": {
+            "total": 39.79490001074737,
+            "mean": 1.2435906253358553,
+            "p50": 1.2806999984604772,
+            "p95": 1.5177249970292905
+          },
+          "temporal_and_logging": {
+            "total": 3.619699986302294,
+            "mean": 0.11311562457194668,
+            "p50": 0.09669999781181104,
+            "p95": 0.19815000086964574
+          },
+          "evidence": {
+            "total": 0.010800009476952255,
+            "mean": 0.00033750029615475796,
+            "p50": 0.000300002284348011,
+            "p95": 0.0005450041498988866
+          },
+          "visualization": {
+            "total": 46.50720002246089,
+            "mean": 1.453350000701903,
+            "p50": 1.4065999966987874,
+            "p95": 1.6503650022059446
+          }
+        },
+        "profile_semantics": "Wall-clock stage timings per sampled frame, summed across people. Detector includes its tensor preprocessing and rotation. Excludes decoding, startup and final serialization; evidence includes tools and packet I/O; visualization includes ring copy and debug video.",
+        "dismissed_candidates": 0,
+        "memory": {
+          "working_set_mib": 184.41015625,
+          "process_peak_working_set_mib": 323.71875
+        }
+      },
+      "candidate_detected": false,
+      "baseline_detected": false,
+      "latency_seconds": null
+    }
+  ],
+  "tracking_idf1": null,
+  "tracking_note": "distinct IDs are a fragmentation proxy; no identity annotations",
+  "missing_scenarios": [
+    "natural multi-person",
+    "fall followed by immediate recovery"
+  ]
+}

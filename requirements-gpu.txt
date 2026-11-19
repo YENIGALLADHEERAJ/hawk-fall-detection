@@ -1,0 +1,3 @@
+# Optional GPU detector backend (DirectML, any DirectX 12 GPU on Windows).
+# Install on top of requirements-vision.txt; the OpenCV CPU backend remains the default.
+onnxruntime-directml==1.24.4

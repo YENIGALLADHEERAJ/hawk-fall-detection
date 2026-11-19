@@ -1,0 +1,42 @@
+[
+  {
+    "clip": "fresh_gmd4_Fall_03",
+    "frame": 72,
+    "time": 2.413992,
+    "phase": "ground",
+    "best_iou": 0,
+    "failure": "A_no_detection_in_main_view"
+  },
+  {
+    "clip": "fresh_assist_13_bending_at_knees",
+    "frame": 60,
+    "time": 2.0,
+    "phase": "nonfall",
+    "best_iou": 0.0,
+    "failure": "C_boxes_present_but_bad_overlap"
+  },
+  {
+    "clip": "fresh_assist_13_bending_at_knees",
+    "frame": 90,
+    "time": 3.0,
+    "phase": "nonfall",
+    "best_iou": 0,
+    "failure": "A_no_detection_in_main_view"
+  },
+  {
+    "clip": "fresh_assist_14_bending_wo_knees",
+    "frame": 126,
+    "time": 4.2,
+    "phase": "nonfall",
+    "best_iou": 0.0,
+    "failure": "C_boxes_present_but_bad_overlap"
+  },
+  {
+    "clip": "fresh_assist_14_bending_wo_knees",
+    "frame": 186,
+    "time": 6.2,
+    "phase": "nonfall",
+    "best_iou": 0.0,
+    "failure": "C_boxes_present_but_bad_overlap"
+  }
+]

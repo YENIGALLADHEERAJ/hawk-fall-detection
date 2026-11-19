@@ -1,0 +1,8 @@
+{
+  "run_id": "20261028T144937925673",
+  "same_track_reference_owner_changes": 27,
+  "reference_track_id_changes": 37,
+  "actual_incident_transfers": 0,
+  "actual_incident_transfer_note": "MOT has no falls/incident packets: zero is vacuous, not proof of incident safety.",
+  "method": "One-to-one IoU .5 matches against publisher references; associations reconstructed from logged boxes and velocity. Reference ambiguity can affect owner-change counts. These are visual tracks, not identified people."
+}

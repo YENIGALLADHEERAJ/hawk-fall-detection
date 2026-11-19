@@ -1,0 +1,30 @@
+test_bad_input (test_integration.RealIntegration.test_bad_input) ... [ WARN:0@0.534] global net_impl_backend.cpp:345 cv::dnn::dnn5_v20260605::Net::Impl::setPreferableTarget Targets are not supported by the new graph engine for now
+ok
+test_real_fall_to_immobility (test_integration.RealIntegration.test_real_fall_to_immobility) ... [ WARN:0@0.774] global net_impl_backend.cpp:345 cv::dnn::dnn5_v20260605::Net::Impl::setPreferableTarget Targets are not supported by the new graph engine for now
+ok
+test_real_video_to_candidate (test_integration.RealIntegration.test_real_video_to_candidate) ... [ WARN:0@24.640] global net_impl_backend.cpp:345 cv::dnn::dnn5_v20260605::Net::Impl::setPreferableTarget Targets are not supported by the new graph engine for now
+ok
+test_bounded_history_and_future (test_perception.PerceptionTests.test_bounded_history_and_future) ... ok
+test_geometry (test_perception.PerceptionTests.test_geometry) ... ok
+test_horizontal_first_frame_not_fall (test_perception.PerceptionTests.test_horizontal_first_frame_not_fall) ... ok
+test_low_sampling_rate_breaks_continuity (test_perception.PerceptionTests.test_low_sampling_rate_breaks_continuity) ... ok
+test_missing_history_no_immobility (test_perception.PerceptionTests.test_missing_history_no_immobility) ... ok
+test_motion_quality_and_translation (test_perception.PerceptionTests.test_motion_quality_and_translation) ... ok
+test_multiple_people_one_to_one (test_perception.PerceptionTests.test_multiple_people_one_to_one) ... ok
+test_region_inspection (test_perception.PerceptionTests.test_region_inspection) ... ok
+test_schema_rejects_invalid (test_perception.PerceptionTests.test_schema_rejects_invalid) ... ok
+test_sitting_does_not_trigger (test_perception.PerceptionTests.test_sitting_does_not_trigger) ... ok
+test_temporal_fall_immobility_recovery (test_perception.PerceptionTests.test_temporal_fall_immobility_recovery) ... ok
+test_tool_bounds_and_empty (test_perception.PerceptionTests.test_tool_bounds_and_empty) ... ok
+test_tracker_velocity_and_expiry (test_perception.PerceptionTests.test_tracker_velocity_and_expiry) ... ok
+test_old_recovery_cannot_dismiss_current_event (test_policy.PolicyTests.test_old_recovery_cannot_dismiss_current_event) ... ok
+test_stale_tool_evidence_cannot_dismiss (test_policy.PolicyTests.test_stale_tool_evidence_cannot_dismiss) ... ok
+test_file_timestamps_and_eof (test_source.SourceTests.test_file_timestamps_and_eof) ... ok
+test_reconnect_budget (test_source.SourceTests.test_reconnect_budget) ... ok
+test_reconnect_does_not_replay_old_frame (test_source.SourceTests.test_reconnect_does_not_replay_old_frame) ... ok
+test_stalled_native_call_can_be_terminated (test_source.SourceTests.test_stalled_native_call_can_be_terminated) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 34.176s
+
+OK

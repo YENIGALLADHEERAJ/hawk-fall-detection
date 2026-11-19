@@ -1,0 +1,20 @@
+{
+  "scope": "synthetic API smoke test; no real-world accuracy claim",
+  "python": "3.11.1 (tags/v3.11.1:a7a450f, Dec  6 2022, 19:58:39) [MSC v.1934 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26300-SP0",
+  "ram_gib": 15.18,
+  "opencv": "5.0.0",
+  "numpy": "2.3.5",
+  "threads": 1,
+  "flow_median_x": 3.000060796737671,
+  "flow_p50_ms": 2.00655,
+  "flow_p95_ms": 2.19063,
+  "samples": 20,
+  "resolution": [
+    160,
+    120
+  ],
+  "dnn_available": true,
+  "capture_available": true,
+  "status": "passed"
+}
